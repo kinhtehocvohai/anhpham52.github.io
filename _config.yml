@@ -46,7 +46,7 @@ footer_show_references: false
 
 # Build settings
 remote_theme: sproogen/resume-theme
-darkmode: true (options: true, false, never)
+darkmode: true
 sass:
   sass_dir: _sass
   style: compressed
