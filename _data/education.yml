@@ -4,13 +4,17 @@
   qualification: PhD in Economics
   #quote: >
     #Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-  #description: | # this will include new lines to allow paragraphs
-   
+  description: | # this will include new lines to allow paragraphs 
+    Supervisors: Prof John Fender, and Dr Pei Kuang
+- layout: left
   name: University of Birmingham
   dates: 2016 - 2017
   qualification: MSc in Financial Economics
-  description: - Distinction degree
-  
+  description: | 
+    Distinction degree
+- layout: left
   name: RMIT International University Vietnam
-  dates: 2013 - 2015
-  description: - First-class honours
+  dates: 2012 - 2015
+  qualification: BSc in Economics and Finance
+  description: | 
+    First-class honours

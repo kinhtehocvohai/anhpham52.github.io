@@ -22,13 +22,14 @@ linkedin_username: anhpham52
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.JPG
+about_profile_image: images/profile.jpg
+
 about_content: | # this will include new lines to allow paragraphs
-  I am a PhD student in Economics at the University of Birmingham. My research mainly focuses on Macro analysis with the use of time-series data and DSGE model. I also have experience in applying programming language such as R and Matlab to deal with data and simulations. Besides, I work as a teaching assistant for Postgraduate taught programmes including International Banking & Finance, Options and Derivatives.
+  I am a PhD student in Economics at the University of Birmingham. My research mainly focuses on Macroeconomics analysis with the use of time-series data and DSGE model. I also have experience in applying programming languages such as R and Matlab to deal with data and simulations. Besides, I work as a teaching assistant for Postgraduate taught programmes including International Banking & Finance, Options and Derivatives.
 
 
 # Projects Section
-# projects_title: Research
+projects_title: Research
 
 # Experience Section
 # experience_title: Experience
