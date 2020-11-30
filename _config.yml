@@ -12,18 +12,18 @@
 
 theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "vn-VN"
 title                    : "Kinh Tế Học Vô Hại"
 title_separator          : "-"
 subtitle                 : "Harmless Economics"
-name                     : "Your Name"
+name                     : "Harmless Economics"
 description              : "Nơi chia sẻ kiến thức ``Vô Hại'' về kinh tế học, khoa học dữ liệu và phương thức kết hợp chúng trong nghiên cứu các vấn đề chính sách, xã hội và quyết định kinh doanh."
-url                      : "https://mmistakes.github.io"
+url                      : "https://anhpham52.github.io"
 baseurl                  : # "/harmlessecon"
-repository               : "anhpham52/harmlessecon"
+repository               : "anhpham52/anhpham52.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -274,9 +274,18 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
       related: true
       show_date: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      share: true
+      comments: true
+      author_profile: false
