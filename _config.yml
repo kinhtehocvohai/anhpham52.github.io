@@ -280,7 +280,6 @@ defaults:
       share: true
       related: true
       show_date: true
-      classes: wide
       toc: true
       toc_label: "Mục lục"
       toc_icon: "ML"
@@ -293,7 +292,6 @@ defaults:
       share: true
       comments: true
       author_profile: false
-      classes: wide
       toc: true
       toc_label: "Mục lục"
       toc_icon: "ML"
