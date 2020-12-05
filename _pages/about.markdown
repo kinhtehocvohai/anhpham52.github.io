@@ -12,7 +12,7 @@ header:
 
 
 <H1 align="center"> Kinh tế học vô hại </H1> 
-<div style="text-align: center"> <em>Hãy bỏ qua nếu bạn không quan tâm đến Kinh tế học hoặc Khoa học dữ liệu và chưa từng bao giờ bận tâm bởi những mối quan hệ nhân quả</em> </div>
+<div style="text-align: center"> <em>Hãy bỏ qua nếu bạn không quan tâm đến <strong>Kinh tế học</strong> hoặc <strong>Khoa học dữ liệu</strong> và chưa từng bao giờ bận tâm bởi những mối <strong>quan hệ nhân quả</strong></em> </div>
 
 
 > Quay xung quanh mặt trời ở khoảng cách chừng 92 triệu dặm là một hành tinh xanh lơ xanh lá bé tí cực kỳ tầm thường, các dạng sống hậu duệ loài vượn tại đây nguyên thủy lạ lùng đến độ chúng hãy còn nghĩ đồng hồ mặt số là một ý tưởng khá là tinh xảo.
@@ -39,19 +39,19 @@ Và đây là việc vô hại cuối cùng (hy vọng vậy) mà tôi sẽ kể
 Fanpage Kinh tế học Vô hại lập ra nhằm chia sẻ kiến thức "Vô Hại" về kinh tế học, khoa học dữ liệu và phương thức kết hợp chúng trong nghiên cứu các vấn đề chính sách, xã hội và quyết định kinh doanh. Hoạt động đầu tiên của Fanpage trong những ngày tới là chia sẻ loạt bài Việt hóa “Suy luận Nhân quả với Python” của Matheus Facure [6] dựa trên nguồn tài liệu của các học giả uy tín như Joshua Angrist, Jorn-Steffen Pischke, Alberto Abadie, Christopher Walters, Miguel Hernan, Jamie Robinsons, Scott Cunningham… Loạt bài này sẽ cung cấp nền tảng cơ bản của suy luận nhân quả, biểu đồ nhân quả và bộ công cụ định lượng: Hồi quy biến công cụ, Ghép cặp Điểm xu hướng, Ước lượng mạnh hai lần, Hồi quy Dữ liệu Bảng, Sai khác của Biến thiên, Đối chứng Tổng hợp và Thiết kế Hồi quy gián đoạn với các ví dụ cụ thể sử dụng nguồn dữ liệu sẵn có trong nhiều lĩnh vực của cuộc sống.
 
 
-Fanpage Kinh tế học Vô hại dự kiến sẽ cập nhật bài viết vào 21:00  giờ, thứ 7 hàng tuần, bắt đầu từ tuần này.
+Fanpage Kinh tế học Vô hại dự kiến sẽ cập nhật bài viết vào 21:00  giờ, thứ 7 hàng tuần, bắt đầu từ 12/12/2020.
 
-[1]  Trích “Bí quyết Quá giang vào dải Ngân hà”, tác giả Douglas Adams, bản dịch của NXB Lao động.
+[1] Trích “Bí quyết Quá giang vào Ngân hà”, tác giả Douglas Adams, bản dịch của Nguyễn Thị Thu Yến (NXB Lao động 2017).
 
-[2] Lược dịch “Mostly Harmless”, tác giả Douglas Adams, xuất bản lần đầu 1992, Pan Books tái bản 2016,
+[2] Lược dịch “Mostly Harmless”, tác giả Douglas Adams, xuất bản lần đầu 1992, Pan Books tái bản 2016.
 
 [3] J. Angrist “Mostly Harmless Econometrics: An Empiricist’s Companion”, tác giả J. Angrist và J. Pischke, xuất bản 2009 bởi Princeton University Press.
 
 [4] “Nhất Lượng, nhì Mar” hàm ý 2 môn cơ sỏ ngành Kinh tế lượng và Marketing, được cho là khó nhất của khối ngành kinh tế và quản trị kinh doanh.
 
-[5] Ví dụ một bài viết trên trang Economist dẫn kết quả một nghiên cứu rằng số lượng trích dẫn các tạp chí đầu ngành khoa học chính trị trong mỗi bài báo đăng trên tạp chí American Economic Review chỉ bằng 1/5 số trích dẫn  các tạp chí đầu ngành kinh tế trong mỗi bài báo đăng trên tạp chí American Political Science Review. American Economic Review và American Political Science Review là hai trong số các tạp chí đầu ngành  kinh tế học và khoa học chính trị.
+[5] Ví dụ một bài viết trên trang [The Economist](https://www.economist.com/the-world-if/2016/07/14/a-less-dismal-science) dẫn kết quả một nghiên cứu rằng số lượng trích dẫn các tạp chí đầu ngành khoa học chính trị trong mỗi bài báo đăng trên tạp chí American Economic Review chỉ bằng 1/5 số trích dẫn  các tạp chí đầu ngành kinh tế trong mỗi bài báo đăng trên tạp chí American Political Science Review. American Economic Review và American Political Science Review là hai trong số các tạp chí đầu ngành  kinh tế học và khoa học chính trị.
 
-[6] Causal Inference for The Brave and True (Suy luận Nhân quả cho những Chiến binh Quả cảm Chân chính).
+[6] [Causal Inference for The Brave and True(Suy luận Nhân quả cho những Chiến binh Quả cảm Chân chính).](https://github.com/matheusfacure/python-causality-handbook)
 
 [7] “Môn khoa học khốn khổ” (dismal science) được cho là lần đầu dán nhãn lên ngành Kinh tế học bởi Thomas Carlyle.  
 
