@@ -46,7 +46,7 @@ Loạt bài viết này sẽ được cập nhật trên [Fanpage Kinh tế họ
 
 [3] J. Angrist “Mostly Harmless Econometrics: An Empiricist’s Companion”, tác giả J. Angrist và J. Pischke, xuất bản 2009 bởi Princeton University Press.
 
-[4] “Nhất Lượng, nhì Mar” hàm ý 2 môn cơ sỏ ngành Kinh tế lượng và Marketing, được cho là khó nhất của khối ngành kinh tế và quản trị kinh doanh.
+[4] “Nhất Lượng, nhì Mar” hàm ý 2 môn cơ sở ngành Kinh tế lượng và Marketing, được cho là khó nhất của khối ngành kinh tế và quản trị kinh doanh.
 
 [5] Ví dụ một bài viết trên trang [The Economist](https://www.economist.com/the-world-if/2016/07/14/a-less-dismal-science) dẫn kết quả một nghiên cứu rằng số lượng trích dẫn các tạp chí đầu ngành khoa học chính trị trong mỗi bài báo đăng trên tạp chí American Economic Review chỉ bằng 1/5 số trích dẫn  các tạp chí đầu ngành kinh tế trong mỗi bài báo đăng trên tạp chí American Political Science Review. American Economic Review và American Political Science Review là hai trong số các tạp chí đầu ngành  kinh tế học và khoa học chính trị.
 
