@@ -21,6 +21,7 @@ Chuỗi bài viết về Suy luận Nhân quả với Python và ứng dụng c�
 Nguyên tác dựa trên nguồn tài liệu của các học giả uy tín như Joshua Angrist, Jorn-Steffen Pischke, Alberto Abadie, Christopher Walters, Miguel Hernan, Jamie Robinsons, Scott Cunningham...
 
 Các bài viết chính thức sẽ được đăng tại [Facebook fanpage](https://www.facebook.com/harmlessecon) và website này vào 21:00 thứ 7 hàng tuần, bắt đầu từ 12/12/2020 theo lịch trình dự kiến như sau:
+
 |Tiêu đề | Ngày phát hành|
 |--- | ---| 
 |1. Giới thiệu Suy luận Nhân quả|12/12/2020| 
