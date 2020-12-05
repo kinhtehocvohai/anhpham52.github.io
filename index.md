@@ -41,4 +41,4 @@ Các bài viết chính thức sẽ được đăng tại [Facebook fanpage](htt
 |15. Đối chứng Tổng hợp|20/03/2021|
 |16. Thiết kế Hồi quy Gián đoạn|27/03/2021|
 
-Dữ liệu và code được cập nhật tại Github Repo [Nhân Quả Python](https://github.com/vietecon)
+Dữ liệu và code được cập nhật tại Github Repo [Nhân Quả Python](https://github.com/vietecon/NhanQuaPython)
