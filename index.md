@@ -8,7 +8,8 @@
 layout: single
 share: true
 header:
-  teaser: assets/images/brave-and-true.png
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/brave-and-true.png
 ---
 
 **Nhân quả Python**
@@ -16,8 +17,6 @@ header:
 Chuỗi bài viết về Suy luận Nhân quả với Python và ứng dụng của chúng trong nghiên cứu các vấn đề kinh tế, xã hội, chính sách và quyết định kinh doanh. 
 
 Đây là bản Việt hóa cuốn sách online [Suy luận Nhân quả cho những Chiến binh Quả cảm Chân Chính (Causal Inference for the Brave and True)](https://github.com/matheusfacure/python-causality-handbook) của tác giả [Matheus Facure](https://matheusfacure.github.io/about/).
-
-![img](assets/images/brave-and-true.png)
 
 Nguyên tác dựa trên nguồn tài liệu của các học giả uy tín như Joshua Angrist, Jorn-Steffen Pischke, Alberto Abadie, Christopher Walters, Miguel Hernan, Jamie Robinsons, Scott Cunningham...
 
