@@ -7,6 +7,8 @@
 #
 layout: single
 share: true
+header:
+  teaser: assets/images/brave-and-true.png
 ---
 
 **Nhân quả Python**
