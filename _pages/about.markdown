@@ -12,7 +12,7 @@ header:
 
 
 <H1 align="center"> Kinh tế học vô hại </H1> 
-<div style="text-align: center" markdown="1"> *Hãy bỏ qua nếu bạn không quan tâm đến Kinh tế học hoặc Khoa học dữ liệu và chưa từng bao giờ bận tâm bởi những mối quan hệ nhân quả* </div>
+<div style="text-align: center"> <em>Hãy bỏ qua nếu bạn không quan tâm đến Kinh tế học hoặc Khoa học dữ liệu và chưa từng bao giờ bận tâm bởi những mối quan hệ nhân quả</em> </div>
 
 
 > Quay xung quanh mặt trời ở khoảng cách chừng 92 triệu dặm là một hành tinh xanh lơ xanh lá bé tí cực kỳ tầm thường, các dạng sống hậu duệ loài vượn tại đây nguyên thủy lạ lùng đến độ chúng hãy còn nghĩ đồng hồ mặt số là một ý tưởng khá là tinh xảo.
