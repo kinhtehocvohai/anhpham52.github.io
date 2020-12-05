@@ -50,7 +50,7 @@ Loạt bài viết này sẽ được cập nhật trên [Fanpage Kinh tế họ
 
 [5] Ví dụ một bài viết trên trang [The Economist](https://www.economist.com/the-world-if/2016/07/14/a-less-dismal-science) dẫn kết quả một nghiên cứu rằng số lượng trích dẫn các tạp chí đầu ngành khoa học chính trị trong mỗi bài báo đăng trên tạp chí American Economic Review chỉ bằng 1/5 số trích dẫn  các tạp chí đầu ngành kinh tế trong mỗi bài báo đăng trên tạp chí American Political Science Review. American Economic Review và American Political Science Review là hai trong số các tạp chí đầu ngành  kinh tế học và khoa học chính trị.
 
-[6] [Causal Inference for The Brave and True (Suy luận Nhân quả cho những Chiến binh Quả cảm Chân chính).](https://github.com/matheusfacure/python-causality-handbook)
+[6] [Suy luận Nhân quả cho những Chiến binh Quả cảm Chân Chính](https://github.com/matheusfacure/python-causality-handbook) (Causal Inference for the Brave and True).
 
 [7] “Môn khoa học khốn khổ” (dismal science) được cho là lần đầu dán nhãn lên ngành Kinh tế học bởi Thomas Carlyle.  
 
