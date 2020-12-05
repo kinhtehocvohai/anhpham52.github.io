@@ -19,7 +19,7 @@ header:
 > Hành tinh này đang - hay nói đúng hơn đã từng - có một vấn đề như sau: đa số dân sinh sống trên đó không thấy hạnh phúc hầu hết cả ngày. Nhiều giải pháp đã được đề xuất cho vấn đề này, song phần lớn những giải pháp ấy chủ yếu liên can đến công tác chuyền quanh những mảnh giấy xanh xanh be bé, điều này vốn dĩ kỳ quặc bởi xét về tổng thể thì kẻ không hạnh phúc đâu phải những mảnh giấy xanh xanh be bé đó. [1]
 
 
-Douglas Adams là nhà văn, nhà hài kịch Anh nổi tiếng. Với những ai còn xa lạ với trí hài hước và óc tưởng tượng phong phú của ông, một đoạn trích nhỏ giới thiệu về Trái đất trên đây có thể hữu ích [À mà tiện thế nếu bạn chưa biết, trái đất có hẳn một bản ghi trong “Bí kíp Quá giang vào Dải Ngân hà” với vỏn vẹn hai chữ “Vô hại”, rồi trong một lần tái bản sau đó, được thêm vào vài chữ thành ra “Gần như Vô hại”].
+Douglas Adams là nhà văn, nhà hài kịch Anh nổi tiếng. Với những ai còn xa lạ với trí hài hước và óc tưởng tượng phong phú của ông, một đoạn trích nhỏ giới thiệu về Trái đất trên đây có thể hữu ích [À mà tiện thế nếu bạn chưa biết, Trái đất có hẳn một bản ghi trong “Bí kíp Quá giang vào Dải Ngân hà” với vỏn vẹn hai chữ “Vô hại”, rồi trong một lần tái bản sau đó, được thêm vào vài chữ thành ra “Gần như Vô hại”].
 Nhân tiện, hãy thử một đoạn cầu nguyện có một không hai trong cuốn  “Gần như Vô hại” của ông, có thể ít nhiều có ích cho những người muốn truy cầu kiến thức:
 > Hãy che chở con khỏi biết những điều con không cần biết. Hãy che chở con khỏi cả việc biết rằng tồn tại những thứ cần phải biết mà con không biết. Hãy che chở con khỏi biết rằng con đã quyết định không biết những thứ mà con đã quyết định không biết.
 > Còn một lời cầu nguyện khác vô cùng quan trọng” […] 
