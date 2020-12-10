@@ -96,7 +96,7 @@ author:
   name             : "Kinh tế học Vô hại"
   avatar           : "/assets/images/logo.png"
   bio              : "Kinh tế học. Khoa học dữ liệu. Vô hại."
-  location         : "Hành tinh xanh bé giữa Ngân hà"
+  location         : "Hành tinh xanh, bé, tầm thường giữa Ngân hà"
   email            :
   links:
     - label: "Email"
@@ -104,13 +104,14 @@ author:
       url: "mailto:kinhtehocvohai@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://your-website.com"
+      url: "http://kinhtehocvohai.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/harmlessecon"
     #- label: "Twitter"
       #icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://www.facebook.com/harmlessecon"
+
     #- label: "GitHub"
       #icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
