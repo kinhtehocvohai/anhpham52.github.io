@@ -13188,7 +13188,7 @@ $( document ).ready(function(){
 
 
 <div class="output_png output_subarea ">
-<img src="../assets/images/pythoncausal/output01/_3_0.png"
+<img src="../assets/images/pythoncausal/output01/output_3_0.png"
 >
 </div>
 
@@ -13510,7 +13510,7 @@ $</p>
 
 
 <div class="output_png output_subarea ">
-<img src="../assets/images/pythoncausal/output01/_9_0.png"
+<img src="../assets/images/pythoncausal/output01/output_9_0.png"
 >
 </div>
 
