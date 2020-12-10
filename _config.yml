@@ -93,29 +93,29 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "Kinh tế học Vô hại"
+  avatar           : "/assets/images/logo.png"
+  bio              : "Kinh tế học. Khoa học dữ liệu. Vô hại."
+  location         : "Hành tinh xanh bé giữa Ngân hà"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:kinhtehocvohai@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      url: "https://your-website.com"
+    #- label: "Twitter"
+      #icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      # url: "https://www.facebook.com/harmlessecon"
+    #- label: "GitHub"
+      #icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+    #- label: "Instagram"
+      #icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
       
 # Site Footer
@@ -280,6 +280,7 @@ defaults:
       share: true
       related: true
       show_date: true
+      author_profile: true
       #toc: true
       #toc_label: "Mục lục"
       #toc_icon: "ML"
@@ -291,7 +292,7 @@ defaults:
       layout: single
       share: true
       comments: true
-      author_profile: false
+      author_profile: true
       #toc: true
       #toc_label: "Mục lục"
       #toc_icon: "ML"
