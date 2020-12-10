@@ -9,6 +9,7 @@ layout: single
 share: true
 header:
   image: /assets/images/brave-and-true.png
+classes: wide
 ---
 
 **Nhân quả Python**
