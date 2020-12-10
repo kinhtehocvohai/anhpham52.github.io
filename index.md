@@ -8,8 +8,7 @@
 layout: single
 share: true
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/brave-and-true.png
+  image: /assets/images/brave-and-true.png
 ---
 
 **Nhân quả Python**
