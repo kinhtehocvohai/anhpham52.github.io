@@ -1,6 +1,6 @@
 ---
 layout: single
-title: PC01 Giới thiệu Suy luận Nhân quả"
+title: PC01 Giới thiệu Suy luận Nhân quả
 permalink: /pythoncausal/pc01
 ---
 <html>
@@ -13122,7 +13122,7 @@ $( document ).ready(function(){
 <blockquote><p>Những chuyên gia tư vấn từng dự đoán AI có tác động thay đổi thế giới cũng chính là những người tường thuật việc các nhà quản lý thực tế tại các công ty đang ngộ ra rằng AI rất khó triển khai, và cơn sốt đang nguội dần. Svetlana Sicular từ  công ty nghiên cứu Gartner nói rằng năm 2020 có thể là năm AI đổ đèo, trong mô hình "Vòng đời Ảo vọng" nổi tiếng. Các nhà đầu tư sực tỉnh khi đang chạy theo đám đông: một khảo sát các startup AI tại châu Âu của MMC, một quỹ đầu tư mạo hiểm, cho thấy thực tế 40% không hề dùng AI chút nào.</p>
 </blockquote>
 <p>Giữa cơn lên đồng ấy, chúng ta, các Chuyên Gia Dữ Liệu, nên làm gì. Trước tiên, nếu bạn khôn ngoan, bạn sẽ học cách phớt lờ lớp bọt. Cái mà ta muốn thưởng thức là bia. Toán và thống kê vốn hữu ích muôn đời và sẽ chẳng thể bỗng dưng thoái trào ở đây. Thêm vào đó, hãy học những gì khiến công việc của bạn hữu ích và giá trị, không phải những công cụ hào nhoáng chẳng biết để làm gì. Cuối cùng hãy nhớ rằng không thể đi ngang về tắt. Kiến thức về toán và thống kê giá trị chính vì chúng khó để học và dùng. Nếu mọi người đều có khả năng sử dụng, thì nguồn cung thừa mứa sẽ hạ giá trị của chúng. Vì thế, hãy <strong>khổ luyện</strong> và học chúng nhiều nhất có thể!</p>
-<p><img src="./data/img/intro/tougher-up-cupcake1.jpg" alt="img"></p>
+<p><src="../assets/images/pythoncausal/intro/tougher-up-cupcake1.jpg" alt="img"></p>
 <h2 id="Tr&#7843;-l&#7901;i-nh&#7919;ng-c&#226;u-h&#7887;i-kh&#225;c-nhau">Tr&#7843; l&#7901;i nh&#7919;ng c&#226;u h&#7887;i kh&#225;c nhau<a class="anchor-link" href="#Tr&#7843;-l&#7901;i-nh&#7919;ng-c&#226;u-h&#7887;i-kh&#225;c-nhau">&#182;</a></h2><p>Vấn đề mà ML đang làm rất tốt là dự đoán. Ajay Agrawal, Joshua Gans và Avi Goldfarb viết trong cuốn sách "Cỗ máy Dự đoán": "Làn sóng trí tuệ nhân tạo thực ra không mang đến cho chúng ta trí tuệ mà một phần thiết yếu của trí tuệ - khả năng phán đoán". Chúng ta có thể tạo ra vô số điều kì diệu với "machine learning". Yêu cầu duy nhất là chúng ta đặt vấn đề trong khuôn khổ dự đoán. Muốn dịch tiếng Anh sang tiếng Bồ Đào Nha? Hãy xây dựng mô hình ML giúp dự đoán câu văn tiếng Bồ Đào Nha cho mỗi câu tiếng Anh. Muốn nhận diện khuôn mặt? Hãy xây dựng mô hình ML giúp dự đoán sự hiện diện của một khuôn mặt trong một phần bức tranh. Muốn sản xuất ô tô tự lái? Hãy xây dựng mô hình ML giúp dự đoán phương hướng bánh lái và áp lực lên chân phanh và chân ga dựa vào các tấm hình ngoại cảnh ô tô.</p>
 <p>Tuy nhiên ML không phải liều thuốc vạn năng. Nó rất kì diệu trong một khuôn khổ hạn hẹp và thất bại nếu dữ liệu dùng để dự đoán sai lệch đôi chút với dữ liệu xây dựng mô hình mà nó đã quen thuộc. Một ví dụ khác trong cuốn sách "Cỗ máy Dự đoán": "Trong nhiều ngành nghề, mức giá thấp tương quan với doanh số thấp. Ví dụ trong ngành khách sạn, giá thấp ngoài mùa du lịch và giá tăng cao khi nhu cầu đạt đỉnh điểm và các khách sạn kín phòng. Dựa vào dữ liệu, một mô hình dự đoán ngờ nghệch có thể đề xuất rằng việc tăng giá làm tăng mức độ phủ kín phòng.”</p>
 <p>ML rất dở trong các vấn đề liên quan đến mối liên hệ ngược giữa nguyên nhân - kết quả. Chúng buộc chúng ta trả lời những câu hỏi "Nếu .. thì chuyện gì xảy ra", mà các chuyên gia kinh tế gọi là các giả tưởng. Điều gì xảy ra nếu thay vì mức giá niêm yết này cho một mặt hàng, tôi niêm yết mức giá khác? Điều gì xảy ra nếu thay vì chế độ ăn ít béo, tôi theo chế độ ăn ít đường? Nếu bạn làm việc cho một ngân hàng cung cấp tín dụng, bạn sẽ phải tìm hiểu liệu việc thay đổi tập khách hàng sẽ thay đổi doanh số như thế nào? Hoặc nếu bạn làm việc cho một chính quyền địa phương , bạn có thể sẽ phải tìm hiểu làm thế nào để cải thiện hệ thống giáo dục. Liệu bạn có nên phát máy tính bảng cho mỗi đứa trẻ cho hợp thời đại kỉ nguyên trí tuệ số? Hoặc liệu có nên xây các thư viện theo kiểu truyền thống? Dù bạn làm ngành nghề nào thì bạn cũng sẽ phải đối mặt với những câu hỏi kiểu như "chiến dịch marketing này sẽ mang tới bao nhiêu khách hàng mới?", "chương trình huấn luyện nhân viên này có làm tăng hiệu suất làm việc không?". Đáng tiếc cho ML, trong các ngành nghề truyền thống, các loại câu hỏi này phổ biến hơn các câu hỏi về dự đoán. Để trả lời chúng, chúng ta không thể dựa vào các dự đoán dựa trên quan hệ tương quan.</p>
@@ -13227,7 +13227,7 @@ Tới khúc cong khuất sau lùm cây bụi.</code></pre>
 <p>$Y_{0i}$ là kết quả tiềm năng  của cá thể i không được can thiệp (đối chứng).</p>
 <p>$Y_{1i}$ là kết quả tiềm năng  của cá thể i được can thiệp.</p>
 <p>Lưu ý đôi khi chúng ta nhìn thấy các kết quả tiềm năng được kí hiệu dưới dạng hàm số $Y_i(t)$. $Y_{0i}$ có thể là $Y_i(0)$ và $Y_{1i}$ có thể là $Y_i(1)$. Ở đây chúng ta sẽ chủ yếu dùng chỉ số dưới để kí hiệu.</p>
-<p><img src="./data/img/intro/potential_outcomes.png" alt="img"></p>
+<p><src="../assets/images/pythoncausal/intro/potential_outcomes.png" alt="img"></p>
 <p>Trong ví dụ máy tính bảng của chúng ta, $Y_{1i}$ là kết quả học tập của học sinh i nếu được phát máy tính bảng dùng trong lớp học.  Bây giờ, nếu học sinh i được phát máy tính bảng, chúng ta quan sát thấy $Y_{1i}$. Nếu không, $Y_{1i}$ vẫn tồn tại trên lí thuyết nhưng chúng ta không thể quan sát. Trong trường hợp này nó là một kết quả tiềm năng (giả tưởng).</p>
 <p>Với kết quả tiềm năng, chúng ta có thể định nghĩa hiệu ứng can thiệp cá thể:</p>
 <p>$Y_{1i} - Y_{0i}$</p>
@@ -13540,19 +13540,19 @@ $</p>
 E[Y|T=1] - E[Y|T=0] = ATE = ATET
 $</p>
 <p>Điều này khá quan trọng, nên chúng ta hãy nhắc lại bằng một biểu đồ thú vị. Nếu chúng ta chỉ đơn thuần so sánh giá trị trung bình giữa nhóm được can thiệp và đối chứng, chúng ta thu được đồ thị sau (các chấm xanh không được nhận can thiệp, phát máy tính bảng):</p>
-<p><img src="./data/img/intro/anatomy1.png" alt="img"></p>
+<p><src="../assets/images/pythoncausal/intro/anatomy1.png" alt="img"></p>
 <p>Lưu ý sự khác biệt trong kết quả giữa hai nhóm được tạo nên bởi 2 nguyên nhân:</p>
 <ol>
 <li>Tác động can thiệp. Sự gia tăng điểm số thuần tuý do phát máy tính bảng cho học sinh.</li>
 <li>Các khác biệt khác giữa nhóm được can thiệp và đối chứng KHÔNG được tạo ra bởi bản thân can thiệp. Trong trường hợp này, nhóm được can thiệp và đối chứng khác nhau ở chỗ nhóm được can thiệp có học phí cao hơn hẳn. Một số khác biệt trong kết quả thi có thể do tác động tích cực của học phí cao với chất lượng giáo dục. </li>
 </ol>
 <p>Chúng ta chỉ có thể biết được tác động thực sự của can thiệp nếu ta có quyền lực siêu nhiên quan sát được kết quả tiềm năng, giống như đồ thị bên trái dưới đây. Hiệu ứng can thiệp cá thể là hiệu giữa kết quả của mỗi cá nhân và kết quả lý thuyết của cùng cá nhân đó nếu thay đổi việc phân bổ can thiệp. Chúng là các  kết quả giả tưởng và được biểu diễn bằng màu nhạt hơn.</p>
-<p><img src="./data/img/intro/anatomy2.png" alt="img"></p>
+<p><src="../assets/images/pythoncausal/intro/anatomy2.png" alt="img"></p>
 <p>Ở đồ thị bên trái, ta biểu diễn thiên lệch được nhắc đến ở phần trước. Chúng ta thu được thiên lệch nếu chúng ta không chỉ định can thiệp cho bất kì ai. Trong trường hợp này, chúng ta chỉ còn kết quả tiềm năng $Y_0$. Sau đó, ta theo dõi xem nhóm được can thiệp và đối chứng khác nhau như thế nào. Nếu chúng khác biệt, nhân tố nào đó ngoài can thiệp gây ra khác biệt giữa 2 nhóm. Nhân tố nào đó ở đây là nguyên nhân thiên lệch và gây nhiễu tác động can thiệp trong thực tế.</p>
 <p>Bây giờ, hãy so sánh nó với tình huống giả tưởng rằng không có thiên lệch. Giả sử máy tính bảng được phát ngẫu nhiên tại các trường học. Trong các tình huống này, các trường giàu và trường nghèo đều nhận được can thiệp với xác suất như nhau. Can thiệp sẽ phân bổ đồng đều theo học phí.</p>
-<p><img src="./data/img/intro/anatomy3.png" alt="img"></p>
+<p><src="../assets/images/pythoncausal/intro/anatomy3.png" alt="img"></p>
 <p>Trong trường hợp này, hiệu giữa kết quả của nhóm được can thiệp và đối chứng LÀ tác động nhân quả trung bình. Điều này xảy ra và không có nguyên nhân nào khác gây ra khác biệt giữa nhóm được can thiệp và đối chứng ngoài bản thân can thiệp. Vì thế mọi sự khác biệt đều có thể gán cho can thiệp. Nói cách khác là không có thiên lệch.</p>
-<p><img src="./data/img/intro/anatomy4.png" alt="img"></p>
+<p><src="../assets/images/pythoncausal/intro/anatomy4.png" alt="img"></p>
 <p>Nếu chúng ta sắp xếp để không ai được nhận can thiệp, và vì thế chúng ta chỉ quan sát được các $Y_0$, chúng ta sẽ không thấy khác biệt giữa nhóm được can thiệp và đối chứng. Đây là mấu chốt của suy luận nhân quả. Tìm kiếm phương pháp thông minh để loại bỏ  thiên lệch  rồi từ đó quy kết mọi khác biệt giữa nhóm được can thiệp và đối chứng là do tác động can thiệp trung bình.</p>
 <p>Đây là nhiệm vụ "khủng" của suy luận nhân quả. Nó cần phải tìm những phương thức thông mình để loại bỏ thiên lệch, làm cho các đối tượng nhận can thiệp và đối chứng tương đương và từ đó mọi khác biệt giữa chúng có thể gán cho tác động can thiệp trung bình. Mục đích sau cùng của suy luận nhân quả là khám phá cách thế giới vận hành, loại bỏ ảo giác và cách diễn giải sai lệch. Và bây giờ chúng ta hiểu điều này, chúng ta có thể tiến tới học cách phương pháp quyền lực giúp loại bỏ thiên lệch, vũ khí của những chiến binh Quả cảm Chân chính giúp xác định tác động nhân quả.</p>
 <h1 id="&#221;-t&#432;&#7903;ng-ch&#7911;-&#273;&#7841;o">&#221; t&#432;&#7903;ng ch&#7911; &#273;&#7841;o<a class="anchor-link" href="#&#221;-t&#432;&#7903;ng-ch&#7911;-&#273;&#7841;o">&#182;</a></h1><p>Trên đây chúng ta đã nhận thấy quan hệ tương quan không phải quan hệ nhân quả. Quan trọng hơn, chúng ta thấy rõ tại sao không phải vậy và làm thế nào để quan hệ tương quan trở thành quan hệ nhân quả. Chúng ta cũng đã tìm hiểu công thức kết quả tiềm năng như là một phương pháp để gói gọn vấn đề suy luận nhân quả. Cùng với đó, chúng ta tìm hiểu thống kê trong 2 tình huống hiện thực loại trừ nhau: có và không có can thiệp. Đáng tiếc là chúng ta chỉ có thể quan sát và đo lường 1 trong 2 tình huống đó, và đây là thách thức cơ bản của suy luận nhân quả.</p>
@@ -13575,7 +13575,7 @@ $</p>
 <li><a href="https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/">Sách Suy Luận Nhân Quả</a></li>
 </ul>
 <p>Phép so sánh cốc bia trong bài này được lấy từ <a href="https://jlcollinsnh.com/2012/04/15/stocks-part-1-theres-a-major-market-crash-coming-and-dr-lo-cant-save-you/">Đầu tư Chứng khoán</a>, viết bởi JL Colins. Đây là loạt bài phải đọc cho bất kì ai muốn đầu tư hiệu quả.</p>
-<p><img src="./data/img/poetry.png" alt="img"></p>
+<p><src="../assets/images/pythoncausal/poetry.png" alt="img"></p>
 
 </div>
 </div>
