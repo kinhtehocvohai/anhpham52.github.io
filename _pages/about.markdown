@@ -5,8 +5,8 @@ excerpt: "Kinh tế học trở nên vô hại như thế nào?"
 layouts: single
 share: true
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/harmless_books.jpg
+  image: /assets/images/harmless_books.jpg
+classes: wide
 ---
 
 
