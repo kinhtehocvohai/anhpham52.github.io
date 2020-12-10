@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Giới thiệu Suy luận Nhân quả"
-permalink:causalpython01
+permalink: causalpython01
 ---
 
 <!DOCTYPE html>
