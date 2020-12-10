@@ -6,6 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: single
+author_profile: true
 title: Suy luận Nhân quả với Python
 share: true
 header:
