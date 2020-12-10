@@ -13226,7 +13226,7 @@ Tới khúc cong khuất sau lùm cây bụi.</code></pre>
 <p>$Y_{0i}$ là kết quả tiềm năng  của cá thể i không được can thiệp (đối chứng).</p>
 <p>$Y_{1i}$ là kết quả tiềm năng  của cá thể i được can thiệp.</p>
 <p>Lưu ý đôi khi chúng ta nhìn thấy các kết quả tiềm năng được kí hiệu dưới dạng hàm số $Y_i(t)$. $Y_{0i}$ có thể là $Y_i(0)$ và $Y_{1i}$ có thể là $Y_i(1)$. Ở đây chúng ta sẽ chủ yếu dùng chỉ số dưới để kí hiệu.</p>
-<p><img src="./data/img/intro/potential_outcomes.png" alt="img"></p>
+<p><img src="../data/img/intro/potential_outcomes.png" alt="img"></p>
 <p>Trong ví dụ máy tính bảng của chúng ta, $Y_{1i}$ là kết quả học tập của học sinh i nếu được phát máy tính bảng dùng trong lớp học.  Bây giờ, nếu học sinh i được phát máy tính bảng, chúng ta quan sát thấy $Y_{1i}$. Nếu không, $Y_{1i}$ vẫn tồn tại trên lí thuyết nhưng chúng ta không thể quan sát. Trong trường hợp này nó là một kết quả tiềm năng (giả tưởng).</p>
 <p>Với kết quả tiềm năng, chúng ta có thể định nghĩa hiệu ứng can thiệp cá thể:</p>
 <p>$Y_{1i} - Y_{0i}$</p>
@@ -13551,19 +13551,19 @@ $</p>
 E[Y|T=1] - E[Y|T=0] = ATE = ATET
 $</p>
 <p>Điều này khá quan trọng, nên chúng ta hãy nhắc lại bằng một biểu đồ thú vị. Nếu chúng ta chỉ đơn thuần so sánh giá trị trung bình giữa nhóm được can thiệp và đối chứng, chúng ta thu được đồ thị sau (các chấm xanh không được nhận can thiệp, phát máy tính bảng):</p>
-<p><img src="./data/img/intro/anatomy1.png" alt="img"></p>
+<p><img src="../data/img/intro/anatomy1.png" alt="img"></p>
 <p>Lưu ý sự khác biệt trong kết quả giữa hai nhóm được tạo nên bởi 2 nguyên nhân:</p>
 <ol>
 <li>Tác động can thiệp. Sự gia tăng điểm số thuần tuý do phát máy tính bảng cho học sinh.</li>
 <li>Các khác biệt khác giữa nhóm được can thiệp và đối chứng KHÔNG được tạo ra bởi bản thân can thiệp. Trong trường hợp này, nhóm được can thiệp và đối chứng khác nhau ở chỗ nhóm được can thiệp có học phí cao hơn hẳn. Một số khác biệt trong kết quả thi có thể do tác động tích cực của học phí cao với chất lượng giáo dục. </li>
 </ol>
 <p>Chúng ta chỉ có thể biết được tác động thực sự của can thiệp nếu ta có quyền lực siêu nhiên quan sát được kết quả tiềm năng, giống như đồ thị bên trái dưới đây. Hiệu ứng can thiệp cá thể là hiệu giữa kết quả của mỗi cá nhân và kết quả lý thuyết của cùng cá nhân đó nếu thay đổi việc phân bổ can thiệp. Chúng là các  kết quả giả tưởng và được biểu diễn bằng màu nhạt hơn.</p>
-<p><img src="./data/img/intro/anatomy2.png" alt="img"></p>
+<p><img src="../data/img/intro/anatomy2.png" alt="img"></p>
 <p>Ở đồ thị bên trái, ta biểu diễn thiên lệch được nhắc đến ở phần trước. Chúng ta thu được thiên lệch nếu chúng ta không chỉ định can thiệp cho bất kì ai. Trong trường hợp này, chúng ta chỉ còn kết quả tiềm năng $Y_0$. Sau đó, ta theo dõi xem nhóm được can thiệp và đối chứng khác nhau như thế nào. Nếu chúng khác biệt, nhân tố nào đó ngoài can thiệp gây ra khác biệt giữa 2 nhóm. Nhân tố nào đó ở đây là nguyên nhân thiên lệch và gây nhiễu tác động can thiệp trong thực tế.</p>
 <p>Bây giờ, hãy so sánh nó với tình huống giả tưởng rằng không có thiên lệch. Giả sử máy tính bảng được phát ngẫu nhiên tại các trường học. Trong các tình huống này, các trường giàu và trường nghèo đều nhận được can thiệp với xác suất như nhau. Can thiệp sẽ phân bổ đồng đều theo học phí.</p>
-<p><img src="./data/img/intro/anatomy3.png" alt="img"></p>
+<p><img src="../data/img/intro/anatomy3.png" alt="img"></p>
 <p>Trong trường hợp này, hiệu giữa kết quả của nhóm được can thiệp và đối chứng LÀ tác động nhân quả trung bình. Điều này xảy ra và không có nguyên nhân nào khác gây ra khác biệt giữa nhóm được can thiệp và đối chứng ngoài bản thân can thiệp. Vì thế mọi sự khác biệt đều có thể gán cho can thiệp. Nói cách khác là không có thiên lệch.</p>
-<p><img src="./data/img/intro/anatomy4.png" alt="img"></p>
+<p><img src="../data/img/intro/anatomy4.png" alt="img"></p>
 <p>Nếu chúng ta sắp xếp để không ai được nhận can thiệp, và vì thế chúng ta chỉ quan sát được các $Y_0$, chúng ta sẽ không thấy khác biệt giữa nhóm được can thiệp và đối chứng. Đây là mấu chốt của suy luận nhân quả. Tìm kiếm phương pháp thông minh để loại bỏ  thiên lệch  rồi từ đó quy kết mọi khác biệt giữa nhóm được can thiệp và đối chứng là do tác động can thiệp trung bình.</p>
 <p>Đây là nhiệm vụ "khủng" của suy luận nhân quả. Nó cần phải tìm những phương thức thông mình để loại bỏ thiên lệch, làm cho các đối tượng nhận can thiệp và đối chứng tương đương và từ đó mọi khác biệt giữa chúng có thể gán cho tác động can thiệp trung bình. Mục đích sau cùng của suy luận nhân quả là khám phá cách thế giới vận hành, loại bỏ ảo giác và cách diễn giải sai lệch. Và bây giờ chúng ta hiểu điều này, chúng ta có thể tiến tới học cách phương pháp quyền lực giúp loại bỏ thiên lệch, vũ khí của những chiến binh Quả cảm Chân chính giúp xác định tác động nhân quả.</p>
 <h1 id="&#221;-t&#432;&#7903;ng-ch&#7911;-&#273;&#7841;o">&#221; t&#432;&#7903;ng ch&#7911; &#273;&#7841;o<a class="anchor-link" href="#&#221;-t&#432;&#7903;ng-ch&#7911;-&#273;&#7841;o">&#182;</a></h1><p>Trên đây chúng ta đã nhận thấy quan hệ tương quan không phải quan hệ nhân quả. Quan trọng hơn, chúng ta thấy rõ tại sao không phải vậy và làm thế nào để quan hệ tương quan trở thành quan hệ nhân quả. Chúng ta cũng đã tìm hiểu công thức kết quả tiềm năng như là một phương pháp để gói gọn vấn đề suy luận nhân quả. Cùng với đó, chúng ta tìm hiểu thống kê trong 2 tình huống hiện thực loại trừ nhau: có và không có can thiệp. Đáng tiếc là chúng ta chỉ có thể quan sát và đo lường 1 trong 2 tình huống đó, và đây là thách thức cơ bản của suy luận nhân quả.</p>
@@ -13586,7 +13586,7 @@ $</p>
 <li><a href="https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/">Sách Suy Luận Nhân Quả</a></li>
 </ul>
 <p>Phép so sánh cốc bia trong bài này được lấy từ <a href="https://jlcollinsnh.com/2012/04/15/stocks-part-1-theres-a-major-market-crash-coming-and-dr-lo-cant-save-you/">Đầu tư Chứng khoán</a>, viết bởi JL Colins. Đây là loạt bài phải đọc cho bất kì ai muốn đầu tư hiệu quả.</p>
-<p><img src="./data/img/poetry.png" alt="img"></p>
+<p><img src="../data/img/poetry.png" alt="img"></p>
 
 </div>
 </div>
@@ -13764,4 +13764,3 @@ $</p>
 
 </html>
  
-
