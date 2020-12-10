@@ -6,13 +6,12 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: single
+title: Suy luận Nhân quả với Python
 share: true
 header:
   image: /assets/images/brave-and-true.png
 classes: wide
 ---
-
-**Nhân quả Python**
 
 Chuỗi bài viết về Suy luận Nhân quả với Python và ứng dụng của chúng trong nghiên cứu các vấn đề kinh tế, xã hội, chính sách và quyết định kinh doanh. 
 
