@@ -2,6 +2,9 @@
 layout: single
 title: PC01 Giới thiệu Suy luận Nhân quả
 permalink: /pythoncausal/pc01
+sidebar:
+    nav: pythoncausal
+author_profile: false
 ---
 <html>
 <head><meta charset="utf-8" />
