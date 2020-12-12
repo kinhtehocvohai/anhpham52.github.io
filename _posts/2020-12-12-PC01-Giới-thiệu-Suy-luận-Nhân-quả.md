@@ -6,7 +6,7 @@ sidebar:
     nav: pythoncausal
 author_profile: false
 ---
-
+[Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 <html>
 <head><meta charset="utf-8" />
 
