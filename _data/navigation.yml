@@ -1,37 +1,37 @@
 #python causal link:
 pythoncausal:
  - title: 1. Giới thiệu Suy luận Nhân quả
-   url: /pythoncausal/PC00
- - title: 2. Phép thử Ngẫu nhiên
    url: /pythoncausal/PC01
- - title: 3. Một Phương trình Vô cùng Nguy hiểm
+ - title: 2. Phép thử Ngẫu nhiên
    url: /pythoncausal/PC02
- - title: 4. Mô hình Biểu đồ Nhân quả
+ - title: 3. Một Phương trình Vô cùng Nguy hiểm
    url: /pythoncausal/PC03
- - title: 5. Hiệu quả Khó tin của Hồi quy tuyến tính
+ - title: 4. Mô hình Biểu đồ Nhân quả
    url: /pythoncausal/PC04
- - title: 6. Nhóm gộp và Hồi quy Biến giả
+ - title: 5. Hiệu quả Khó tin của Hồi quy tuyến tính
    url: /pythoncausal/PC05
- - title: 7. Đâu chỉ mình Biến nhiễu?
+ - title: 6. Nhóm gộp và Hồi quy Biến giả
    url: /pythoncausal/PC06
- - title: 8. Biến Công cụ
+ - title: 7. Đâu chỉ mình Biến nhiễu?
    url: /pythoncausal/PC07
- - title: 9. Sự bất tuân và LATE
+ - title: 8. Biến Công cụ
    url: /pythoncausal/PC08
- - title: 10. Phương pháp Ghép cặp
+ - title: 9. Sự bất tuân và LATE
    url: /pythoncausal/PC09
- - title: 11. Điểm xu hướng
+ - title: 10. Phương pháp Ghép cặp
    url: /pythoncausal/PC10
- - title: 12. Ước lượng mạnh Hai lần 
+ - title: 11. Điểm xu hướng
    url: /pythoncausal/PC11
- - title: 13. Dữ liệu Bảng và Hiệu ứng Cố định
+ - title: 12. Ước lượng mạnh Hai lần 
    url: /pythoncausal/PC12
- - title: 14. Sai khác của Biến thiên
+ - title: 13. Dữ liệu Bảng và Hiệu ứng Cố định
    url: /pythoncausal/PC13
- - title: 15. Đối chứng Tổng hợp
+ - title: 14. Sai khác của Biến thiên
    url: /pythoncausal/PC14
- - title: 16. Thiết kế Hồi quy Gián đoạn
+ - title: 15. Đối chứng Tổng hợp
    url: /pythoncausal/PC15
+ - title: 16. Thiết kế Hồi quy Gián đoạn
+   url: /pythoncausal/PC16
 
 # main links
 main:
