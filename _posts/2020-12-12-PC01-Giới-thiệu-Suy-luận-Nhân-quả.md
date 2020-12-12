@@ -6,6 +6,8 @@ sidebar:
     nav: pythoncausal
 author_profile: false
 ---
+
+<html>
 <head><meta charset="utf-8" />
 
 <title>01-Giới-thiệu-Suy-luận-Nhân-quả-VN</title>
@@ -13105,15 +13107,6 @@ $( document ).ready(function(){
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>[Nguyên tác: Matheus Facure. Chuyển ngữ: Nhóm Kinh tế học Vô hại]</p>
-<p>Dữ liệu và Jupyter Notebook lưu trữ tại <a href="https://github.com/vietecon/NhanQuaPython/tree/main/ipynb">GitHub</a></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <p><h1>Table of Contents<span class="tocSkip"></span></h1></p>
 <div class="toc"><ul class="toc-item"><li><span><a href="#Sao-phải-Quan-tâm?" data-toc-modified-id="Sao-phải-Quan-tâm?-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Sao phải Quan tâm?</a></span><ul class="toc-item"><li><span><a href="#Khoa-Học-Dữ-Liệu-Không-còn-là-Nó-Trước-đây-(hoặc-Nó-của-Ngày-sau)." data-toc-modified-id="Khoa-Học-Dữ-Liệu-Không-còn-là-Nó-Trước-đây-(hoặc-Nó-của-Ngày-sau).-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Khoa Học Dữ Liệu Không còn là Nó Trước đây (hoặc Nó của Ngày sau).</a></span></li><li><span><a href="#Trả-lời-những-câu-hỏi-khác-nhau" data-toc-modified-id="Trả-lời-những-câu-hỏi-khác-nhau-1.2"><span class="toc-item-num">1.2&nbsp;&nbsp;</span>Trả lời những câu hỏi khác nhau</a></span></li><li><span><a href="#Khi-nào--Quan-hệ-tương-quan-là--Quan-hệ-nhân-quả" data-toc-modified-id="Khi-nào--Quan-hệ-tương-quan-là--Quan-hệ-nhân-quả-1.3"><span class="toc-item-num">1.3&nbsp;&nbsp;</span>Khi nào  Quan hệ tương quan là  Quan hệ nhân quả</a></span></li><li><span><a href="#Thiên-lệch" data-toc-modified-id="Thiên-lệch-1.4"><span class="toc-item-num">1.4&nbsp;&nbsp;</span>Thiên lệch</a></span></li></ul></li><li><span><a href="#Ý-tưởng-chủ-đạo" data-toc-modified-id="Ý-tưởng-chủ-đạo-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Ý tưởng chủ đạo</a></span></li><li><span><a href="#Tài-liệu-tham-khảo" data-toc-modified-id="Tài-liệu-tham-khảo-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Tài liệu tham khảo</a></span></li><li><span><a href="#Bảng-Từ-Viết-tắt" data-toc-modified-id="Bảng-Từ-Viết-tắt-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Bảng Từ Viết tắt</a></span></li><li><span><a href="#Bảng-Thuật-ngữ" data-toc-modified-id="Bảng-Thuật-ngữ-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Bảng Thuật ngữ</a></span></li></ul></div>
 </div>
@@ -13199,7 +13192,7 @@ $( document ).ready(function(){
 
 
 <div class="output_png output_subarea ">
-<imgsrc="../assets/images/causalpython/output01/output _4_0.png"
+<img src="../assets/images/causalpython/output01/output_3_0.png"
 >
 </div>
 
@@ -13522,7 +13515,7 @@ $</p>
 
 
 <div class="output_png output_subarea ">
-<imgsrc="../assets/images/causalpython/output01/output _10_0.png"
+<img src="../assets/images/causalpython/output01/output_9_0.png"
 >
 </div>
 
@@ -13764,3 +13757,4 @@ $</p>
 
 
 </html>
+
