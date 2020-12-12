@@ -1,7 +1,7 @@
 ---
 layout: single
 sidebar:
-	nav: pythoncausal
+ nav: pythoncausal
 title: PC14 Sai khác của Biến thiên
 permalink: /pythoncausal/pc14
 ---

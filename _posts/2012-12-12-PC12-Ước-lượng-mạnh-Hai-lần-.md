@@ -1,7 +1,7 @@
 ---
 layout: single
 sidebar:
-	nav: pythoncausal
+ nav: pythoncausal
 title: PC12 Ước lượng mạnh Hai lần 
 permalink: /pythoncausal/pc12
 ---

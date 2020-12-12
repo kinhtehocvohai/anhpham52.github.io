@@ -1,7 +1,7 @@
 ---
 layout: single
 sidebar:
-	nav: pythoncausal
+ nav: pythoncausal
 title: PC10 Phương pháp Ghép cặp
 permalink: /pythoncausal/pc10
 ---

@@ -1,7 +1,7 @@
 ---
 layout: single
 sidebar:
-	nav: pythoncausal
+ nav: pythoncausal
 title: PC16 Thiết kế Hồi quy Gián đoạn
 permalink: /pythoncausal/pc16
 ---

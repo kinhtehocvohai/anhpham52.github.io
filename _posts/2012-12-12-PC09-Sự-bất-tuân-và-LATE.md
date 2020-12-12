@@ -1,7 +1,7 @@
 ---
 layout: single
 sidebar:
-	nav: pythoncausal
+ nav: pythoncausal
 title: PC09 Sự bất tuân và LATE
 permalink: /pythoncausal/pc09
 ---

@@ -1,7 +1,7 @@
 ---
 layout: single
 sidebar:
-	nav: pythoncausal
+ nav: pythoncausal
 title: PC15 Đối chứng Tổng hợp
 permalink: /pythoncausal/pc15
 ---

@@ -1,7 +1,7 @@
 ---
 layout: single
 sidebar:
-	nav: pythoncausal
+ nav: pythoncausal
 title: PC06 Nhóm gộp và Hồi quy Biến giả
 permalink: /pythoncausal/pc06
 ---

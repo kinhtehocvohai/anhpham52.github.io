@@ -1,7 +1,7 @@
 ---
 layout: single
 sidebar:
-	nav: pythoncausal
+ nav: pythoncausal
 title: PC05 Hiệu quả Khó tin của Hồi quy tuyến tính
 permalink: /pythoncausal/pc05
 ---

@@ -1,7 +1,7 @@
 ---
 layout: single
 sidebar:
-	nav: pythoncausal
+ nav: pythoncausal
 title: PC07 Đâu chỉ mình Biến nhiễu?
 permalink: /pythoncausal/pc07
 ---

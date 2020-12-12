@@ -1,7 +1,7 @@
 ---
 layout: single
 sidebar:
-	nav: pythoncausal
+ nav: pythoncausal
 title: PC13 Dữ liệu Bảng và Hiệu ứng Cố định
 permalink: /pythoncausal/pc13
 ---

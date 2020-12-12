@@ -1,7 +1,7 @@
 ---
 layout: single
 sidebar:
-	nav: pythoncausal
+ nav: pythoncausal
 title: PC03 Một Phương trình Vô cùng Nguy hiểm
 permalink: /pythoncausal/pc03
 ---

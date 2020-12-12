@@ -1,7 +1,7 @@
 ---
 layout: single
 sidebar:
-	nav: pythoncausal
+ nav: pythoncausal
 title: PC04 Mô hình Biểu đồ Nhân quả
 permalink: /pythoncausal/pc04
 ---
