@@ -24,9 +24,9 @@ Nguyên tác dựa trên nguồn tài liệu của các học giả uy tín như
 
 Các bài viết chính thức sẽ được đăng tại [Facebook fanpage](https://www.facebook.com/harmlessecon) và website này vào 21:00 thứ 7 hàng tuần, bắt đầu từ 12/12/2020 theo lịch trình dự kiến như sau:
 
-|Tiêu đề | Ngày phát hành|
+|Tiêu đề | Ngày đăng tải|
 |--- | ---| 
-|1. Giới thiệu Suy luận Nhân quả|12/12/2020| 
+|1. Giới thiệu Suy luận Nhân quả|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc01)| 
 |2. Phép thử Ngẫu nhiên|19/12/2020|
 |3. Một Phương trình Vô cùng Nguy hiểm|26/12/2020|
 |4. Mô hình Biểu đồ Nhân quả|02/01/2021|
