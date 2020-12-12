@@ -1,7 +1,7 @@
 ---
 layout: single
 sidebar:
-	nav: pythoncausal
+ nav: pythoncausal
 title: PC02 Phép thử Ngẫu nhiên
 permalink: /pythoncausal/pc02
 ---
