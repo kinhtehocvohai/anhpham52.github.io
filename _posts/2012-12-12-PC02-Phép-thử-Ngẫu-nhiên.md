@@ -11,7 +11,7 @@ Dự kiến phát hành: 19/12/2020. Vui lòng Like/Follow Facebook Fanpage [Kin
 <html>
 <head><meta charset="utf-8" />
 
-<title>02-Phép-thử-ngẫu-nhiên-QA</title>
+<title>PC02 Phép thử Ngẫu nhiên</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
