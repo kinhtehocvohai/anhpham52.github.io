@@ -13302,7 +13302,7 @@ $</p>
 
 
 <div class="output_png output_subarea ">
-<img src="../assets/images/causalpython/output03/output_3_0.png"
+<img src="../assets/images/pythoncausal/output03/output_3_0.png"
 >
 </div>
 
@@ -13359,7 +13359,7 @@ $</p>
 
 
 <div class="output_png output_subarea ">
-<img src="../assets/images/causalpython/output03/output_5_0.png"
+<img src="../assets/images/pythoncausal/output03/output_5_0.png"
 >
 </div>
 
@@ -13483,7 +13483,7 @@ SE cho lớp học truyền thống: 0.8723511456319106
 
 
 <div class="output_png output_subarea ">
-<img src="../assets/images/causalpython/output03/output_10_0.png"
+<img src="../assets/images/pythoncausal/output03/output_10_0.png"
 >
 </div>
 
@@ -13571,7 +13571,7 @@ SE cho lớp học truyền thống: 0.8723511456319106
 
 
 <div class="output_png output_subarea ">
-<img src="../assets/images/causalpython/output03/output_13_0.png"
+<img src="../assets/images/pythoncausal/output03/output_13_0.png"
 >
 </div>
 
@@ -13668,7 +13668,7 @@ SE cho lớp học truyền thống: 0.8723511456319106
 
 
 <div class="output_png output_subarea ">
-<img src="../assets/images/causalpython/output03/output_16_0.png"
+<img src="../assets/images/pythoncausal/output03/output_16_0.png"
 >
 </div>
 
@@ -13788,7 +13788,7 @@ $</p>
 
 
 <div class="output_png output_subarea ">
-<img src="../assets/images/causalpython/output03/output_22_0.png"
+<img src="../assets/images/pythoncausal/output03/output_22_0.png"
 >
 </div>
 
@@ -13877,7 +13877,7 @@ $</p>
 
 
 <div class="output_png output_subarea ">
-<img src="../assets/images/causalpython/output03/output_25_0.png"
+<img src="../assets/images/pythoncausal/output03/output_25_0.png"
 >
 </div>
 
@@ -13963,7 +13963,7 @@ $</p>
 
 
 <div class="output_png output_subarea ">
-<img src="../assets/images/causalpython/output03/output_28_0.png"
+<img src="../assets/images/pythoncausal/output03/output_28_0.png"
 >
 </div>
 
