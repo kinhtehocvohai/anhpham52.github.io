@@ -28,7 +28,7 @@ Các bài viết chính thức sẽ được đăng tại [Facebook fanpage](htt
 |--- | ---| 
 |1. Giới thiệu Suy luận Nhân quả|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc01)| 
 |2. Phép thử Ngẫu nhiên|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc02)|
-|3. Một Phương trình Vô cùng Nguy hiểm|26/12/2020|
+|3. Một Phương trình Vô cùng Nguy hiểm|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc03)|
 |4. Mô hình Biểu đồ Nhân quả|02/01/2021|
 |5. Hiệu quả Khó tin của Hồi quy tuyến tính|09/01/2021|
 |6. Nhóm gộp và Hồi quy Biến giả|16/01/2021|
