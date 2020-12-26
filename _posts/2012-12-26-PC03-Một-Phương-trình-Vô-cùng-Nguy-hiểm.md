@@ -3,6 +3,8 @@ layout: single
 sidebar:
  nav: pythoncausal
 title: PC03 Một Phương trình Vô cùng Nguy hiểm
+header:
+ image: /assets/images/pythoncausal/output03/output_5_0.png
 permalink: /pythoncausal/pc03
 ---
 
