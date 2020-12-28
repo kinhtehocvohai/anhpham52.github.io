@@ -13391,7 +13391,7 @@ $</p>
 <p>Ở phần trước, chúng ta đã ước lượng tác động can thiệp trung bình $E[Y_1-Y_0]$ bằng chênh lệch giữa giá trị trung bình của nhóm được can thiệp và nhóm đối chứng $E[Y|T=1]-E[Y|T=0]$. Trong ví dụ ở bài trước, chúng ta đã tính toán $ATE$ cho các lớp học online. Một tác động tiêu cực được ghi nhận, cụ thể, lớp học online khiến cho học sinh có kết quả kém hơn 5 điểm so với học sinh trong lớp học truyền thống. Hãy cùng xem xét liệu tác động này có ý nghĩa thống kê hay không.</p>
 <p>Để làm được điều này, ta cần phải ước lượng sai số chuẩn. Ta đã biết $n$, kích thước mẫu. Để ước lượng độ lệch chuẩn, ta có thể áp dụng công thức</p>
 <p>$
-\hat{\sigma}=\frac{1}{N-1}\sum_{i=0}^N (x-\bar{x})^2
+\hat{\sigma}=\sqrt{\frac{1}{N-1}\sum_{i=0}^N (x-\bar{x})^2}
 $</p>
 <p>trong đó $\bar{x}$ là giá trị trung bình của $x$. May mắn là hầu hết các phần mềm lập trình có thể giải phương trình này. Trong Pandas, ta có thể dùng phương pháp <a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.std.html">std</a>.</p>
 
