@@ -4,7 +4,7 @@ sidebar:
  nav: pythoncausal
 title: PC04 Mô hình Biểu đồ Nhân quả
 header:
- image: /assets/images/pythoncausal/output04/output_18_0.png
+ image: /assets/images/pythoncausal/output04/output_7_0.png
 permalink: /pythoncausal/pc04
 ---
 
