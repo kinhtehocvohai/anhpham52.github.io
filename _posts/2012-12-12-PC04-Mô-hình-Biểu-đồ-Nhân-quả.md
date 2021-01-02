@@ -2,9 +2,9 @@
 layout: single
 sidebar:
  nav: pythoncausal
- header:
- image: /assets/images/pythoncausal/output04/output_18_0.png
 title: PC04 Mô hình Biểu đồ Nhân quả
+header:
+image: /assets/images/pythoncausal/output04/output_18_0.png
 permalink: /pythoncausal/pc04
 ---
 
