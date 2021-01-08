@@ -13537,7 +13537,7 @@ $</p>
 
 
 <div class="output_png output_subarea ">
-<img src="..assets/images/pythoncausal/output05/output_13_0.png"
+<img src="../assets/images/pythoncausal/output05/output_13_0.png"
 >
 </div>
 
