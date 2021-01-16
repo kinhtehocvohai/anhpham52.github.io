@@ -5,9 +5,9 @@ sidebar:
 title: PC06 Nhóm gộp và Hồi quy Biến giả
 permalink: /pythoncausal/pc06
 header:
- img: /assets/images/pythoncausal/output06/output_15_0.png
+ image: /assets/images/pythoncausal/output06/output_15_0.png
 ---
-<!DOCTYPE html>
+
 <html>
 <head><meta charset="utf-8" />
 
