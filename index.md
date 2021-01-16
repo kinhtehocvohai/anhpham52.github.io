@@ -31,7 +31,7 @@ Các bài viết chính thức sẽ được đăng tại [Facebook fanpage](htt
 |3. Một Phương trình Vô cùng Nguy hiểm|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc03)|
 |4. Mô hình Biểu đồ Nhân quả|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc04)|
 |5. Hiệu quả Khó tin của Hồi quy tuyến tính|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc05)|
-|6. Nhóm gộp và Hồi quy Biến giả|16/01/2021|
+|6. Nhóm gộp và Hồi quy Biến giả|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc06)|
 |7. Đâu chỉ mình Biến nhiễu?|23/01/2021|
 |8. Biến Công cụ|30/01/2021|
 |9. Sự bất tuân và LATE|06/02/2021|
