@@ -12,7 +12,7 @@ permalink: /pythoncausal/pc07
 <html>
 <head><meta charset="utf-8" />
 
-<title>PC07 Đâu chỉ mình Biến nhiễu?</title>
+<title>07-Đâu-chỉ-mình-biến-nhiễu-QA</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13118,7 +13118,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">warnings</span>
@@ -13143,7 +13143,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;./data/collections_email.csv&quot;</span><span class="p">)</span>
@@ -13160,7 +13160,7 @@ $( document ).ready(function(){
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[2]:</div>
+    <div class="prompt output_prompt">Out[4]:</div>
 
 
 
@@ -13262,7 +13262,7 @@ $</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Difference in means:&quot;</span><span class="p">,</span>
@@ -13293,7 +13293,7 @@ $</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[3]:</div>
+    <div class="prompt output_prompt">Out[5]:</div>
 
 
 
@@ -13330,7 +13330,7 @@ $</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">scatterplot</span><span class="p">(</span><span class="s2">&quot;email&quot;</span><span class="p">,</span> <span class="s2">&quot;payments&quot;</span><span class="p">,</span> 
@@ -13380,7 +13380,7 @@ $</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">model_email</span> <span class="o">=</span> <span class="n">smf</span><span class="o">.</span><span class="n">ols</span><span class="p">(</span><span class="s1">&#39;email ~ credit_limit + risk_score&#39;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">()</span>
@@ -13407,7 +13407,7 @@ $</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Payments Variance&quot;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">var</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;payments&quot;</span><span class="p">]))</span>
@@ -13443,7 +13443,7 @@ Email Residual Variance 0.24918421069820038
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[6]:</div>
+    <div class="prompt output_prompt">Out[8]:</div>
 
 
 
@@ -13478,7 +13478,7 @@ Email Residual Variance 0.24918421069820038
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">scatterplot</span><span class="p">(</span><span class="s2">&quot;res_email&quot;</span><span class="p">,</span> <span class="s2">&quot;res_payments&quot;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">residuals</span><span class="p">)</span>
@@ -13523,7 +13523,7 @@ Email Residual Variance 0.24918421069820038
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">model_2</span> <span class="o">=</span> <span class="n">smf</span><span class="o">.</span><span class="n">ols</span><span class="p">(</span><span class="s1">&#39;payments ~ email + credit_limit + risk_score&#39;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">()</span>
@@ -13540,7 +13540,7 @@ Email Residual Variance 0.24918421069820038
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[8]:</div>
+    <div class="prompt output_prompt">Out[10]:</div>
 
 
 
@@ -13580,7 +13580,7 @@ Email Residual Variance 0.24918421069820038
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">g</span> <span class="o">=</span> <span class="n">gr</span><span class="o">.</span><span class="n">Digraph</span><span class="p">()</span>
@@ -13588,9 +13588,9 @@ Email Residual Variance 0.24918421069820038
 <span class="n">g</span><span class="o">.</span><span class="n">node</span><span class="p">(</span><span class="s2">&quot;T&quot;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;gold&quot;</span><span class="p">)</span>
 
 <span class="n">g</span><span class="o">.</span><span class="n">node</span><span class="p">(</span><span class="s2">&quot;email&quot;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;gold&quot;</span><span class="p">)</span>
-<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;credit_limit&quot;</span><span class="p">,</span> <span class="s2">&quot;payments&quot;</span><span class="p">)</span>
-<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;risk_score&quot;</span><span class="p">,</span> <span class="s2">&quot;payments&quot;</span><span class="p">)</span>
-<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;email&quot;</span><span class="p">,</span> <span class="s2">&quot;payments&quot;</span><span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;hạn mức tín dụng&quot;</span><span class="p">,</span> <span class="s2">&quot;lượng thanh toán&quot;</span><span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;điểm rủi ro&quot;</span><span class="p">,</span> <span class="s2">&quot;lượng thanh toán&quot;</span><span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;email&quot;</span><span class="p">,</span> <span class="s2">&quot;lượng thanh toán&quot;</span><span class="p">)</span>
 
 <span class="n">g</span>
 </pre></div>
@@ -13605,7 +13605,7 @@ Email Residual Variance 0.24918421069820038
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[9]:</div>
+    <div class="prompt output_prompt">Out[11]:</div>
 
 
 
@@ -13615,11 +13615,11 @@ Email Residual Variance 0.24918421069820038
 <!-- Generated by graphviz version 2.40.1 (20161225.0304)
  -->
 <!-- Title: %3 Pages: 1 -->
-<svg width="452pt" height="116pt"
- viewBox="0.00 0.00 452.10 116.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="502pt" height="116pt"
+ viewBox="0.00 0.00 502.35 116.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 112)">
 <title>%3</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-112 448.0957,-112 448.0957,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-112 498.3454,-112 498.3454,4 -4,4"/>
 <!-- X -->
 <g id="node1" class="node">
 <title>X</title>
@@ -13656,41 +13656,41 @@ Email Residual Variance 0.24918421069820038
 <ellipse fill="none" stroke="#ffd700" cx="175" cy="-90" rx="31.3957" ry="18"/>
 <text text-anchor="middle" x="175" y="-86.3" font-family="Times,serif" font-size="14.00" fill="#000000">email</text>
 </g>
-<!-- payments -->
+<!-- lượng thanh toán -->
 <g id="node6" class="node">
-<title>payments</title>
-<ellipse fill="none" stroke="#000000" cx="277" cy="-18" rx="45.4919" ry="18"/>
-<text text-anchor="middle" x="277" y="-14.3" font-family="Times,serif" font-size="14.00" fill="#000000">payments</text>
+<title>lượng thanh toán</title>
+<ellipse fill="none" stroke="#000000" cx="299" cy="-18" rx="73.387" ry="18"/>
+<text text-anchor="middle" x="299" y="-14.3" font-family="Times,serif" font-size="14.00" fill="#000000">lượng thanh toán</text>
 </g>
-<!-- email&#45;&gt;payments -->
+<!-- email&#45;&gt;lượng thanh toán -->
 <g id="edge5" class="edge">
-<title>email&#45;&gt;payments</title>
-<path fill="none" stroke="#000000" d="M195.1519,-75.7751C209.6874,-65.5148 229.5779,-51.4744 246.1109,-39.8041"/>
-<polygon fill="#000000" stroke="#000000" points="248.2531,-42.5761 254.4044,-33.9498 244.2163,-36.8573 248.2531,-42.5761"/>
+<title>email&#45;&gt;lượng thanh toán</title>
+<path fill="none" stroke="#000000" d="M197.1687,-77.1278C214.9673,-66.7932 240.3605,-52.0487 261.3363,-39.8692"/>
+<polygon fill="#000000" stroke="#000000" points="263.13,-42.875 270.0205,-34.8268 259.6151,-36.8215 263.13,-42.875"/>
 </g>
-<!-- credit_limit -->
+<!-- hạn mức tín dụng -->
 <g id="node5" class="node">
-<title>credit_limit</title>
-<ellipse fill="none" stroke="#000000" cx="277" cy="-90" rx="53.0913" ry="18"/>
-<text text-anchor="middle" x="277" y="-86.3" font-family="Times,serif" font-size="14.00" fill="#000000">credit_limit</text>
+<title>hạn mức tín dụng</title>
+<ellipse fill="none" stroke="#000000" cx="299" cy="-90" rx="74.9875" ry="18"/>
+<text text-anchor="middle" x="299" y="-86.3" font-family="Times,serif" font-size="14.00" fill="#000000">hạn mức tín dụng</text>
 </g>
-<!-- credit_limit&#45;&gt;payments -->
+<!-- hạn mức tín dụng&#45;&gt;lượng thanh toán -->
 <g id="edge3" class="edge">
-<title>credit_limit&#45;&gt;payments</title>
-<path fill="none" stroke="#000000" d="M277,-71.8314C277,-64.131 277,-54.9743 277,-46.4166"/>
-<polygon fill="#000000" stroke="#000000" points="280.5001,-46.4132 277,-36.4133 273.5001,-46.4133 280.5001,-46.4132"/>
+<title>hạn mức tín dụng&#45;&gt;lượng thanh toán</title>
+<path fill="none" stroke="#000000" d="M299,-71.8314C299,-64.131 299,-54.9743 299,-46.4166"/>
+<polygon fill="#000000" stroke="#000000" points="302.5001,-46.4132 299,-36.4133 295.5001,-46.4133 302.5001,-46.4132"/>
 </g>
-<!-- risk_score -->
+<!-- điểm rủi ro -->
 <g id="node7" class="node">
-<title>risk_score</title>
-<ellipse fill="none" stroke="#000000" cx="396" cy="-90" rx="48.1917" ry="18"/>
-<text text-anchor="middle" x="396" y="-86.3" font-family="Times,serif" font-size="14.00" fill="#000000">risk_score</text>
+<title>điểm rủi ro</title>
+<ellipse fill="none" stroke="#000000" cx="443" cy="-90" rx="51.1914" ry="18"/>
+<text text-anchor="middle" x="443" y="-86.3" font-family="Times,serif" font-size="14.00" fill="#000000">điểm rủi ro</text>
 </g>
-<!-- risk_score&#45;&gt;payments -->
+<!-- điểm rủi ro&#45;&gt;lượng thanh toán -->
 <g id="edge4" class="edge">
-<title>risk_score&#45;&gt;payments</title>
-<path fill="none" stroke="#000000" d="M370.4715,-74.5542C353.0205,-63.9956 329.7061,-49.8894 310.7279,-38.4068"/>
-<polygon fill="#000000" stroke="#000000" points="312.4455,-35.3553 302.0778,-33.1731 308.8218,-41.3444 312.4455,-35.3553"/>
+<title>điểm rủi ro&#45;&gt;lượng thanh toán</title>
+<path fill="none" stroke="#000000" d="M413.512,-75.256C392.4461,-64.7231 363.8159,-50.408 340.4533,-38.7266"/>
+<polygon fill="#000000" stroke="#000000" points="341.9676,-35.5707 331.4581,-34.229 338.8371,-41.8317 341.9676,-35.5707"/>
 </g>
 </g>
 </svg>
@@ -14218,7 +14218,7 @@ Treatment Residual Variance 0.057529091872119076
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">g</span> <span class="o">=</span> <span class="n">gr</span><span class="o">.</span><span class="n">Digraph</span><span class="p">()</span>
@@ -14226,11 +14226,11 @@ Treatment Residual Variance 0.057529091872119076
 <span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;X&quot;</span><span class="p">,</span> <span class="s2">&quot;T&quot;</span><span class="p">),</span> <span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;T&quot;</span><span class="p">,</span> <span class="s2">&quot;Y&quot;</span><span class="p">)</span>
 <span class="n">g</span><span class="o">.</span><span class="n">node</span><span class="p">(</span><span class="s2">&quot;T&quot;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;gold&quot;</span><span class="p">)</span>
 
-<span class="n">g</span><span class="o">.</span><span class="n">node</span><span class="p">(</span><span class="s2">&quot;treatment&quot;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;gold&quot;</span><span class="p">)</span>
-<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;severity&quot;</span><span class="p">,</span> <span class="s2">&quot;hospital&quot;</span><span class="p">)</span>
-<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;severity&quot;</span><span class="p">,</span> <span class="s2">&quot;days&quot;</span><span class="p">)</span>
-<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;hospital&quot;</span><span class="p">,</span> <span class="s2">&quot;treatment&quot;</span><span class="p">)</span>
-<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;treatment&quot;</span><span class="p">,</span> <span class="s2">&quot;days&quot;</span><span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">node</span><span class="p">(</span><span class="s2">&quot;điều trị&quot;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;gold&quot;</span><span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;mức độ nghiêm trọng&quot;</span><span class="p">,</span> <span class="s2">&quot;nhập viện&quot;</span><span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;mức độ nghiêm trọng&quot;</span><span class="p">,</span> <span class="s2">&quot;số ngày nằm viện&quot;</span><span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;nhập viện&quot;</span><span class="p">,</span> <span class="s2">&quot;điều trị&quot;</span><span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;điều trị&quot;</span><span class="p">,</span> <span class="s2">&quot;số ngày nằm viện&quot;</span><span class="p">)</span>
 
 <span class="n">g</span>
 </pre></div>
@@ -14245,7 +14245,7 @@ Treatment Residual Variance 0.057529091872119076
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[19]:</div>
+    <div class="prompt output_prompt">Out[14]:</div>
 
 
 
@@ -14255,11 +14255,11 @@ Treatment Residual Variance 0.057529091872119076
 <!-- Generated by graphviz version 2.40.1 (20161225.0304)
  -->
 <!-- Title: %3 Pages: 1 -->
-<svg width="203pt" height="260pt"
- viewBox="0.00 0.00 202.65 260.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="275pt" height="260pt"
+ viewBox="0.00 0.00 274.69 260.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 256)">
 <title>%3</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-256 198.6465,-256 198.6465,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-256 270.692,-256 270.692,4 -4,4"/>
 <!-- X -->
 <g id="node1" class="node">
 <title>X</title>
@@ -14290,53 +14290,53 @@ Treatment Residual Variance 0.057529091872119076
 <path fill="none" stroke="#000000" d="M27,-143.8314C27,-136.131 27,-126.9743 27,-118.4166"/>
 <polygon fill="#000000" stroke="#000000" points="30.5001,-118.4132 27,-108.4133 23.5001,-118.4133 30.5001,-118.4132"/>
 </g>
-<!-- treatment -->
+<!-- điều trị -->
 <g id="node4" class="node">
-<title>treatment</title>
-<ellipse fill="none" stroke="#ffd700" cx="117" cy="-90" rx="44.6926" ry="18"/>
-<text text-anchor="middle" x="117" y="-86.3" font-family="Times,serif" font-size="14.00" fill="#000000">treatment</text>
+<title>điều trị</title>
+<ellipse fill="none" stroke="#ffd700" cx="151" cy="-90" rx="37.8943" ry="18"/>
+<text text-anchor="middle" x="151" y="-86.3" font-family="Times,serif" font-size="14.00" fill="#000000">điều trị</text>
 </g>
-<!-- days -->
+<!-- số ngày nằm viện -->
 <g id="node7" class="node">
-<title>days</title>
-<ellipse fill="none" stroke="#000000" cx="153" cy="-18" rx="27.0966" ry="18"/>
-<text text-anchor="middle" x="153" y="-14.3" font-family="Times,serif" font-size="14.00" fill="#000000">days</text>
+<title>số ngày nằm viện</title>
+<ellipse fill="none" stroke="#000000" cx="188" cy="-18" rx="75.2868" ry="18"/>
+<text text-anchor="middle" x="188" y="-14.3" font-family="Times,serif" font-size="14.00" fill="#000000">số ngày nằm viện</text>
 </g>
-<!-- treatment&#45;&gt;days -->
+<!-- điều trị&#45;&gt;số ngày nằm viện -->
 <g id="edge6" class="edge">
-<title>treatment&#45;&gt;days</title>
-<path fill="none" stroke="#000000" d="M125.8989,-72.2022C130.1022,-63.7955 135.2041,-53.5917 139.8425,-44.3149"/>
-<polygon fill="#000000" stroke="#000000" points="143.1097,-45.6068 144.4514,-35.0972 136.8487,-42.4762 143.1097,-45.6068"/>
+<title>điều trị&#45;&gt;số ngày nằm viện</title>
+<path fill="none" stroke="#000000" d="M160.1461,-72.2022C164.3391,-64.0428 169.4021,-54.1904 174.0552,-45.1358"/>
+<polygon fill="#000000" stroke="#000000" points="177.2444,-46.5872 178.7021,-36.0931 171.0184,-43.3877 177.2444,-46.5872"/>
 </g>
-<!-- severity -->
+<!-- mức độ nghiêm trọng -->
 <g id="node5" class="node">
-<title>severity</title>
-<ellipse fill="none" stroke="#000000" cx="155" cy="-234" rx="39.7935" ry="18"/>
-<text text-anchor="middle" x="155" y="-230.3" font-family="Times,serif" font-size="14.00" fill="#000000">severity</text>
+<title>mức độ nghiêm trọng</title>
+<ellipse fill="none" stroke="#000000" cx="177" cy="-234" rx="89.8845" ry="18"/>
+<text text-anchor="middle" x="177" y="-230.3" font-family="Times,serif" font-size="14.00" fill="#000000">mức độ nghiêm trọng</text>
 </g>
-<!-- hospital -->
+<!-- nhập viện -->
 <g id="node6" class="node">
-<title>hospital</title>
-<ellipse fill="none" stroke="#000000" cx="119" cy="-162" rx="39.7935" ry="18"/>
-<text text-anchor="middle" x="119" y="-158.3" font-family="Times,serif" font-size="14.00" fill="#000000">hospital</text>
+<title>nhập viện</title>
+<ellipse fill="none" stroke="#000000" cx="147" cy="-162" rx="46.2923" ry="18"/>
+<text text-anchor="middle" x="147" y="-158.3" font-family="Times,serif" font-size="14.00" fill="#000000">nhập viện</text>
 </g>
-<!-- severity&#45;&gt;hospital -->
+<!-- mức độ nghiêm trọng&#45;&gt;nhập viện -->
 <g id="edge3" class="edge">
-<title>severity&#45;&gt;hospital</title>
-<path fill="none" stroke="#000000" d="M146.1011,-216.2022C141.9596,-207.9192 136.9457,-197.8915 132.3624,-188.7248"/>
-<polygon fill="#000000" stroke="#000000" points="135.3992,-186.972 127.7965,-179.593 129.1382,-190.1026 135.3992,-186.972"/>
+<title>mức độ nghiêm trọng&#45;&gt;nhập viện</title>
+<path fill="none" stroke="#000000" d="M169.4297,-215.8314C166.0645,-207.7547 162.0317,-198.0761 158.3195,-189.1668"/>
+<polygon fill="#000000" stroke="#000000" points="161.5409,-187.798 154.4639,-179.9134 155.0794,-190.4904 161.5409,-187.798"/>
 </g>
-<!-- severity&#45;&gt;days -->
+<!-- mức độ nghiêm trọng&#45;&gt;số ngày nằm viện -->
 <g id="edge4" class="edge">
-<title>severity&#45;&gt;days</title>
-<path fill="none" stroke="#000000" d="M160.3505,-215.6761C163.1417,-205.3023 166.3173,-192.0329 168,-180 174.6504,-132.4442 178.6917,-119.3985 171,-72 169.5437,-63.0258 166.8094,-53.5277 163.9038,-45.0413"/>
-<polygon fill="#000000" stroke="#000000" points="167.1896,-43.8355 160.4804,-35.6357 160.6117,-46.2297 167.1896,-43.8355"/>
+<title>mức độ nghiêm trọng&#45;&gt;số ngày nằm viện</title>
+<path fill="none" stroke="#000000" d="M187.888,-215.7133C193.2929,-205.5709 199.2445,-192.5105 202,-180 212.1912,-133.7292 203.002,-78.4982 195.4639,-45.944"/>
+<polygon fill="#000000" stroke="#000000" points="198.8616,-45.1033 193.1011,-36.2113 192.0592,-46.7548 198.8616,-45.1033"/>
 </g>
-<!-- hospital&#45;&gt;treatment -->
+<!-- nhập viện&#45;&gt;điều trị -->
 <g id="edge5" class="edge">
-<title>hospital&#45;&gt;treatment</title>
-<path fill="none" stroke="#000000" d="M118.4953,-143.8314C118.2814,-136.131 118.0271,-126.9743 117.7894,-118.4166"/>
-<polygon fill="#000000" stroke="#000000" points="121.2879,-118.3122 117.5115,-108.4133 114.2906,-118.5066 121.2879,-118.3122"/>
+<title>nhập viện&#45;&gt;điều trị</title>
+<path fill="none" stroke="#000000" d="M148.0094,-143.8314C148.4372,-136.131 148.9459,-126.9743 149.4213,-118.4166"/>
+<polygon fill="#000000" stroke="#000000" points="152.9169,-118.592 149.977,-108.4133 145.9276,-118.2037 152.9169,-118.592"/>
 </g>
 </g>
 </svg>
@@ -14474,25 +14474,25 @@ Treatment Residual Variance 0.057529091872119076
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">g</span> <span class="o">=</span> <span class="n">gr</span><span class="o">.</span><span class="n">Digraph</span><span class="p">()</span>
 
 
-<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;email&quot;</span><span class="p">,</span> <span class="s2">&quot;payments&quot;</span><span class="p">)</span>
-<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;email&quot;</span><span class="p">,</span> <span class="s2">&quot;opened&quot;</span><span class="p">)</span>
-<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;email&quot;</span><span class="p">,</span> <span class="s2">&quot;agreement&quot;</span><span class="p">)</span>
-<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;opened&quot;</span><span class="p">,</span> <span class="s2">&quot;payments&quot;</span><span class="p">)</span>
-<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;opened&quot;</span><span class="p">,</span> <span class="s2">&quot;agreement&quot;</span><span class="p">)</span>
-<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;agreement&quot;</span><span class="p">,</span> <span class="s2">&quot;payments&quot;</span><span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;email&quot;</span><span class="p">,</span> <span class="s2">&quot;lượng thanh toán&quot;</span><span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;email&quot;</span><span class="p">,</span> <span class="s2">&quot;mở thư&quot;</span><span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;email&quot;</span><span class="p">,</span> <span class="s2">&quot;thỏa thuận&quot;</span><span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;mở thư&quot;</span><span class="p">,</span> <span class="s2">&quot;lượng thanh toán&quot;</span><span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;mở thư&quot;</span><span class="p">,</span> <span class="s2">&quot;thỏa thuận&quot;</span><span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;thỏa thuận&quot;</span><span class="p">,</span> <span class="s2">&quot;lượng thanh toán&quot;</span><span class="p">)</span>
 
-<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;credit_limit&quot;</span><span class="p">,</span> <span class="s2">&quot;payments&quot;</span><span class="p">)</span>
-<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;credit_limit&quot;</span><span class="p">,</span> <span class="s2">&quot;opened&quot;</span><span class="p">)</span>
-<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;credit_limit&quot;</span><span class="p">,</span> <span class="s2">&quot;agreement&quot;</span><span class="p">)</span>
-<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;risk_score&quot;</span><span class="p">,</span> <span class="s2">&quot;payments&quot;</span><span class="p">)</span>
-<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;risk_score&quot;</span><span class="p">,</span> <span class="s2">&quot;opened&quot;</span><span class="p">)</span>
-<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;risk_score&quot;</span><span class="p">,</span> <span class="s2">&quot;agreement&quot;</span><span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;hạn mức tín dụng&quot;</span><span class="p">,</span> <span class="s2">&quot;lượng thanh toán&quot;</span><span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;hạn mức tín dụng&quot;</span><span class="p">,</span> <span class="s2">&quot;mở thư&quot;</span><span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;hạn mức tín dụng&quot;</span><span class="p">,</span> <span class="s2">&quot;thỏa thuận&quot;</span><span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;điểm rủi ro&quot;</span><span class="p">,</span> <span class="s2">&quot;lượng thanh toán&quot;</span><span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;điểm rủi ro&quot;</span><span class="p">,</span> <span class="s2">&quot;mở thư&quot;</span><span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;điểm rủi ro&quot;</span><span class="p">,</span> <span class="s2">&quot;thỏa thuận&quot;</span><span class="p">)</span>
 
 <span class="n">g</span>
 </pre></div>
@@ -14507,7 +14507,7 @@ Treatment Residual Variance 0.057529091872119076
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[22]:</div>
+    <div class="prompt output_prompt">Out[15]:</div>
 
 
 
@@ -14517,118 +14517,118 @@ Treatment Residual Variance 0.057529091872119076
 <!-- Generated by graphviz version 2.40.1 (20161225.0304)
  -->
 <!-- Title: %3 Pages: 1 -->
-<svg width="308pt" height="260pt"
- viewBox="0.00 0.00 308.29 260.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="359pt" height="260pt"
+ viewBox="0.00 0.00 358.54 260.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 256)">
 <title>%3</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-256 304.293,-256 304.293,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-256 354.5427,-256 354.5427,4 -4,4"/>
 <!-- email -->
 <g id="node1" class="node">
 <title>email</title>
 <ellipse fill="none" stroke="#000000" cx="31.1972" cy="-234" rx="31.3957" ry="18"/>
 <text text-anchor="middle" x="31.1972" y="-230.3" font-family="Times,serif" font-size="14.00" fill="#000000">email</text>
 </g>
-<!-- payments -->
+<!-- lượng thanh toán -->
 <g id="node2" class="node">
-<title>payments</title>
-<ellipse fill="none" stroke="#000000" cx="173.1972" cy="-18" rx="45.4919" ry="18"/>
-<text text-anchor="middle" x="173.1972" y="-14.3" font-family="Times,serif" font-size="14.00" fill="#000000">payments</text>
+<title>lượng thanh toán</title>
+<ellipse fill="none" stroke="#000000" cx="196.1972" cy="-18" rx="73.387" ry="18"/>
+<text text-anchor="middle" x="196.1972" y="-14.3" font-family="Times,serif" font-size="14.00" fill="#000000">lượng thanh toán</text>
 </g>
-<!-- email&#45;&gt;payments -->
+<!-- email&#45;&gt;lượng thanh toán -->
 <g id="edge1" class="edge">
-<title>email&#45;&gt;payments</title>
-<path fill="none" stroke="#000000" d="M26.2459,-216.2032C18.4489,-184.0935 7.18,-115.7482 38.1972,-72 56.8079,-45.7506 90.3563,-32.2535 119.3522,-25.3173"/>
-<polygon fill="#000000" stroke="#000000" points="120.3629,-28.6792 129.3866,-23.1274 118.8702,-21.8402 120.3629,-28.6792"/>
+<title>email&#45;&gt;lượng thanh toán</title>
+<path fill="none" stroke="#000000" d="M29.2996,-215.8871C26.9073,-183.2699 26.6518,-114.1387 61.1972,-72 77.5136,-52.0973 102.2457,-39.4825 126.1025,-31.5074"/>
+<polygon fill="#000000" stroke="#000000" points="127.377,-34.7766 135.8891,-28.4684 125.301,-28.0915 127.377,-34.7766"/>
 </g>
-<!-- opened -->
+<!-- mở thư -->
 <g id="node3" class="node">
-<title>opened</title>
-<ellipse fill="none" stroke="#000000" cx="134.1972" cy="-162" rx="37.0935" ry="18"/>
-<text text-anchor="middle" x="134.1972" y="-158.3" font-family="Times,serif" font-size="14.00" fill="#000000">opened</text>
+<title>mở thư</title>
+<ellipse fill="none" stroke="#000000" cx="157.1972" cy="-162" rx="37.8943" ry="18"/>
+<text text-anchor="middle" x="157.1972" y="-158.3" font-family="Times,serif" font-size="14.00" fill="#000000">mở thư</text>
 </g>
-<!-- email&#45;&gt;opened -->
+<!-- email&#45;&gt;mở thư -->
 <g id="edge2" class="edge">
-<title>email&#45;&gt;opened</title>
-<path fill="none" stroke="#000000" d="M51.0567,-220.1177C66.19,-209.539 87.2747,-194.8002 104.4237,-182.8125"/>
-<polygon fill="#000000" stroke="#000000" points="106.7896,-185.4291 112.9805,-176.8311 102.7791,-179.6918 106.7896,-185.4291"/>
+<title>email&#45;&gt;mở thư</title>
+<path fill="none" stroke="#000000" d="M53.4335,-221.2936C72.9308,-210.1522 101.5568,-193.7945 123.8057,-181.0809"/>
+<polygon fill="#000000" stroke="#000000" points="125.6523,-184.0569 132.5982,-176.0566 122.1792,-177.9792 125.6523,-184.0569"/>
 </g>
-<!-- agreement -->
+<!-- thỏa thuận -->
 <g id="node4" class="node">
-<title>agreement</title>
-<ellipse fill="none" stroke="#000000" cx="96.1972" cy="-90" rx="48.9926" ry="18"/>
-<text text-anchor="middle" x="96.1972" y="-86.3" font-family="Times,serif" font-size="14.00" fill="#000000">agreement</text>
+<title>thỏa thuận</title>
+<ellipse fill="none" stroke="#000000" cx="119.1972" cy="-90" rx="48.9926" ry="18"/>
+<text text-anchor="middle" x="119.1972" y="-86.3" font-family="Times,serif" font-size="14.00" fill="#000000">thỏa thuận</text>
 </g>
-<!-- email&#45;&gt;agreement -->
+<!-- email&#45;&gt;thỏa thuận -->
 <g id="edge3" class="edge">
-<title>email&#45;&gt;agreement</title>
-<path fill="none" stroke="#000000" d="M39.1675,-216.3428C50.3757,-191.5122 70.8896,-146.066 84.0171,-116.9836"/>
-<polygon fill="#000000" stroke="#000000" points="87.2376,-118.3561 88.1618,-107.8017 80.8575,-115.4762 87.2376,-118.3561"/>
+<title>email&#45;&gt;thỏa thuận</title>
+<path fill="none" stroke="#000000" d="M41.6376,-216.9158C56.7557,-192.1771 84.8877,-146.1429 102.7939,-116.8418"/>
+<polygon fill="#000000" stroke="#000000" points="105.9908,-118.3226 108.2188,-107.9647 100.0178,-114.6724 105.9908,-118.3226"/>
 </g>
-<!-- opened&#45;&gt;payments -->
+<!-- mở thư&#45;&gt;lượng thanh toán -->
 <g id="edge4" class="edge">
-<title>opened&#45;&gt;payments</title>
-<path fill="none" stroke="#000000" d="M141.5322,-144.22C145.6438,-133.7934 150.6438,-120.2934 154.1972,-108 160.1006,-87.5768 165.0022,-64.0567 168.3475,-46.1834"/>
-<polygon fill="#000000" stroke="#000000" points="171.8316,-46.5862 170.1787,-36.1211 164.9448,-45.3329 171.8316,-46.5862"/>
+<title>mở thư&#45;&gt;lượng thanh toán</title>
+<path fill="none" stroke="#000000" d="M164.5322,-144.22C168.6438,-133.7934 173.6438,-120.2934 177.1972,-108 183.1006,-87.5768 188.0022,-64.0567 191.3475,-46.1834"/>
+<polygon fill="#000000" stroke="#000000" points="194.8316,-46.5862 193.1787,-36.1211 187.9448,-45.3329 194.8316,-46.5862"/>
 </g>
-<!-- opened&#45;&gt;agreement -->
+<!-- mở thư&#45;&gt;thỏa thuận -->
 <g id="edge5" class="edge">
-<title>opened&#45;&gt;agreement</title>
-<path fill="none" stroke="#000000" d="M124.804,-144.2022C120.465,-135.981 115.2189,-126.041 110.4104,-116.9301"/>
-<polygon fill="#000000" stroke="#000000" points="113.3771,-115.0527 105.6141,-107.8425 107.1864,-118.3201 113.3771,-115.0527"/>
+<title>mở thư&#45;&gt;thỏa thuận</title>
+<path fill="none" stroke="#000000" d="M147.804,-144.2022C143.465,-135.981 138.2189,-126.041 133.4104,-116.9301"/>
+<polygon fill="#000000" stroke="#000000" points="136.3771,-115.0527 128.6141,-107.8425 130.1864,-118.3201 136.3771,-115.0527"/>
 </g>
-<!-- agreement&#45;&gt;payments -->
+<!-- thỏa thuận&#45;&gt;lượng thanh toán -->
 <g id="edge6" class="edge">
-<title>agreement&#45;&gt;payments</title>
-<path fill="none" stroke="#000000" d="M114.4452,-72.937C124.3938,-63.6344 136.8646,-51.9733 147.7545,-41.7906"/>
-<polygon fill="#000000" stroke="#000000" points="150.4321,-44.0786 155.3459,-34.6921 145.6512,-38.9656 150.4321,-44.0786"/>
+<title>thỏa thuận&#45;&gt;lượng thanh toán</title>
+<path fill="none" stroke="#000000" d="M137.4452,-72.937C147.1791,-63.8352 159.3275,-52.4756 170.0472,-42.4519"/>
+<polygon fill="#000000" stroke="#000000" points="172.6316,-44.8271 177.5454,-35.4407 167.8506,-39.7142 172.6316,-44.8271"/>
 </g>
-<!-- credit_limit -->
+<!-- hạn mức tín dụng -->
 <g id="node5" class="node">
-<title>credit_limit</title>
-<ellipse fill="none" stroke="#000000" cx="133.1972" cy="-234" rx="53.0913" ry="18"/>
-<text text-anchor="middle" x="133.1972" y="-230.3" font-family="Times,serif" font-size="14.00" fill="#000000">credit_limit</text>
+<title>hạn mức tín dụng</title>
+<ellipse fill="none" stroke="#000000" cx="155.1972" cy="-234" rx="74.9875" ry="18"/>
+<text text-anchor="middle" x="155.1972" y="-230.3" font-family="Times,serif" font-size="14.00" fill="#000000">hạn mức tín dụng</text>
 </g>
-<!-- credit_limit&#45;&gt;payments -->
+<!-- hạn mức tín dụng&#45;&gt;lượng thanh toán -->
 <g id="edge7" class="edge">
-<title>credit_limit&#45;&gt;payments</title>
-<path fill="none" stroke="#000000" d="M153.49,-217.2474C163.5996,-207.5544 174.7955,-194.4339 180.1972,-180 196.8465,-135.5114 188.5064,-79.2886 180.8862,-46.1288"/>
-<polygon fill="#000000" stroke="#000000" points="184.2388,-45.1036 178.47,-36.2171 177.438,-46.7616 184.2388,-45.1036"/>
+<title>hạn mức tín dụng&#45;&gt;lượng thanh toán</title>
+<path fill="none" stroke="#000000" d="M177.1023,-216.709C187.4318,-207.1351 198.6803,-194.2898 204.1972,-180 221.3107,-135.6734 212.3884,-79.399 204.3173,-46.1852"/>
+<polygon fill="#000000" stroke="#000000" points="207.6438,-45.0677 201.7609,-36.2562 200.8649,-46.8131 207.6438,-45.0677"/>
 </g>
-<!-- credit_limit&#45;&gt;opened -->
+<!-- hạn mức tín dụng&#45;&gt;mở thư -->
 <g id="edge8" class="edge">
-<title>credit_limit&#45;&gt;opened</title>
-<path fill="none" stroke="#000000" d="M133.4496,-215.8314C133.5565,-208.131 133.6837,-198.9743 133.8026,-190.4166"/>
-<polygon fill="#000000" stroke="#000000" points="137.3022,-190.4609 133.9415,-180.4133 130.3029,-190.3637 137.3022,-190.4609"/>
+<title>hạn mức tín dụng&#45;&gt;mở thư</title>
+<path fill="none" stroke="#000000" d="M155.7019,-215.8314C155.9158,-208.131 156.1702,-198.9743 156.4079,-190.4166"/>
+<polygon fill="#000000" stroke="#000000" points="159.9066,-190.5066 156.6858,-180.4133 152.9093,-190.3122 159.9066,-190.5066"/>
 </g>
-<!-- credit_limit&#45;&gt;agreement -->
+<!-- hạn mức tín dụng&#45;&gt;thỏa thuận -->
 <g id="edge9" class="edge">
-<title>credit_limit&#45;&gt;agreement</title>
-<path fill="none" stroke="#000000" d="M113.7517,-217.0836C104.0675,-207.3426 93.3487,-194.2285 88.1972,-180 80.9766,-160.0563 83.6154,-136.0725 87.7129,-117.8802"/>
-<polygon fill="#000000" stroke="#000000" points="91.1095,-118.7246 90.1579,-108.1726 84.3214,-117.0149 91.1095,-118.7246"/>
+<title>hạn mức tín dụng&#45;&gt;thỏa thuận</title>
+<path fill="none" stroke="#000000" d="M135.2823,-216.6096C125.7232,-206.9193 115.2656,-193.999 110.1972,-180 102.9691,-160.0355 105.8873,-136.0529 110.2501,-117.8664"/>
+<polygon fill="#000000" stroke="#000000" points="113.6429,-118.727 112.8433,-108.1624 106.8802,-116.9198 113.6429,-118.727"/>
 </g>
-<!-- risk_score -->
+<!-- điểm rủi ro -->
 <g id="node6" class="node">
-<title>risk_score</title>
-<ellipse fill="none" stroke="#000000" cx="252.1972" cy="-234" rx="48.1917" ry="18"/>
-<text text-anchor="middle" x="252.1972" y="-230.3" font-family="Times,serif" font-size="14.00" fill="#000000">risk_score</text>
+<title>điểm rủi ro</title>
+<ellipse fill="none" stroke="#000000" cx="299.1972" cy="-234" rx="51.1914" ry="18"/>
+<text text-anchor="middle" x="299.1972" y="-230.3" font-family="Times,serif" font-size="14.00" fill="#000000">điểm rủi ro</text>
 </g>
-<!-- risk_score&#45;&gt;payments -->
+<!-- điểm rủi ro&#45;&gt;lượng thanh toán -->
 <g id="edge10" class="edge">
-<title>risk_score&#45;&gt;payments</title>
-<path fill="none" stroke="#000000" d="M247.7644,-215.616C240.1435,-185.1405 223.3201,-122.5085 202.1972,-72 198.3379,-62.7716 193.4028,-53.0397 188.7022,-44.4182"/>
-<polygon fill="#000000" stroke="#000000" points="191.6922,-42.594 183.7558,-35.5753 185.583,-46.0113 191.6922,-42.594"/>
+<title>điểm rủi ro&#45;&gt;lượng thanh toán</title>
+<path fill="none" stroke="#000000" d="M291.5819,-215.789C278.8109,-185.5625 251.939,-123.2801 226.1972,-72 221.7452,-63.1311 216.5921,-53.6186 211.8265,-45.0865"/>
+<polygon fill="#000000" stroke="#000000" points="214.8238,-43.2763 206.8588,-36.2899 208.7286,-46.7184 214.8238,-43.2763"/>
 </g>
-<!-- risk_score&#45;&gt;opened -->
+<!-- điểm rủi ro&#45;&gt;mở thư -->
 <g id="edge11" class="edge">
-<title>risk_score&#45;&gt;opened</title>
-<path fill="none" stroke="#000000" d="M226.8833,-218.5542C209.1112,-207.7102 185.2066,-193.1243 166.1254,-181.4816"/>
-<polygon fill="#000000" stroke="#000000" points="167.8257,-178.419 157.4662,-176.198 164.1796,-184.3945 167.8257,-178.419"/>
+<title>điểm rủi ro&#45;&gt;mở thư</title>
+<path fill="none" stroke="#000000" d="M269.7747,-219.0816C247.256,-207.6636 216.1215,-191.8771 192.3015,-179.7994"/>
+<polygon fill="#000000" stroke="#000000" points="193.7415,-176.6053 183.2396,-175.2046 190.5758,-182.8486 193.7415,-176.6053"/>
 </g>
-<!-- risk_score&#45;&gt;agreement -->
+<!-- điểm rủi ro&#45;&gt;thỏa thuận -->
 <g id="edge12" class="edge">
-<title>risk_score&#45;&gt;agreement</title>
-<path fill="none" stroke="#000000" d="M240.6672,-216.3489C227.5406,-197.1054 204.7184,-166.1082 180.1972,-144 165.9893,-131.1901 148.4233,-119.3906 133.0338,-110.1104"/>
-<polygon fill="#000000" stroke="#000000" points="134.6593,-107.0059 124.266,-104.9489 131.1081,-113.0383 134.6593,-107.0059"/>
+<title>điểm rủi ro&#45;&gt;thỏa thuận</title>
+<path fill="none" stroke="#000000" d="M282.9263,-216.7052C264.6805,-197.7735 233.7614,-167.048 204.1972,-144 188.7523,-131.9593 170.5495,-120.1168 154.9594,-110.6045"/>
+<polygon fill="#000000" stroke="#000000" points="156.496,-107.4444 146.1227,-105.2891 152.8878,-113.4428 156.496,-107.4444"/>
 </g>
 </g>
 </svg>
