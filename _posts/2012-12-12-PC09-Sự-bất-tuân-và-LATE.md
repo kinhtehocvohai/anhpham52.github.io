@@ -15,7 +15,7 @@ permalink: /pythoncausal/pc09
 
 
 
-<style type="text/css">
+<style="text/css">
     /*!
 *
 * Twitter Bootstrap
@@ -13188,7 +13188,7 @@ $( document ).ready(function(){
 
 <div class="output_svg output_subarea output_execute_result">
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN">
+
  <!-- Title: %3 Pages: 1 -->
 <svg width="192pt" height="188pt"
  viewBox="0.00 0.00 191.54 188.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -13306,7 +13306,7 @@ $</p>
 
 <div class="output_svg output_subarea output_execute_result">
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN">
+
  
 <!-- Title: %3 Pages: 1 -->
 <svg width="199pt" height="188pt"
