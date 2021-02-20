@@ -36,7 +36,7 @@ Các bài viết chính thức sẽ được đăng tại [Facebook fanpage](htt
 |8. Biến Công cụ|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc08)|
 |9. Sự bất tuân và LATE|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc09)|
 |10. Phương pháp Ghép cặp|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc10)|
-|11. Điểm xu hướng|20/02/2021|
+|11. Điểm xu hướng|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc11)|
 |12. Ước lượng mạnh Hai lần |27/02/2021|
 |13. Dữ liệu Bảng và Hiệu ứng Cố định|06/03/2021|
 |14. Sai khác của Biến thiên|13/03/2021|
