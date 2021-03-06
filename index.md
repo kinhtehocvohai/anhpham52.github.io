@@ -38,7 +38,7 @@ Các bài viết chính thức sẽ được đăng tại [Facebook fanpage](htt
 |10. Phương pháp Ghép cặp|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc10)|
 |11. Điểm xu hướng|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc11)|
 |12. Ước lượng mạnh Hai lần |Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc12)|
-|13. Dữ liệu Bảng và Hiệu ứng Cố định|06/03/2021|
+|13. Dữ liệu Bảng và Hiệu ứng Cố định|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc13)|
 |14. Sai khác của Biến thiên|13/03/2021|
 |15. Đối chứng Tổng hợp|20/03/2021|
 |16. Thiết kế Hồi quy Gián đoạn|27/03/2021|
