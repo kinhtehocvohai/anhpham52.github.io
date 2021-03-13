@@ -64,38 +64,38 @@
 <path fill="none" stroke="black" d="M254.636,-72.055C259.235,-63.8006 264.861,-53.7014 269.967,-44.5378"/>
 <polygon fill="black" stroke="black" points="273.031,-46.2282 274.841,-35.789 266.916,-42.8212 273.031,-46.2282"/>
 </g>
-<!-- Đối tượng (Điển trai, Thông minh...) -->
-<g id="node7" class="node"><title>Đối tượng (Điển trai, Thông minh...)</title>
-<ellipse fill="none" stroke="black" cx="198.195" cy="-306" rx="142.975" ry="18"/>
-<text text-anchor="middle" x="198.195" y="-302.3" font-family="Times New Roman,serif" font-size="14.00">Đối tượng (Điển trai, Thông minh...)</text>
+<!-- Đối tượng (Điển trai, Trí tuệ...) -->
+<g id="node7" class="node"><title>Đối tượng (Điển trai, Trí tuệ...)</title>
+<ellipse fill="none" stroke="black" cx="198.195" cy="-306" rx="124.278" ry="18"/>
+<text text-anchor="middle" x="198.195" y="-302.3" font-family="Times New Roman,serif" font-size="14.00">Đối tượng (Điển trai, Trí tuệ...)</text>
 </g>
-<!-- Đối tượng (Điển trai, Thông minh...)&#45;&gt;Kết_hôn_1 -->
-<g id="edge6" class="edge"><title>Đối tượng (Điển trai, Thông minh...)&#45;&gt;Kết_hôn_1</title>
+<!-- Đối tượng (Điển trai, Trí tuệ...)&#45;&gt;Kết_hôn_1 -->
+<g id="edge6" class="edge"><title>Đối tượng (Điển trai, Trí tuệ...)&#45;&gt;Kết_hôn_1</title>
 <path fill="none" stroke="black" d="M188.554,-287.697C184.068,-279.644 178.636,-269.894 173.671,-260.982"/>
 <polygon fill="black" stroke="black" points="176.649,-259.137 168.724,-252.104 170.534,-262.544 176.649,-259.137"/>
 </g>
-<!-- Đối tượng (Điển trai, Thông minh...)&#45;&gt;Thu_nhập_1 -->
-<g id="edge9" class="edge"><title>Đối tượng (Điển trai, Thông minh...)&#45;&gt;Thu_nhập_1</title>
-<path fill="none" stroke="black" d="M149.364,-288.98C131.085,-280.666 111.733,-268.672 99.1949,-252 85.8763,-234.29 81.4483,-209.271 80.1669,-190.268"/>
+<!-- Đối tượng (Điển trai, Trí tuệ...)&#45;&gt;Thu_nhập_1 -->
+<g id="edge9" class="edge"><title>Đối tượng (Điển trai, Trí tuệ...)&#45;&gt;Thu_nhập_1</title>
+<path fill="none" stroke="black" d="M150.133,-289.328C131.629,-281.002 111.908,-268.906 99.1949,-252 85.8763,-234.29 81.4483,-209.271 80.1669,-190.268"/>
 <polygon fill="black" stroke="black" points="83.6583,-189.988 79.7373,-180.145 76.6646,-190.285 83.6583,-189.988"/>
 </g>
-<!-- Đối tượng (Điển trai, Thông minh...)&#45;&gt;Kết_hôn_2 -->
-<g id="edge7" class="edge"><title>Đối tượng (Điển trai, Thông minh...)&#45;&gt;Kết_hôn_2</title>
+<!-- Đối tượng (Điển trai, Trí tuệ...)&#45;&gt;Kết_hôn_2 -->
+<g id="edge7" class="edge"><title>Đối tượng (Điển trai, Trí tuệ...)&#45;&gt;Kết_hôn_2</title>
 <path fill="none" stroke="black" d="M206.913,-287.833C211.569,-277.694 216.819,-264.444 219.195,-252 223.154,-231.261 219.566,-207.558 215.309,-189.831"/>
 <polygon fill="black" stroke="black" points="218.693,-188.94 212.776,-180.151 211.921,-190.712 218.693,-188.94"/>
 </g>
-<!-- Đối tượng (Điển trai, Thông minh...)&#45;&gt;Thu_nhập_2 -->
-<g id="edge10" class="edge"><title>Đối tượng (Điển trai, Thông minh...)&#45;&gt;Thu_nhập_2</title>
-<path fill="none" stroke="black" d="M147.671,-289.071C101.22,-271.154 36.3151,-236.867 14.1949,-180 8.39456,-165.088 8.84702,-159.08 14.1949,-144 17.9765,-133.337 24.9192,-123.255 32.1389,-114.804"/>
+<!-- Đối tượng (Điển trai, Trí tuệ...)&#45;&gt;Thu_nhập_2 -->
+<g id="edge10" class="edge"><title>Đối tượng (Điển trai, Trí tuệ...)&#45;&gt;Thu_nhập_2</title>
+<path fill="none" stroke="black" d="M148.551,-289.409C102.043,-271.587 36.4551,-237.227 14.1949,-180 8.39456,-165.088 8.84702,-159.08 14.1949,-144 17.9765,-133.337 24.9192,-123.255 32.1389,-114.804"/>
 <polygon fill="black" stroke="black" points="34.8919,-116.98 39.0515,-107.235 29.7232,-112.259 34.8919,-116.98"/>
 </g>
-<!-- Đối tượng (Điển trai, Thông minh...)&#45;&gt;Kết_hôn_3 -->
-<g id="edge8" class="edge"><title>Đối tượng (Điển trai, Thông minh...)&#45;&gt;Kết_hôn_3</title>
-<path fill="none" stroke="black" d="M212.067,-287.711C229.427,-264.742 257.998,-222.139 267.195,-180 270.607,-164.368 270.322,-159.691 267.195,-144 265.403,-135.011 262.058,-125.638 258.507,-117.318"/>
+<!-- Đối tượng (Điển trai, Trí tuệ...)&#45;&gt;Kết_hôn_3 -->
+<g id="edge8" class="edge"><title>Đối tượng (Điển trai, Trí tuệ...)&#45;&gt;Kết_hôn_3</title>
+<path fill="none" stroke="black" d="M211.769,-288.106C229.098,-265.232 257.945,-222.382 267.195,-180 270.607,-164.368 270.322,-159.691 267.195,-144 265.403,-135.011 262.058,-125.638 258.507,-117.318"/>
 <polygon fill="black" stroke="black" points="261.651,-115.775 254.326,-108.12 255.279,-118.672 261.651,-115.775"/>
 </g>
-<!-- Đối tượng (Điển trai, Thông minh...)&#45;&gt;Thu_nhập_3 -->
-<g id="edge11" class="edge"><title>Đối tượng (Điển trai, Thông minh...)&#45;&gt;Thu_nhập_3</title>
+<!-- Đối tượng (Điển trai, Trí tuệ...)&#45;&gt;Thu_nhập_3 -->
+<g id="edge11" class="edge"><title>Đối tượng (Điển trai, Trí tuệ...)&#45;&gt;Thu_nhập_3</title>
 <path fill="none" stroke="black" d="M223.826,-288.235C236.344,-278.893 250.714,-266.272 260.195,-252 297.297,-196.148 295.289,-174.317 305.195,-108 307.559,-92.1756 308.195,-87.7162 305.195,-72 303.488,-63.0559 300.295,-53.6954 296.906,-45.373"/>
 <polygon fill="black" stroke="black" points="300.103,-43.9489 292.913,-36.1671 293.681,-46.7341 300.103,-43.9489"/>
 </g>
