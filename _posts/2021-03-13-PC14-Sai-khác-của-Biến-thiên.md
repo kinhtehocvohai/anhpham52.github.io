@@ -13106,45 +13106,22 @@ $( document ).ready(function(){
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><h1>Table of Contents<span class="tocSkip"></span></h1></p>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Ba-Biển-Quảng-cáo-ngoài-trời-ở-Nam-Brazil" data-toc-modified-id="Ba-Biển-Quảng-cáo-ngoài-trời-ở-Nam-Brazil-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Ba Biển Quảng cáo ngoài trời ở Nam Brazil</a></span></li><li><span><a href="#@@Estimator@@-@@DID@@" data-toc-modified-id="@@Estimator@@-@@DID@@-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>@@Estimator@@ @@DID@@</a></span></li><li><span><a href="#Xu-hướng-biến-thiên-không-song-song" data-toc-modified-id="Xu-hướng-biến-thiên-không-song-song-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Xu hướng biến thiên không song song</a></span></li><li><span><a href="#Ý-tưởng-chủ-đạo" data-toc-modified-id="Ý-tưởng-chủ-đạo-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Ý tưởng chủ đạo</a></span></li><li><span><a href="#Tài-liệu-tham-khảo" data-toc-modified-id="Tài-liệu-tham-khảo-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Tài liệu tham khảo</a></span></li></ul></div>
+<div class="toc"><ul class="toc-item"><li><span><a href="#Ba-Biển-Quảng-cáo-ngoài-trời-ở-Nam-Brazil" data-toc-modified-id="Ba-Biển-Quảng-cáo-ngoài-trời-ở-Nam-Brazil-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Ba Biển Quảng cáo ngoài trời ở Nam Brazil</a></span></li><li><span><a href="#Mô-hình-ước-lượng-DID" data-toc-modified-id="Mô-hình-ước-lượng-DID-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Mô hình ước lượng DID</a></span></li><li><span><a href="#Xu-hướng-biến-thiên-không-song-song" data-toc-modified-id="Xu-hướng-biến-thiên-không-song-song-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Xu hướng biến thiên không song song</a></span></li><li><span><a href="#Ý-tưởng-chủ-đạo" data-toc-modified-id="Ý-tưởng-chủ-đạo-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Ý tưởng chủ đạo</a></span></li><li><span><a href="#Tài-liệu-tham-khảo" data-toc-modified-id="Tài-liệu-tham-khảo-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Tài liệu tham khảo</a></span></li><li><span><a href="#Bảng-Từ-Viết-tắt" data-toc-modified-id="Bảng-Từ-Viết-tắt-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>Bảng Từ Viết tắt</a></span></li><li><span><a href="#Bảng-Thuật-ngữ" data-toc-modified-id="Bảng-Thuật-ngữ-7"><span class="toc-item-num">7&nbsp;&nbsp;</span>Bảng Thuật ngữ</a></span></li></ul></div>
 </div>
 </div>
-</div>## Three Billboards in the South of Brazil
-
-I remember when I worked with marketing and a great way to do it was internet marketing. Not because it is very efficient (although it is), but because it is very easy to know if its effective or not. With online marketing, you have a way of knowing which customers saw the ad and you can track them with cookies to see if they ended up on your landing page. You can also use machine learning to find prospects that are very similar to your customers and present the ad only to them. In this sense, online marketing is very precise: you target only those you want to and you can see if they respond as you would like them to. 
-
-But not everyone is susceptible to online marketing. Sometimes you have to resort to less precise techniques, like a TV campaign or placing a billboard down the street. Usually, diversity of marketing channels is something marketing departments look for. But if online marketing is a professional fishing rod to catch that specific type of tuna, billboard and TV are giant nets you throw at a fish shoal and hope you catch at least some good fish. But another problem with billboard and TV ads is that it is much harder to know how effective they are. Sure, you could measure the purchase volume, or whatever you want to drive, before and after placing a billboard somewhere. If there is an increase, there is some evidence that the marketing is effective. But how would you know if this increase is not just some natural trend in the awareness of your product? In other words, how would you know the counterfactual \\(Y_0\\) of what would have happened if you didn't set up the billboards? 
-
-![img](./data/img/diff-in-diff/secrets.png)
-
-One technique to answer these types of questions is simple Difference-in-Difference, or diff-in-diff for close friends. Diff-in-diff is commonly used to access the effect of macro interventions, like the effect of immigrants on unemployment, the effect of gun law changes in crime rates or simply the difference in user engagement due to a marketing campaign. In all these cases, you have a period before and after the intervention and whsh to assess what untangles the impact of the intervention from a general trend. As a motivating example, let's look at a question similar to the one I had to answer.
-
-In order to figure out how good billboards were as a marketing channel, we've placed 3 billboards in the city of Porto Alegre, the capital of the state of Rio Grande do Sul. As a note for those not very familiar with Brazilian geography, the south of the country is one of the most developed regions, with lower poverty rates when compared to the rest of the county. Having this in mind, we decided to also look at data from Florianopolis, the capital city of the state of Santa Catarina, another state from the south region. The idea is that we could use Florianopolis as a control sample to estimate the counterfactual \\(Y_0\\). What we were trying to boost with this particular campaign was deposits into our savings account (By the way, this was not the true experiment, which is confidential, but the idea is very similar). We've placed the billboard in Porto Alegre for the entire month of June. The data we have looks like this:
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Ba-Bi&#7875;n-Qu&#7843;ng-c&#225;o-ngo&#224;i-tr&#7901;i-&#7903;-Nam-Brazil">Ba Bi&#7875;n Qu&#7843;ng c&#225;o ngo&#224;i tr&#7901;i &#7903; Nam Brazil<a class="anchor-link" href="#Ba-Bi&#7875;n-Qu&#7843;ng-c&#225;o-ngo&#224;i-tr&#7901;i-&#7903;-Nam-Brazil">&#182;</a></h1><p>Tôi nhớ lại khoảng thời gian làm marketing (tiếp thị). Khi ấy một kênh tuyệt cú mèo là marketing trực tuyến. Nó không chỉ hiệu quả, mà còn rất thuận tiện để đánh giá tính hiệu quả. Với marketing trực tuyến, bạn có cách để nhận biết khách hàng nào đã xem quảng cáo và theo dõi bằng cookies để xem họ có ghé thăm trang web điều hướng hay không. Bạn cũng có thể sử dụng @@machine learning@@ để tìm đối tượng mục tiêu tương tự các khách hàng của bạn và phát quảng cáo đến họ. Tóm lại, marketing trực tuyến rất hiệu quả: bạn nhắm đến những đối tượng bạn muốn và bạn có thể theo dõi xem họ có hồi đáp theo cách mà bạn mong muốn hay không.</p>
-<p>Nhưng không phải ai cũng là đối tượng của makerting trực tuyến. Đôi khi bạn phải sử dụng những phương pháp kém chính xác hơn như quảng cáo TV hoặc đặt các biển quảng cáo ngoài trời trên đường phố. Nhiều khi việc đa dạng hóa kênh marketing là điều mà các phòng marketing hướng đến. Nhưng nếu marketing trực tuyến là cần câu chuyên nghiệp để săn một loại cá ngừ cụ thể, biển quảng cáo và TV là những tấm lưới lớn bạn quăng ra đón cả bầy cá và hi vọng sẽ tóm được một vài con ngon. Nhưng một vấn đề khác với biển quảng cáo và quảng cáo TV là rất khó đánh giá tính hiệu quả của chúng. Bạn chắc chắn có thể đo được lượng mua hàng hoặc bất kì chỉ tiêu nào khác, trước và sau khi đặt biển quảng cáo ở đâu đó. Giả sử có sự gia tăng trong các chỉ tiêu này, liệu đó có phải bằng chứng cho tính hiệu quả của chương trình marketing? Nhưng bạn có chắc sự gia tăng đó không phải xu hướng tăng trưởng tự nhiên trong nhận thức của công chúng về sản phẩm của bạn. Hay nói cách khác, làm thể nào để bạn biết @@counterfactual@@ $Y_0$, điều lẽ ra xảy đến nếu bạn không đặt biển quảng cáo?</p>
+<h1 id="Ba-Bi&#7875;n-Qu&#7843;ng-c&#225;o-ngo&#224;i-tr&#7901;i-&#7903;-Nam-Brazil">Ba Bi&#7875;n Qu&#7843;ng c&#225;o ngo&#224;i tr&#7901;i &#7903; Nam Brazil<a class="anchor-link" href="#Ba-Bi&#7875;n-Qu&#7843;ng-c&#225;o-ngo&#224;i-tr&#7901;i-&#7903;-Nam-Brazil">&#182;</a></h1><p>Tôi nhớ lại khoảng thời gian làm marketing (tiếp thị). Khi ấy một kênh tuyệt cú mèo là marketing trực tuyến. Nó không chỉ hiệu quả, mà còn rất thuận tiện để đánh giá tính hiệu quả. Với marketing trực tuyến, bạn có cách để nhận biết khách hàng nào đã xem quảng cáo và theo dõi bằng cookies để xem họ có ghé thăm trang web điều hướng hay không. Bạn cũng có thể sử dụng học máy để tìm đối tượng mục tiêu tương tự các khách hàng của bạn và phát quảng cáo đến họ. Tóm lại, marketing trực tuyến rất hiệu quả: bạn nhắm đến những đối tượng bạn muốn và bạn có thể theo dõi xem họ có hồi đáp theo cách mà bạn mong muốn hay không.</p>
+<p>Nhưng không phải ai cũng là đối tượng của makerting trực tuyến. Đôi khi bạn phải sử dụng những phương pháp kém chính xác hơn như quảng cáo TV hoặc đặt các biển quảng cáo ngoài trời trên đường phố. Nhiều khi việc đa dạng hóa kênh marketing là điều mà các phòng marketing hướng đến. Nhưng nếu marketing trực tuyến là cần câu chuyên nghiệp để săn một loại cá ngừ cụ thể, biển quảng cáo và TV là những tấm lưới lớn bạn quăng ra đón cả bầy cá và hi vọng sẽ tóm được một vài con ngon. Nhưng một vấn đề khác với biển quảng cáo và quảng cáo TV là rất khó đánh giá tính hiệu quả của chúng. Bạn chắc chắn có thể đo được lượng mua hàng hoặc bất kì chỉ tiêu nào khác, trước và sau khi đặt biển quảng cáo ở đâu đó. Giả sử có sự gia tăng trong các chỉ tiêu này, liệu đó có phải bằng chứng cho tính hiệu quả của chương trình marketing? Nhưng bạn có chắc sự gia tăng đó không phải xu hướng tăng trưởng tự nhiên trong nhận thức của công chúng về sản phẩm của bạn. Hay nói cách khác, làm thể nào để bạn biết giả tưởng $Y_0$, điều lẽ ra xảy đến nếu bạn không đặt biển quảng cáo?</p>
 <p><img src="../assets/images/pythoncausal/diff-in-diff/secrets.png" alt="img"></p>
-<p>Một kĩ thuật dùng để trả lời những loại câu hỏi này là @@Diff-in-diff@@. @@Diff-in-diff@@ thường được dùng để đánh giá tác động của các can thiệp vĩ mô, như tác động của nhập cư đối với thất nghiệp, tác động của thay đổi luật quản lý súng và tỉ lệ tội phạm hoặc đơn giản là khác biệt trong lượng tương tác người dùng do một chiến dịch marketing. Trong tất cả các trường hợp này, bạn phải có một khoảng thời gian trước và sau can thiệp và mong muốn tách biệt tác động của can thiệp khỏi xu hướng vận động chung. Một ví dụ cụ thể, hãy cùng xem xét một câu hỏi tương tự như điều mà tôi đã từng phải trả lời.</p>
-<p>Để đánh giá xem các biển quảng cáo có phải là một kênh marketing hiệu quả hay không, chúng tôi đã đặt 3 biển quảng cáo ở thành phố Porto Alegre, thủ phủ bang Rio Grande do Sul. Dành cho những người không quen thuộc với địa lý Brazil, miền nam của nước này là một trong những vùng phát triển nhất với tỉ lệ đói nghèo thấp nếu so sánh với phần còn lại. Nắm được điều này, chúng tôi đã quyết định nhìn vào dữ liệu từ Florianopolis, thủ phủ của bang Santa Catarina, một bang khác ở miền nam. Ý tưởng là chúng tôi sẽ sử dụng Florianopolis làm mẫu đối chứng để ước lượng @@counterfactual@@ $Y_0$. Chỉ tiêu chúng tôi cố thúc đẩy ở chiến dịch này là lượng tiền gửi vào tài khoản tiết kiệm (Các mô tả dưới đây không phỉa thí nghiệm thực tế, vì nó cần được bảo mật, nhưng ý tưởng khá tương tự). Chúng tôi đã đặt biển quảng cáo ở  Porto Alegre trong suốt tháng 6. Dữ liệu chúng tôi thu được có dạng như sau:</p>
+<p>Một kĩ thuật dùng để trả lời những loại câu hỏi này là Sai khác của biến thiên. Sai khác của biến thiên thường được dùng để đánh giá tác động của các can thiệp vĩ mô, như tác động của nhập cư đối với thất nghiệp, tác động của thay đổi luật quản lý súng và tỉ lệ tội phạm hoặc đơn giản là khác biệt trong lượng tương tác người dùng do một chiến dịch marketing. Trong tất cả các trường hợp này, bạn phải có một khoảng thời gian trước và sau can thiệp và mong muốn tách biệt tác động của can thiệp khỏi xu hướng vận động chung. Một ví dụ cụ thể, hãy cùng xem xét một câu hỏi tương tự như điều mà tôi đã từng phải trả lời.</p>
+<p>Để đánh giá xem các biển quảng cáo có phải là một kênh marketing hiệu quả hay không, chúng tôi đã đặt 3 biển quảng cáo ở thành phố Porto Alegre, thủ phủ bang Rio Grande do Sul. Dành cho những người không quen thuộc với địa lý Brazil, miền nam của nước này là một trong những vùng phát triển nhất với tỉ lệ đói nghèo thấp nếu so sánh với phần còn lại. Nắm được điều này, chúng tôi đã quyết định nhìn vào dữ liệu từ Florianopolis, thủ phủ của bang Santa Catarina, một bang khác ở miền nam. Ý tưởng là chúng tôi sẽ sử dụng Florianopolis làm mẫu đối chứng để ước lượng giả tưởng $Y_0$. Chỉ tiêu chúng tôi cố thúc đẩy ở chiến dịch này là lượng tiền gửi vào tài khoản tiết kiệm (Các mô tả dưới đây không phỉa thí nghiệm thực tế, vì nó cần được bảo mật, nhưng ý tưởng khá tương tự). Chúng tôi đã đặt biển quảng cáo ở  Porto Alegre trong suốt tháng 6. Dữ liệu chúng tôi thu được có dạng như sau:</p>
 
 </div>
 </div>
-</div>import warnings
-warnings.filterwarnings('ignore')
-
-import pandas as pd
-import numpy as np
-from matplotlib import style
-from matplotlib import pyplot as plt
-import seaborn as sns
-import statsmodels.formula.api as smf
-
-
-%matplotlib inline
-
-style.use("fivethirtyeight")
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
@@ -13170,8 +13147,7 @@ style.use("fivethirtyeight")
 </div>
 </div>
 
-</div>data = pd.read_csv("data/billboard_impact.csv")
-data.head()
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[2]:</div>
@@ -13260,34 +13236,16 @@ data.head()
 </div>
 </div>
 
-</div>deposits is our outcome variable. POA is a dummy indicator for the city of Porto Alegre. When it is zero, it means the samples are from Florianopolis. Jul is a dummy for the month of July, or for the post intervention period. When it is zero it refers to samples from May, the pre-intervention period.
-
-## DID Estimator
-
-To avoid confusion between Time and Treatment, I'll use D to denote treatment and T to denote time from now on. Let \\(Y_D(T)\\) be the potential outcome for treatment D on period T. In an ideal world where we have the ability to observe the counterfactual, we would estimate the treatment effect of an intervention the following way:
-
-$
-\hat{ATET} = E[Y_1(1) - Y_0(1)|D=1]
-$
-
-In words, the causal effect is the outcome in the period post intervention in case of a treatment minus the outcome in also in the period after the intervention, but in the case of no treatment. Of course, we can't measure this because \\(Y_0(1)\\) is counterfactual. 
-
-One way to solve this is a before and after comparison.
-
-$
-\hat{ATET} = E[Y(1)|D=1] - E[Y(0)|D=1]
-$
-
-In our example, we would compare the average deposits from POA before and after the billboard was placed.
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><code>deposits</code> là biến kết quả của chúng tôi. <code>POA</code> là @@dummy@@ chỉ thành phố Porto Alegre. Khi nó bằng 0 nghĩa là mẫu dữ liệu lấy từ Florianopolis. <code>Jul</code> là một  @@dummy@@ cho tháng 7 (thời điểm sau can thiệp). Khi biến này bằng 0, nó chỉ mẫu dữ liệu từ tháng 5 (trước can thiệp).</p>
-<h1 id="@@Estimator@@-@@DID@@">@@Estimator@@ @@DID@@<a class="anchor-link" href="#@@Estimator@@-@@DID@@">&#182;</a></h1><p>Để tránh gây nhầm lẫn giữa thời gian và can thiệp, tôi sẽ sử dụng D để chỉ can thiệp và T để chỉ thời gian. Gọi $Y_D(T)$ là @@potential outcome@@ cho can thiệp D ở thời điểm T. Ở một thế giới siêu tưởng nơi mà chúng ta có thể quan sát @@counterfactual@@, chúng ta sẽ ước lượng @@treatment effect@@ như sau:</p>
+<p><code>deposits</code> là biến kết quả của chúng tôi. <code>POA</code> là biến giả chỉ thành phố Porto Alegre. Khi nó bằng 0 nghĩa là mẫu dữ liệu lấy từ Florianopolis. <code>Jul</code> là một  biến giả cho tháng 7 (thời điểm sau can thiệp). Khi biến này bằng 0, nó chỉ mẫu dữ liệu từ tháng 5 (trước can thiệp).</p>
+<h1 id="M&#244;-h&#236;nh-&#432;&#7899;c-l&#432;&#7907;ng-DID">M&#244; h&#236;nh &#432;&#7899;c l&#432;&#7907;ng DID<a class="anchor-link" href="#M&#244;-h&#236;nh-&#432;&#7899;c-l&#432;&#7907;ng-DID">&#182;</a></h1><p>Để tránh gây nhầm lẫn giữa thời gian và can thiệp, tôi sẽ sử dụng D để chỉ can thiệp và T để chỉ thời gian. Gọi $Y_D(T)$ là kết quả tiềm năng cho can thiệp D ở thời điểm T. Ở một thế giới siêu tưởng nơi mà chúng ta có thể quan sát giả tưởng, chúng ta sẽ ước lượng tác động can thiệp như sau:</p>
 <p>$
 \hat{ATET} = E[Y_1(1) - Y_0(1)|D=1]
 $</p>
-<p>Theo đó, @@causal effect@@ là hiệu kết quả của nhóm can thiệp tại thời điểm sau can thiệp và cũng nhóm ấy tại thời điểm sau can thiệp nếu chưa từng nhận can thiệp. Tất nhiên chúng ta không thể đo lường theo cách này vì $Y_0(1)$ là  @@counterfactual@@.</p>
+<p>Theo đó, tác động nhân quả là hiệu kết quả của nhóm can thiệp tại thời điểm sau can thiệp và cũng nhóm ấy tại thời điểm sau can thiệp nếu chưa từng nhận can thiệp. Tất nhiên chúng ta không thể đo lường theo cách này vì $Y_0(1)$ là  giả tưởng.</p>
 <p>Một cách để giải quyết là so sánh trước và sau.</p>
 <p>$
 \hat{ATET} = E[Y(1)|D=1] - E[Y(0)|D=1]
@@ -13296,11 +13254,7 @@ $</p>
 
 </div>
 </div>
-</div>poa_before = data.query("poa==1 & jul==0")["deposits"].mean()
-
-poa_after = data.query("poa==1 & jul==1")["deposits"].mean()
-
-poa_after - poa_before
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[3]:</div>
@@ -13337,23 +13291,13 @@ poa_after - poa_before
 </div>
 </div>
 
-</div>This estimator is telling us that we should expect deposits to increase R$ 41,04 after the intervention. But can we trust this?
-
-Notice that \\(E[Y(0)|D=1]=E[Y_0(0)|D=1]\\), so this estimation above is assuming \\(E[Y_0(1)|D=1] = E[Y_0(0)|D=1]\\). It is saying that in the case of no intervention, the outcome in the latter period would be the same as the outcome from the starting period. This would obviously be false if your outcome variable follows any kind of trend. For example, if deposits are going up in POA, \\(E[Y_0(1)|D=1] > E[Y_0(0)|D=1]\\), i.e. the outcome of the latter period would be greater than that of the starting period even in the absence of the intervention. With a similar argument, if the trend in Y is going down, \\(E[Y_0(1)|D=1] < E[Y_0(0)|D=1]\\). 
-
-So this didn't work. Another idea is to compare the treated group with an untreated group that didn't get the intervention:
-
-$
-\hat{ATET} = E[Y(1)|D=1] - E[Y(1)|D=0]
-$
-
-In our example, it would be to compare the deposits from POA to that of Florianopolis in the post intervention period.
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>@@Estimator@@ này cho biết chúng ta nên kì vọng lượng tiền gửi tăng R$ 41,04 sau can thiệp. Nhưng liệu chúng ta có nên tin kết quả này?</p>
+<p>Mô hình ước lượng này cho biết chúng ta nên kì vọng lượng tiền gửi tăng R$ 41,04 sau can thiệp. Nhưng liệu chúng ta có nên tin kết quả này?</p>
 <p>Lưu ý rằng $E[Y(0)|D=1]=E[Y_0(0)|D=1]$, vì thế ước lượng trên đây đặt giả thiết rằng $E[Y_0(1)|D=1] = E[Y_0(0)|D=1]$. Nó nói rằng khi giả tưởng không có can thiệp, kết quả (của nhóm can thiệp) trong thời điểm sau giống hệt kết quả trong thời điểm trước. Điều này rõ ràng không đúng nếu biến kết quả của bạn tuân theo một xu hướng vận động nào đó. Ví dụ nếu lượng tiền gửi từ POA tăng, $E[Y_0(1)|D=1] &gt; E[Y_0(0)|D=1]$, nghĩa là kết quả của thời điểm sau lớn hơn thời điểm đầu kể cả khi vắng mặt can thiệp. Tương tự nếu có xu hướng giảm, $E[Y_0(1)|D=1] &lt; E[Y_0(0)|D=1]$.</p>
-<p>Vì thế phương pháp này không chính xác. Một ý tưởng khác là so sánh @@treated group@@ với một @@untreated group@@ không nhận can thiệp:</p>
+<p>Vì thế phương pháp này không chính xác. Một ý tưởng khác là so sánh nhóm can thiệp với một nhóm đối chứng không nhận can thiệp:</p>
 <p>$
 \hat{ATET} = E[Y(1)|D=1] - E[Y(1)|D=0]
 $</p>
@@ -13361,8 +13305,7 @@ $</p>
 
 </div>
 </div>
-</div>fl_after = data.query("poa==0 & jul==1")["deposits"].mean()
-poa_after - fl_after
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[4]:</div>
@@ -13396,67 +13339,34 @@ poa_after - fl_after
 </div>
 </div>
 
-</div>This estimator is telling us that the campaign is detrimental and that customers will decrease deposits by R$ 119.10. 
-
-Notice that \\(E[Y(1)|D=0]=E[Y_0(1)|D=0]\\), so we are assuming we can replace the missing counterfactual like \\(E[Y_0(1)|D=0] = E[Y_0(1)|D=1]\\). But notice that this would only be true if both groups have a very similar baseline level. For instance, if Florianopolis has way more deposits than Porto Alegre, this would not be true because \\(E[Y_0(1)|D=0] > E[Y_0(1)|D=1]\\). On the other hand, if the level of deposits are lower in Florianopolis, we would have \\(E[Y_0(1)|D=0] < E[Y_0(1)|D=1]\\). 
-
-So this didn't work as well. To solve this, we can use both space and time comparison. This is the idea of the difference in difference approach. It works by replacing the missing counterfactual counterfactual the following way:
-
-$
-E[Y_0(1)|D=1] = E[Y_1(0)|D=1] + (E[Y_0(1)|D=0] - E[Y_0(0)|D=0])
-$
-
-What this does is take the treated unit before the treatment and it adds a trend component estimated using the control \\(E[Y_0(1)|T=0] - E[Y_0(0)|T=0]\\). In words, it is saying that the treated, had it not been treated, would look like the treated before the treatment plus a growth factor that is the same as the growth of the control. It is important to notice that this assumes that the trends in the treatment and control are the same:
-
-$
-E[Y_0(1) − Y_0(0)|D=1] = E[Y_0(1) − Y_0(0)|D=0]
-$
-
-where the left hand side is the counterfactual trend. Now, we can replace the estimated counterfactual in the treatment effect definition \\(E[Y_1(1)|D=1] - E[Y_0(1)|D=1]\\)
-
-$
-\hat{ATET} = E[Y(1)|D=1] - (E[Y(0)|D=1] + (E[Y(1)|D=0] - E[Y(0)|D=0])
-$
-
-If we rearrange the terms, we get the classical Diff-in-Diff estimator.
-
-$
-\hat{ATET} = (E[Y(1)|D=1] - E[Y(1)|D=0]) - (E[Y(0)|D=1] - E[Y(0)|D=0])
-$
-
-It gets that name because it gets the difference between the difference between treatment and control after and before the treatment. 
-
-Here is what that looks in code.
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>@@Estimator@@ này cho biết chiến dịch marketing phản tác dụng và làm khách hàng gửi tiền ít hơn một khoản trung bình vào khoảng R$ 119.10.</p>
-<p>Lưu ý $E[Y(1)|D=0]=E[Y_0(1)|D=0]$, vì thế chúng ta giả định rằng có thể thay thế @@counterfactual@@ không quan sát được bằng $E[Y_0(1)|D=0] = E[Y_0(1)|D=1]$. Nhưng lưu ý điều này chỉ đúng nếu hai nhóm có xuất phát điểm tương tự nhau. Ví dụ, nếu ban đầu Florianopolis có lượng tiền gửi nhiều hơn Porto Alegre, điều này không đúng nữa vì $E[Y_0(1)|D=0] &gt; E[Y_0(1)|D=1]$. Mặt khác, nếu lượng tiền gửi thấp hơn ở Florianopolis, ta có $E[Y_0(1)|D=0] &lt; E[Y_0(1)|D=1]$.</p>
-<p>Vì thế phương pháp này không giúp ích mấy. Để khắc phục nó, ta có thể so sánh theo cả đối tượng và thời gian. Đây là ý tưởng của phương pháp @@difference in difference@@. Nó hoạt động bằng cách thay thế @@counterfactual@@ thiếu vắng bằng:</p>
+<p>Mô hình ước lượng này cho biết chiến dịch marketing phản tác dụng và làm khách hàng gửi tiền ít hơn một khoản trung bình vào khoảng R$ 119.10.</p>
+<p>Lưu ý $E[Y(1)|D=0]=E[Y_0(1)|D=0]$, vì thế chúng ta giả định rằng có thể thay thế giả tưởng không quan sát được bằng $E[Y_0(1)|D=0] = E[Y_0(1)|D=1]$. Nhưng lưu ý điều này chỉ đúng nếu hai nhóm có xuất phát điểm tương tự nhau. Ví dụ, nếu ban đầu Florianopolis có lượng tiền gửi nhiều hơn Porto Alegre, điều này không đúng nữa vì $E[Y_0(1)|D=0] &gt; E[Y_0(1)|D=1]$. Mặt khác, nếu lượng tiền gửi thấp hơn ở Florianopolis, ta có $E[Y_0(1)|D=0] &lt; E[Y_0(1)|D=1]$.</p>
+<p>Vì thế phương pháp này không giúp ích mấy. Để khắc phục nó, ta có thể so sánh theo cả đối tượng và thời gian. Đây là ý tưởng của phương pháp sai khác của biến thiên. Nó hoạt động bằng cách thay thế giả tưởng thiếu vắng bằng:</p>
 <p>$
 E[Y_0(1)|D=1] = E[Y_1(0)|D=1] + (E[Y_0(1)|D=0] - E[Y_0(0)|D=0])
 $</p>
-<p>Cách thức vận hành của nó là lấy kết quả của nhóm can thiệp trước khi can thiệp diễn ra cộng thêm vào một @@trend component@@ được ước lượng bằng cách sử dụng nhóm đối chứng $E[Y_0(1)|T=0] - E[Y_0(0)|T=0]$. Nghĩa là,  nó cho rằng nhóm can thiệp, trong giả tưởng vắng mặt can thiệp, sẽ trông giống như nhóm can thiệp trước lúc nhận can thiệp cộng thêm một phần tăng trưởng tương tự như phần tăng trưởng của nhóm đối chứng. Điều quan trọng là cần lưu ý điều này đặt giả thiết rằng xu hướng biến thiên của nhóm can thiệp và nhóm đối chứng là như nhau:</p>
+<p>Cách thức vận hành của nó là lấy kết quả của nhóm can thiệp trước khi can thiệp diễn ra cộng thêm vào một phần xu hướng được ước lượng bằng cách sử dụng nhóm đối chứng $E[Y_0(1)|T=0] - E[Y_0(0)|T=0]$. Nghĩa là,  nó cho rằng nhóm can thiệp, trong giả tưởng vắng mặt can thiệp, sẽ trông giống như nhóm can thiệp trước lúc nhận can thiệp cộng thêm một phần tăng trưởng tương tự như phần tăng trưởng của nhóm đối chứng. Điều quan trọng là cần lưu ý điều này đặt giả thiết rằng xu hướng biến thiên của nhóm can thiệp và nhóm đối chứng là như nhau:</p>
 <p>$
 E[Y_0(1) − Y_0(0)|D=1] = E[Y_0(1) − Y_0(0)|D=0]
 $</p>
-<p>trong đó vế trái là @@counterfactual trend@@. Bây giờ, chúng ta có thể thay thế ước lượng của @@counterfactual@@ trong định nghĩa của @@treatment effect@@ $E[Y_1(1)|D=1] - E[Y_0(1)|D=1]$</p>
+<p>trong đó vế trái là xu hướng giả tưởng. Bây giờ, chúng ta có thể thay thế ước lượng của giả tưởng trong định nghĩa của tác động can thiệp $E[Y_1(1)|D=1] - E[Y_0(1)|D=1]$</p>
 <p>$
 \hat{ATET} = E[Y(1)|D=1] - (E[Y(0)|D=1] + (E[Y(1)|D=0] - E[Y(0)|D=0])
 $</p>
-<p>Sắp xếp lại các phần tử, ta thu được @@estimator@@ @@Diff-in-Diff@@ cổ điển.</p>
+<p>Sắp xếp lại các phần tử, ta thu được mô hình ước lượng Sai khác của biến thiên cổ điển.</p>
 <p>$
 \hat{ATET} = (E[Y(1)|D=1] - E[Y(1)|D=0]) - (E[Y(0)|D=1] - E[Y(0)|D=0])
 $</p>
 <p>Tên gọi này xuất phát từ việc nó tính sự sai khác giữa biến thiên của nhóm can thiệp và nhóm đối chứng sau và trước khi có can thiệp.</p>
-<p>Bây giờ hãy xem xét đoạn @@code@@ sau:</p>
+<p>Bây giờ hãy xem xét đoạn code sau:</p>
 
 </div>
 </div>
-</div>fl_before = data.query("poa==0 & jul==0")["deposits"].mean()
-
-diff_in_diff = (poa_after-poa_before)-(fl_after-fl_before)
-diff_in_diff
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[5]:</div>
@@ -13492,25 +13402,16 @@ diff_in_diff
 </div>
 </div>
 
-</div>Diff-in-Diff is telling us that we should expect deposits to increase by R$ 6.52 per customer. Notice that the assumption that diff-in-diff makes is much more plausible than the other 2 estimators. It just assumes that the growth pattern between the 2 cities are the same. But it doesn't require them to have the same base level nor does it require the trend to be zero. 
-
-To visualize what diff-in-diff is doing, we can project the growth trend from the untreated into the treated to see the counterfactual, that is, the number of deposits we should expect if there were no intervention.
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>@@Diff-in-Diff@@ cho biết chúng ta nên kì vọng mức tiền gửi của mỗi khách hàng tăng R$ 6.52. Lưu ý giả thiết đặt ra bởi @@diff-in-diff@@ hợp lý hơn 2 @@estimator@@ trước. Nó chỉ giả định rằng xu hướng tăng trưởng ở 2 thành phố là tương tự nhau. Nhưng nó không yêu cầu chúng phải có cùng mức xuất phát điểm hoặc không biến thiên.</p>
-<p>Để mô tả @@diff-in-diff@@, chúng ta có thể dùng xu hướng tăng trưởng của nhóm đối chứng để @@project@@ cho nhóm can thiệp và thiết lập @@counterfactual@@, lượng tiền gửi mà chúng có thể kì vọng nếu không có can thiệp.</p>
+<p>Sai khác của biến thiên cho biết chúng ta nên kì vọng mức tiền gửi của mỗi khách hàng tăng R$ 6.52. Lưu ý giả thiết đặt ra bởi sai khác của biến thiên hợp lý hơn 2 mô hình ước lượng trước. Nó chỉ giả định rằng xu hướng tăng trưởng ở 2 thành phố là tương tự nhau. Nhưng nó không yêu cầu chúng phải có cùng mức xuất phát điểm hoặc không biến thiên.</p>
+<p>Để mô tả sai khác của biến thiên, chúng ta có thể dùng xu hướng tăng trưởng của nhóm đối chứng để dự báo cho nhóm can thiệp và thiết lập giả tưởng, lượng tiền gửi mà chúng có thể kì vọng nếu không có can thiệp.</p>
 
 </div>
 </div>
-</div>plt.figure(figsize=(10,5))
-plt.plot(["May", "Jul"], [fl_before, fl_after], label="FL", lw=2)
-plt.plot(["May", "Jul"], [poa_before, poa_after], label="POA", lw=2)
-
-plt.plot(["May", "Jul"], [poa_before, poa_before+(fl_after-fl_before)],
-         label="Counterfactual", lw=2, color="C2", ls="-.")
-
-plt.legend();
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[6]:</div>
@@ -13521,7 +13422,7 @@ plt.legend();
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">([</span><span class="s2">&quot;T5&quot;</span><span class="p">,</span> <span class="s2">&quot;T7&quot;</span><span class="p">],</span> <span class="p">[</span><span class="n">poa_before</span><span class="p">,</span> <span class="n">poa_after</span><span class="p">],</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;POA&quot;</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">([</span><span class="s2">&quot;T5&quot;</span><span class="p">,</span> <span class="s2">&quot;T7&quot;</span><span class="p">],</span> <span class="p">[</span><span class="n">poa_before</span><span class="p">,</span> <span class="n">poa_before</span><span class="o">+</span><span class="p">(</span><span class="n">fl_after</span><span class="o">-</span><span class="n">fl_before</span><span class="p">)],</span>
-         <span class="n">label</span><span class="o">=</span><span class="s2">&quot;@@Counterfactual@@&quot;</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;C2&quot;</span><span class="p">,</span> <span class="n">ls</span><span class="o">=</span><span class="s2">&quot;-.&quot;</span><span class="p">)</span>
+         <span class="n">label</span><span class="o">=</span><span class="s2">&quot;Giả tưởng&quot;</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;C2&quot;</span><span class="p">,</span> <span class="n">ls</span><span class="o">=</span><span class="s2">&quot;-.&quot;</span><span class="p">)</span>
 
 <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">();</span>
 </pre></div>
@@ -13542,7 +13443,7 @@ plt.legend();
 
 
 <div class="output_png output_subarea ">
-<img src="../assets/images/pythoncausal/output14/output_22_0.png"
+<img img src="../assets/images/pythoncausal/output14/output_11_0.png"
 >
 </div>
 
@@ -13551,35 +13452,22 @@ plt.legend();
 </div>
 </div>
 
-</div>See that small difference between the red and the yellow dashed lines? If you really focus you can see the small treatment effect on Porto Alegre. 
-
-![img](./data/img/diff-in-diff/cant-read.png)
-
-
-Now, what you might be asking yourself is "how much can I trust this estimator? It is my right to have standard errors reported to me!". Which makes sense, since estimators without them look silly. To do so, we will use a neat trick that uses regression. Specifically, we will estimate the following model
-
-$
-Y_i = \beta_0 + \beta_1 POA_i + \beta_2 Jul_i + \beta_3 POA_i*Jul_i + e_i
-$
-
-Noice that \\(\beta_0\\) is the baseline of the control. In our case, is the level of deposits in Florianopolis in the month of May. If we turn on the treated city dummy, we get \\(\beta_1\\). So \\(\beta_0 + \beta_1\\) is the baseline of Porto Alegre in May, before the intervention, and \\(\beta_1\\) is the increase of Porto Alegre baseline on top of Florianopolis. If we turn the POA dummy off and turn the July Dummy on, we get \\(\beta_0 + \beta_2\\), which is the level of Florianópolis in July, after the intervention period. \\(\beta_2\\) is then the trend of the control, since we add it on top of the baseline to get the level of the control at the period post intervention. As a recap, \\(\beta_1\\) is the increment from going from the treated to the control, \\(\beta_2\\) is the increment from going from the period before to the period after the intervention. Finally, if we turn both dummies on, we get \\(\beta_3\\). \\(\beta_0 + \beta_1 + \beta_2 + \beta_3\\) is the level in Porto Alegre after the intervention. So \\(\beta_3\\) is the incremental impact when you go from May to July and from Florianopolis to POA. In other words, it is the Difference in Difference estimator. 
-
-If you don't believe me, check for yourself. And also notice how we get our standard errors.
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Hãy nhìn khác biệt nhỏ giữa đường màu đỏ và đường nét đứt màu vàng. Nếu tập trung, bạn có thể thấy @@treatment effect@@ nhỏ đối với Porto Alegre.</p>
+<p>Hãy nhìn khác biệt nhỏ giữa đường màu đỏ và đường nét đứt màu vàng. Nếu tập trung, bạn có thể thấy tác động can thiệp nhỏ đối với Porto Alegre.</p>
 <p><img src="../assets/images/pythoncausal/diff-in-diff/cant-read.png" alt="img"></p>
-<p>Bây giờ bạn có thể hỏi chính mình "liệu mình có thể tin tưởng bao nhiêu vào @@estimator@@ này? Tôi có quyền yêu cầu được biết các @@standard error@@ !". Đòi hỏi này chính đáng, vì @@estimator@@ sẽ trông ngờ nghệch nếu không có chúng. Để làm vậy, chúng ta sẽ dùng một mẹo nhỏ với @@regression@@. Cụ thể chúng ta sẽ ước lượng mô hình sau:</p>
+<p>Bây giờ bạn có thể hỏi chính mình "liệu mình có thể tin tưởng bao nhiêu vào mô hình ước lượng này? Tôi có quyền yêu cầu được biết các sai số chuẩn !". Đòi hỏi này chính đáng, vì mô hình ước lượng sẽ trông ngờ nghệch nếu không có chúng. Để làm vậy, chúng ta sẽ dùng một mẹo nhỏ với hồi quy. Cụ thể chúng ta sẽ ước lượng mô hình sau:</p>
 <p>$
 Y_i = \beta_0 + \beta_1 POA_i + \beta_2 Jul_i + \beta_3 POA_i*Jul_i + e_i
 $</p>
-<p>Lưu ý $\beta_0$ là xuất phát điểm của nhóm đối chứng. Trong trường hợp của chúng ta, nó là lượng tiền gửi ở Florianopolis trong tháng 5. Nếu chúng ta "bật" @@dummy@@ cho thành phố nhận can thiệp, chúng ta thu được $\beta_1$. Vì thế $\beta_0 + \beta_1$ là xuất phát điểm của Porto Alegre vào tháng 5, trước khi có can thiệp, và $\beta_1$ là chênh lệch giữa xuất phát điểm của Porto Alegre so với Florianopolis. Nếu chúng ta "tắt" @@dummy@@ POA và "bật" @@dummy@@ cho tháng 7, ta thu được $\beta_0 + \beta_2$, kết quả của Florianópolis trong tháng 7,  thời gian sau can thiệp. $\beta_2$ là xu hướng biến thiên của nhóm đối chứng, vì vậy ta cộng nó vào xuất phát điểm của nhóm đối chứng để thu được kết quả của nhóm đối chứng sau thời điểm can thiệp diễn ra. Hãy nhớ lại, $\beta_1$ là mức chênh lệch giữa nhóm can thiệp và nhóm đối chứng, $\beta_2$ là mức biến thiên giữa hai thời điểm trước và sau can thiệp. Cuối cùng nếu "bật" cả 2 @@dummy@@, ta thu được $\beta_3$. $\beta_0 + \beta_1 + \beta_2 + \beta_3$ là kết quả của Porto Alegre sau khi nhận can thiệp. Vì thế $\beta_3$ là mức biến thiên từ tháng 5 đến tháng 7 và khác biệt giữa Florianopolis và POA. Nói cách khác, nó là @@estimator@@ @@Difference in Difference@@.</p>
-<p>Nếu bạn không tin tôi, hãy kiểm tra lại. Và hãy lưu ý cách tính @@standard error@@.</p>
+<p>Lưu ý $\beta_0$ là xuất phát điểm của nhóm đối chứng. Trong trường hợp của chúng ta, nó là lượng tiền gửi ở Florianopolis trong tháng 5. Nếu chúng ta "bật" biến giả cho thành phố nhận can thiệp, chúng ta thu được $\beta_1$. Vì thế $\beta_0 + \beta_1$ là xuất phát điểm của Porto Alegre vào tháng 5, trước khi có can thiệp, và $\beta_1$ là chênh lệch giữa xuất phát điểm của Porto Alegre so với Florianopolis. Nếu chúng ta "tắt" biến giả POA và "bật" biến giả cho tháng 7, ta thu được $\beta_0 + \beta_2$, kết quả của Florianópolis trong tháng 7,  thời gian sau can thiệp. $\beta_2$ là xu hướng biến thiên của nhóm đối chứng, vì vậy ta cộng nó vào xuất phát điểm của nhóm đối chứng để thu được kết quả của nhóm đối chứng sau thời điểm can thiệp diễn ra. Hãy nhớ lại, $\beta_1$ là mức chênh lệch giữa nhóm can thiệp và nhóm đối chứng, $\beta_2$ là mức biến thiên giữa hai thời điểm trước và sau can thiệp. Cuối cùng nếu "bật" cả 2 biến giả, ta thu được $\beta_3$. $\beta_0 + \beta_1 + \beta_2 + \beta_3$ là kết quả của Porto Alegre sau khi nhận can thiệp. Vì thế $\beta_3$ là mức biến thiên từ tháng 5 đến tháng 7 và khác biệt giữa Florianopolis và POA. Nói cách khác, nó là mô hình ước lượng sai khác của biến thiên.</p>
+<p>Nếu bạn không tin tôi, hãy kiểm tra lại. Và hãy lưu ý cách tính sai số chuẩn.</p>
 
 </div>
 </div>
-</div>smf.ols('deposits ~ poa*jul', data=data).fit().summary().tables[1]
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[7]:</div>
@@ -13627,29 +13515,17 @@ $</p>
 </div>
 </div>
 
-</div>## Non Parallel Trends
-
-One obvious problem with Diff-in-Diff is failure to satisfy the parallel trend assumption. If the growth trend from the treated is different from the trend of the control, diff-in-diff will be biased. This is a common problem with non-random data, where the decision to treat a region is based on its potential to respond well to the treatment, or when the treatment is targeted at regions that are not performing very well. Take our marketing example. If we decided to test billboards in Porto Alegre not to check the effect of billboards, but simply because it is performing poorly. Maybe because online marketing is not working there. In this case, It could be that the growth we would see in Porto Alegre without a billboard would be lower than the growth we observe in other cities. This would cause us to underestimate the effect of the billboard there. 
-
-One way to check if this is happening is to plot the trend using past periods. For example, let's suppose POA had a small decreasing trend but Florianopolis was on a steep ascent. In this case, showing periods from before would reveal those trends and we would know Diff-in-Diff is not a reliable estimator.
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Xu-h&#432;&#7899;ng-bi&#7871;n-thi&#234;n-kh&#244;ng-song-song">Xu h&#432;&#7899;ng bi&#7871;n thi&#234;n kh&#244;ng song song<a class="anchor-link" href="#Xu-h&#432;&#7899;ng-bi&#7871;n-thi&#234;n-kh&#244;ng-song-song">&#182;</a></h1><p>Một vấn đề khá hiển nhiên với @@Diff-in-Diff@@ là trường hợp giả định xu hướng song song không được đảm bảo. Nếu đường xu hướng biến thiên của nhóm can thiệp khác với xu hướng của nhóm đối chứng, @@diff-in-diff@@ sẽ bị  @@biased@@. Đây là một vấn đề khá phổ biến với @@non-random data@@, khi mà quyết định chỉ định can thiệp với một khu vực cụ thể dựa trên tiềm năng đáp ứng của nó đối với can thiệp, hoặc khi can thiệp được chỉ định cho cả khu vực đang hoạt động chưa tốt.</p>
+<h1 id="Xu-h&#432;&#7899;ng-bi&#7871;n-thi&#234;n-kh&#244;ng-song-song">Xu h&#432;&#7899;ng bi&#7871;n thi&#234;n kh&#244;ng song song<a class="anchor-link" href="#Xu-h&#432;&#7899;ng-bi&#7871;n-thi&#234;n-kh&#244;ng-song-song">&#182;</a></h1><p>Một vấn đề khá hiển nhiên với Sai khác của biến thiên là trường hợp giả định xu hướng song song không được đảm bảo. Nếu đường xu hướng biến thiên của nhóm can thiệp khác với xu hướng của nhóm đối chứng, sai khác của biến thiên sẽ bị  chệch. Đây là một vấn đề khá phổ biến với dữ liệu không ngẫu nhiên, khi mà quyết định chỉ định can thiệp với một khu vực cụ thể dựa trên tiềm năng đáp ứng của nó đối với can thiệp, hoặc khi can thiệp được chỉ định cho cả khu vực đang hoạt động chưa tốt.</p>
 <p>Trong ví dụ marketing của chúng ta, chúng ta quyết định đánh giá tác động biển quảng cáo tại Porto Alegre không phải vì chúng ta cần đánh giá tác động của biển quảng cáo mà đơn giản vì hoạt động marketing tại Porto Alegre đang yếu kém. Có thể vì marketing trực tuyến không hiệu quả tại thành phố này. Trong trường hợp này, mức tăng trưởng chúng ta quan sát thấy tại Porto Alegre khi không có biển quảng cáo có thể thấp hơn mức tăng trưởng mà chúng ta quan sát được ở các thành phố khác. Điều này có thể khiến chúng ta đánh giá thấp tác động của biển quảng cáo ở đó.</p>
-<p>Một cách để kiểm chứng điều này là vẽ biểu đồ xu hướng trong quá khứ. Ví dụ giả sử POA có xu hướng giảm nhẹ nhưng Florianopolis đang tăng mạnh. Trong trường hợp này, biểu đồ cho khoảng thời gian trước khi diễn ra can thiệp sẽ bộc lộ các xu hướng này và chúng ta sẽ biết @@Diff-in-Diff@@ không phải @@estimator@@ đáng tin cậy cho tình huống này.</p>
+<p>Một cách để kiểm chứng điều này là vẽ biểu đồ xu hướng trong quá khứ. Ví dụ giả sử POA có xu hướng giảm nhẹ nhưng Florianopolis đang tăng mạnh. Trong trường hợp này, biểu đồ cho khoảng thời gian trước khi diễn ra can thiệp sẽ bộc lộ các xu hướng này và chúng ta sẽ biết Sai khác của biến thiên không phải mô hình ước lượng đáng tin cậy cho tình huống này.</p>
 
 </div>
 </div>
-</div>plt.figure(figsize=(10,5))
-x = ["Jan", "Mar", "May", "Jul"]
-
-plt.plot(x, [120, 150, fl_before,  fl_after], label="FL", lw=2)
-plt.plot(x, [60, 50, poa_before, poa_after], label="POA", lw=2)
-
-plt.plot(["May", "Jul"], [poa_before, poa_before+(fl_after-fl_before)], label="Counterfactual", lw=2, color="C2", ls="-.")
-
-plt.legend();
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[8]:</div>
@@ -13661,7 +13537,7 @@ plt.legend();
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="p">[</span><span class="mi">120</span><span class="p">,</span> <span class="mi">150</span><span class="p">,</span> <span class="n">fl_before</span><span class="p">,</span>  <span class="n">fl_after</span><span class="p">],</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;FL&quot;</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="p">[</span><span class="mi">60</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="n">poa_before</span><span class="p">,</span> <span class="n">poa_after</span><span class="p">],</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;POA&quot;</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">([</span><span class="s2">&quot;May&quot;</span><span class="p">,</span> <span class="s2">&quot;Jul&quot;</span><span class="p">],</span> <span class="p">[</span><span class="n">poa_before</span><span class="p">,</span> <span class="n">poa_before</span><span class="o">+</span><span class="p">(</span><span class="n">fl_after</span><span class="o">-</span><span class="n">fl_before</span><span class="p">)],</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;@@Counterfactual@@&quot;</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;C2&quot;</span><span class="p">,</span> <span class="n">ls</span><span class="o">=</span><span class="s2">&quot;-.&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">([</span><span class="s2">&quot;May&quot;</span><span class="p">,</span> <span class="s2">&quot;Jul&quot;</span><span class="p">],</span> <span class="p">[</span><span class="n">poa_before</span><span class="p">,</span> <span class="n">poa_before</span><span class="o">+</span><span class="p">(</span><span class="n">fl_after</span><span class="o">-</span><span class="n">fl_before</span><span class="p">)],</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;Giả tưởng&quot;</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;C2&quot;</span><span class="p">,</span> <span class="n">ls</span><span class="o">=</span><span class="s2">&quot;-.&quot;</span><span class="p">)</span>
 
 <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">();</span>
 </pre></div>
@@ -13682,7 +13558,7 @@ plt.legend();
 
 
 <div class="output_png output_subarea ">
-<img src="../assets/images/pythoncausal/output14/output_30_0.png"
+<img img src="../assets/images/pythoncausal/output14/output_15_0.png"
 >
 </div>
 
@@ -13691,62 +13567,163 @@ plt.legend();
 </div>
 </div>
 
-</div>We will see how to solve this problem with synthetic control. It will use multiple cities to create a synthetic city that closely follows the trend of the city of interest. But for now, remember that you always need to check if you have parallel trends when applying diff-in-diff. 
-
-![img](./data/img/diff-in-diff/non-parallel.png)
-
-One final issue that it's worth mentioning is that you won't be able to place confidence intervals around your Diff-in-Diff estimator if you only have aggregated thata. Say for instance you don't have data on what each of our customers from Florianópolis or Porto Alegre did. Instead, you only have the average deposits before and after the intervention for both cities. In this case, you will still be able to estimate the causal effect by Diff-in-Diff, but you won't know the variance of it. That's because all the variability in your data got squashed out in the aggregation.
-
-## Key Ideas
-
-We've explored a technique widely applied when we are estimating causal effects at more macro entities (schools, cities, states, countries...). Difference in Difference takes a treated unit before and after the treatment and compares the trend in the outcome to that of a control unit. Here, we've seen how this could be applied at estimating the effect of a city specific marketing camping.
-
-Finally, we looked at how Diff-in-Diff fails if the trend between the treated and control unit is not the same. We also saw how diff-in-diff will be problematic if we only have aggregated data.
-
-## References
-
-I like to think of this entire series as a tribute to Joshua Angrist, Alberto Abadie and Christopher Walters for their amazing Econometrics class. Most of the ideas here are taken from their classes at the American Economic Association. Watching them is what is keeping me sane during this tough year of 2020.
-* [Cross-Section Econometrics](https://www.aeaweb.org/conference/cont-ed/2017-webcasts)
-* [Mastering Mostly Harmless Econometrics](https://www.aeaweb.org/conference/cont-ed/2020-webcasts)
-
-I'll also like to reference the amazing books from Angrist. They have shown me that Econometrics, or 'Metrics as they call it, is not only extremely useful but also profoundly fun.
-
-* [Mostly Harmless Econometrics](https://www.mostlyharmlesseconometrics.com/)
-* [Mastering 'Metrics](https://www.masteringmetrics.com/)
-
-Other important reference is Miguel Hernan and Jamie Robins' book. It has been my trustworthy companion in the most thorny causal questions I had to answer.
-
-* [Causal Inference Book](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
-
-Finally, I'ld also like to compliment Scott Cunningham and his brilinat work migling Causal Inference and Rap quotes:
-
-* [Causal Inference: The Mixtape](https://www.scunning.com/mixtape.html)
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Chúng ta sẽ xem xét cách giải quyết vấn đề này với @@synthetic control@@. Nó sẽ sử dụng nhiều thành phố để tạo ra một thành phố tổng hợp có xu hướng vận động gần với thành phố cần nghiên cứu. Nhưng hiện tại, hãy cứ tạm nhớ rằng bạn cần kiểm tra điều kiện xu hướng song song khi áp dụng @@diff-in-diff@@.</p>
+<p>Chúng ta sẽ xem xét cách giải quyết vấn đề này với đối chứng tổng hợp. Nó sẽ sử dụng nhiều thành phố để tạo ra một thành phố tổng hợp có xu hướng vận động gần với thành phố cần nghiên cứu. Nhưng hiện tại, hãy cứ tạm nhớ rằng bạn cần kiểm tra điều kiện xu hướng song song khi áp dụng sai khác của biến thiên.</p>
 <p><img src="../assets/images/pythoncausal/diff-in-diff/non-parallel.png" alt="img"></p>
-<p>Vấn đề cuối cùng cần phải nhắc đến là bạn sẽ không thể đặt @@confidence interval@@ xung quanh @@estimator@@ @@Diff-in-Diff@@ nếu bạn chỉ có @@aggregated data@@. Ví dụ thay vì có dữ liệu cho mỗi khách hàng từ Florianópolis hoặc Porto Alegre, bạn chỉ có lượng tiền gửi trước và sau can thiệp cho mỗi thành phố. Trong trường hợp này, bạn sẽ vẫn có thể @@estimate@@ @@causal effect@@ bằng @@Diff-in-Diff@@, nhưng bạn sẽ không biết @@variance@@ của nó. Đó là vì tất cả biến động trong dữ liệu đã biến mất do cộng gộp dữ liệu.</p>
-<h1 id="&#221;-t&#432;&#7903;ng-ch&#7911;-&#273;&#7841;o">&#221; t&#432;&#7903;ng ch&#7911; &#273;&#7841;o<a class="anchor-link" href="#&#221;-t&#432;&#7903;ng-ch&#7911;-&#273;&#7841;o">&#182;</a></h1><p>Chúng ta đã khám phá một kĩ thuật thông dụng giúp ước lượng @@causal effect@@ với đối tượng ở tầm vĩ mô như trường học, thành phố, tiểu bang, quốc gia,... @@Difference in Difference@@ xem xét đối tượng can thiệp trước và sau can thiệp và so sánh xu hướng biến thiên của kết quả với nhóm đối chứng. Ở đây, chúng ta đã xem xét cách áp dụng phương pháp này trong việc ước lượng tác động của một chiến dịch marketing tại địa bàn thành phố cụ thể.</p>
-<p>Cuối cùng, chúng ta đã xem xét thất bại của @@Diff-in-Diff@@ khi xu hướng vận động của nhóm can thiệp và đối chứng không giống nhau. Chúng ta cũng đã thấy vấn đề của @@diff-in-diff@@ nếu chỉ có @@aggregated data@@.</p>
-<h1 id="T&#224;i-li&#7879;u-tham-kh&#7843;o">T&#224;i li&#7879;u tham kh&#7843;o<a class="anchor-link" href="#T&#224;i-li&#7879;u-tham-kh&#7843;o">&#182;</a></h1><p>Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học @@Econometrics@@ tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ.  Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.</p>
+<p>Vấn đề cuối cùng cần phải nhắc đến là bạn sẽ không thể đặt khoảng tin cậy xung quanh mô hình ước lượng Sai khác của biến thiên nếu bạn chỉ có dữ liệu cộng gộp. Ví dụ thay vì có dữ liệu cho mỗi khách hàng từ Florianópolis hoặc Porto Alegre, bạn chỉ có lượng tiền gửi trước và sau can thiệp cho mỗi thành phố. Trong trường hợp này, bạn sẽ vẫn có thể ước lượng tác động nhân quả bằng Sai khác của biến thiên, nhưng bạn sẽ không biết phương sai của nó. Đó là vì tất cả biến động trong dữ liệu đã biến mất do cộng gộp dữ liệu.</p>
+<h1 id="&#221;-t&#432;&#7903;ng-ch&#7911;-&#273;&#7841;o">&#221; t&#432;&#7903;ng ch&#7911; &#273;&#7841;o<a class="anchor-link" href="#&#221;-t&#432;&#7903;ng-ch&#7911;-&#273;&#7841;o">&#182;</a></h1><p>Chúng ta đã khám phá một kĩ thuật thông dụng giúp ước lượng tác động nhân quả với đối tượng ở tầm vĩ mô như trường học, thành phố, tiểu bang, quốc gia,... sai khác của biến thiên xem xét đối tượng can thiệp trước và sau can thiệp và so sánh xu hướng biến thiên của kết quả với nhóm đối chứng. Ở đây, chúng ta đã xem xét cách áp dụng phương pháp này trong việc ước lượng tác động của một chiến dịch marketing tại địa bàn thành phố cụ thể.</p>
+<p>Cuối cùng, chúng ta đã xem xét thất bại của Sai khác của biến thiên khi xu hướng vận động của nhóm can thiệp và đối chứng không giống nhau. Chúng ta cũng đã thấy vấn đề của sai khác của biến thiên nếu chỉ có dữ liệu cộng gộp.</p>
+<h1 id="T&#224;i-li&#7879;u-tham-kh&#7843;o">T&#224;i li&#7879;u tham kh&#7843;o<a class="anchor-link" href="#T&#224;i-li&#7879;u-tham-kh&#7843;o">&#182;</a></h1><p>Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học Kinh tế lượng tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ.  Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.</p>
 <ul>
 <li><a href="https://www.aeaweb.org/conference/cont-ed/2017-webcasts">Kinh tế lượng với dữ liệu chéo</a></li>
 <li><a href="https://www.aeaweb.org/conference/cont-ed/2020-webcasts">Luyện chưởng Kinh tế lượng Gần như Vô hại</a></li>
 </ul>
-<p>Tôi cũng muốn giới thiệu cuốn sách lý thú của Angrist. Chúng cho tôi thấy @@Econometrics@@, hoặc 'Lượng theo cách họ gọi không chỉ vô cùng hữu ích mà còn rất vui.</p>
+<p>Tôi cũng muốn giới thiệu cuốn sách lý thú của Angrist. Chúng cho tôi thấy Kinh tế lượng, hoặc 'Lượng theo cách họ gọi không chỉ vô cùng hữu ích mà còn rất vui.</p>
 <ul>
 <li><a href="https://www.mostlyharmlesseconometrics.com/">Kinh tế lượng Gần như Vô hại</a></li>
 <li><a href="https://www.masteringmetrics.com/">Luyện chưởng 'Lượng</a></li>
 </ul>
 <p>Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel Hernan and Jamie Robins. Nó là người bạn đồng hành tin cậy với tôi khi trả lời những câu hỏi nhân quả khó nhằn.</p>
 <ul>
-<li><a href="https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/">Sách @@Causal Inference@@</a></li>
+<li><a href="https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/">Sách Suy Luận Nhân Quả</a></li>
 </ul>
-<p>Cuối cùng, tôi cũng muốn tán dương Scott Cunningham và sản phẩm xuất sắc của ông pha trộn @@Causal Inference@@ với lời thoại Rap:</p>
+<p>Cuối cùng, tôi cũng muốn tán dương Scott Cunningham và sản phẩm xuất sắc của ông pha trộn Suy Luận Nhân Quả với lời thoại Rap:</p>
 <ul>
-<li><a href="https://www.scunning.com/mixtape.html">@@Causal Inference@@: Đĩa nhạc</a></li>
+<li><a href="https://www.scunning.com/mixtape.html">Suy Luận Nhân Quả: Đĩa nhạc</a></li>
 </ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="B&#7843;ng-T&#7915;-Vi&#7871;t-t&#7855;t">B&#7843;ng T&#7915; Vi&#7871;t t&#7855;t<a class="anchor-link" href="#B&#7843;ng-T&#7915;-Vi&#7871;t-t&#7855;t">&#182;</a></h1><table>
+<thead><tr>
+<th>Viết tắt</th>
+<th>Tiếng Anh</th>
+<th>Tiếng Việt</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DID</td>
+<td>Difference In Differences</td>
+<td>Sai khác của Biến thiên</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="B&#7843;ng-Thu&#7853;t-ng&#7919;">B&#7843;ng Thu&#7853;t ng&#7919;<a class="anchor-link" href="#B&#7843;ng-Thu&#7853;t-ng&#7919;">&#182;</a></h1><table>
+<thead><tr>
+<th>Thuật ngữ</th>
+<th>Tiếng Anh</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>biến giả</td>
+<td>dummy, dummy variable</td>
+</tr>
+<tr>
+<td>chệch</td>
+<td>biased</td>
+</tr>
+<tr>
+<td>code</td>
+<td>code</td>
+</tr>
+<tr>
+<td>dữ liệu cộng gộp</td>
+<td>aggregated data</td>
+</tr>
+<tr>
+<td>dữ liệu không ngẫu nhiên</td>
+<td>non-random data</td>
+</tr>
+<tr>
+<td>dự báo</td>
+<td>project</td>
+</tr>
+<tr>
+<td>giả tưởng</td>
+<td>counterfactual</td>
+</tr>
+<tr>
+<td>học máy</td>
+<td>machine learning</td>
+</tr>
+<tr>
+<td>hồi quy</td>
+<td>regression, regress</td>
+</tr>
+<tr>
+<td>khoảng tin cậy</td>
+<td>confidence interval</td>
+</tr>
+<tr>
+<td>kinh tế lượng</td>
+<td>econometrics</td>
+</tr>
+<tr>
+<td>kết quả tiềm năng</td>
+<td>potential outcome</td>
+</tr>
+<tr>
+<td>mô hình ước lượng</td>
+<td>estimator</td>
+</tr>
+<tr>
+<td>nhóm can thiệp</td>
+<td>treated group</td>
+</tr>
+<tr>
+<td>nhóm đối chứng</td>
+<td>control group, untreated group</td>
+</tr>
+<tr>
+<td>phương sai</td>
+<td>variance</td>
+</tr>
+<tr>
+<td>phần xu hướng</td>
+<td>trend component</td>
+</tr>
+<tr>
+<td>sai khác của biến thiên</td>
+<td>difference in difference, diff in diff</td>
+</tr>
+<tr>
+<td>sai số chuẩn</td>
+<td>standard error</td>
+</tr>
+<tr>
+<td>suy luận nhân quả</td>
+<td>causal inference, causal reasoning</td>
+</tr>
+<tr>
+<td>tác động can thiệp</td>
+<td>treatment effect, treatment impact</td>
+</tr>
+<tr>
+<td>xu hướng giả tưởng</td>
+<td>counterfactual trend</td>
+</tr>
+<tr>
+<td>đối chứng tổng hợp</td>
+<td>synthetic control</td>
+</tr>
+</tbody>
+</table>
 
 </div>
 </div>
@@ -13759,3 +13736,4 @@ Finally, I'ld also like to compliment Scott Cunningham and his brilinat work mig
 
 
 </html>
+
