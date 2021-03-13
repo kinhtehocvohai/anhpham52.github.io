@@ -5,7 +5,6 @@ sidebar:
 title: PC13 Dữ liệu Bảng và Hiệu ứng Cố định
 permalink: /pythoncausal/pc13
 ---
-
 <html>
 <head><meta charset="utf-8" />
 
@@ -13596,31 +13595,6 @@ $</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Generally, the fixed effect model is defined as</p>
-<p>$
-y_{it} = \beta X_{it} + \gamma U_i + e_{it}
-$</p>
-<p>where $y_{it}$ is the outcome of individual $i$ at time $t$, $X_{it}$ is the vector of variables for individual $i$ at time $t$, $U_i$ is a set of unobservables for individual $i$ that are unchanging through time, hence the lack of the time subscript, and $e_{it}$ is the error term. For the education example, $y_{it}$ is log wages,  $X_{it}$ are the observable variables that change in time, like marriage and experience and $U_i$ are the variables that are not observed but constant for each individual, like beauty and intelligence.</p>
-<p>Now, remember how I've said that using panel data with a fixed effect model is as simple as adding a dummy for the entities. It's true, but in practice, we don't actually do it. Imagine a dataset where we have 1 million customers. If we add one dummy for each of them, we would end up with 1 million columns, which is probably not a good idea. Instead, we use the trick of partitioning the linear regression into 2 separate models. We've seen this before, but now is a good time to recap it. Suppose you have a linear regression model with a set of features $X_1$ and another set of features $X_2$.</p>
-<p>$
-\hat{Y} = \hat{\beta_1} X_1 + \hat{\beta_2} X_2
-$</p>
-<p>You can get the exact same $\hat{\beta_1}$ parameter by doing</p>
-<ol>
-<li>regress the the outcome $y$ on the second set of features $\hat{y^*} = \hat{\gamma_1} X_2$</li>
-<li>regress the first set of features on the second $\hat{X_1} = \hat{\gamma_2} X_2$</li>
-<li>obtain the residuals $\tilde{X}_1 = X_1 - \hat{X_1}$ and $\tilde{y}_1 = y_1 - \hat{y^*}$</li>
-<li>regress the residuals of the outcome on the residuals of the features $\hat{y} = \hat{\beta_1} \tilde{X}_1$</li>
-</ol>
-<p>The parameter from this last regression will be exactly the same as running the regression with all the features. But how exactly does this help us? Well, we can break the estimation of the model with the entity dummies into 2. First, we use the dummies to predict the outcome and the feature. These are steps 1 and 2 above.</p>
-<p>Now, remember how running a regression on a dummy variable is as simple as estimating the mean for that dummy? If you don't, let's use our data to show how this is true. Let's run a model where we predict wages as a function of the year dummy.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <p>Thông thường mô hình hiệu ứng cố định được mô tả như sau:</p>
 <p>$
 y_{it} = \beta X_{it} + \gamma U_i + e_{it}
@@ -14302,7 +14276,7 @@ dtype: float64</pre>
 
 
 <div class="output_png output_subarea ">
-<img src="../assets/images/pythoncausal/output13/output_27_0.png"
+<img img src="../assets/images/pythoncausal/output13/output_26_0.png"
 >
 </div>
 
@@ -14355,7 +14329,7 @@ dtype: float64</pre>
 
 
 <div class="output_png output_subarea ">
-<img src="../assets/images/pythoncausal/output13/output_29_0.png"
+<img img src="../assets/images/pythoncausal/output13/output_28_0.png"
 >
 </div>
 
@@ -14713,3 +14687,4 @@ dtype: float64</pre>
 
 
 </html>
+
