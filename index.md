@@ -41,6 +41,6 @@ Các bài viết chính thức sẽ được đăng tại [Facebook fanpage](htt
 |13. Dữ liệu Bảng và Hiệu ứng Cố định|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc13)|
 |14. Sai khác của Biến thiên|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc14)|
 |15. Đối chứng Tổng hợp|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc15)|
-|16. Thiết kế Hồi quy Gián đoạn|27/03/2021|
+|16. Thiết kế Hồi quy Gián đoạn|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc16)|
 
 Dữ liệu và code được cập nhật tại Github Repo [Nhân Quả Python](https://github.com/vietecon/NhanQuaPython)
