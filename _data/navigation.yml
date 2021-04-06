@@ -1,7 +1,4 @@
-#blog post link
-blogpost:
- - title: Blog post
-   url: /blogpost/
+
 #python causal link
 pythoncausal:
  - title: 1. Giới thiệu Suy luận Nhân quả
