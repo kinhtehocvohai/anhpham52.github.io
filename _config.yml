@@ -272,6 +272,10 @@ collections:
   blogpost:
     output: true
     permalink: /:collection/:path/
+  pythoncausal:
+    output: true
+    permalink: /:collection/:path/
+    
 
 
 # Defaults
@@ -308,6 +312,18 @@ defaults:
   - scope:
       path: ""
       type: blogpost
+    values:
+      layout: single
+      share: true
+      comments: true
+      author_profile: true
+      #toc: true
+      #toc_label: "Mục lục"
+      #toc_icon: "ML"
+  # _pythoncausal
+  - scope:
+      path: ""
+      type: pythoncausal
     values:
       layout: single
       share: true
