@@ -1,5 +1,4 @@
 ---
-layout: single
 title: Thang đánh giá khoa học Maryland
 permalink: /blogpost/marylandscale
 ---
