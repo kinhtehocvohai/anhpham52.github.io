@@ -1,38 +1,12 @@
 
 #python causal link
 pythoncausal:
- - title: 1. Giới thiệu Suy luận Nhân quả
-   url: /pythoncausal/pc01
- - title: 2. Phép thử Ngẫu nhiên
-   url: /pythoncausal/pc02
- - title: 3. Một Phương trình Vô cùng Nguy hiểm
-   url: /pythoncausal/pc03
- - title: 4. Mô hình Biểu đồ Nhân quả
-   url: /pythoncausal/pc04
- - title: 5. Hiệu quả Khó tin của Hồi quy tuyến tính
-   url: /pythoncausal/pc05
- - title: 6. Nhóm gộp và Hồi quy Biến giả
-   url: /pythoncausal/pc06
- - title: 7. Đâu chỉ mình Biến nhiễu?
-   url: /pythoncausal/pc07
- - title: 8. Biến Công cụ
-   url: /pythoncausal/pc08
- - title: 9. Sự bất tuân và LATE
-   url: /pythoncausal/pc09
- - title: 10. Phương pháp Ghép cặp
-   url: /pythoncausal/pc10
- - title: 11. Điểm xu hướng
-   url: /pythoncausal/pc11
- - title: 12. Ước lượng mạnh Hai lần 
-   url: /pythoncausal/pc12
- - title: 13. Dữ liệu Bảng và Hiệu ứng Cố định
-   url: /pythoncausal/pc13
- - title: 14. Sai khác của Biến thiên
-   url: /pythoncausal/pc14
- - title: 15. Đối chứng Tổng hợp
-   url: /pythoncausal/pc15
- - title: 16. Thiết kế Hồi quy Gián đoạn
-   url: /pythoncausal/pc16
+ - title: Suy luận Nhân quả với Python
+   url: /pythoncausal/
+ - title: Blog posts
+   url: /blogpost/
+
+
 
 
 # main links
