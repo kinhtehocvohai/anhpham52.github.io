@@ -40,7 +40,7 @@ main:
    - title: "About"
      url: /about/
    - title: "Posts"
-     url: /post/
+     url: /year-archive/
    #- title: "Collections"
    #   url: https://anhpham52.github.io/collection-archive/
   # - title: "Sitemap"
