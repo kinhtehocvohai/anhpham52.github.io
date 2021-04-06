@@ -305,4 +305,16 @@ defaults:
       #toc_label: "Mục lục"
       #toc_icon: "ML"
       
+   # _blogpost
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      share: true
+      comments: true
+      author_profile: true
+      #toc: true
+      #toc_label: "Mục lục"
+      #toc_icon: "ML"
     
