@@ -33,6 +33,9 @@ pythoncausal:
  - title: 16. Thiết kế Hồi quy Gián đoạn
    url: /pythoncausal/pc16
 
+blogpost:
+ - title: Thang đánh giá khoa học Maryland
+   url: /blogpost/marylandscale
 # main links
 main:
   #- title: "Quick-Start Guide"
