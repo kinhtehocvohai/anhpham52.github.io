@@ -1,6 +1,6 @@
 
 ---
-layout: posts
+layout: single
 title: Thang đánh giá khoa học Maryland
 date: 2021-04-04
 permalink: /marylandscale
