@@ -308,7 +308,7 @@ defaults:
    # _blogpost
   - scope:
       path: ""
-      type: portfolio
+      type: blogpost
     values:
       layout: single
       share: true
