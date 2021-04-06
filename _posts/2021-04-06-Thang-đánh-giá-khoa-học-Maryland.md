@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Thang đánh giá khoa học Maryland
-permalink: /marylandscale
+permalink: /post/marylandscale
 ---
 
 
