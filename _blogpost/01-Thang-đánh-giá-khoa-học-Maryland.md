@@ -12,7 +12,7 @@ Nhưng trước khi sử dụng các “vũ khí” này trong thực chiến, h
 
 Trong bài viết này chúng tôi sẽ giới thiệu với các bạn thang đánh giá bằng chứng nhân quả của Trung tâm nghiên cứu chính sách tăng trưởng kinh tế địa phương (What works centre for local economic growth) thuộc London School of Economics and Political Science (LSE), Anh Quốc. Thang đo này dựa trên Thang đánh giá khoa học Maryland  (SMS) và bao gồm 5 cấp độ tăng dần theo độ mạnh của phương pháp nghiên cứu như sau:
 
-image: /assets/images/blogpost/sms.png
+![image-center](/assets/images/blogpost/sms.png){: .align-center}
 
 *Cấp độ 1: So sánh cắt ngang hoặc so sánh trước sau*    
 
