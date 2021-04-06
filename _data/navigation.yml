@@ -39,8 +39,8 @@ main:
     #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
    - title: "About"
      url: /about/
-   - title: "Blog Posts"
-     url: /post/
+   - title: "Collections"
+     url: /collection/
    #- title: "Collections"
    #   url: https://anhpham52.github.io/collection-archive/
   # - title: "Sitemap"
