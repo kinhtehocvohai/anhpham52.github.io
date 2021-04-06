@@ -1,5 +1,7 @@
 ---
 layout: single
+sidebar:
+ nav: pythoncausal
 title: Thang đánh giá khoa học Maryland
 permalink: /blogpost/marylandscale
 ---
