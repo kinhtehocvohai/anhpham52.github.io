@@ -1,8 +1,8 @@
 ---
-title: Pets
+title: Blog posts
 layout: collection
 permalink: /blogpost/
-collection: Blog posts
+collection: blogpost
 entries_layout: grid
 classes: wide
 ---
