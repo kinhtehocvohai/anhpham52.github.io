@@ -303,9 +303,8 @@ defaults:
       author_profile: true
       #toc: true
       #toc_label: "Mục lục"
-      #toc_icon: "ML"
-      
-   # _blogpost
+      #toc_icon: "ML"  
+  # _blogpost
   - scope:
       path: ""
       type: blogpost
