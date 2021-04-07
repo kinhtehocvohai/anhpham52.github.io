@@ -792,9 +792,7 @@ E[Y_i|Y_i>0, T_i]=E[Y_i|Y_i>0, T_i=1]-E[Y_i|Y_i>0, T_i=0]$$
 
 $$=E[Y_{i1}|Y_{i1}>0]-E[Y_{i0}|Y_{i0}>0] $$
 
-$$=\underbrace{E[Y_{i1} - Y_{i0}|Y_{i1}>0]}_{Causal \ Effect}$$
- 
-$$+ \underbrace{\{ E[Y_{i0}|Y_{i1}>0] - E[Y_{i0}|Y_{i0}>0] \}}_{Selection \ Bias}
+$$=\underbrace{E[Y_{i1} - Y_{i0}|Y_{i1}>0]}_{Causal \ Effect} + \underbrace{\{ E[Y_{i0}|Y_{i1}>0] - E[Y_{i0}|Y_{i0}>0] \}}_{Selection \ Bias}
 $$
 
 Khi phân tích hiệu ứng COP, đầu tiên chúng ta xác định được tác động nhân quả đối với những người tham gia. Trong ví dụ này, đây sẽ là tác động nhân quả đối với những người quyết định chi tiêu. Hai là, chúng ta có một thiên lệch, chính là sự khác biệt đối với \\(Y_0\\) cho những người quyết định tham gia sự can thiệp (\\(E[Y_{i0}\|Y_{i1}>0]\\)) và những người tham gia ngay cả khi không có sự can thiệp (\\(E[Y_{i0}\|Y_{i0}>0]\\)). Trong trường hợp này, thiên lệch này có thể âm, vì những người chi tiêu khi phải có can thiệp, nếu đặt trong trường hợp không nhận được sự can thiệp, có thể sẽ chi tiêu ít hơn những người chi tiêu ngay cả khi không có sự can thiệp \\(E[Y_{i0}\|Y_{i1}>0] < E[Y_{i0}\|Y_{i0}>0]\\).
