@@ -2,7 +2,7 @@
 layout: single
 sidebar:
  nav: pythoncausal
-title: PC08 Biến Công cụ
+title: Biến Công cụ
 permalink: /pythoncausal/pc08
 header:
  image: /assets/images/pythoncausal/output08/output_18_0.png
@@ -13,7 +13,7 @@ header:
 <html>
 <head><meta charset="utf-8" />
 
-<title>08-Biến-Công-cụ-VN</title>
+<title>Biến Công cụ</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
