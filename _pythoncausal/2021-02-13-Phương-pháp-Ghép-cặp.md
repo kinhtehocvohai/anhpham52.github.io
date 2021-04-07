@@ -2,14 +2,14 @@
 layout: single
 sidebar:
  nav: pythoncausal
-title: PC10 Phương pháp Ghép cặp
+title: Phương pháp Ghép cặp
 permalink: /pythoncausal/pc10
 ---
 
 <html>
 <head><meta charset="utf-8" />
 
-<title>PC10 Phương pháp Ghép cặp</title>
+<title>Phương pháp Ghép cặp</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
