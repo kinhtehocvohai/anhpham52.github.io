@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: tutorial
 title: 1 - Introduction To Causality
 permalink: /pythoncausal/pc17
 header:
@@ -8,6 +8,7 @@ sidebar:
     nav: pythoncausal
 author_profile: true
 ---
+
 
 ## Why Bother?
 
