@@ -187,13 +187,17 @@ $$
 trong đó vế trái là xu hướng giả tưởng. Bây giờ, chúng ta có thể thay thế ước lượng của giả tưởng trong định nghĩa của tác động can thiệp \\(E[Y_1(1)\|D=1] - E[Y_0(1)\|D=1]\\)
 
 $$
-\hat{ATET} = E[Y(1)|D=1] - (E[Y(0)|D=1] + (E[Y(1)|D=0] - E[Y(0)|D=0])
+\hat{ATET} = E[Y(1)|D=1] - (E[Y(0)|D=1] $$
+
+$$+ (E[Y(1)|D=0] - E[Y(0)|D=0])
 $$
 
 Sắp xếp lại các phần tử, ta thu được mô hình ước lượng Sai khác của biến thiên cổ điển.
 
 $$
-\hat{ATET} = (E[Y(1)|D=1] - E[Y(1)|D=0]) - (E[Y(0)|D=1] - E[Y(0)|D=0])
+\hat{ATET} = (E[Y(1)|D=1] - E[Y(1)|D=0]) $$
+
+$$- (E[Y(0)|D=1] - E[Y(0)|D=0])
 $$
 
 Tên gọi này xuất phát từ việc nó tính sự sai khác giữa biến thiên của nhóm can thiệp và nhóm đối chứng sau và trước khi có can thiệp. 
