@@ -1,11 +1,9 @@
 
 #python causal link
 
- blogpost:
+pythoncausal:
  - title: Blog posts
    url: /blogpost/
-
-pythoncausal:
  - title: Suy luận Nhân quả với Python
    url: /pythoncausal/
    children:
