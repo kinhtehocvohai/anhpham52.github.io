@@ -7,11 +7,14 @@ toc: true
 permalink: /blogpost/marylandscale
 ---
 
-Trong 4 tháng vừa qua Fanpage Kinh tế học vô hại đã chia sẻ loạt bài “Suy luận Nhân quả với Python” và giới thiệu nhiều “vũ khí” khoa học khác nhau giúp xác định quan hệ nguyên nhân – kết quả. Các “vũ khí” này rất hữu dụng và có thể sử dụng trong nhiều bối cảnh khác nhau như kinh tế, chính sách, giáo dục, tâm lý học, kinh doanh,… Chúng ta cũng đã thảo luận cách áp dụng và ưu, nhược điểm của mỗi phương pháp.{: .text-justify}
+Trong 4 tháng vừa qua Fanpage Kinh tế học vô hại đã chia sẻ loạt bài “Suy luận Nhân quả với Python” và giới thiệu nhiều “vũ khí” khoa học khác nhau giúp xác định quan hệ nguyên nhân – kết quả. Các “vũ khí” này rất hữu dụng và có thể sử dụng trong nhiều bối cảnh khác nhau như kinh tế, chính sách, giáo dục, tâm lý học, kinh doanh,… Chúng ta cũng đã thảo luận cách áp dụng và ưu, nhược điểm của mỗi phương pháp. 
+{: .text-justify}
 
-Nhưng trước khi sử dụng các “vũ khí” này trong thực chiến, hẳn bạn cũng muốn biết tương quan sức mạnh của các vũ khí?{: .text-justify}
+Nhưng trước khi sử dụng các “vũ khí” này trong thực chiến, hẳn bạn cũng muốn biết tương quan sức mạnh của các vũ khí?
+{: .text-justify}
 
-Trong bài viết này chúng tôi sẽ giới thiệu với các bạn thang đánh giá bằng chứng nhân quả của Trung tâm nghiên cứu chính sách tăng trưởng kinh tế địa phương (What works centre for local economic growth) thuộc London School of Economics and Political Science (LSE), Anh Quốc. Thang đo này dựa trên Thang đánh giá khoa học Maryland  (SMS) và bao gồm 5 cấp độ tăng dần theo độ mạnh của phương pháp nghiên cứu như sau:{: .text-justify}
+Trong bài viết này chúng tôi sẽ giới thiệu với các bạn thang đánh giá bằng chứng nhân quả của Trung tâm nghiên cứu chính sách tăng trưởng kinh tế địa phương (What works centre for local economic growth) thuộc London School of Economics and Political Science (LSE), Anh Quốc. Thang đo này dựa trên Thang đánh giá khoa học Maryland  (SMS) và bao gồm 5 cấp độ tăng dần theo độ mạnh của phương pháp nghiên cứu như sau:
+{: .text-justify}
 
 ![image-center](/assets/images/blogpost/sms.png){: .align-center}
 
