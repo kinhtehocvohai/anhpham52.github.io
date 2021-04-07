@@ -5,7 +5,7 @@ sidebar:
 title: Dữ liệu Bảng và Hiệu ứng Cố định
 permalink: /pythoncausal/pc13
 ---
-
+[Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 
 # Kiểm soát Điều mà bạn Không thấy
@@ -294,12 +294,16 @@ data.groupby("year")["lwage"].mean()
 Điều này nghĩa là việc tính giá trị trung bình cho mỗi người trong bảng của chúng ta tương đương với việc hồi quy các biến khác theo các biến giả cho cá nhân. Điều này gợi ý quy trình ước lượng sau:
 
 1. Tạo ra các biến khử giá trị trung bình theo thời gian bằng cách trừ đi giá trị trung bình của mỗi cá nhân:   
-\\(\ddot{Y}_{it} = Y_{it} -  \bar{Y}_i\\)  
-\\(\ddot{X}_{it} = X_{it} -  \bar{X}_i\\)
+
+$$\ddot{Y}_{it} = Y_{it} -  \bar{Y}_i$$
+
+$$\ddot{X}_{it} = X_{it} -  \bar{X}_i$$
+
 2. Chạy mô hình hồi quy \\(\ddot{Y}_{it}\\) theo \\(\ddot{X}_{it}\\)
 
 Chú ý rằng, các biến không quan sát được và không đổi theo thời gian \\(U_i\\) tiêu biến, vì \\(\bar{U_i}=U_i\\):
 
+$$
 \begin{align}
 Y_{it} & = \beta X_{it} + \gamma U_i + e_{it} \\
 \bar{Y}_{i} & = \beta \bar{X}_{it} + \gamma U_i + \bar{e}_{it} \\
@@ -307,6 +311,7 @@ Y_{it} & = \beta X_{it} + \gamma U_i + e_{it} \\
 (Y_{it} - \bar{Y}_{i}) & = \beta(X_{it} - \bar{X}_{it}) + (e_{it}-\bar{e}_{it}) \\
 \ddot{Y}_{it} & = \beta \ddot{X}_{it} + \ddot{e}_{it} \\
 \end{align}
+$$
 
 Thực ra không chỉ các biến không quan sát được và không đổi theo thời gian tiêu biến. Điều này xảy ra cả với các biến quan sát được và không đổi theo thời gian. Vì lí do này, bạn không thể đưa vào mô hình bất kì biến nào không đổi theo thời gian, vì chúng sẽ tạo thành một  tổ hợp tuyến tính với các biến giả và mô hình sẽ không hoạt động.
 
