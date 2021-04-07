@@ -5,6 +5,8 @@ sidebar:
 title: Một Phương trình Vô cùng Nguy hiểm
 permalink: /pythoncausal/pc03
 ---
+[Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
+
 
 # Một phương trình vô cùng nguy hiểm
 
@@ -18,7 +20,7 @@ $$
 SE = \dfrac{\sigma}{\sqrt{n}} 
 $$
 
-trong đó \\SE\\ là sai số chuẩn của giá trị trung bình, \\\sigma\\ là độ lệch chuẩn và $n$ là kích thước mẫu. Nghe có vẻ như là một công thức toán mà các chiến binh thực thụ nên nằm lòng, vậy hãy cùng xem xét nó. 
+trong đó \\(SE\\) là sai số chuẩn của giá trị trung bình, \\(\sigma\\) là độ lệch chuẩn và \\(n\\) là kích thước mẫu. Nghe có vẻ như là một công thức toán mà các chiến binh thực thụ nên nằm lòng, vậy hãy cùng xem xét nó. 
 
 Để lý giải tại sao việc không biết công thức này lại vô cùng nguy hiểm, hãy nhìn vào một số dữ liệu về giáo dục. Tôi đã tổng hợp dữ liệu về điểm ENEM (điểm trong kỳ thi trung học phổ thông chuẩn hoá của Brazil, tương tự như SAT) từ những trường khác nhau trong thời gian 3 năm. Việc làm sạch dữ liệu cũng được thực hiện để chỉ giữ lại những thông tin liên quan. Dữ liệu gốc có thể được tải về tại [Inep website](http://portal.inep.gov.br/web/guest/microdados#). 
 
@@ -172,7 +174,7 @@ Một kết luận tự nhiên rút ra từ quan sát trên là quy mô trườn
 
 Chà, việc này sẽ trở nên nguy hiểm khi mọi người bắt đầu có những quyết định quan trọng và đắt đỏ dựa trên thông tin này. Trong bài báo khoa học của mình, Howard tiếp tục đưa ra dẫn chứng: 
 
-"Vào những năm 1990, việc giảm quy mô trường học trở nên phổ biến. Nhiều tổ chức từ thiện và cơ quan chính phủ đã tài trợ cho việc chia nhỏ các trường quy mô lớn dựa trên luận cứ học sinh tại các trường quy mô nhỏ chiếm đa số trong các nhóm có điểm thi cao." 
+>"Vào những năm 1990, việc giảm quy mô trường học trở nên phổ biến. Nhiều tổ chức từ thiện và cơ quan chính phủ đã tài trợ cho việc chia nhỏ các trường quy mô lớn dựa trên luận cứ học sinh tại các trường quy mô nhỏ chiếm đa số trong các nhóm có điểm thi cao." 
 
 Tuy nhiên, cái mà người ta quên mất là không nhìn vào 1% những trường xếp cuối. Và nếu làm như vậy, họ sẽ nhận ra rằng những trường này cũng có rất ít học sinh!
 
@@ -358,7 +360,7 @@ print("95% CI cho lớp học online:", ci(online))
 print("95% cho lớp học truyền thống:", ci(face_to_face))
 ```
 
-    95% @@CI@@ cho lớp học online: (70.56094429049804, 76.7095818797147)
+    95% CI cho lớp học online: (70.56094429049804, 76.7095818797147)
     95% cho lớp học truyền thống: (76.80278229206948, 80.29218687459712)
 
 
@@ -440,7 +442,7 @@ plt.show()
 ![image-center](/assets/images/pythoncausal/output03/output_25_0.png){: .align-center}
 
 
-Dựa vào đây, có thể khẳng định rằng giá trị chênh lệch thực giữa lớp học online và lớp học truyền thống rơi vào khoảng -8.37 và -1.44 với 95% độ tin cậy. Thống kê z có thể được tính bằng cách lấy giá trị trung bình của phân phối thứ ba chia cho sai số chuẩn của phân phối thứ ba. 
+Dựa vào đây, có thể khẳng định rằng giá trị chênh lệch thực giữa lớp học online và lớp học truyền thống rơi vào khoảng -8.37 và -1.44 với 95% độ tin cậy. Trị số z có thể được tính bằng cách lấy giá trị trung bình của phân phối thứ ba chia cho sai số chuẩn của phân phối thứ ba. 
 
 $$
 z = \dfrac{\mu_{diff} - H_{0}}{SE_{diff}} = \dfrac{(\mu_1 - \mu_2) - H_{0}}{\sqrt{\sigma_1^2/n_1 + \sigma_2^2/n_2}}
@@ -448,9 +450,9 @@ $$
 
 Trong đó \\(H_0\\) là giá trị chúng ta muốn kiểm định sự chênh lệch
 
-Thống kê z là thước đo mức độ chênh lệch mà ta quan sát được. Để kiểm định giả thuyết rằng giá trị chênh lệch của các giá trị trung bình có khác 0 về mặt thống kê, ta sử dụng lập luận phản chứng. Giả sử điều ngược lại là đúng, trong trường hợp này, giá trị chênh lệch sẽ bằng 0. Giả thuyết này có thể được gọi là giả thuyết không, \\(H_0\\). Đến đây ta có thể sẽ tự đặt ra một câu hỏi "liệu có khả năng sẽ quan sát được giá trị chênh lệch này nếu giá trị chênh lệch thực là 0?" Theo ngôn ngữ toán học thống kê, có thể hiểu câu hỏi này như việc kiểm tra xem thống kê z cách giá trị 0 bao nhiêu.
+Trị số z là thước đo mức độ chênh lệch mà ta quan sát được. Để kiểm định giả thuyết rằng giá trị chênh lệch của các giá trị trung bình có khác 0 về mặt thống kê, ta sử dụng lập luận phản chứng. Giả sử điều ngược lại là đúng, trong trường hợp này, giá trị chênh lệch sẽ bằng 0. Giả thuyết này có thể được gọi là giả thuyết không, \\(H_0\\). Đến đây ta có thể sẽ tự đặt ra một câu hỏi "liệu có khả năng sẽ quan sát được giá trị chênh lệch này nếu giá trị chênh lệch thực là 0?" Theo ngôn ngữ toán học thống kê, có thể hiểu câu hỏi này như việc kiểm tra xem trị số z cách giá trị 0 bao nhiêu.
 
-Dưới giả thuyết \\(H_0\\), thống kê z tuân theo phân phối chuẩn. Vì vậy, nếu giá trị chênh lệch thực sự bằng 0, thống kê z rơi vào giữa hai độ lệch chuẩn của giá trị trung bình trong 95% lần thử. Hệ quả trực tiếp của điều này là nếu thống kê z rơi ra ngoài cận trện hoặc cận dưới, có thể bác bỏ \\(H_0\\). 
+Dưới giả thuyết \\(H_0\\), trị số z tuân theo phân phối chuẩn. Vì vậy, nếu giá trị chênh lệch thực sự bằng 0, trị số z rơi vào giữa hai độ lệch chuẩn của giá trị trung bình trong 95% lần thử. Hệ quả trực tiếp của điều này là nếu trị số z rơi ra ngoài cận trện hoặc cận dưới, có thể bác bỏ \\(H_0\\). 
 
 Hãy cùng kiểm chứng điều này trong ví dụ lớp học.
 
@@ -468,7 +470,7 @@ print(z)
 x = np.linspace(-4,4,100)
 y = stats.norm.pdf(x, 0, 1)
 plt.plot(x, y, label="Phân phối chuẩn hoá")
-plt.vlines(z, ymin=0, ymax=.05, label="Thống kê z")
+plt.vlines(z, ymin=0, ymax=.05, label="Trị số z")
 plt.legend(loc=1, prop={'size': 10.5})
 plt.show()
 ```
@@ -477,7 +479,7 @@ plt.show()
 ![image-center](/assets/images/pythoncausal/output03/output_28_0.png){: .align-center}
 
 
-Đây dường như là một cực trị. Thống kê z lớn hơn 2, cho thấy rằng có ít hơn 5% cơ hội ta quan sát được một thống kê z như vậy nếu không có sự khác biệt giữa các nhóm lớp học. Điều này dẫn tới một kết luận rằng sự thay đổi từ lớp học truyền thống sang lớp học online gây ra sự giảm sút về thành tích học tập có ý nghĩa về mặt thống kê.
+Đây dường như là một cực trị. Trị số z lớn hơn 2, cho thấy rằng có ít hơn 5% cơ hội ta quan sát được một trị số z như vậy nếu không có sự khác biệt giữa các nhóm lớp học. Điều này dẫn tới một kết luận rằng sự thay đổi từ lớp học truyền thống sang lớp học online gây ra sự giảm sút về thành tích học tập có ý nghĩa về mặt thống kê.
 
 Một điều thú vị khác về kiểm định giả thuyết chính là nó bớt rườm rà hơn việc kiểm tra xem liệu CI 95% từ được can thiệp và đối chứng có giao nhau hay không. Nói cách khác, nếu khoảng tin cậy của hai nhóm giao nhau, thì vẫn có thể xảy ra trường hợp kết quả có ý nghĩa thống kê. Ví dụ, giả sử nhóm lớp học truyền thống có điểm trung bình là 74 và sai số chuẩn là 7, và nhóm lớp học online có điểm trung bình là 71 và sai số chuẩn là 1.
 
@@ -507,7 +509,7 @@ Như đã đề cập trước đó, có ít hơn 5% cơ hội chúng ta có th�
 
 Cũng giống như khoảng tin cậy, định nghĩa thực sự của trị số p có thể rất khó hiểu. Sau đây là định nghĩa mà tôi đã sao chép từ Wikipedia: "trị số p là xác suất thu được kết quả thử nghiệm ít nhất bằng với kết quả thực sự quan sát được trong quá trình thử nghiệm, giả định rằng giả thuyết không (\\(H_0\\)) đúng". Đừng để sự phức tạp đánh lừa bạn. Trong thực tế, trị số p khá dễ áp dụng. 
 
-Để xác định trị số p, ta cần tính diện tích dưới phân phối chuẩn hoá trước và sau thống kê z. May mắn thay, ta có thể nhờ máy tính làm công việc này đơn giản bằng cách thay thống kê z vào CDF của phân phối chuẩn hoá. 
+Để xác định trị số p, ta cần tính diện tích dưới phân phối chuẩn hoá trước và sau trị số z. May mắn thay, ta có thể nhờ máy tính làm công việc này đơn giản bằng cách thay trị số z vào CDF của phân phối chuẩn hoá. 
 
 
 
@@ -519,7 +521,7 @@ print("Trị số p:", stats.norm.cdf(z))
     P-value: 0.0027239680835563383
 
 
-Điều này có nghĩa là chỉ có 0.2% cơ hội quan sát được giá trị @z statistic@ lớn đến thế nếu giá trị chênh lệch bằng 0. Một điểm thú vị của trị số p là chúng ta không cần phải xác định một khoảng tin cậy, như 95% hoặc 99%. Tuy nhiên chúng ta hoàn toàn có thể xác định chính xác độ tin cậy mà thử nghiệm của chúng ta sẽ được chấp nhận hay bị bác bỏ dựa trên trị số p. Ví dụ, với trị số p bằng 0.0027, chúng ta biết rằng sự khác biệt giữa hai nhóm lớp học có ý nghĩa thống kê tới mức 0.2%. Vì vậy, trong khi CI 95% và CI 99% cho giá trị chênh lệch đều không chứa giá trị 0, CI 99,9% hoàn toàn có thể. 
+Điều này có nghĩa là chỉ có 0.2% cơ hội quan sát được giá trị trị số z lớn đến thế nếu giá trị chênh lệch bằng 0. Một điểm thú vị của trị số p là chúng ta không cần phải xác định một khoảng tin cậy, như 95% hoặc 99%. Tuy nhiên chúng ta hoàn toàn có thể xác định chính xác độ tin cậy mà thử nghiệm của chúng ta sẽ được chấp nhận hay bị bác bỏ dựa trên trị số p. Ví dụ, với trị số p bằng 0.0027, chúng ta biết rằng sự khác biệt giữa hai nhóm lớp học có ý nghĩa thống kê tới mức 0.2%. Vì vậy, trong khi CI 95% và CI 99% cho giá trị chênh lệch đều không chứa giá trị 0, CI 99,9% hoàn toàn có thể. 
 
 
 ```python
@@ -556,17 +558,17 @@ def AB_test(test: pd.Series, control: pd.Series, confidence=0.95, h0=0):
     print(f"Nhóm được can thiệp {confidence*100}% CI: {mu1} +- {critial(se1)}")
     print(f"Nhóm đối chứng{confidence*100}% CI: {mu2} +- {critial(se2)}")
     print(f"Nhóm được can thiệp-đối chứng {confidence*100}% CI: {diff} +- {critial(se_diff)}")
-    print(f"Thống Kê Z {z_stats}")
+    print(f"Trị Số Z {z_stats}")
     print(f"Trị Số P {p_value}")
         
 AB_test(online, face_to_face)
 ```
 
-    @@Test group@@ 95.0% CI: 73.63526308510637 +- 3.0127770572134565
-    @@Control group@@95.0% CI: 78.5474845833333 +- 1.7097768273108005
+    Nhóm được can thiệp 95.0% CI: 73.63526308510637 +- 3.0127770572134565
+    Nhóm đối chứng 95.0% CI: 78.5474845833333 +- 1.7097768273108005
     Nhóm được can thiệp-đối chứng 95.0% CI: -4.912221498226927 +- 3.4641250548559537
-    @@Z Statistic@@ -2.7792810791031064
-    @@P-Value@@ 0.0027239680835564706
+    Trị Số Z -2.7792810791031064
+    Trị số P 0.0027239680835564706
 
 
 Vì hàm số này đã đủ sức khái quát, chúng ta có thể tiến hành kiểm định các giả thuyết không khác. Ví dụ, chúng ta có thể bác bỏ giả thuyết giá trị chênh lệch giữa lớp học online và lớp học truyền thống là -1. Với kết quả nhận được, có thể khẳng định rằng với độ tin cậy 95% giá trị chênh lệch lớn hơn -1. Tuy nhiên, chúng ta không thể khẳng định điều tương tự với độ tin cậy 99%:
@@ -577,30 +579,30 @@ Vì hàm số này đã đủ sức khái quát, chúng ta có thể tiến hàn
 AB_test(online, face_to_face, h0=-1)
 ```
 
-    @@Test group@@ 95.0% CI: 73.63526308510637 +- 3.0127770572134565
-    @@Control group@@95.0% CI: 78.5474845833333 +- 1.7097768273108005
+    Nhóm được can thiệp 95.0% CI: 73.63526308510637 +- 3.0127770572134565
+    Nhóm đối chứng 95.0% CI: 78.5474845833333 +- 1.7097768273108005
     Nhóm được can thiệp-đối chứng 95.0% CI: -4.912221498226927 +- 3.4641250548559537
-    @@Z Statistic@@ -2.2134920404560723
-    @@P-Value@@ 0.013431870694630667
+    Trị Số Z -2.2134920404560723
+    Trị số P 0.013431870694630667
 
 
 # Tài liệu tham khảo
 
-Tôi muốn dành chương này như lời cảm ơn tới Joshua Angrist, Alberto Abadie và Christopher Walters bởi lớp học Kinh tế lượng tuyệt vời của họ. Hầu hết những ý tưởng trong chương này được đúc kết từ những bài giảng của họ tại Hiệp hội kinh tế Hoa Kỳ. Lắng nghe các bài giảng của họ giúp tôi có thêm động lực đi qua một năm 2020 đầy khó khăn này.
 
-* [Cross-Section Econometrics](https://www.aeaweb.org/conference/cont-ed/2017-webcasts)
-* [Mastering Mostly Harmless Econometrics](https://www.aeaweb.org/conference/cont-ed/2020-webcasts)
+Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học Kinh tế lượng tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ.  Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.
+* [Kinh tế lượng với dữ liệu chéo](https://www.aeaweb.org/conference/cont-ed/2017-webcasts)
+* [Luyện chưởng Kinh tế lượng Gần như Vô hại](https://www.aeaweb.org/conference/cont-ed/2020-webcasts)
 
-Tôi cũng trích dẫn một cuốn sách tuyệt vời từ Angrist. Họ đã thành công trong việc chỉ cho tôi thấy rằng Kinh tế lượng, hoặc là Lượng theo cách gọi của họ, không chỉ cực kỳ hữu ích mà còn vô cùng thú vị. 
+Tôi cũng muốn giới thiệu cuốn sách lý thú của Angrist. Chúng cho tôi thấy Kinh tế lượng, hoặc 'Lượng theo cách họ gọi không chỉ vô cùng hữu ích mà còn rất vui.
 
-* [Mostly Harmless Econometrics](https://www.mostlyharmlesseconometrics.com/)
-* [Mastering 'Metrics](https://www.masteringmetrics.com/)
+* [Kinh tế lượng Gần như Vô hại](https://www.mostlyharmlesseconometrics.com/)
+* [Luyện chưởng 'Lượng'](https://www.masteringmetrics.com/)
 
-Cuối cùng, không thể không nhắc đến cuốn sách được viết bởi Miguel Hernan và Jamie Robins. Nó là người bạn đồng hành đáng tin cậy giúp tôi tìm lời giải đáp cho những câu hỏi hóc búa nhất về tính nhân quả. 
+Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel Hernan and Jamie Robins. Nó là người bạn đồng hành tin cậy với tôi khi trả lời những câu hỏi nhân quả khó nhằn.
 
-* [Causal Inference Book](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
+* [Sách Suy Luận Nhân Quả](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
 
-Riêng chương này, tôi xin trích dẫn tài liệu tham khảo The [Most Dangerous Equation](https://www.researchgate.net/publication/255612702_The_Most_Dangerous_Equation), bởi Howard Wainer.
+Riêng chương này, tôi xin trích dẫn tài liệu tham khảo [Phương trình nguy hiểm nhất](https://www.researchgate.net/publication/255612702_The_Most_Dangerous_Equation), bởi Howard Wainer.
 
 Cuối cùng, nếu bạn tò mò về cách giải thích chính xác các khái niệm thống kê đã được thảo luận ở chương này, mời bạn tìm đọc bài báo của
 Greenland et al, 2016: [Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations](https://link.springer.com/content/pdf/10.1007/s10654-016-0149-3.pdf).
@@ -642,7 +644,7 @@ Greenland et al, 2016: [Statistical tests, P values, confidence intervals, and p
 |sai số chuẩn|standard error| 
 |tham số|parameter| 
 |thống kê|statistics| 
-|thống kê z|z statistic| 
+|trị số z|z statistic| 
 |trị số p|p-value| 
 |tác động can thiệp trung bình|average treatment effect| 
 |tần suất|frequency| 
