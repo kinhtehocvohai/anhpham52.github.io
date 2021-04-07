@@ -788,7 +788,7 @@ $$
 Không có gì sai đối với mô hình tham gia \\(P(Y_i>0\|T_i)\\). Trên thực tế, nếu \\(T\\) được chỉ định ngẫu nhiên, hệ số của nó sẽ phản ánh sự gia tăng trong xác suất chi tiêu do có sự can thiệp. Vấn đề nằm ở phần COP. **Nó sẽ bị thiên lệch ngay cả khi được chỉ định ngẫu nhiên**:
 
 $$
-E[Y_i|Y_i>0, T_i]&=E[Y_i|Y_i>0, T_i=1]-E[Y_i|Y_i>0, T_i=0]$$
+E[Y_i|Y_i>0, T_i]=E[Y_i|Y_i>0, T_i=1]-E[Y_i|Y_i>0, T_i=0]$$
 
 $$=E[Y_{i1}|Y_{i1}>0]-E[Y_{i0}|Y_{i0}>0] $$
 
