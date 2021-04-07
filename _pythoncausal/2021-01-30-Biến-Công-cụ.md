@@ -5,7 +5,7 @@ sidebar:
 title: Biến Công cụ
 permalink: /pythoncausal/pc08
 ---
-
+[Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 
 # Xử lý Thiên Lệch Thiếu Biến
@@ -251,7 +251,7 @@ data.head()
 Trước khi chúng ta sử dụng quý của ngày sinh làm biến công cụ, chúng ta cần đảm bảo nó phù hợp. Nghĩa là phải thỏa mãn 2 giả thiết về biến công cụ:
 
 1. \\(Cov(Z, T) \neq 0\\). Điều này nghĩa là chúng ta cần có một bước 1 mạnh, hay biến công cụ thực sự có ảnh hưởng đối với biến can thiệp.
-2. \\(Y \perp Z | T \\). Đây là điều kiện loại trừ, nói rằng biến công cụ Z chỉ tác động lên kết quả Y thông qua  can thiệp T. 
+2. \\(Y \perp Z\| T \\). Đây là điều kiện loại trừ, nói rằng biến công cụ Z chỉ tác động lên kết quả Y thông qua  can thiệp T. 
 
 Giả thiết đầu tiên may mắn là có thể kiểm chứng. Nhìn vào dữ liệu ta có thể thấy \\(Cov(Z, T)\\) khác 0. Trong ví dụ của chúng ta , nếu quý của ngày sinh thực sự là một biến công cụ như chúng ta vừa nói, chúng ta phải thấy những người sinh vào cuối năm có mức học vấn trung bình hơi cao hơn những người sinh đầu năm. Trước khi tiến hành bất kì kiểm định thống kê nào để kiểm chứng, hãy vẽ đồ thị dữ liệu và quan sát.
 
@@ -460,13 +460,15 @@ HọcVấn_i = \gamma_0 + \gamma_1 * q4_i + \gamma_2 NămSinh_i + \gamma_3 NơiS
 $$
 
 $$
-log(Lương)_i = \beta_0 + \beta_1 HọcVấn_i + \beta_2 NămSinh_i + \beta_3 NơiSinh_i + u_i
+log(Lương)_i = \beta_0 + \beta_1 HọcVấn_i + \beta_2 NămSinh_i $$
+
+$$+ \beta_3 NơiSinh_i + u_i
 $$
 
 $$
-log(Lương)_i = \beta_0 + \beta_1 [\gamma_0 + \gamma_1 * q4_i + \gamma_2  NămSinh_i + \gamma_3 NơiSinh_i + v_i ]  $$
+log(Lương)_i = \beta_0 + \beta_2 NămSinh_i + \beta_3 NơiSinh_i  $$
 
-$$+ \beta_2 NămSinh_i + \beta_3 NơiSinh_i + u_i
+$$+ \beta_1 [\gamma_0 + \gamma_1 * q4_i + \gamma_2  NămSinh_i + \gamma_3 NơiSinh_i + v_i ]  + u_i
 $$
 
 Điều chúng ta cần lưu ý là  **bất kì biến kiểm soát nào được đưa vào bước 1 cũng cần phải đưa vào bước 2 khi sử dụng IV**. 
