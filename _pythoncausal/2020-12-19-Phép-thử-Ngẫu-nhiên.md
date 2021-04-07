@@ -330,7 +330,7 @@ Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel He
 
 * [Sách Suy Luận Nhân Quả](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
 
-Dữ liệu sử dụng trong phần này được trích từ một nghiên cứu của Alpert, William T., Kenneth A. Couch, và Oskar R. Harmon. 2016. "A Randomized Assessment of Online Learning" (https://www.aeaweb.org/articles?id=10.1257/aer.p20161057). American Economic Review, 106 (5): 378-82.
+Dữ liệu sử dụng trong phần này được trích từ một nghiên cứu của Alpert, William T., Kenneth A. Couch, và Oskar R. Harmon. 2016. ["A Randomized Assessment of Online Learning"](https://www.aeaweb.org/articles?id=10.1257/aer.p20161057). American Economic Review, 106 (5): 378-82.
 
 ![image-center](/assets/images/pythoncausal/poetry.png){: .align-center}
 
