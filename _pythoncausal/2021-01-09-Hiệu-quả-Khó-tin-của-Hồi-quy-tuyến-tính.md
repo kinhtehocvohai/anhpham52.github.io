@@ -28,8 +28,8 @@ Hãy nhớ lại rằng chúng ta không thể chỉ đơn giản ước lượn
 
 $$
 E[Y|T=1] - E[Y|T=0] = \underbrace{E[Y_1 - Y_0|T=1]}_{ATET} $$
-$$+ \underbrace{\{E[Y_0|T=1] - E[Y_0|T=0]\}}_{THIÊN LỆCH}
-$$
+
+$$+ \underbrace{\{E[Y_0|T=1] - E[Y_0|T=0]\}}_{THIÊN LỆCH}$$
 
 Trước đó, chúng ta đã biết làm thế nào để loại trừ thiên lệch bằng phương pháp Thử Nghiệm Ngẫu Nhiên, hay thường được biết đến với tên gọi **Thử Nghiệm Ngẫu Nhiên Có Đối Chứng**. RCT bắt buộc các nhóm được can thiệp và nhóm đối chứng phải tương đồng và đó cũng chính là lý do vì sao mà thiên lệch lại bị tiêu biến. Chúng ta cũng đã biết cách thiết lập các mức độ không chắc chắn xung quanh các ước lượng cho tác động can thiệp. Cụ thể, chúng ta đã xem xét trường hợp của lớp học trực tuyến so với lớp học truyền thống, trong đó \\(T = 0\\) đại diện cho nhóm học sinh theo phương pháp học truyền thống và \\(T = 1\\) đại diện cho nhóm học sinh tham gia các lớp trực tuyến. Học sinh được chỉ định ngẫu nhiên vào một trong hai phương pháp học đó và sau đó, kết quả học tập của chúng được đánh giá qua một kỳ thi. Chúng ta đã xây dựng một hàm kiểm định A/B mà có thể so sánh cả hai nhóm, ước lượng tác động can thiệp trung bình và thậm chí thiết lập khoảng tin cậy xung quanh kết quả đó.
 
@@ -627,16 +627,13 @@ g
 ```
 
 
-<p><img
-    src="../assets/images/pythoncausal/output05/output_25_0.svg"
-    height="100"
-    width="100" /></p>
+![image-center](/assets/images/pythoncausal/output05/output_25_0.svg){: .align-center}
 
 
 
 Bây giờ, hãy trở lại với câu hỏi của chúng ta, liệu có phải tham số mà chúng ta đã ước lượng về tác động của biến `educ` đối với mức lương là quan hệ nhân quả hay không? Điều đó sẽ phụ thuộc vào khả năng liệu tất cả các biến nhiễu đã được đưa vào mô hình hay chưa. Cá nhân tôi nghĩ là chưa. Ví dụ, mô hình của chúng ta chưa bao gồm tài sản gia đình. Ngay cả khi chúng ta đưa vào biến trình độ học vấn của gia đình, đó chỉ có thể được coi là một đại diện cho sự giàu có của gia đình. Chúng tôi cũng không tính đến các yếu tố như tham vọng cá nhân. Có thể tham vọng chính là nguyên nhân dẫn đến cả việc học nhiều năm hơn và lương cao hơn, vì vậy nó là một biến nhiễu. Điều này cho thấy rằng **suy luận nhân quả với dữ liệu không ngẫu nhiên hoặc dữ liệu quan sát nên luôn được thực hiện với một chút cẩn trọng**. Chúng ta không bao giờ có thể chắc chắn được rằng tất cả các biến nhiễu đã được tính đến.
 
-# Ý tưởng chủ đạo
+## Ý tưởng chủ đạo
 
 Chúng ta đã đề cập đến khá nhiều kiến thức về hồi quy. Chúng ta đã thấy cách mà hồi quy có thể được sử dụng để thực hiện A/B testing và dễ dàng cung cấp cho ta các thông số của khoảng tin cậy. Sau đó, chúng ta đã chuyển sang nghiên cứu cách mà hồi quy giải quyết vấn đề dự đoán và nó là phép xấp xỉ tuyến tính tốt nhất cho CEF. Chúng ta cũng đã thảo luận về làm cách nào mà hệ số can thiệp hồi quy là hiệp phương sai giữa sự can thiệp và kết quả chia cho phương sai của sự can thiệp, trong trường hợp mô hình hồi quy đơn biến. Đối với trường hợp hồi quy đa biến, chúng ta đã tìm ra cách mà hồi quy cho chúng ta cách giải thích phần nào về hệ số can thiệp: nó có thể được diễn giải là cách mà kết quả sẽ thay đổi khi ta thay đổi sự can thiệp trong khi giữ cho tất cả các biến khác trong mô hình không đổi. Đây là điều mà các chuyên gia kinh tế gọi là ceteris paribus theo ngôn ngữ La-tinh.
 
