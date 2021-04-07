@@ -5,7 +5,7 @@ sidebar:
  nav: pythoncausal
 permalink: /pythoncausal/
 collection: pythoncausal
-entries_layout: grid
+entries_layout: list
 classes: wide
 ---
 
