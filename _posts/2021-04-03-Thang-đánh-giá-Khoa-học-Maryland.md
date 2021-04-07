@@ -5,6 +5,7 @@ sidebar:
 title: Thang đánh giá Khoa học Maryland
 toc: true
 toc_label: "Mục lục"
+toc_sticky: true
 permalink: /blogpost/marylandscale
 ---
 
