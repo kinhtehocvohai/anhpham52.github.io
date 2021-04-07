@@ -209,8 +209,6 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-pagination:
-  enabled: true
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Ho_Chi_Minh # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
