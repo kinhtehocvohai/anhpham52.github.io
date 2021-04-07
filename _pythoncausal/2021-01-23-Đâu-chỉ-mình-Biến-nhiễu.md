@@ -5,6 +5,7 @@ sidebar:
 title: Đâu chỉ mình Biến nhiễu?
 permalink: /pythoncausal/pc07
 ---
+[Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 # Các Biến Kiểm soát Có Lợi
 
@@ -530,13 +531,13 @@ Thật đáng ngạc nhiên, nó lại có thể gây hại!
 
 Việc thêm bệnh viện với vai trò là biến kiểm soát cùng với mức độ nghiêm trọng của bệnh làm gia tăng phương sai của `ATE`. Làm thế nào mà điều này lại có thể xảy ra? Câu trả lời nằm trong công thức tính sai số chuẩn của hệ số hồi quy.
 
-$
+$$
 \hat{\sigma}^2 = \dfrac{1}{n-2} \sum( y_i - \hat{y}_i )^2
-$
+$$
 
-$
+$$
 \text{Var}(\hat{\beta}_2) = \dfrac{\sigma^2}{\sum(x_i - \bar{x})^2}
-$
+$$
 
 Từ công thức này, chúng ta có thể thấy rằng sai số chuẩn tỷ lệ nghịch với phương sai của biến \\(X\\). Điều này có nghĩa là, nếu \\(X\\) không thay đổi nhiều, ta sẽ khó ước lượng được tác động của nó đến kết quả. Điều này khá dễ hiểu. Đặt vào hoàn cảnh cực đoan và giả sử rằng bạn muốn ước lượng tác dụng của một loại thuốc, vì vậy bạn tiến hành một kiểm định với 10000 cá thể nhưng chỉ 1 trong số họ nhận can thiệp. Điều này sẽ làm cho việc xác định `ATE` trở nên rất khó khăn, chúng ta sẽ phải dựa vào việc so sánh một cá nhân với những người khác. Nói một cách khác chúng ta cần rất nhiều sự biến động trong kết quả của nhóm can thiệp để dễ dàng tìm ra tác động của nó.
 
@@ -581,7 +582,7 @@ print("Treatment Residual Variance", np.var(residuals["res_treatment"]))
     Treatment Residual Variance 0.057529091872119076
 
 
-Ngoài ra, đừng có hoàn toàn tin vào lời của tôi! Bạn nên kiểm tra xem công thức SE ở trên có đúng không:
+Ngoài ra, đừng có hoàn toàn tin vào lời của tôi! Bạn nên kiểm tra xem công thức \\(SE\\) ở trên có đúng không:
 
 
 ```python
