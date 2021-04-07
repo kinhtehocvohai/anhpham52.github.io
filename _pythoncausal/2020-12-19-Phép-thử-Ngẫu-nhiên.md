@@ -29,15 +29,15 @@ Nhìn qua thì công thức này có thể rắc rối (kể cả với chúng t
 
 Nói rằng các kết quả tiềm năng độc lập với sự can thiệp cũng có nghĩa là chúng ta kỳ vọng chúng giống nhau dù trong nhóm can thiệp hay nhóm đối chứng. Hiểu một cách đơn giản thì các nhóm can thiệp và nhóm đối chứng là tương tự. Hoặc việc chỉ định sự can thiệp không cung cấp cho chúng ta bất cứ thông tin nào về kết quả trước khi có sự can thiệp. Vậy nên, \\((Y_0, Y_1)\perp T\\) có nghĩa sự can thiệp này là thứ duy nhất tạo ra sự khác biệt giữa kết quả trong nhóm được can thiệp và nhóm đối chứng. Để thấy được điều này, cần chú ý rằng tính độc lập ngụ ý một cách chính xác rằng 
 
-$
+$$
 E[Y_0|T=0]=E[Y_0|T=1]=E[Y_0]
-$
+$$
 
 Như chúng ta đã thấy, điều này có thể được biểu diễn thành
 
-$
+$$
 E[Y|T=1] - E[Y|T=0] = E[Y_1 - Y_0]=ATE
-$
+$$
 
 Như vậy, thử nghiệm ngẫu nhiên đưa ra cách sử dụng sự khác biệt giản đơn giữa các giá trị bình quân của nhóm can thiệp và nhóm đối chứng, hay còn được gọi là hiệu ứng can thiệp.
 
@@ -48,15 +48,15 @@ Trong năm 2020, đại dịch vi-rút Corona đã buộc các doanh nghiệp ph
 
 Bốn tháng kể từ bắt đầu khủng hoảng, nhiều người đang thắc mắc rằng liệu những thay đổi trên có thể được duy trì hay không. Những lợi ích của giáo dục trực tuyến là không thể bàn cãi. Cụ thể là chi phí thấp hơn, có thể tiết kiệm được chi phí mặt bằng và đi lại. Giáo dục trực tuyến mang tính số hoá, tận dụng tối đa được các bài giảng có chất lượng tốt nhất trên toàn cầu, không còn chỉ gói gọn trong một nhóm giáo viên cố định. Tuy nhiên, chúng ta vẫn cần câu trả lời cho việc liệu học trực tuyến có ảnh hưởng tiêu cực hoặc tích cực đến thành tích học tập của học sinh hay không.
 
-Một cách để trả lời vấn đề này là lấy những học sinh từ các trường chủ yếu dạy trực tuyến và so sánh với những học sinh từ các trường dạy theo phương pháp truyền thống. Như chúng ta đã biết cho đến hiện tại đây không phải là cách tiếp cận tốt nhất. Có thể do các trường trực tuyến chỉ thu hút những học sinh tự giác, do vậy kết quả học tập của nhóm học sinh này cao hơn mức trung bình ngay cả khi chúng tham gia lớp học truyền thống. Trong trường hợp này, chúng ta có thể đã mắc phải một thiên lệch dương, khi mà nhóm được can thiệp có năng lực học vấn tốt hơn nhóm đối chứng: \\(E[Y_0|T=1] > E[Y_0|T=0]\\). 
+Một cách để trả lời vấn đề này là lấy những học sinh từ các trường chủ yếu dạy trực tuyến và so sánh với những học sinh từ các trường dạy theo phương pháp truyền thống. Như chúng ta đã biết cho đến hiện tại đây không phải là cách tiếp cận tốt nhất. Có thể do các trường trực tuyến chỉ thu hút những học sinh tự giác, do vậy kết quả học tập của nhóm học sinh này cao hơn mức trung bình ngay cả khi chúng tham gia lớp học truyền thống. Trong trường hợp này, chúng ta có thể đã mắc phải một thiên lệch dương, khi mà nhóm được can thiệp có năng lực học vấn tốt hơn nhóm đối chứng: \\(E[Y_0\|T=1] > E[Y_0\|T=0]\\). 
 
-Mặt khác, cũng có thể do các lớp học trực tuyến rẻ hơn và tập trung hầu hết các học sinh không có điều kiện và có thể phải vừa học vừa làm. Trong trường hợp trên, những học sinh này sẽ học kém hơn các bạn kể cả khi chúng theo học các lớp học truyền thống. Nếu điều này xảy ra, chúng ta đã bị thiên lệch theo hướng ngược lại, khi mà nhóm được can thiệp có năng lực học vấn kém hơn nhóm đối chứng: \\(E[Y_0|T=1] < E[Y_0|T=0]\\).
+Mặt khác, cũng có thể do các lớp học trực tuyến rẻ hơn và tập trung hầu hết các học sinh không có điều kiện và có thể phải vừa học vừa làm. Trong trường hợp trên, những học sinh này sẽ học kém hơn các bạn kể cả khi chúng theo học các lớp học truyền thống. Nếu điều này xảy ra, chúng ta đã bị thiên lệch theo hướng ngược lại, khi mà nhóm được can thiệp có năng lực học vấn kém hơn nhóm đối chứng: \\(E[Y_0\|T=1] < E[Y_0\|T=0]\\).
 
 Vì vậy, mặc dù chúng ta có thể làm các phép so sánh đơn giản, chúng sẽ không đủ sức thuyết phục. Bằng cách này hay cách khác, chúng ta không bao giờ có thể chắc chắn được liệu rằng có bất kỳ sự thiên lệch nào đang ẩn nấp quanh đây và che đậy tác động nhân quả hay không.
 
 ![image-center](/assets/images/pythoncausal/rct/lurking_bias.png){: .align-center}
 
-Để giải quyết, chúng ta cần phải làm cho nhóm được can thiệp và nhóm đối chứng trở nên tương đồng \\(E[Y_0|T=1] = E[Y_0|T=0]\\). Một biện pháp nhằm đạt được điều kiện trên là chỉ định một cách ngẫu nhiên các lớp học trực tuyến và truyền thống cho học sinh. Nếu chúng ta làm được điều đó, thì bình quân các nhóm can thiệp và đối chứng sẽ trở nên tương tự, ngoại trừ việc trẻ có được nhận can thiệp hay không.
+Để giải quyết, chúng ta cần phải làm cho nhóm được can thiệp và nhóm đối chứng trở nên tương đồng \\(E[Y_0\|T=1] = E[Y_0\|T=0]\\). Một biện pháp nhằm đạt được điều kiện trên là chỉ định một cách ngẫu nhiên các lớp học trực tuyến và truyền thống cho học sinh. Nếu chúng ta làm được điều đó, thì bình quân các nhóm can thiệp và đối chứng sẽ trở nên tương tự, ngoại trừ việc trẻ có được nhận can thiệp hay không.
 
 May mắn thay, một số nhà kinh tế học đã làm điều đó cho chúng ta. Họ đã chọn ngẫu nhiên các lớp học, chứ không phải học sinh. Một số học sinh được chỉ định ngẫu nhiên vào các bài giảng theo hình thức truyền thống, một số học sinh khác chỉ tham gia các bài giảng trực tuyến, và nhóm học sinh thứ ba tham gia loại hình giảng dạy được kết hợp bởi cả các bài giảng trực tuyến và truyền thống. Vào cuối học kỳ, họ đã thu thập dữ liệu về một kỳ thi chuẩn hoá.
 
