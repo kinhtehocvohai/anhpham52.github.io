@@ -1,12 +1,12 @@
 ---
-layout: tutorial
-tags: [Econ]
-comments: true
+layout: single
 title: 1 - Introduction To Causality
-subtitle: Why causality matters; potential outcome notation; understanding bias.
-date: 2020-06-17
-true-dt: 2020-06-17
-author: "Matheus Facure"
+permalink: /pythoncausal/pc17
+header:
+    image: /assets/images/pythoncausal/intro/anatomy2.png
+sidebar:
+    nav: pythoncausal
+author_profile: true
 ---
 
 ## Why Bother?
@@ -33,7 +33,7 @@ In the midst of all this craze, what should we, as Data Scientists - or better y
 Last but not least, remember that there are no shortcuts. Knowledge in Math and Statistics are valuable precisely because they are hard to acquire. If everyone could do it, excess supply would drive its price down. So **toughen up**! Learn them as well as you can. And heck, why not? have fun along the way as we embark on this quest only for the Brave and True!
 
 
-![img](/img/econ/intro/tougher-up-cupcake1.jpg)
+![img](/assets/images/pythoncausal/intro/tougher-up-cupcake1.jpg)
 
 ## Answering a Different Kind of Question
 
@@ -52,7 +52,7 @@ Answering this kind of question is tougher than most people appreciate. Your par
 Intuitively, we kind of know why association is not causation. If someone tells you that schools that give tablets to its students perform better than those who don't, you can quickly point out that it is probably the case that those schools with the tablets are richer. As such, they would do better than average even without the tablets. Because of this, we can't conclude that giving tablets to kids during classes will cause an increase in their academic performance. We can only say that tablets in school are associated with high academic performance.
 
 
-![png](/img/econ/intro/output_2_0.png)
+![png](/assets/images/pythoncausal/intro/output_2_0.png)
 
 
 To get beyond simple intuition, let's first establish some notation. This will be our common language to speak about causality. Think of it as the common tongue we will use to identify other brave and true causal warriors and that will compose our cry in the many battles to come.
@@ -96,7 +96,7 @@ As for the notation, we use an additional subscript:
 
 Sometimes you might see potential outcomes represented as functions \\(Y_i(t)\\), so beware. \\(Y_{0i}\\) could be \\(Y_i(0)\\) and \\(Y_{1i}\\) could be \\(Y_i(1)\\). Here, we will use the subscript notation most of the time.
 
-![img](/img/econ/intro/potential_outcomes.png)
+![img](/assets/images/pythoncausal/intro/potential_outcomes.png)
 
 Back to our example, \\(Y_{1i}\\) is the academic performance for student i if he or she has tablets at the classroom. Whether this is or not the case, it doesn't matter for \\(Y_{1i}\\). It is the same regardless. Now, if student i gets the tablet, we can observe \\(Y_{1i}\\). If not, we can observe \\(Y_{0i}\\). Notice how in this last case, \\(Y_{1i}\\) is still defined, we just can't see it. In this case, it is a counterfactual potential outcome.
 
@@ -271,7 +271,7 @@ Now why does this happen? We will talk more about that once we enter confounding
 For us to say that tablets in the classroom increase academic performance, we would need for schools with and without them to be, on average, similar to each other.
 
 
-![png](/img/econ/intro/output_8_0.png)
+![png](/assets/images/pythoncausal/intro/output_8_0.png)
 
 
 Now that we understand the problem, let's look at the solution. We can also say what would be necessary to make association equal to causation. **If \\(E[Y_0\|T=0] = E[Y_0\|T=1]\\), then, association IS CAUSATION!** Understanding this is not just remembering the equation. There is a strong intuitive argument here. To say that \\(E[Y_0\|T=0] = E[Y_0\|T=1]\\) is to say that treatment and control group are comparable before the treatment. Or, in the case that the treated had not been treated, if we could observe its \\(Y_0\\), then its outcome would be the same as the untreated. Mathematically, the bias term would vanish:
@@ -301,7 +301,7 @@ $$
 Once again, this is so important that I think it is worth going over it again, now with pretty pictures. If we do a simple average comparison between the treatment and the untreated group, this is what we get (blue dots didn't receive the treatment, that is, the tablet):
 
 
-<img class="img-responsive center-block" src="/img/econ/intro/anatomy1.png" style="width: 75%;" alt=""/>
+<img class="img-responsive center-block" src="/assets/images/pythoncausal/intro/anatomy1.png" style="width: 75%;" alt=""/>
 
 Notice how the difference in outcomes between the two groups can have two causes:
 
@@ -310,23 +310,23 @@ Notice how the difference in outcomes between the two groups can have two causes
 
 The true treatment effect can only be obtained if we had godlike powers to observe the potential outcome, like in the left figure below. The individual treatment effect is the difference between the unit's outcome and another theoretical outcome that the same unit would have in case it got the alternative treatment. These are the counterfactual outcomes and are denoted in light color.
 
-<img class="img-responsive center-block" src="/img/econ/intro/anatomy2.png" style="width: 100%;" alt=""/>
+<img class="img-responsive center-block" src="/assets/images/pythoncausal/intro/anatomy2.png" style="width: 100%;" alt=""/>
 
 In the left plot, we depicted what is the bias that we've talked about before. We get the bias if we set everyone to not receive the treatment. In this case, we are only left with the \\(T_0\\) potential outcome. Then, we see how the treated and untreated groups differ. If they do, it means that something other than the treatment is causing the treated and untreated to be different. This something is the bias and is what shadows the true treatment effect.
 
 Now, contrast this with a hypothetical situation where there is no bias. Suppose that tablets are randomly assigned to schools. In this situation, rich and poor schools have the same chance of receiving the treatment. Treatment would be well distributed across all the tuition spectrum.
 
-<img class="img-responsive center-block" src="/img/econ/intro/anatomy3.png" style="width: 75%;" alt=""/>
+<img class="img-responsive center-block" src="/assets/images/pythoncausal/intro/anatomy3.png" style="width: 75%;" alt=""/>
 
 In this case, the difference in the outcome between treated and untreated IS the average causal effect. This happens because there is no other source of difference between treatment and untreated other than the treatment itself. All the differences we see must be attributed to it. Another way to say this is that there is no bias.
 
-<img class="img-responsive center-block" src="/img/econ/intro/anatomy4.png" style="width: 100%;" alt=""/>
+<img class="img-responsive center-block" src="/assets/images/pythoncausal/intro/anatomy4.png" style="width: 100%;" alt=""/>
 
 If we set everyone to not receive the treatment in such a way that we only observe the \\(Y_0\\)s, we would find no difference between the treated and untreated groups. 
 
 This is the herculean task causal inference is all about. It is about finding clever ways of removing bias, of making the treated and the untreated comparable so that all the difference we see between them is only the average treatment effect. Ultimately, causal inference is about figuring out how the world really works, stripped of all delusions and misinterpretations. And now that we understand this, we can move forward to mastering some of the most powerful methods to remove bias, the weapons of the Brave and True to identify the causal effect. 
 
-<img class="img-responsive center-block" src="/img/econ/brave-and-true.png" style="width: 100%;" alt=""/>
+<img class="img-responsive center-block" src="/assets/images/pythoncausal/brave-and-true.png" style="width: 100%;" alt=""/>
 
 # Key Ideas
 
