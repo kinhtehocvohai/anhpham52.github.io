@@ -5,6 +5,7 @@ sidebar:
 title: Mô hình Biểu đồ Nhân quả
 permalink: /pythoncausal/pc04
 ---
+[Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 # Đôi điều về Quan hệ nhân quả
 
@@ -90,7 +91,13 @@ g
 
 Trong biểu đồ thứ nhất, sự phụ thuộc thể hiện qua hướng các mũi tên. Cụ thể hơn, giả sử rằng việc hiểu biết về suy luận nhân quả là cách duy nhất giải quyết các vấn đề trong kinh doanh, và giải quyết các vấn đề này là cách duy nhất để thăng tiến trong công việc. Chúng ta có thể nói rằng sự thăng tiến phụ thuộc vào hiểu biết về nhân quả. Càng có nhiều hiểu biết về quan hệ nhân quả thì cơ hội thăng tiến càng lớn. Lưu ý rằng sự phụ thuộc ở đây có tính đối xứng mặc dù không dễ nhận ra bằng trực giác. Cụ thể, khả năng thăng tiến của bạn càng cao thì khả năng bạn có hiểu biết về nhân quả càng lớn, nếu không thì sẽ rất khó để bạn được đề bạt. 
 
-Giả sử ta đặt điều kiện lên biến trung gian. Trong trường hợp này, sự phụ thuộc bị chặn lại. Vì vậy, X và Z độc lập với Y cho trước. Quay lại ví dụ trên, nếu tôi biết bạn là một người có kỹ năng giải quyết vấn đề tốt, thì việc biết rằng bạn có hiểu suy luận nhân quả không đưa ra thêm bất cứ thông tin nào về cơ hội thăng tiến của bạn trong công việc. Điều này có thể được biểu diễn một cách toán học như sau \\(E[Thăng \ tiến\|Giải \ quyết \ vấn \ đề, Hiểu \ biết \ nhân \ quả]=E[Thăng \ tiến\|Giải \ quyết \ vấn \ đề]\\) . Điều ngược lại cũng đúng, một khi tôi biết bạn có kỹ năng giải quyết vấn đề tốt, thì việc biết về sự thăng tiến của bạn trong công việc cũng không cung cấp cho tôi thêm thông tin gì hơn về việc bạn có hiểu biết về nhân quả hay không. 
+Giả sử ta đặt điều kiện lên biến trung gian. Trong trường hợp này, sự phụ thuộc bị chặn lại. Vì vậy, X và Z độc lập với Y cho trước. Quay lại ví dụ trên, nếu tôi biết bạn là một người có kỹ năng giải quyết vấn đề tốt, thì việc biết rằng bạn có hiểu suy luận nhân quả không đưa ra thêm bất cứ thông tin nào về cơ hội thăng tiến của bạn trong công việc. Điều này có thể được biểu diễn một cách toán học như sau 
+
+$$E[Thăng \ tiến\|Giải \ quyết \ vấn \ đề, Hiểu \ biết \ nhân \ quả]$$
+
+$$=E[Thăng \ tiến\|Giải \ quyết \ vấn \ đề]$$ 
+
+Điều ngược lại cũng đúng, một khi tôi biết bạn có kỹ năng giải quyết vấn đề tốt, thì việc biết về sự thăng tiến của bạn trong công việc cũng không cung cấp cho tôi thêm thông tin gì hơn về việc bạn có hiểu biết về nhân quả hay không. 
 
 Theo nguyên tắc chung, sự phụ thuộc trên đường đi trực tiếp từ A tới B bị chặn khi chúng ta đặt đặt điều kiện lên biến trung gian C. Hoặc,
 
@@ -143,22 +150,6 @@ $$
 
 Mẫu hình duy nhất chưa được đề cập tới là "đỉnh va chạm". Đỉnh va chạm xảy ra khi hai mũi tên cùng chỉ vào hay "va chạm" vào một biến. Trong trường hợp này chúng ta có thể nói rằng cả hai biến cùng có một kết quả chung.
 
-
-As an example, let's say your knowledge of statistics causes you to know more of causal inference and machine learning. If I don't know your level of statistical knowledge, then knowing that you are good at causal inference makes it more likely that you are also good at machine learning. That is because even if I don't know your level of statistical knowledge, I can infer it from your causal inference knowledge: if you are good at causal inference you are probably good at statistics, which also makes it more likely that you are good at machine learning. 
-
-Now, if I condition on your knowledge about statistics, then how much you know about machine learning becomes independent of how much you know about causal inference. You see, knowing your level of statistics already gives me all the information I need to infer the level of your machine learning skills. Knowing your level of causal inference will give no further information in this case. 
-
-As a general rule, two variables that share a common cause are dependent, but independent when we condition on the common cause. Or
-
-$$A \not\!\perp\!\!\!\perp B$$
-
-and
-
-$$
-A \!\perp\!\!\!\perp B | C
-$$
-
-The only structure that is missing is the collider. A collider is when two arrows collide on a single variable. We can say that in this case both variables share a common effect. 
 
 
 ```python
@@ -243,7 +234,9 @@ g
 Hiểu biết về các mô hình biểu đồ nhân quả giúp chúng ta hiểu về các vấn đề xảy ra trong suy luận nhân quả. Như ta đã thấy, chung quy lại các vấn đề luôn dẫn tới thiên lệch.
 
 $$
-E[Y|T=1] - E[Y|T=0] = \underbrace{E[Y_1 - Y_0|T=1]}_{ATET} + \underbrace{\{ E[Y_0|T=1] - E[Y_0|T=0] \}}_{Thiên \ lệch}
+E[Y|T=1] - E[Y|T=0] = \underbrace{E[Y_1 - Y_0|T=1]}_{ATET} $$
+
+$$+ \underbrace{\{ E[Y_0|T=1] - E[Y_0|T=0] \}}_{Thiên \ lệch}
 $$
 
 Mô hình biểu đồ cho phép ta tìm ra loại thiên lệch mà ta đang gặp phải và những công cụ cần thiết để giải quyết chúng. 
@@ -301,7 +294,7 @@ g
 
 
 
-Trong biểu đồ dưới đây, đặt điều kiện lên X1 và X2, hay là, SAT và thu nhập gia đình, là đủ để đóng tất cả các đường đi cửa sau giữa sự can thiệp và kết quả. Hay nói cách khác, \\((Y_0, Y_1) \perp T | X1, X2\\). Vì vậy ngay cả khi chúng ta không thể đo lường được tất cả các nguyên nhân chung, chúng ta vẫn có thể thu được sự độc lập có điều kiện nếu chúng ta kiểm soát các biến có thể đo được đóng vai trò trung gian cho tác động của biến không thể đo được trong can thiệp.
+Trong biểu đồ dưới đây, đặt điều kiện lên X1 và X2, hay là, SAT và thu nhập gia đình, là đủ để đóng tất cả các đường đi cửa sau giữa sự can thiệp và kết quả. Hay nói cách khác, \\((Y_0, Y_1) \perp T \| X1, X2\\). Vì vậy ngay cả khi chúng ta không thể đo lường được tất cả các nguyên nhân chung, chúng ta vẫn có thể thu được sự độc lập có điều kiện nếu chúng ta kiểm soát các biến có thể đo được đóng vai trò trung gian cho tác động của biến không thể đo được trong can thiệp.
 
 Nhưng nếu trường hợp trên không xảy ra thì sao? Điều gì sẽ xảy ra nếu biến không thể đo được trực tiếp gây ra sự can thiệp và kết quả? Trong ví dụ sau, trí tuệ trực tiếp chi phối học vấn và thu nhập. Vì vậy có hiện tượng nhiễu trong quan hệ giữa học vấn (sự can thiệp) và thu nhập (kết quả). Trong trường hợp này, chúng ta không thể kiểm soát biến nhiễu bởi vì nó không thể đo lường được. Những biến này không ở trong đường đi cửa sau, nhưng kiểm soát chúng sẽ giúp giảm (nhưng không triệt tiêu) thiên lệch. Những biến này đôi khi được đề cập đến như những biến đại diện nhiễu.
 
@@ -338,7 +331,8 @@ g
 
 Bây giờ bạn có thể nghĩ rằng bạn nên đưa tất cả những biến có thể đo lường được vào mô hình để chắc chắn rằng mình sẽ không gặp phải thiên lệch nhiễu. Hãy nghĩ kỹ lại nào!
 
-![image.png](./data/img/causal-graph/selection_bias.png)
+![image-center](/assets/images/pythoncausal/causal-graph/selection_bias.png){: .align-center}
+
 
 Nguyên nhân chính thứ hai của thiên lệch chính là thiên lệch chọn. Nếu thiên lệch nhiễu xảy ra khi chúng ta không kiểm soát nguyên nhân chung, thiên lệch chọn lại liên quan nhiều hơn tới các kết quả. Một điều đáng để lưu ý là các chuyên gia kinh tế có xu hướng coi tất cả các loại thiên lệch là thiên lệch chọn. Tôi lại cho rằng việc phân biệt giữa thiên lệch chọn và thiên lệch nhiễu rất hữu dụng, vì vậy tôi sẽ bám sát quan điểm này.
 
@@ -428,25 +422,25 @@ Trong trường hợp của chúng ta, việc đặt điều kiện lên biến 
 
 Nói một cách dễ hiểu hơn, giả sử rằng bạn phải chọn giữa hai ứng viên cho một vị trí trong công ty. Cả hai đều có những thành tựu về mặt chuyên môn ấn tượng như nhau, nhưng một người không có bằng đại học. Bạn sẽ chọn ứng viên nào? Rõ ràng, bạn nên chọn ứng viên không có bằng đại học, bởi người này đã cố gắng để đạt được những thành tựu tương tự như ứng viên kia dù trong điều kiện khó khăn và kém thuận lợi hơn. 
 
-![image.png](./data/img/causal-graph/diploma.png)
+![image-center](/assets/images/pythoncausal/causal-graph/diploma.png){: .align-center}
 
 
 
 # Tài liệu tham khảo
 
-Tôi muốn dành loạt bài viết này như lời cảm ơn tới Joshua Angrist, Alberto Abadie và Christopher Walters bởi lớp học Kinh tế lượng tuyệt vời của họ. Hầu hết những ý tưởng trong chương này được đúc kết từ những bài giảng của họ tại Hiệp hội kinh tế Hoa Kỳ. Lắng nghe những bài giảng của họ giúp tôi có thêm động lực đi qua một năm 2020 đầy khó khăn này.
 
-* [Cross-Section Econometrics](https://www.aeaweb.org/conference/cont-ed/2017-webcasts)
-* [Mastering Mostly Harmless Econometrics](https://www.aeaweb.org/conference/cont-ed/2020-webcasts)
+Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học Kinh tế lượng tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ.  Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.
+* [Kinh tế lượng với dữ liệu chéo](https://www.aeaweb.org/conference/cont-ed/2017-webcasts)
+* [Luyện chưởng Kinh tế lượng Gần như Vô hại](https://www.aeaweb.org/conference/cont-ed/2020-webcasts)
 
-Tôi cũng muốn giới thiệu một cuốn sách tuyệt vời từ Angrist. Họ đã thành công trong việc chỉ cho tôi thấy rằng Kinh tế lượng, hoặc là Lượng theo cách gọi của họ, không chỉ cực kỳ hữu ích mà còn vô cùng thú vị. 
+Tôi cũng muốn giới thiệu cuốn sách lý thú của Angrist. Chúng cho tôi thấy Kinh tế lượng, hoặc 'Lượng theo cách họ gọi không chỉ vô cùng hữu ích mà còn rất vui.
 
-* [Mostly Harmless Econometrics](https://www.mostlyharmlesseconometrics.com/)
-* [Mastering 'Metrics](https://www.masteringmetrics.com/)
+* [Kinh tế lượng Gần như Vô hại](https://www.mostlyharmlesseconometrics.com/)
+* [Luyện chưởng 'Lượng'](https://www.masteringmetrics.com/)
 
-Cuối cùng, không thể không nhắc đến cuốn sách được viết bởi Miguel Hernan và Jamie Robins. Nó là người bạn đồng hành đáng tin cậy giúp tôi tìm lời giải đáp cho những câu hỏi hóc búa nhất về tính nhân quả. 
+Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel Hernan and Jamie Robins. Nó là người bạn đồng hành tin cậy với tôi khi trả lời những câu hỏi nhân quả khó nhằn.
 
-* [Causal Inference Book](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
+* [Sách Suy Luận Nhân Quả](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
 
 
 
