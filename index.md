@@ -10,7 +10,7 @@ author_profile: true
 title: Suy luận Nhân quả với Python
 share: true
 header:
-  image: /assets/images/brave-and-true.png
+  image: /assets/images/cover.png
 classes: wide
 sidebar:
   nav: 'pythoncausal'
