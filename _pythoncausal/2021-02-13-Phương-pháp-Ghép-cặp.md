@@ -5,6 +5,8 @@ sidebar:
 title: Phương pháp Ghép cặp
 permalink: /pythoncausal/pc10
 ---
+[Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
+
 
 # Rốt cuộc Hồi quy đã làm gì?
 
@@ -1227,9 +1229,6 @@ Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel He
 
 * [Sách Suy Luận Nhân Quả](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
 
-Phép so sánh cốc bia trong bài này được lấy từ [Đầu tư Chứng khoán](https://jlcollinsnh.com/2012/04/15/stocks-part-1-theres-a-major-market-crash-coming-and-dr-lo-cant-save-you/), viết bởi JL Colins. Đây là loạt bài phải đọc cho bất kì ai muốn đầu tư hiệu quả.
-
-![image-center](/assets/images/pythoncausal/poetry.png){: .align-center}
 
 
 
