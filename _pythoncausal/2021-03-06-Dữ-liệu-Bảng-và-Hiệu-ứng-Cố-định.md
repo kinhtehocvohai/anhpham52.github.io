@@ -301,7 +301,11 @@ $$\ddot{X}_{it} = X_{it} -  \bar{X}_i$$
 
 - Bước 2. Chạy mô hình hồi quy 
 
-$$\ddot{Y}_{it}\\) theo \\(\ddot{X}_{it}$$
+$$\ddot{Y}_{it}$$  
+
+theo 
+
+$$\ddot{X}_{it}$$
 
 
 Chú ý rằng, các biến không quan sát được và không đổi theo thời gian \\(U_i\\) tiêu biến, vì \\(\bar{U_i}=U_i\\):
