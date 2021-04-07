@@ -2,8 +2,6 @@
 layout: single
 title: Giới thiệu Suy luận Nhân quả
 permalink: /pythoncausal/pc01
-header:
-    image: /assets/images/pythoncausal/intro/anatomy2.png
 sidebar:
     nav: pythoncausal
 author_profile: true
