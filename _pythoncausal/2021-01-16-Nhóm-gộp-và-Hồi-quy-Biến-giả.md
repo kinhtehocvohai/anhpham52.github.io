@@ -5,7 +5,7 @@ sidebar:
 title: Nhóm gộp và Hồi quy Biến giả
 permalink: /pythoncausal/pc06
 ---
-
+[Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 
 # Hồi quy với Dữ Liệu Nhóm Gộp
@@ -564,7 +564,7 @@ plt.legend();
 ```
 
 
-![image-center](/assets/images/pythoncausal/output06/output_26_0.png){: .align-center}
+![image-center](/assets/images/pythoncausal/output06/output_25_0.png){: .align-center}
 
 
 
@@ -700,7 +700,7 @@ plt.ylabel("Tiền lương giờ");
 ```
 
 
-![image-center](/assets/images/pythoncausal/output06/output_31_0.png){: .align-center}
+![image-center](/assets/images/pythoncausal/output06/output_30_0.png){: .align-center}
 
 
 Trước hết, hãy lưu ý việc này loại bỏ các giả thiết về dạng phương trình của tác động của giáo dục lên tiền lương. Chúng ta không cần lo lắng về log nữa. Quan trọng là mô hình này hoàn toàn phi tham số.Tất cả những gì nó làm là tính toán mức lương bình quân cho mỗi mức học vấn. Có thể thấy điều này từ đồ thị bên trên, với các đường hồi quy không có dạng định sẵn. Thay vào đó, là việc nội suy các giá trị trung bình của mẫu cho mỗi mức học vấn. Chúng ta cũng có thể thấy việc việc ước lượng tham số, ví dụ cho mức học vấn 17 năm. Trong mô hình này, chúng ta ước lượng được mức `9.5905`. Dưới đây chúng ta sẽ thấy hệ số này chính là hiệu của mức học vấn tham chiếu (9) và các cá nhân có 17 năm học vấn.
