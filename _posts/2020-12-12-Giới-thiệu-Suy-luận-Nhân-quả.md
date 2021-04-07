@@ -6,7 +6,7 @@ header:
     image: /assets/images/pythoncausal/intro/anatomy2.png
 sidebar:
     nav: pythoncausal
-author_profile: false
+author_profile: true
 ---
 [Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
