@@ -6,7 +6,7 @@ title: Hiệu quả Khó tin của Hồi quy tuyến tính
 permalink: /pythoncausal/pc05
 ---
 
-## Tất Cả Những Gì Ta Cần Là Phương Pháp Hồi quy
+# Tất Cả Những Gì Ta Cần Là Phương Pháp Hồi quy
 
 Khi thực hiện suy luận nhân quả, chúng ta đã biết làm thế nào mà có hai kết quả tiềm năng cho mỗi cá thể: \\(Y_0\\) là kết quả xảy ra nếu cá thể đó không nhận can thiệp và \\(Y_1\\) là kết quả nếu cá thể này nhận can thiệp. Việc chỉ định giá trị can thiệp là 0 hoặc 1 sẽ hiện thực hoá một trong hai kết quả tiềm năng, khiến chúng ta không thể nào biết được kết quả còn lại. Như vậy, thực tế chúng ta không thể biết được tác động can thiệp của cá thể \\(\tau_i = Y_{1i} - Y_{0i}\\). 
 
@@ -99,7 +99,7 @@ Tuyệt thật. Chúng ta không những có thể ước lượng được ATE,
 
 Như kỳ vọng. Nếu ta cộng ATE vào hệ số chặn, đấy chính là ước lượng hệ số của định dạng trực tuyến, ta sẽ có trung bình của mẫu cho nhóm can thiệp: \\(78.5475 + (-4.9122) = 73.635263\\).
 
-## Lý Thuyết Hồi quy
+# Lý Thuyết Hồi quy
 
 Tôi không định đào sâu vào cách mà hồi quy tuyến tính được xây dựng và ước lượng, nhưng một chút lý thuyết sẽ giúp chúng ta giải thích sức mạnh của phương pháp hồi quy trong suy luận nhân quả. Đầu tiên, hồi quy giải quyết bài toán dự đoán tuyến tính tối ưu. Gọi \\(\beta^*\\) là một véc-tơ của các tham số:
 
@@ -235,7 +235,7 @@ X[["format_ol"]].assign(e=e).corr()
 
 Và điều thú vị hơn nữa là những đặc tính này không phụ thuộc vào bất cứ điều gì! Chúng là những sự thật mang tính toán học, bất kể dữ liệu đó trông như thế nào.
 
-## Hồi quy Cho Dữ Liệu Không Ngẫu Nhiên
+# Hồi quy Cho Dữ Liệu Không Ngẫu Nhiên
 
 Cho đến nay, chúng ta đã làm việc với dữ liệu thử nghiệm ngẫu nhiên, nhưng như chúng ta biết, những dữ liệu đó rất khó có được. Các thí nghiệm rất tốn kém để tiến hành hoặc đơn giản là không khả thi. Rất khó để thuyết phục McKinsey & Co. cung cấp dịch vụ miễn phí một cách ngẫu nhiên để chúng ta có thể được một lần xác định giá trị mà dịch vụ tư vấn của họ mang lại, thực tế là những công ty có đủ khả năng chi trả cho dịch vụ này cũng đã rất sộp rồi.
 
@@ -540,7 +540,7 @@ model_2.summary().tables[1]
 
 
 
-## Biến Thiếu Hay Là Thiên Lệch Nhiễu
+# Biến Thiếu Hay Là Thiên Lệch Nhiễu
 
 Câu hỏi vẫn chưa có lời giải đáp là: tham số mà chúng ta đã ước lượng có quan hệ nhân quả không? Thật không may, chúng tôi không thể nói một cách chắc chắn được. Chúng ta có thể lập luận rằng mô hình đơn giản ban đầu hồi quy tiền lương theo số năm học vấn có lẽ không phải quan hệ nhân quả. Nó thiếu các biến quan trọng có tương quan với cả số năm học vấn và tiền lương. Nếu không kiểm soát chúng, tác động ước lượng được của giáo dục cũng bao gồm tác động của những biến khác không được đưa vào mô hình.
 
@@ -631,13 +631,13 @@ g
 
 Bây giờ, hãy trở lại với câu hỏi của chúng ta, liệu có phải tham số mà chúng ta đã ước lượng về tác động của biến `educ` đối với mức lương là quan hệ nhân quả hay không? Điều đó sẽ phụ thuộc vào khả năng liệu tất cả các biến nhiễu đã được đưa vào mô hình hay chưa. Cá nhân tôi nghĩ là chưa. Ví dụ, mô hình của chúng ta chưa bao gồm tài sản gia đình. Ngay cả khi chúng ta đưa vào biến trình độ học vấn của gia đình, đó chỉ có thể được coi là một đại diện cho sự giàu có của gia đình. Chúng tôi cũng không tính đến các yếu tố như tham vọng cá nhân. Có thể tham vọng chính là nguyên nhân dẫn đến cả việc học nhiều năm hơn và lương cao hơn, vì vậy nó là một biến nhiễu. Điều này cho thấy rằng **suy luận nhân quả với dữ liệu không ngẫu nhiên hoặc dữ liệu quan sát nên luôn được thực hiện với một chút cẩn trọng**. Chúng ta không bao giờ có thể chắc chắn được rằng tất cả các biến nhiễu đã được tính đến.
 
-## Ý tưởng chủ đạo
+# Ý tưởng chủ đạo
 
 Chúng ta đã đề cập đến khá nhiều kiến thức về hồi quy. Chúng ta đã thấy cách mà hồi quy có thể được sử dụng để thực hiện A/B testing và dễ dàng cung cấp cho ta các thông số của khoảng tin cậy. Sau đó, chúng ta đã chuyển sang nghiên cứu cách mà hồi quy giải quyết vấn đề dự đoán và nó là phép xấp xỉ tuyến tính tốt nhất cho CEF. Chúng ta cũng đã thảo luận về làm cách nào mà hệ số can thiệp hồi quy là hiệp phương sai giữa sự can thiệp và kết quả chia cho phương sai của sự can thiệp, trong trường hợp mô hình hồi quy đơn biến. Đối với trường hợp hồi quy đa biến, chúng ta đã tìm ra cách mà hồi quy cho chúng ta cách giải thích phần nào về hệ số can thiệp: nó có thể được diễn giải là cách mà kết quả sẽ thay đổi khi ta thay đổi sự can thiệp trong khi giữ cho tất cả các biến khác trong mô hình không đổi. Đây là điều mà các chuyên gia kinh tế gọi là ceteris paribus theo ngôn ngữ La-tinh.
 
 Cuối cùng, chúng ta chuyển sang tìm hiểu sự thiên lệch. Chúng ta đã thấy làm thế nào mà `Hồi quy thiếu bằng hồi quy đủ cộng với tác động của biến thiếu nhân với hồi quy của biến thiếu trên các biến được đưa vào mô hình`. Điều này làm sáng tỏ cách mà thiên lệch hình thành. Chúng ta phát hiện ra rằng nguồn gốc của thiên lệch thiếu biến là nhiễu: một biến ảnh hưởng đến cả sự can thiệp và kết quả. Cuối cùng, chúng ta đã sử dụng các biểu đồ nhân quả để xem cách mà RCT và hồi quy khắc phục nhiễu.
 
-## Tài liệu tham khảo
+# Tài liệu tham khảo
 
 Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học Kinh tế lượng tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ.  Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.
 * [Kinh tế lượng với dữ liệu chéo](https://www.aeaweb.org/conference/cont-ed/2017-webcasts)
@@ -652,7 +652,7 @@ Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel He
 
 * [Sách Suy Luận Nhân Quả](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
 
-## Bảng Từ Viết tắt 
+# Bảng Từ Viết tắt 
 
 |Viết tắt| Tiếng Anh | Tiếng Việt |
 | --- | --- | --- | 
@@ -661,7 +661,7 @@ Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel He
 |RCT|Randomized Controlled Trial|Thử nghiệm Ngẫu nhiên Đối chứng| 
 
 
-## Bảng Thuật ngữ 
+# Bảng Thuật ngữ 
 
 | Thuật ngữ | Tiếng Anh |
 | --- | --- | 
