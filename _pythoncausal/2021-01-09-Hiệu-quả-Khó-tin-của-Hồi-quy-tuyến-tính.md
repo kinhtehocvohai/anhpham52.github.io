@@ -2,7 +2,7 @@
 layout: single
 sidebar:
  nav: pythoncausal
-title: PC05 Hiệu quả Khó tin của Hồi quy tuyến tính
+title: Hiệu quả Khó tin của Hồi quy tuyến tính
 header:
  image: /assets/images/pythoncausal/output05/output_13_0.png
 permalink: /pythoncausal/pc05
@@ -11,7 +11,7 @@ permalink: /pythoncausal/pc05
 <html>
 <head><meta charset="utf-8" />
 
-<title>PC05 Hiệu quả Khó tin của Hồi quy tuyến tính</title>
+<title>Hiệu quả Khó tin của Hồi quy tuyến tính</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
