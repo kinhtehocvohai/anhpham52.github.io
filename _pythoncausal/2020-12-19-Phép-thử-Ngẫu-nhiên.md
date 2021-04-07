@@ -10,7 +10,9 @@ permalink: /pythoncausal/pc02
 
 Trong phần trước, chúng ta đã thấy lý do tại sao quan hệ tương quan khác với quan hệ nhân quả. Bên cạnh đó, chúng ta cũng đã biết điều kiện cần để biến quan hệ tương quan thành quan hệ nhân quả.
 
-$$E[Y|T=1] - E[Y|T=0] = \underbrace{E[Y_1 - Y_0|T=1]}_{ATET} + \underbrace{\{ E[Y_0|T=1] - E[Y_0|T=0] \}}_{THIÊN LỆCH}$$
+$$E[Y|T=1] - E[Y|T=0] = \underbrace{E[Y_1 - Y_0|T=1]}_{ATET} 
+
++ \underbrace{\{ E[Y_0|T=1] - E[Y_0|T=0] \}}_{THIÊN LỆCH}$$
 
 Tóm lại, quan hệ tương quan sẽ trở thành quan hệ nhân quả nếu không có thiên lệch. Thiên lệch sẽ không tồn tại nếu \\(E[Y_0\|T=0]=E[Y_0\|T=1]\\). Nói cách khác, quan hệ tương quan sẽ là quan hệ nhân quả nếu các nhóm được can thiệp và nhóm đối chứng là như nhau, hoặc tương đồng, ngoại trừ việc chúng có được nhận can thiệp hay không. Về mặt kỹ thuật, kết quả của nhóm đối chứng bằng với kết quả giả tưởng của nhóm được can thiệp. Trong đó, kết quả giả tưởng là kết quả của nhóm can thiệp trong trường hợp không có sự can thiệp.
 
