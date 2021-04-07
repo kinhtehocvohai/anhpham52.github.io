@@ -314,6 +314,7 @@ defaults:
       type: blogpost
     values:
       layout: single
+      read_time: true
       share: true
       comments: true
       related: true
@@ -328,6 +329,7 @@ defaults:
       type: pythoncausal
     values:
       layout: single
+      read_time: true
       share: true
       comments: true
       related: true
