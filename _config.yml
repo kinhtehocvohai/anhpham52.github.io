@@ -319,8 +319,8 @@ defaults:
       related: true
       show_date: true
       author_profile: true
-      #toc: true
-      #toc_label: "Mục lục"
+      toc: true
+      toc_label: "Mục lục"
       #toc_icon: "ML"
   # _pythoncausal
   - scope:
@@ -334,7 +334,7 @@ defaults:
       related: true
       show_date: true
       author_profile: true
-      toc: true
-      toc_label: "Mục lục"
+      #toc: true
+      #toc_label: "Mục lục"
       #toc_icon: "ML"
     
