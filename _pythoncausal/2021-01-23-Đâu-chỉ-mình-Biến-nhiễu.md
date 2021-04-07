@@ -830,7 +830,7 @@ Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Albert
 Tôi cũng muốn giới thiệu cuốn sách lý thú của Angrist. Chúng cho tôi thấy Kinh tế lượng, hoặc 'Lượng theo cách họ gọi không chỉ vô cùng hữu ích mà còn rất vui.
 
 * [Kinh tế lượng Gần như Vô hại](https://www.mostlyharmlesseconometrics.com/)
-* [Luyện chưởng 'Lượng](https://www.masteringmetrics.com/)
+* [Luyện chưởng 'Lượng'](https://www.masteringmetrics.com/)
 
 Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel Hernan and Jamie Robins. Nó là người bạn đồng hành tin cậy với tôi khi trả lời những câu hỏi nhân quả khó nhằn.
 
