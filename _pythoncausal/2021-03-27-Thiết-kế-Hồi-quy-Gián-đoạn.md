@@ -2,7 +2,7 @@
 layout: single
 sidebar:
  nav: pythoncausal
-title: PC16 Thiết kế Hồi quy Gián đoạn
+title: Thiết kế Hồi quy Gián đoạn
 header:
  image: /assets/images/pythoncausal/rdd/ols.png
 permalink: /pythoncausal/pc16
@@ -11,7 +11,7 @@ permalink: /pythoncausal/pc16
 <html>
 <head><meta charset="utf-8" />
 
-<title>PC16 Thiết kế Hồi quy Gián đoạn</title>
+<title>Thiết kế Hồi quy Gián đoạn</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
