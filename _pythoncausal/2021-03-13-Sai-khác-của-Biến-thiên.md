@@ -2,13 +2,13 @@
 layout: single
 sidebar:
  nav: pythoncausal
-title: PC14 Sai khác của Biến thiên
+title: Sai khác của Biến thiên
 permalink: /pythoncausal/pc14
 ---
 <html>
 <head><meta charset="utf-8" />
 
-<title>14-Sai-khác-của-Biến-thiên-VN</title>
+<title>Sai khác của Biến thiên</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
