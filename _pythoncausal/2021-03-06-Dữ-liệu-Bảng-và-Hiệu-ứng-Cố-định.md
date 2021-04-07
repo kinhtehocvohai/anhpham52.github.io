@@ -2,13 +2,13 @@
 layout: single
 sidebar:
  nav: pythoncausal
-title: PC13 Dữ liệu Bảng và Hiệu ứng Cố định
+title: Dữ liệu Bảng và Hiệu ứng Cố định
 permalink: /pythoncausal/pc13
 ---
 <html>
 <head><meta charset="utf-8" />
 
-<title>13-Dữ-liệu-Bảng-và-Hiệu-ứng-Cố-định-VN</title>
+<title>Dữ liệu Bảng và Hiệu ứng Cố định</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
