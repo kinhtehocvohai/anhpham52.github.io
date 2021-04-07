@@ -5,6 +5,8 @@ sidebar:
 title: Thiết kế Hồi quy Gián đoạn
 permalink: /pythoncausal/pc16
 ---
+[Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
+
 
 # Thiết Kế Hồi Quy Gián Đoạn
 
