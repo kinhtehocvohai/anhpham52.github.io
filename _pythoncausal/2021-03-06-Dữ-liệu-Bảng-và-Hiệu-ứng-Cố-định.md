@@ -293,11 +293,16 @@ data.groupby("year")["lwage"].mean()
 
 Điều này nghĩa là việc tính giá trị trung bình cho mỗi người trong bảng của chúng ta tương đương với việc hồi quy các biến khác theo các biến giả cho cá nhân. Điều này gợi ý quy trình ước lượng sau:
 
-1. Tạo ra các biến khử giá trị trung bình theo thời gian bằng cách trừ đi giá trị trung bình của mỗi cá nhân:   
+- Bước 1. Tạo ra các biến khử giá trị trung bình theo thời gian bằng cách trừ đi giá trị trung bình của mỗi cá nhân:   
 
-\\(\ddot{Y}_{it} = Y_{it} -  \bar{Y}_i\\), \\(\ddot{X}_{it} = X_{it} -  \bar{X}_i\\)
+$$\ddot{Y}_{it} = Y_{it} -  \bar{Y}_i$$
 
-2. Chạy mô hình hồi quy \\(\ddot{Y}_{it}\\) theo \\(\ddot{X}_{it}\\)
+$$\ddot{X}_{it} = X_{it} -  \bar{X}_i$$
+
+- Bước 2. Chạy mô hình hồi quy 
+
+$$\ddot{Y}_{it}\\) theo \\(\ddot{X}_{it}$$
+
 
 Chú ý rằng, các biến không quan sát được và không đổi theo thời gian \\(U_i\\) tiêu biến, vì \\(\bar{U_i}=U_i\\):
 
