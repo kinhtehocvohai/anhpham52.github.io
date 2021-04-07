@@ -2,7 +2,7 @@
 layout: single
 sidebar:
  nav: pythoncausal
-title: PC06 Nhóm gộp và Hồi quy Biến giả
+title: Nhóm gộp và Hồi quy Biến giả
 permalink: /pythoncausal/pc06
 header:
  image: /assets/images/pythoncausal/output06/output_15_0.png
@@ -11,7 +11,7 @@ header:
 <html>
 <head><meta charset="utf-8" />
 
-<title>06-Nhóm-gộp-và-Hồi-quy-Biến-giả-VN</title>
+<title>Nhóm gộp và Hồi quy Biến giả</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
