@@ -30,6 +30,7 @@ $$
 E[Y|T=1] - E[Y|T=0] = \underbrace{E[Y_1 - Y_0|T=1]}_{ATET} $$
 
 $$+ \underbrace{\{E[Y_0|T=1] - E[Y_0|T=0]\}}_{THIÊN LỆCH}$$
+{: .text-right}
 
 Trước đó, chúng ta đã biết làm thế nào để loại trừ thiên lệch bằng phương pháp Thử Nghiệm Ngẫu Nhiên, hay thường được biết đến với tên gọi **Thử Nghiệm Ngẫu Nhiên Có Đối Chứng**. RCT bắt buộc các nhóm được can thiệp và nhóm đối chứng phải tương đồng và đó cũng chính là lý do vì sao mà thiên lệch lại bị tiêu biến. Chúng ta cũng đã biết cách thiết lập các mức độ không chắc chắn xung quanh các ước lượng cho tác động can thiệp. Cụ thể, chúng ta đã xem xét trường hợp của lớp học trực tuyến so với lớp học truyền thống, trong đó \\(T = 0\\) đại diện cho nhóm học sinh theo phương pháp học truyền thống và \\(T = 1\\) đại diện cho nhóm học sinh tham gia các lớp trực tuyến. Học sinh được chỉ định ngẫu nhiên vào một trong hai phương pháp học đó và sau đó, kết quả học tập của chúng được đánh giá qua một kỳ thi. Chúng ta đã xây dựng một hàm kiểm định A/B mà có thể so sánh cả hai nhóm, ước lượng tác động can thiệp trung bình và thậm chí thiết lập khoảng tin cậy xung quanh kết quả đó.
 
