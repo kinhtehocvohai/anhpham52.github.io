@@ -5,7 +5,7 @@ sidebar:
 title: Ước lượng mạnh Hai lần 
 permalink: /pythoncausal/pc12
 ---
-
+[Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 
 # Đừng Bỏ hết Trứng vào Một Giỏ
@@ -169,7 +169,7 @@ Chúng ta bây giờ đã sẵn sàng để hiểu cách ước lượng mạnh 
 
 # Ước Lượng Mạnh Hai Lần
 
-![image-center](/assets/images/pythoncausal/oubly-robust/double.png){: .align-center}
+![image-center](/assets/images/pythoncausal/doubly-robust/double.png){: .align-center}
 
 Thay vì trình bày cách tính kết quả ước lượng, trước hết tôi sẽ chỉ cho bạn công thức ước lượng và sau đó giải thích tại sao nó rất ngầu.
 
