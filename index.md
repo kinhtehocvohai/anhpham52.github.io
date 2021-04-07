@@ -13,6 +13,7 @@ header:
   image: /assets/images/brave-and-true.png
 classes: wide
 sidebar:
+  nav: 'blogpost'
   nav: 'pythoncausal'
 ---
 
