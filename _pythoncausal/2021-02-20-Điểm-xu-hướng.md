@@ -2,14 +2,14 @@
 layout: single
 sidebar:
  nav: pythoncausal
-title: PC11 Điểm xu hướng
+title: Điểm xu hướng
 permalink: /pythoncausal/pc11
 ---
 
 <html>
 <head><meta charset="utf-8" />
 
-<title>PC11 Điểm xu hướng</title>
+<title>Điểm xu hướng</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
