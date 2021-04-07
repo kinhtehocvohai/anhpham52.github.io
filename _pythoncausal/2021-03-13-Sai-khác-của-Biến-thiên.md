@@ -13,7 +13,8 @@ Tôi nhớ lại khoảng thời gian làm marketing (tiếp thị). Khi ấy m�
 
 Nhưng không phải ai cũng là đối tượng của makerting trực tuyến. Đôi khi bạn phải sử dụng những phương pháp kém chính xác hơn như quảng cáo TV hoặc đặt các biển quảng cáo ngoài trời trên đường phố. Nhiều khi việc đa dạng hóa kênh marketing là điều mà các phòng marketing hướng đến. Nhưng nếu marketing trực tuyến là cần câu chuyên nghiệp để săn một loại cá ngừ cụ thể, biển quảng cáo và TV là những tấm lưới lớn bạn quăng ra đón cả bầy cá và hi vọng sẽ tóm được một vài con ngon. Nhưng một vấn đề khác với biển quảng cáo và quảng cáo TV là rất khó đánh giá tính hiệu quả của chúng. Bạn chắc chắn có thể đo được lượng mua hàng hoặc bất kì chỉ tiêu nào khác, trước và sau khi đặt biển quảng cáo ở đâu đó. Giả sử có sự gia tăng trong các chỉ tiêu này, liệu đó có phải bằng chứng cho tính hiệu quả của chương trình marketing? Nhưng bạn có chắc sự gia tăng đó không phải xu hướng tăng trưởng tự nhiên trong nhận thức của công chúng về sản phẩm của bạn. Hay nói cách khác, làm thể nào để bạn biết giả tưởng \\(Y_0\\), điều lẽ ra xảy đến nếu bạn không đặt biển quảng cáo? 
 
-![img](./data/img/diff-in-diff/secrets.png)
+![image-center](/assets/images/pythoncausal/diff-in-diff/secrets.png){: .align-center}
+
 
 Một kĩ thuật dùng để trả lời những loại câu hỏi này là Sai khác của biến thiên. Sai khác của biến thiên thường được dùng để đánh giá tác động của các can thiệp vĩ mô, như tác động của nhập cư đối với thất nghiệp, tác động của thay đổi luật quản lý súng và tỉ lệ tội phạm hoặc đơn giản là khác biệt trong lượng tương tác người dùng do một chiến dịch marketing. Trong tất cả các trường hợp này, bạn phải có một khoảng thời gian trước và sau can thiệp và mong muốn tách biệt tác động của can thiệp khỏi xu hướng vận động chung. Một ví dụ cụ thể, hãy cùng xem xét một câu hỏi tương tự như điều mà tôi đã từng phải trả lời.
 
@@ -230,13 +231,13 @@ plt.plot(["T5", "T7"], [poa_before, poa_before+(fl_after-fl_before)],
 plt.legend();
 ```
 
+![image-center](/assets/images/pythoncausal/output14/output_11_0.png){: .align-center}
 
-![png](output_11_0.png)
 
 
 Hãy nhìn khác biệt nhỏ giữa đường màu đỏ và đường nét đứt màu vàng. Nếu tập trung, bạn có thể thấy tác động can thiệp nhỏ đối với Porto Alegre. 
 
-![img](./data/img/diff-in-diff/cant-read.png)
+![image-center](/assets/images/pythoncausal/diff-in-diff/cant-read.png){: .align-center}
 
 
 Bây giờ bạn có thể hỏi chính mình "liệu mình có thể tin tưởng bao nhiêu vào mô hình ước lượng này? Tôi có quyền yêu cầu được biết các sai số chuẩn !". Đòi hỏi này chính đáng, vì mô hình ước lượng sẽ trông ngờ nghệch nếu không có chúng. Để làm vậy, chúng ta sẽ dùng một mẹo nhỏ với hồi quy. Cụ thể chúng ta sẽ ước lượng mô hình sau:
@@ -298,13 +299,13 @@ plt.plot(["May", "Jul"], [poa_before, poa_before+(fl_after-fl_before)], label="G
 plt.legend();
 ```
 
+![image-center](/assets/images/pythoncausal/output14/output_15_0.png){: .align-center}
 
-![png](output_15_0.png)
 
 
 Chúng ta sẽ xem xét cách giải quyết vấn đề này với đối chứng tổng hợp. Nó sẽ sử dụng nhiều thành phố để tạo ra một thành phố tổng hợp có xu hướng vận động gần với thành phố cần nghiên cứu. Nhưng hiện tại, hãy cứ tạm nhớ rằng bạn cần kiểm tra điều kiện xu hướng song song khi áp dụng sai khác của biến thiên. 
 
-![img](./data/img/diff-in-diff/non-parallel.png)
+![image-center](/assets/images/pythoncausal/diff-in-diff/non-parallel.png){: .align-center}
 
 Vấn đề cuối cùng cần phải nhắc đến là bạn sẽ không thể đặt khoảng tin cậy xung quanh mô hình ước lượng Sai khác của biến thiên nếu bạn chỉ có dữ liệu cộng gộp. Ví dụ thay vì có dữ liệu cho mỗi khách hàng từ Florianópolis hoặc Porto Alegre, bạn chỉ có lượng tiền gửi trước và sau can thiệp cho mỗi thành phố. Trong trường hợp này, bạn sẽ vẫn có thể ước lượng tác động nhân quả bằng Sai khác của biến thiên, nhưng bạn sẽ không biết phương sai của nó. Đó là vì tất cả biến động trong dữ liệu đã biến mất do cộng gộp dữ liệu.
 
