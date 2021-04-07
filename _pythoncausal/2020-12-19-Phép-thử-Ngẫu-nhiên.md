@@ -6,7 +6,7 @@ title: Phép thử Ngẫu nhiên
 permalink: /pythoncausal/pc02
 ---
 
-## Tiêu chuẩn Vàng
+# Tiêu chuẩn Vàng
 
 Trong phần trước, chúng ta đã thấy lý do tại sao quan hệ tương quan khác với quan hệ nhân quả. Bên cạnh đó, chúng ta cũng đã biết điều kiện cần để biến quan hệ tương quan thành quan hệ nhân quả.
 
@@ -44,7 +44,7 @@ $$
 Như vậy, thử nghiệm ngẫu nhiên đưa ra cách sử dụng sự khác biệt giản đơn giữa các giá trị bình quân của nhóm can thiệp và nhóm đối chứng, hay còn được gọi là hiệu ứng can thiệp.
 
 
-## Tại một ngôi trường xa thật xa
+# Tại một ngôi trường xa thật xa
 
 Trong năm 2020, đại dịch vi-rút Corona đã buộc các doanh nghiệp phải thích nghi với giãn cách xã hội. Các dịch vụ giao hàng đã trở nên phổ biến, những doanh nghiệp lớn đã chuyển sang chiến lược làm việc từ xa. Các trường học không nằm ngoài xu hướng đó. Rất nhiều trường đã bắt đầu tổ chức các lớp học trực tuyến.
 
@@ -293,7 +293,7 @@ Vâng. Chỉ đơn giản vậy thôi. Chúng ta có thể thấy các lớp h�
 
 Chính vì lẽ đó, một kiểm định giả thiết tốt cho thử nghiệm ngẫu nhiên (kiểm tra xem dữ liệu được sử dụng có phù hợp không) là kiểm chứng liệu nhóm được can thiệp có tương tự nhóm đối chứng khi xem xét các biến số trước khi diễn ra can thiệp hay không. Trong dữ liệu trên, ta có thông tin về giới tính và sắc tộc, vì vậy ta có thể dễ dàng nhận biết nếu giữa các nhóm có sự tương đồng. Đối với các biến `gender`, `asian`, `hispanic` và `white`, ta có thể nói rằng chúng trông khá giống nhau. Tuy nhiên, biến `black` lại có sự khác biệt một chút giữa các nhóm. Điều này làm ta chú ý đến những vấn đề có thể xảy ra đối với một tập dữ liệu nhỏ. Kể cả khi có thử nghiệm ngẫu nhiên, một nhóm cũng có khả năng khác với nhóm còn lại. Trong các mẫu lớn, sự khác biệt này có xu hướng bị triệt tiêu. 
 
-## Thử Nghiệm Lý Tưởng
+# Thử Nghiệm Lý Tưởng
 
 Các thử nghiệm đối chứng ngẫu nhiên là cách tiếp cận đáng tin cậy nhất để thu được tác động nhân quả. Nó là một kỹ thuật đơn giản đến khó tin và thuyết phục một cách phi lý. Phương pháp này mạnh đến nỗi hầu như mọi quốc gia đều dùng nó như một bước bắt buộc để chứng minh cho sự hiệu quả của một loại thuốc mới. Trong một so sánh thú vị, các bạn có thể tưởng tượng RCT là Aang, và các phương pháp khác là Sokka, các nhân vật trong bộ phim hoạt hình Thế Thần: Tiết khí sư cuối cùng. Sokka rất ngầu và có thể thực hiện khéo léo được một vài thủ thuật này nọ, nhưng Aang có thể bẻ cong cả bốn yếu tố và kết nối được với thế giới tâm linh. Hãy nghĩ theo hướng này, nếu chúng ta có thể, RCT sẽ là tất cả những gì chúng ta sẽ làm để khám phá quan hệ nhân quả. Một RCT được thiết kế tốt là ước mơ của bất kỳ nhà khoa học nào.
 
@@ -303,7 +303,7 @@ Các thử nghiệm đối chứng ngẫu nhiên là cách tiếp cận đáng t
 
 Một lúc nào đó, chúng ta sẽ tìm hiểu cách giảm thiểu chi phí cho thử nghiệm ngẫu nhiên bằng cách áp dụng ngẫu nhiên có điều kiện, tuy vậy chúng ta cũng không thể làm gì hơn đối với các thí nghiệm mang tính phi đạo đức hoặc bất khả thi. Tuy nhiên, bất cứ khi nào chúng ta giải quyết các câu hỏi về nhân quả, **thử nghiệm lý tưởng** rất đáng để cân nhắc. Nếu có thể, hãy luôn tự vấn bản thân rằng **thử nghiệm lý tưởng mà bạn thực hiện để khám phá ra tác động nhân quả này là gì?** Câu hỏi này có xu hướng làm sáng tỏ cách mà chúng ta có thể khám phá ra tác động nhân quả ngay cả khi không có thử nghiệm lý tưởng.
 
-## Cơ Chế Chỉ Định
+# Cơ Chế Chỉ Định
 
 Trong thử nghiệm đối chứng ngẫu nhiên, cơ chế để chỉ định một cá thể cho một sự can thiệp này hoặc sự can thiệp khác là ngẫu nhiên. Như chúng ta sẽ thấy ở phần sau, tất cả các phương pháp suy luận nhân quả bằng cách nào đó sẽ cố gắng xác định cơ chế chỉ định của các sự can thiệp. Khi chúng ta biết chắc chắn cơ chế này hoạt động như thế nào, suy luận nhân quả sẽ chắc chắn hơn nhiều, ngay cả khi cơ chế chỉ định không phải là ngẫu nhiên.
 
@@ -311,13 +311,13 @@ Thật không may, không thể xác định cơ chế chỉ định chỉ đơn
 
 Trong các câu hỏi nhân quả, chúng ta thường có khả năng tranh luận theo cả hai cách: biến X gây ra biến Y, hoặc một biến Z thứ ba gây ra cả X và Y, và do đó mối tương quan giữa X và Y chỉ là giả. Vì lý do này mà việc biết cơ chế chỉ định cho ta một câu trả lời về nhân quả thuyết phục hơn nhiều. Đây cũng là điều làm cho suy luận nhân quả trở nên thú vị. Trong khi ứng dụng ML thường chỉ yêu cầu việc nhập các câu lệnh theo đúng thứ tự, thì việc ứng dụng suy luận nhân quả đòi hỏi bạn phải suy nghĩ nghiêm túc về cơ chế tạo ra dữ liệu đó.
 
-## Ý tưởng chủ đạo
+# Ý tưởng chủ đạo
 
 Chúng ta đã xem xét việc bằng cách nào mà các thử nghiệm đối chứng ngẫu nhiên là cách đơn giản và hiệu quả nhất để khám phá tác động nhân quả. Điều này được thực hiện bằng cách làm cho nhóm can thiệp và nhóm đối chứng trở nên tương đồng. Thật không may, chúng ta không thể thực hiện thử nghiệm đối chứng ngẫu nhiên vào mọi lúc, nhưng nó vẫn hữu ích nếu ta có thể biết được thử nghiệm lý tưởng mà chúng ta sẽ làm là gì.
 
 Nếu bạn đã quen thuộc với kiến thức về thống kê, bạn  có thể phản đối ngay lúc này rằng chúng tôi đã không xem xét phương sai cho ước lượng của tác động nhân quả. Làm thế nào mà chúng tôi có thể biết rằng việc giảm 4,91 điểm không phải là do ngẫu nhiên? Nói cách khác, làm thế nào chúng tôi có thể biết được liệu sự khác biệt có ý nghĩa thống kê hay không? Và bạn có thể đúng. Đừng lo. Tiếp theo, chúng tôi sẽ ôn lại một số khái niệm trong chương tiếp theo.
 
-## Tài liệu tham khảo
+# Tài liệu tham khảo
 
 Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học Kinh tế lượng tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ.  Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.
 * [Kinh tế lượng với dữ liệu chéo](https://www.aeaweb.org/conference/cont-ed/2017-webcasts)
@@ -336,14 +336,14 @@ Dữ liệu sử dụng trong phần này được trích từ một nghiên c�
 
 ![image-center](/assets/images/pythoncausal/poetry.png){: .align-center}
 
-## Bảng Từ Viết tắt 
+# Bảng Từ Viết tắt 
 
 |Viết tắt| Tiếng Anh | Tiếng Việt |
 | --- | --- | --- | 
 |RCT|Randomized Controlled Trial|Thử nghiệm Ngẫu nhiên Đối chứng| 
 
 
-## Bảng Thuật ngữ 
+# Bảng Thuật ngữ 
 
 | Thuật ngữ | Tiếng Anh |
 | --- | --- | 
