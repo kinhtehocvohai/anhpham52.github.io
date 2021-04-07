@@ -295,9 +295,7 @@ data.groupby("year")["lwage"].mean()
 
 1. Tạo ra các biến khử giá trị trung bình theo thời gian bằng cách trừ đi giá trị trung bình của mỗi cá nhân:   
 
-$$\ddot{Y}_{it} = Y_{it} -  \bar{Y}_i$$
-
-$$\ddot{X}_{it} = X_{it} -  \bar{X}_i$$
+\\(\ddot{Y}_{it} = Y_{it} -  \bar{Y}_i\\), \\(\ddot{X}_{it} = X_{it} -  \bar{X}_i\\)
 
 2. Chạy mô hình hồi quy \\(\ddot{Y}_{it}\\) theo \\(\ddot{X}_{it}\\)
 
