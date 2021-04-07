@@ -2,7 +2,7 @@
 layout: single
 sidebar:
  nav: pythoncausal
-title: PC04 Mô hình Biểu đồ Nhân quả
+title: Mô hình Biểu đồ Nhân quả
 header:
  image: /assets/images/pythoncausal/output04/output_7_0.png
 permalink: /pythoncausal/pc04
@@ -12,7 +12,7 @@ permalink: /pythoncausal/pc04
 <html>
 <head><meta charset="utf-8" />
 
-<title>PC04 Mô hình Biểu đồ Nhân quả</title>
+<title>Mô hình Biểu đồ Nhân quả</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
