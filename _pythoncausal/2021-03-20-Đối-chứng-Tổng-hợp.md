@@ -17,7 +17,7 @@ Trong trường hợp đó, chúng ta có rất nhiều mẫu, bởi vì dữ li
 |FL|171.64|206.16|
 |POA|46.01|87.06|
 
-Chúng ta vẫn có thể ước lượng được Diff-in-Diff estimator
+Chúng ta vẫn có thể ước lượng được mô hình ước lượng sai khác của biến thiên 
 
 $$
 (E[Y(1)|D=1] - E[Y(1)|D=0]) - (E[Y(0)|D=1] - E[Y(0)|D=0]) = $$
