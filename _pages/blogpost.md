@@ -1,5 +1,5 @@
 ---
-title: Blog posts
+title: Blog Posts
 layout: collection
 sidebar:
  nav: pythoncausal
