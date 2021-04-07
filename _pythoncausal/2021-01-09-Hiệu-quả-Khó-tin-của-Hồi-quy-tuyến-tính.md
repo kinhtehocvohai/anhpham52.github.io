@@ -3,8 +3,6 @@ layout: single
 sidebar:
  nav: pythoncausal
 title: Hiệu quả Khó tin của Hồi quy tuyến tính
-header:
- image: /assets/images/pythoncausal/output05/output_13_0.png
 permalink: /pythoncausal/pc05
 ---
 
