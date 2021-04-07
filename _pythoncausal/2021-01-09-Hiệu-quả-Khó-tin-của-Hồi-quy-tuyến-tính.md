@@ -5,6 +5,7 @@ sidebar:
 title: Hiệu quả Khó tin của Hồi quy tuyến tính
 permalink: /pythoncausal/pc05
 ---
+[Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 # Tất Cả Những Gì Ta Cần Là Phương Pháp Hồi quy
 
@@ -290,7 +291,7 @@ plt.show()
 ![image-center](/assets/images/pythoncausal/output05/output_13_0.png){: .align-center}
 
 
-Tất nhiên, không phải vì chúng ta có thể ước lượng mô hình đơn giản này mà nó chính xác. Hãy để ý cách mà tôi đã cẩn trọng khi nói rằng mô hình trên **dự đoán** mức lương theo số năm học vấn. Tôi chưa bao giờ nói rằng dự đoán này là nhân quả. Trên thực tế, cho đến thời điểm hiện tại, các bạn có thể đã có những lý do thật sự nghiêm túc để tin rằng mô hình này bị thiên lệch. Vì dữ liệu của chúng tôi không đến từ một thử nghiệm ngẫu nhiên, nên chúng tôi không biết liệu những người có thời gian học tập lâu hơn có tương đồng với những người có ít thời gian học tập hơn hay không. Hơn nữa, từ sự hiểu biết của chúng tôi về cách thế giới vận hành, chúng tôi chắc rằng chúng không thể nào tương đồng được. Cụ thể, chúng ta có thể lập luận rằng những người có nhiều năm học vấn có thể có bố mẹ giàu hơn, và việc tăng lương mà chúng ta thấy khi tăng số năm học vấn chỉ là sự phản ánh mối quan hệ giữa sự giàu có của gia đình và số năm được giáo dục. Khi biểu diễn bằng các công thức toán học, ta thấy rằng \\(E[Y_0|T=0] < E[Y_0|T=1]\\), nghĩa là, những người có nhiều số năm học vấn vẫn sẽ có được thu nhập cao hơn ngay cả khi họ chỉ đi học trong một thời gian ngắn. Nếu bạn thực sự có thành kiến về giáo dục, bạn có thể lập luận rằng giáo dục thậm chí có thể làm *giảm* mức lương thu nhập bằng cách cản trở mọi người tham gia vào lực lượng lao động và giảm kinh nghiệm làm việc của họ.
+Tất nhiên, không phải vì chúng ta có thể ước lượng mô hình đơn giản này mà nó chính xác. Hãy để ý cách mà tôi đã cẩn trọng khi nói rằng mô hình trên **dự đoán** mức lương theo số năm học vấn. Tôi chưa bao giờ nói rằng dự đoán này là nhân quả. Trên thực tế, cho đến thời điểm hiện tại, các bạn có thể đã có những lý do thật sự nghiêm túc để tin rằng mô hình này bị thiên lệch. Vì dữ liệu của chúng tôi không đến từ một thử nghiệm ngẫu nhiên, nên chúng tôi không biết liệu những người có thời gian học tập lâu hơn có tương đồng với những người có ít thời gian học tập hơn hay không. Hơn nữa, từ sự hiểu biết của chúng tôi về cách thế giới vận hành, chúng tôi chắc rằng chúng không thể nào tương đồng được. Cụ thể, chúng ta có thể lập luận rằng những người có nhiều năm học vấn có thể có bố mẹ giàu hơn, và việc tăng lương mà chúng ta thấy khi tăng số năm học vấn chỉ là sự phản ánh mối quan hệ giữa sự giàu có của gia đình và số năm được giáo dục. Khi biểu diễn bằng các công thức toán học, ta thấy rằng \\(E[Y_0\|T=0] < E[Y_0\|T=1]\\), nghĩa là, những người có nhiều số năm học vấn vẫn sẽ có được thu nhập cao hơn ngay cả khi họ chỉ đi học trong một thời gian ngắn. Nếu bạn thực sự có thành kiến về giáo dục, bạn có thể lập luận rằng giáo dục thậm chí có thể làm *giảm* mức lương thu nhập bằng cách cản trở mọi người tham gia vào lực lượng lao động và giảm kinh nghiệm làm việc của họ.
 
 May thay, chúng ta có quyền truy cập vào rất nhiều các biến khác trong dữ liệu. Chúng ta có thể thấy trình độ học vấn của cha mẹ `meduc`, `feduc`, chỉ số `IQ` của người đó, số năm kinh nghiệm `exper` và số năm vào biên chế trong công ty hiện tại `tenure`. Chúng ta thậm chí còn có một số biến giả cho tình trạng hôn nhân và người da màu.
 
@@ -560,9 +561,8 @@ trong đó \\(\delta_{A}\\) là véc-tơ của các hệ số góc từ việc h
 
 Đây không phải chính xác là \\(\kappa\\) mà ta muốn. Thay vào đó, nó còn có thêm \\(\beta'\delta_{A}\\). Đây chính là tác động của biến thiếu \\(A\\) đến \\(Wage\\), \\(\beta\\) nhân với tác động của biến thiếu lên biến \\(Educ\\). Điều này quan trọng đối với các chuyên gia kinh tế đến nỗi Joshua Angrist đã làm một câu châm ngôn về nó để sinh viên có thể nghiền ngẫm:
 
-```
-"Hồi quy thiếu bằng hồi quy đủ cộng với tác động của biến thiếu nhân với hồi quy của biến thiếu trên các biến được đưa vào mô hình"
-```
+
+>"Hồi quy thiếu bằng hồi quy đủ cộng với tác động của biến thiếu nhân với hồi quy của biến thiếu trên các biến được đưa vào mô hình"
 
 Tại đây, hồi quy thiếu chính là hồi quy khi thiếu các biến, trong khi hồi quy đủ lại kết hợp chúng vào. Công thức hay câu thần chú này cho chúng ta cái nhìn sâu sắc hơn về bản chất của thiên lệch. Đầu tiên, thiên lệch sẽ bằng 0 nếu các biến thiếu không có tác động đến biến phụ thuộc \\(Y\\). Điều này hoàn toàn có lý. Ta không cần phải kiểm soát những thứ không liên quan đến tiền lương khi cố gắng hiểu tác động của số năm học vấn đối với nó. Hai là, thiên lệch cũng sẽ bằng 0 nếu các biến thiếu không có tác động đến biến can thiệp. Điều này cũng có ý nghĩa trực quan. Nếu tất cả mọi yếu tố tác động đến giáo dục đều đã được đưa vào mô hình, thì sẽ không có chuyện tác động ước lượng được của giáo dục bị trộn lẫn với quan hệ tương quan từ giáo dục lên một yếu tố khác chi phối tiền lương.
 
