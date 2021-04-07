@@ -316,6 +316,8 @@ defaults:
       layout: single
       share: true
       comments: true
+      related: true
+      show_date: true
       author_profile: true
       #toc: true
       #toc_label: "Mục lục"
@@ -328,6 +330,8 @@ defaults:
       layout: single
       share: true
       comments: true
+      related: true
+      show_date: true
       author_profile: true
       #toc: true
       #toc_label: "Mục lục"
