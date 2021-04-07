@@ -16,7 +16,7 @@ main:
    - title: "About"
      url: /about/
    - title: "All Posts"
-    url: /year-archive/
+     url: /year-archive/
    #- title: "Collections"
    #   url: /collection-archive/
   # - title: "Sitemap"
