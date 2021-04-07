@@ -17,7 +17,7 @@ Trong bài viết này chúng tôi sẽ giới thiệu với các bạn thang đ
 # *Cấp độ 1: So sánh cắt ngang hoặc so sánh trước sau*    
 
 -    So sánh dữ liệu “cắt ngang” (crosssectional data) của nhóm can thiệp với nhóm đối chứng, hoặc,
--     So sánh nhóm can thiệp trước và sau khi có can thiệp  vắng mặt nhóm đối chứng
+-    So sánh nhóm can thiệp trước và sau khi có can thiệp  vắng mặt nhóm đối chứng
 Cấp độ này không sử dụng các biến kiểm soát khi phân tích thống kê khác biệt giữa nhóm can thiệp và đối chứng hoặc khác biệt của cùng một đối tượng ở các thời điểm khác nhau.
 
 # *Cấp độ 2:  Sử dụng biến can thiệp*
