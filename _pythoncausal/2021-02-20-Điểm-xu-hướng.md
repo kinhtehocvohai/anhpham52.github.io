@@ -5,6 +5,8 @@ sidebar:
 title: Điểm xu hướng
 permalink: /pythoncausal/pc11
 ---
+[Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
+
 
 # Tâm lý học về sự cầu tiến
 
@@ -270,7 +272,11 @@ Dấu bằng đầu tiên bắt nguồn từ Luật kỳ vọng lặp. Dấu b�
 OK, vậy giờ chúng ta đã có điểm xu hướng. Tiếp theo sẽ là gì? Như đã nói, tất cả những gì chúng ta cần làm là cố định nó. Ví dụ, chúng ta có thể chạy một hồi quy tuyến tính chỉ cố định điểm xu hướng, thay vì tất cả Xs. Bây giờ, hãy xem xét một kỹ thuật mà chỉ sử dụng một mình điểm xu hướng. Ý tưởng là biểu diễn khác biệt có điều kiện của giá trị trung bình thông qua điểm xu hướng
 
 $$
-E[Y|X,T=1]−E[Y|X,T=0] = E\bigg[\dfrac{Y}{P(x)}|X,T=1\bigg]P(x) - E\bigg[\dfrac{Y}{(1-P(x))}|X,T=0\bigg](1-P(x))
+E[Y|X,T=1]−E[Y|X,T=0] $$
+
+$$= E\bigg[\dfrac{Y}{P(x)}|X,T=1\bigg]P(x) $$
+
+$$- E\bigg[\dfrac{Y}{(1-P(x))}|X,T=0\bigg](1-P(x))
 $$
 
 Chúng ta có thể giản lược phương trình này hơn nữa, nhưng trước hết hãy xem xét nó dưới dạng này này bởi nó giúp chúng ta có cách nhìn trực quan về những gì điểm xu hướng đang thực hiện. Phần tử đầu tiên ước lượng \\(Y_1\\). Nó gộp tất cả những trường hợp được can thiệp và nhân chúng với nghịch đảo của xác suất can thiệp. Bằng cách này ta gán cho những người có xác suất can thiệp thấp trọng số cao. Điều này nghe có vẻ hợp lý đấy chứ? Nếu một người có xác suất can thiệp thấp, người đó sẽ giống như người trong nhóm đối chứng. Tuy nhiên, cá nhân đó đã được can thiệp. Điều này hẳn là thú vị. Chúng ta gặp những đối tượng can thiệp trông như thể đối chứng, vì vậy chúng ta gán cho cá thể đó trọng số cao. Việc này giúp tạo ra một tổng thể có kích thước giống như ban đầu, nhưng tất cả mọi người đều được nhận can thiệp. Với cách diễn giải tương tự, phần tử còn lại xem xét nhóm đối chứng và đặt trọng số cao cho những cá nhân giống như được can thiệp. Mô hình ước lượng này được gọi là Inverse Probability of Treatment Weighting, vì nó chia mỗi kết quả của đối tượng cho xác suất nhận can thiệp ngược với điều mà nó nhận được.
@@ -602,19 +608,18 @@ Cuối cùng, chúng ta đã xem xét một số vấn đề ngoại suy mà ch�
 
 # Tài liệu tham khảo
 
-Tôi muốn dành loạt bài viết này như lời cảm ơn tới Joshua Angrist, Alberto Abadie và Christopher Walters bởi lớp học Kinh tế lượng tuyệt vời của họ. Hầu hết những ý tưởng trong chương này được đúc kết từ những bài giảng của họ tại Hiệp hội kinh tế Hoa Kỳ. Lắng nghe các bài giảng của họ giúp tôi có thêm động lực đi qua một năm 2020 đầy khó khăn này.
+Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học Kinh tế lượng tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ.  Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.
+* [Kinh tế lượng với dữ liệu chéo](https://www.aeaweb.org/conference/cont-ed/2017-webcasts)
+* [Luyện chưởng Kinh tế lượng Gần như Vô hại](https://www.aeaweb.org/conference/cont-ed/2020-webcasts)
 
-* [Cross-Section Econometrics](https://www.aeaweb.org/conference/cont-ed/2017-webcasts)
-* [Mastering Mostly Harmless Econometrics](https://www.aeaweb.org/conference/cont-ed/2020-webcasts)
+Tôi cũng muốn giới thiệu cuốn sách lý thú của Angrist. Chúng cho tôi thấy Kinh tế lượng, hoặc 'Lượng theo cách họ gọi không chỉ vô cùng hữu ích mà còn rất vui.
 
-Tôi cũng trích dẫn một cuốn sách tuyệt vời từ Angrist. Họ đã thành công trong việc chỉ cho tôi thấy rằng Kinh tế lượng, hoặc là Lượng theo cách gọi của họ, không chỉ cực kỳ hữu ích mà còn vô cùng thú vị. 
+* [Kinh tế lượng Gần như Vô hại](https://www.mostlyharmlesseconometrics.com/)
+* [Luyện chưởng 'Lượng'](https://www.masteringmetrics.com/)
 
-* [Mostly Harmless Econometrics](https://www.mostlyharmlesseconometrics.com/)
-* [Mastering 'Metrics](https://www.masteringmetrics.com/)
+Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel Hernan and Jamie Robins. Nó là người bạn đồng hành tin cậy với tôi khi trả lời những câu hỏi nhân quả khó nhằn.
 
-Cuối cùng, không thể không nhắc đến cuốn sách được viết bởi Miguel Hernan và Jamie Robins. Nó là người bạn đồng hành đáng tin cậy giúp tôi tìm lời giải đáp cho những câu hỏi hóc búa nhất về tính nhân quả. 
-
-* [Causal Inference Book](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
+* [Sách Suy Luận Nhân Quả](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
 
 # Bảng Từ Viết tắt 
 
