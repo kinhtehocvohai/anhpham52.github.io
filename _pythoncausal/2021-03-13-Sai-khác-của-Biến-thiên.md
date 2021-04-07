@@ -5,6 +5,7 @@ sidebar:
 title: Sai khác của Biến thiên
 permalink: /pythoncausal/pc14
 ---
+[Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 
 # Ba Biển Quảng cáo ngoài trời ở Nam Brazil
@@ -175,7 +176,9 @@ Lưu ý \\(E[Y(1)\|D=0]=E[Y_0(1)\|D=0]\\), vì thế chúng ta giả định r�
 Vì thế phương pháp này không giúp ích mấy. Để khắc phục nó, ta có thể so sánh theo cả đối tượng và thời gian. Đây là ý tưởng của phương pháp sai khác của biến thiên. Nó hoạt động bằng cách thay thế giả tưởng thiếu vắng bằng:
 
 $$
-E[Y_0(1)|D=1] = E[Y_1(0)|D=1] + (E[Y_0(1)|D=0] - E[Y_0(0)|D=0])
+E[Y_0(1)|D=1] = E[Y_1(0)|D=1] $$
+
+$$+ (E[Y_0(1)|D=0] - E[Y_0(0)|D=0])
 $$
 
 Cách thức vận hành của nó là lấy kết quả của nhóm can thiệp trước khi can thiệp diễn ra cộng thêm vào một phần xu hướng được ước lượng bằng cách sử dụng nhóm đối chứng \\(E[Y_0(1)\|T=0] - E[Y_0(0)\|T=0]\\). Nghĩa là,  nó cho rằng nhóm can thiệp, trong giả tưởng vắng mặt can thiệp, sẽ trông giống như nhóm can thiệp trước lúc nhận can thiệp cộng thêm một phần tăng trưởng tương tự như phần tăng trưởng của nhóm đối chứng. Điều quan trọng là cần lưu ý điều này đặt giả thiết rằng xu hướng biến thiên của nhóm can thiệp và nhóm đối chứng là như nhau:
