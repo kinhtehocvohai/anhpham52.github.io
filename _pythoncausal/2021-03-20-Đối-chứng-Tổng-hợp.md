@@ -5,6 +5,8 @@ sidebar:
 title: Đối chứng Tổng hợp
 permalink: /pythoncausal/pc15
 ---
+[Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
+
 
 # Một thủ thuật Toán lợi hại để hiểu những điều tưởng như không thể
 
@@ -20,7 +22,9 @@ Trong trường hợp đó, chúng ta có rất nhiều mẫu, bởi vì dữ li
 Chúng ta vẫn có thể ước lượng được mô hình ước lượng sai khác của biến thiên 
 
 $$
-(E[Y(1)|D=1] - E[Y(1)|D=0]) - (E[Y(0)|D=1] - E[Y(0)|D=0]) = $$
+(E[Y(1)|D=1] - E[Y(1)|D=0]) $$
+
+$$- (E[Y(0)|D=1] - E[Y(0)|D=0]) = $$
 
 $$(87.06 - 206.16) - (46.01 - 171.64) = 6.53
 $$
