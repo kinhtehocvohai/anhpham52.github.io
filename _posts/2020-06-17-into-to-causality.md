@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: single
 title: 1 - Introduction To Causality
 permalink: /pythoncausal/pc17
 header:
