@@ -2,7 +2,7 @@
 layout: single
 sidebar:
  nav: pythoncausal
-title: PC07 Đâu chỉ mình Biến nhiễu?
+title: Đâu chỉ mình Biến nhiễu?
 header:
  image: /assets/images/pythoncausal/output07/output_41_0.png
 permalink: /pythoncausal/pc07
@@ -12,7 +12,7 @@ permalink: /pythoncausal/pc07
 <html>
 <head><meta charset="utf-8" />
 
-<title>07-Đâu-chỉ-mình-biến-nhiễu-QA</title>
+<title>Đâu chỉ mình Biến nhiễu?</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
