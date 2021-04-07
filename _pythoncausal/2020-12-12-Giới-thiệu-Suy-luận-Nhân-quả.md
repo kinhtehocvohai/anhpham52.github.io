@@ -420,9 +420,10 @@ Trên đây chúng ta đã nhận thấy quan hệ tương quan không phải qu
 Trong các bài tới, chúng ta sẽ tìm hiểu một số kĩ thuật cơ bản để ước lượng tác động nhân quả, bắt đầu từ tiêu chuẩn vàng nhờ vào thử nghiệm ngẫu nhiên. Tôi cũng sẽ tổng kết một số khái niệm thống kê cần dùng. Tôi kết thúc bài viết này với một cuộc thoại thường được trích dẫn trong các lớp học suy luận nhân quả từ series phim Kungfu:
 
 
->'Điều gì xảy đến với mỗi đời người đều đã được định sẵn. Ai bước qua cuộc đời này cũng đều theo số phận an bài mà thôi.' - Caine
->'Đúng vậy, nhưng mỗi người lại toàn quyền sống theo cách mình chọn lựa. Tưởng chừng mâu thuẫn, nhưng cả hai đều là chân lý. - Trưởng lão
-
+>'Điều gì xảy đến với mỗi đời người đều đã được định sẵn. Ai bước qua cuộc đời này cũng đều theo số phận an bài mà thôi.' 
+> <cite><a >Caine</a></cite>
+>'Đúng vậy, nhưng mỗi người lại toàn quyền sống theo cách mình chọn lựa. Tưởng chừng mâu thuẫn, nhưng cả hai đều là chân lý.'
+> <cite><a >Trưởng lão</a></cite>
 
 # Tài liệu tham khảo
 
