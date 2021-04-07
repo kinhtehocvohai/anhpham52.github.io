@@ -491,7 +491,9 @@ Xác suất để can thiệp nhỏ hơn 1, thậm chí ở trên ngưỡng quy�
 Cũng như trước đây chúng ta đặt giả thiết rằng kết quả tiềm năng sẽ liên tục, bây giờ chúng ta cũng làm tương tự cho can thiệp tiềm năng. Ngoài ra, chúng ta cần đặt giả thiết cho đơn điệu, giống như trong IV. Nó nói rằng \\(T_{i1}>T_{i0} \forall i\\). Điều này có nghĩa là việc vượt qua ngưỡng quyết định từ trái sang phải chỉ làm tăng khả năng nhận được bằng tốt nghiệp (hoặc không có người luôn không nhận). Với 2 giả thiết này, chúng ta có Mô Hình Ước Lượng Wald cho LATE.
 
 $$
-\dfrac{\lim_{r \to c^+} E[Y_i|R_i=r] - \lim_{r \to c^-} E[Y_i|R_i=r]}{\lim_{r \to c^+} E[T_i|R_i=r] - \lim_{r \to c^-} E[T_i|R_i=r]} = E[Y_{1i} - Y_{0i} | T_{1i} > T_{0i}, R_i=c]
+\dfrac{\lim_{r \to c^+} E[Y_i|R_i=r] - \lim_{r \to c^-} E[Y_i|R_i=r]}{\lim_{r \to c^+} E[T_i|R_i=r] - \lim_{r \to c^-} E[T_i|R_i=r]} =$$
+
+$$E[Y_{1i} - Y_{0i} | T_{1i} > T_{0i}, R_i=c]
 $$
 
 Lưu ý rằng đây là một ước lượng cục bộ theo hai nghĩa. Đầu tiên, nó là cục bộ vì nó chỉ cho thấy tác động can thiệp tại ngưỡng quyết định \\(c\\). Đây là RD cục bộ. Thứ hai, nó là cục bộ vì nó chỉ ước lượng tác động can thiệp cho người tuân thủ. Đây là IV cục bộ.
