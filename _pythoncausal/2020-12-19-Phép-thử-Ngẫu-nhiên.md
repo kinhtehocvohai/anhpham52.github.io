@@ -23,9 +23,9 @@ $$
 (Y_0, Y_1) \perp\!\!\!\perp T
 $$
 
-Nhìn qua thì công thức này có thể rắc rối (kể cả với chúng tôi). Nhưng hãy yên tâm vì chúng tôi sẽ đi sâu vào việc giải thích công thức này ngây bây giờ. Nếu kết quả độc lập với sự can thiệp, không phải điều này đang ám chỉ rằng sự can thiệp đó không có tác dụng gì cả hay sao? Vâng, đúng vậy đấy! nhưng hãy chú ý rằng chúng tôi không nói về các kết quả thực sự xảy ra. Thay vào đó, chúng tôi đang bàn về các **kết quả tiềm năng**. Kết quả tiềm năng chính là kết quả có thể sẽ xảy ra trong trường hợp có sự can thiệp (\(Y_1\)) hoặc kiểm soát (\(Y_0\)). Đối với các thử nghiệm ngẫu nhiên, chúng ta **không** muốn kết quả độc lập với sự can thiệp, bởi vì chúng ta cho rằng sự can thiệp chi phối kết quả. Nhưng chúng ta lại muốn các **kết quả tiềm năng** độc lập với sự can thiệp.
+Nhìn qua thì công thức này có thể rắc rối (kể cả với chúng tôi). Nhưng hãy yên tâm vì chúng tôi sẽ đi sâu vào việc giải thích công thức này ngây bây giờ. Nếu kết quả độc lập với sự can thiệp, không phải điều này đang ám chỉ rằng sự can thiệp đó không có tác dụng gì cả hay sao? Vâng, đúng vậy đấy! nhưng hãy chú ý rằng chúng tôi không nói về các kết quả thực sự xảy ra. Thay vào đó, chúng tôi đang bàn về các **kết quả tiềm năng**. Kết quả tiềm năng chính là kết quả có thể sẽ xảy ra trong trường hợp có sự can thiệp (\\(Y_1\\)) hoặc kiểm soát (\\(Y_0\\)). Đối với các thử nghiệm ngẫu nhiên, chúng ta **không** muốn kết quả độc lập với sự can thiệp, bởi vì chúng ta cho rằng sự can thiệp chi phối kết quả. Nhưng chúng ta lại muốn các **kết quả tiềm năng** độc lập với sự can thiệp.
 
-![img](./data/img/rct/indep.png)
+![img](.assets/images/pythoncausal/rct/indep.png)
 
 Nói rằng các kết quả tiềm năng độc lập với sự can thiệp cũng có nghĩa là chúng ta kỳ vọng chúng giống nhau dù trong nhóm can thiệp hay nhóm đối chứng. Hiểu một cách đơn giản thì các nhóm can thiệp và nhóm đối chứng là tương tự. Hoặc việc chỉ định sự can thiệp không cung cấp cho chúng ta bất cứ thông tin nào về kết quả trước khi có sự can thiệp. Vậy nên, \\((Y_0, Y_1)\perp T\\) có nghĩa sự can thiệp này là thứ duy nhất tạo ra sự khác biệt giữa kết quả trong nhóm được can thiệp và nhóm đối chứng. Để thấy được điều này, cần chú ý rằng tính độc lập ngụ ý một cách chính xác rằng 
 
