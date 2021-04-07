@@ -7,19 +7,19 @@ toc: true
 permalink: /blogpost/marylandscale
 ---
 
-Trong 4 tháng vừa qua Fanpage Kinh tế học vô hại đã chia sẻ loạt bài “Suy luận Nhân quả với Python” và giới thiệu nhiều “vũ khí” khoa học khác nhau giúp xác định quan hệ nguyên nhân – kết quả. Các “vũ khí” này rất hữu dụng và có thể sử dụng trong nhiều bối cảnh khác nhau như kinh tế, chính sách, giáo dục, tâm lý học, kinh doanh,… Chúng ta cũng đã thảo luận cách áp dụng và ưu, nhược điểm của mỗi phương pháp.
+Trong 4 tháng vừa qua Fanpage Kinh tế học vô hại đã chia sẻ loạt bài “Suy luận Nhân quả với Python” và giới thiệu nhiều “vũ khí” khoa học khác nhau giúp xác định quan hệ nguyên nhân – kết quả. Các “vũ khí” này rất hữu dụng và có thể sử dụng trong nhiều bối cảnh khác nhau như kinh tế, chính sách, giáo dục, tâm lý học, kinh doanh,… Chúng ta cũng đã thảo luận cách áp dụng và ưu, nhược điểm của mỗi phương pháp.{: .text-justify}
 
-Nhưng trước khi sử dụng các “vũ khí” này trong thực chiến, hẳn bạn cũng muốn biết tương quan sức mạnh của các vũ khí?
+Nhưng trước khi sử dụng các “vũ khí” này trong thực chiến, hẳn bạn cũng muốn biết tương quan sức mạnh của các vũ khí?{: .text-justify}
 
-Trong bài viết này chúng tôi sẽ giới thiệu với các bạn thang đánh giá bằng chứng nhân quả của Trung tâm nghiên cứu chính sách tăng trưởng kinh tế địa phương (What works centre for local economic growth) thuộc London School of Economics and Political Science (LSE), Anh Quốc. Thang đo này dựa trên Thang đánh giá khoa học Maryland  (SMS) và bao gồm 5 cấp độ tăng dần theo độ mạnh của phương pháp nghiên cứu như sau:
+Trong bài viết này chúng tôi sẽ giới thiệu với các bạn thang đánh giá bằng chứng nhân quả của Trung tâm nghiên cứu chính sách tăng trưởng kinh tế địa phương (What works centre for local economic growth) thuộc London School of Economics and Political Science (LSE), Anh Quốc. Thang đo này dựa trên Thang đánh giá khoa học Maryland  (SMS) và bao gồm 5 cấp độ tăng dần theo độ mạnh của phương pháp nghiên cứu như sau:{: .text-justify}
 
 ![image-center](/assets/images/blogpost/sms.png){: .align-center}
 
 # *Cấp độ 1: So sánh cắt ngang hoặc so sánh trước sau*    
 
--    So sánh dữ liệu “cắt ngang” (crosssectional data) của nhóm can thiệp với nhóm đối chứng, hoặc,
+-    So sánh dữ liệu “cắt ngang” (crosssectional data) của nhóm can thiệp với nhóm đối chứng, hoặc,{: .text-justify}
 -    So sánh nhóm can thiệp trước và sau khi có can thiệp  vắng mặt nhóm đối chứng
-Cấp độ này không sử dụng các biến kiểm soát khi phân tích thống kê khác biệt giữa nhóm can thiệp và đối chứng hoặc khác biệt của cùng một đối tượng ở các thời điểm khác nhau.
+Cấp độ này không sử dụng các biến kiểm soát khi phân tích thống kê khác biệt giữa nhóm can thiệp và đối chứng hoặc khác biệt của cùng một đối tượng ở các thời điểm khác nhau.{: .text-justify}
 
 # *Cấp độ 2:  Sử dụng biến can thiệp*
 
