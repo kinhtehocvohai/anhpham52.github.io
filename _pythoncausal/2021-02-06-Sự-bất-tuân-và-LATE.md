@@ -5,6 +5,7 @@ sidebar:
 title: Sự bất tuân và LATE
 permalink: /pythoncausal/pc09
 ---
+[Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 
 # Nhón chân vào Thế giới dị biệt
@@ -189,7 +190,9 @@ $$
 Sử dụng tính chất đơn điệu, chúng ta biết rằng \\(T_{i1}-T_{i0}\\) bằng 0 hoặc 1, vì vậy
 
 $$
-E[(Y_{i1}-Y_{i0})(T_{i1}-T_{i0})] = E[(Y_{i1}-Y_{i0})|T_{i1}>T_{i0}]P(T_{i1}>T_{i0})
+E[(Y_{i1}-Y_{i0})(T_{i1}-T_{i0})] $$
+
+$$= E[(Y_{i1}-Y_{i0})|T_{i1}>T_{i0}]P(T_{i1}>T_{i0})
 $$
 
 Tương tự với mẫu số của mô hình ước lượng Wald, ta cũng có
@@ -201,7 +204,9 @@ $$
 Từ tất cả các phương trình trên, chúng ta có thể biểu diễn mô hình ước lượng Wald như sau:
 
 $$
-ATE = \dfrac{E[(Y_{i1}-Y_{i0})|T_{i1}>T_{i0}]P(T_{i1}>T_{i0})}{P(T_{i1}>T_{i0})}=E[(Y_{i1}-Y_{i0})|T_{i1}>T_{i0}]
+ATE = \dfrac{E[(Y_{i1}-Y_{i0})|T_{i1}>T_{i0}]P(T_{i1}>T_{i0})}{P(T_{i1}>T_{i0})}$$
+
+$$=E[(Y_{i1}-Y_{i0})|T_{i1}>T_{i0}]
 $$
 
 Công thức này có nghĩa ATE được ước lượng bởi IV là ATE trong mẫu với \\(T_{i1}>T_{i0}\\). Và nếu bạn suy ngẫm về tính tuân thủ, tổng thể ở đây là gì? Đó là tổng thể mà những người có biến công cụ có mức can thiệp cao hơn nếu họ không có biến công cụ. Hay nói cách khác, đây là tổng thể người tuân thủ. Để chúng ta có thể nhớ rõ hơn,
@@ -210,7 +215,7 @@ Công thức này có nghĩa ATE được ước lượng bởi IV là ATE trong
 2. Người Luôn Không Nhận \\(T_{i1}=T_{i0}=0\\)
 3. Người Luôn Nhận \\(T_{i1}=T_{i0}=1\\)
 
-Tóm lại, IV không cung cấp thông tin gì về tác động lên người luôn không nhận, người luôn nhận, hay người chống đối, bởi sự can thiệp không thay đổi đối với những đối tượng này! **Iv chỉ tìm tác động can thiệp cho những người tuân thủ**.
+Tóm lại, IV không cung cấp thông tin gì về tác động lên người luôn không nhận, người luôn nhận, hay người chống đối, bởi sự can thiệp không thay đổi đối với những đối tượng này! **IV chỉ tìm tác động can thiệp cho những người tuân thủ**.
 
 # Tác động lên sự tương tác
 
@@ -288,7 +293,6 @@ data.head()
 
 
 
-First, lets run OLS to what it would give us.
 
 Đầu tiên, hãy chạy OLS để xem chúng ta có thể thu được kết quả như thế nào. 
 
