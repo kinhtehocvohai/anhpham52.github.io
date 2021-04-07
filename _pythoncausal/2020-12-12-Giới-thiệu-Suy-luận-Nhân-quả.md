@@ -321,7 +321,7 @@ Thiên lệch là nguyên nhân khiến quan hệ tương quan khác với quan 
 
 Sử dụng kí hiệu, kết quả tiềm năng \\(Y_0\\) của trường được can thiệp khác với \\(Y_0\\) của trường đối chứng. Lưu ý \\(Y_0\\) của trường được can thiệp **là giả tưởng**. Chúng ta không quan sát được nó, nhưng chúng ta có thể suy luận về nó. Trong trường hợp cụ thể này, chúng ta có thể đi xa hơn và khái quát cách thế giới vận hành. Chúng ta có thể nói rằng \\(Y_0\\) của trường được can thiệp lớn hơn \\(Y_0\\) của trường đối chứng. Vì trường đủ tiền phát máy tính bảng cho học sinh thì cũng đủ tiền để trang trải các điều kiện vật chất khác giúp trẻ đạt điểm cao hơn. Hãy dừng lại ở đây một chút. Phải mất chút thời gian để quen với cách nói về các kết quả tiềm năng. Hãy thử đọc lại đoạn văn này để chắc chắn rằng bạn thực sự hiểu nó.
 
-Bây giờ chúng ra có thể chứng minh bằng toán học tại sao quan hệ tương quan không phải quan hệ nhân quả. Quan hệ tương quan được đo bởi \\(E[Y|T=1] - E[Y|T=0]\\). Trong ví dụ của chúng ta, nó là hiệu giữa điểm thi trung bình của các trường phát máy tính bảng và điểm thi trung bình của các trường không phát máy tính bảng. Trong khi đó, quan hệ nhân quả được đo bởi \\(E[Y_1 - Y_0]\\).
+Bây giờ chúng ra có thể chứng minh bằng toán học tại sao quan hệ tương quan không phải quan hệ nhân quả. Quan hệ tương quan được đo bởi \\(E[Y\|T=1] - E[Y\|T=0]\\). Trong ví dụ của chúng ta, nó là hiệu giữa điểm thi trung bình của các trường phát máy tính bảng và điểm thi trung bình của các trường không phát máy tính bảng. Trong khi đó, quan hệ nhân quả được đo bởi \\(E[Y_1 - Y_0]\\).
 
 Để biết chúng liên quan đến nhau như thế nào, hãy dùng công thức tính quan hệ tương quan và thay các kết quả quan sát bằng các kết quả tiềm năng. Với các trường được can thiệp, kết quả quan sát là \\(Y_1\\). Với các trường đối chứng, kết quả quan sát là \\(Y_0\\).
 
@@ -332,7 +332,9 @@ $$
 Bây giờ hãy cộng rồi trừ kết quả giả tưởng \\(E[Y_0|T=1]\\). Nó cho ta biết điều gì xảy ra với kết quả của các trường được can thiệp nếu chúng không nhận can thiệp.
 
 $$
-E[Y|T=1] - E[Y|T=0] = E[Y_1|T=1] - E[Y_0|T=0] + E[Y_0|T=1] - E[Y_0|T=1]
+E[Y|T=1] - E[Y|T=0] = $$
+
+$$E[Y_1|T=1] - E[Y_0|T=0] + E[Y_0|T=1] - E[Y_0|T=1]
 $$
 
 Cuối cùng, chúng ta sắp xếp lại và nhóm các kì vọng và thu được:
