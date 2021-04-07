@@ -15,8 +15,8 @@ main:
     #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
    - title: "About"
      url: /about/
-   - title: "Collections"
-     url: /collection-archive/
+   #- title: "Collections"
+    # url: /collection-archive/
    #- title: "Collections"
    #   url: https://anhpham52.github.io/collection-archive/
   # - title: "Sitemap"
