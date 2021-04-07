@@ -25,7 +25,7 @@ $$
 
 Nhìn qua thì công thức này có thể rắc rối (kể cả với chúng tôi). Nhưng hãy yên tâm vì chúng tôi sẽ đi sâu vào việc giải thích công thức này ngây bây giờ. Nếu kết quả độc lập với sự can thiệp, không phải điều này đang ám chỉ rằng sự can thiệp đó không có tác dụng gì cả hay sao? Vâng, đúng vậy đấy! nhưng hãy chú ý rằng chúng tôi không nói về các kết quả thực sự xảy ra. Thay vào đó, chúng tôi đang bàn về các **kết quả tiềm năng**. Kết quả tiềm năng chính là kết quả có thể sẽ xảy ra trong trường hợp có sự can thiệp (\\(Y_1\\)) hoặc kiểm soát (\\(Y_0\\)). Đối với các thử nghiệm ngẫu nhiên, chúng ta **không** muốn kết quả độc lập với sự can thiệp, bởi vì chúng ta cho rằng sự can thiệp chi phối kết quả. Nhưng chúng ta lại muốn các **kết quả tiềm năng** độc lập với sự can thiệp.
 
-![img](.assets/images/pythoncausal/rct/indep.png)
+![image-center](/assets/images/pythoncausal/rct/indep.png){: .align-center}
 
 Nói rằng các kết quả tiềm năng độc lập với sự can thiệp cũng có nghĩa là chúng ta kỳ vọng chúng giống nhau dù trong nhóm can thiệp hay nhóm đối chứng. Hiểu một cách đơn giản thì các nhóm can thiệp và nhóm đối chứng là tương tự. Hoặc việc chỉ định sự can thiệp không cung cấp cho chúng ta bất cứ thông tin nào về kết quả trước khi có sự can thiệp. Vậy nên, \\((Y_0, Y_1)\perp T\\) có nghĩa sự can thiệp này là thứ duy nhất tạo ra sự khác biệt giữa kết quả trong nhóm được can thiệp và nhóm đối chứng. Để thấy được điều này, cần chú ý rằng tính độc lập ngụ ý một cách chính xác rằng 
 
@@ -54,7 +54,7 @@ Mặt khác, cũng có thể do các lớp học trực tuyến rẻ hơn và t�
 
 Vì vậy, mặc dù chúng ta có thể làm các phép so sánh đơn giản, chúng sẽ không đủ sức thuyết phục. Bằng cách này hay cách khác, chúng ta không bao giờ có thể chắc chắn được liệu rằng có bất kỳ sự thiên lệch nào đang ẩn nấp quanh đây và che đậy tác động nhân quả hay không.
 
-![img](./data/img/rct/lurking_bias.png)
+![image-center](/assets/images/pythoncausal/rct/lurking_bias.png){: .align-center}
 
 Để giải quyết, chúng ta cần phải làm cho nhóm được can thiệp và nhóm đối chứng trở nên tương đồng \\(E[Y_0|T=1] = E[Y_0|T=0]\\). Một biện pháp nhằm đạt được điều kiện trên là chỉ định một cách ngẫu nhiên các lớp học trực tuyến và truyền thống cho học sinh. Nếu chúng ta làm được điều đó, thì bình quân các nhóm can thiệp và đối chứng sẽ trở nên tương tự, ngoại trừ việc trẻ có được nhận can thiệp hay không.
 
@@ -295,7 +295,7 @@ Chính vì lẽ đó, một kiểm định giả thiết tốt cho thử nghiệ
 
 Các thử nghiệm đối chứng ngẫu nhiên là cách tiếp cận đáng tin cậy nhất để thu được tác động nhân quả. Nó là một kỹ thuật đơn giản đến khó tin và thuyết phục một cách phi lý. Phương pháp này mạnh đến nỗi hầu như mọi quốc gia đều dùng nó như một bước bắt buộc để chứng minh cho sự hiệu quả của một loại thuốc mới. Trong một so sánh thú vị, các bạn có thể tưởng tượng RCT là Aang, và các phương pháp khác là Sokka, các nhân vật trong bộ phim hoạt hình Thế Thần: Tiết khí sư cuối cùng. Sokka rất ngầu và có thể thực hiện khéo léo được một vài thủ thuật này nọ, nhưng Aang có thể bẻ cong cả bốn yếu tố và kết nối được với thế giới tâm linh. Hãy nghĩ theo hướng này, nếu chúng ta có thể, RCT sẽ là tất cả những gì chúng ta sẽ làm để khám phá quan hệ nhân quả. Một RCT được thiết kế tốt là ước mơ của bất kỳ nhà khoa học nào.
 
-![img](./data/img/rct/science_dream.png)
+![image-center](/assets/images/pythoncausal/rct/science_dream.png){: .align-center}
 
 Đáng tiếc là phương pháp này thường rất tốn kém hoặc chỉ đơn thuần là phi đạo đức. Đôi khi, chỉ đơn giản là chúng ta không thể kiểm soát được cơ chế chỉ định. Hãy tưởng tượng bạn là một bác sĩ đang cố gắng ước tính ảnh hưởng của việc hút thuốc trong thời kỳ mang thai đến cân nặng của trẻ sơ sinh. Bạn không thể chỉ đơn giản ép buộc một nhóm ngẫu nhiên các bà mẹ hút thuốc khi mang thai. Trong một trường hợp khác, giả sử bạn làm việc cho một ngân hàng lớn và bạn cần ước tính tác động của hạn mức tín dụng đối với tỷ lệ khách hàng chấm dứt sử dụng dịch vụ của ngân hàng. Sẽ là quá tốn kém để cung cấp các hạn mức tín dụng ngẫu nhiên cho khách hàng của bạn. Hoặc khi bạn muốn hiểu tác động của việc tăng lương tối thiểu đối với tỷ lệ thất nghiệp, bạn không thể chỉ đơn giản gán một mức lương tối thiểu cho quốc gia này hay gán một mức lương tối thiểu khác cho quốc gia khác. Bạn hiểu ý tôi rồi đấy.
 
@@ -332,7 +332,7 @@ Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel He
 
 Dữ liệu sử dụng trong phần này được trích từ một nghiên cứu của Alpert, William T., Kenneth A. Couch, và Oskar R. Harmon. 2016. "A Randomized Assessment of Online Learning" (https://www.aeaweb.org/articles?id=10.1257/aer.p20161057). American Economic Review, 106 (5): 378-82.
 
-![img](./data/img/poetry.png)
+![image-center](/assets/images/pythoncausal/poetry.png){: .align-center}
 
 # Bảng Từ Viết tắt 
 |Viết tắt| Tiếng Anh | Tiếng Việt |
