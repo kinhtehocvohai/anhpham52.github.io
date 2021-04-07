@@ -1190,7 +1190,7 @@ Hoá ra, câu trả lời khá đơn giản và trực quan. Việc tìm những
 
 ![image-center](/assets/images/pythoncausal/curse-of-dimensionality.jpg){: .align-center}
 
-Image Source: https://deepai.org/machine-learning-glossary-and-terms/curse-of-dimensionality
+[Image Source: Deep AI](https://deepai.org/machine-learning-glossary-and-terms/curse-of-dimensionality)
 
 Mặc dù khái niệm này nghe có vẻ nguy hiểm, nó đơn giản là số điểm dữ liệu được yêu cầu để lấp đầy các cột thuộc tính của bộ dữ liệu tăng theo cấp số nhân với số lượng thuộc tính, hay chiều. Vì vậy, nếu có X điểm dữ liệu để lấp đầy 3 cột thuộc tính, thì với 4 cột thuộc tính ta sẽ cần nhiều điểm hơn theo cấp số nhân.
 
@@ -1213,24 +1213,25 @@ Cuối cùng, chúng tôi đi sâu vào vấn đề dữ liệu nhiều chiều 
 
 # Tài liệu tham khảo
 
-Tôi muốn dành loạt bài viết này như lời cảm ơn tới Joshua Angrist, Alberto Abadie và Christopher Walters bởi lớp học Kinh tế lượng tuyệt vời của họ. Hầu hết những ý tưởng trong chương này được đúc kết từ những bài giảng của họ tại Hiệp hội kinh tế Hoa Kỳ. Lắng nghe các bài giảng của họ giúp tôi có thêm động lực đi qua một năm 2020 đầy khó khăn này.
 
-* [Cross-Section Econometrics](https://www.aeaweb.org/conference/cont-ed/2017-webcasts)
-* [Mastering Mostly Harmless Econometrics](https://www.aeaweb.org/conference/cont-ed/2020-webcasts)
+Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học Kinh tế lượng tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ.  Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.
+* [Kinh tế lượng với dữ liệu chéo](https://www.aeaweb.org/conference/cont-ed/2017-webcasts)
+* [Luyện chưởng Kinh tế lượng Gần như Vô hại](https://www.aeaweb.org/conference/cont-ed/2020-webcasts)
 
-Tôi cũng trích dẫn một cuốn sách tuyệt vời từ Angrist. Họ đã thành công trong việc chỉ cho tôi thấy rằng Kinh tế lượng, hoặc là Lượng theo cách gọi của họ, không chỉ cực kỳ hữu ích mà còn vô cùng thú vị. 
+Tôi cũng muốn giới thiệu cuốn sách lý thú của Angrist. Chúng cho tôi thấy Kinh tế lượng, hoặc 'Lượng theo cách họ gọi không chỉ vô cùng hữu ích mà còn rất vui.
 
-* [Mostly Harmless Econometrics](https://www.mostlyharmlesseconometrics.com/)
-* [Mastering 'Metrics](https://www.masteringmetrics.com/)
+* [Kinh tế lượng Gần như Vô hại](https://www.mostlyharmlesseconometrics.com/)
+* [Luyện chưởng 'Lượng'](https://www.masteringmetrics.com/)
 
-Cuối cùng, không thể không nhắc đến cuốn sách được viết bởi Miguel Hernan và Jamie Robins. Nó là người bạn đồng hành đáng tin cậy giúp tôi tìm lời giải đáp cho những câu hỏi hóc búa nhất về tính nhân quả. 
+Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel Hernan and Jamie Robins. Nó là người bạn đồng hành tin cậy với tôi khi trả lời những câu hỏi nhân quả khó nhằn.
 
-* [Causal Inference Book](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
+* [Sách Suy Luận Nhân Quả](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
+
+Phép so sánh cốc bia trong bài này được lấy từ [Đầu tư Chứng khoán](https://jlcollinsnh.com/2012/04/15/stocks-part-1-theres-a-major-market-crash-coming-and-dr-lo-cant-save-you/), viết bởi JL Colins. Đây là loạt bài phải đọc cho bất kì ai muốn đầu tư hiệu quả.
+
+![image-center](/assets/images/pythoncausal/poetry.png){: .align-center}
 
 
-```python
-
-```
 
 # Bảng Từ Viết tắt 
 
