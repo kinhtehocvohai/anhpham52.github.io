@@ -2,14 +2,14 @@
 layout: single
 sidebar:
  nav: pythoncausal
-title: PC12 Ước lượng mạnh Hai lần 
+title: Ước lượng mạnh Hai lần 
 permalink: /pythoncausal/pc12
 ---
 
 <html>
 <head><meta charset="utf-8" />
 
-<title>12-Ước-lượng-mạnh-hai-lần-VN</title>
+<title>Ước lượng mạnh Hai lần</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
