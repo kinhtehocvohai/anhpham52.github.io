@@ -10,20 +10,20 @@ permalink: /pythoncausal/pc02
 
 Trong phần trước, chúng ta đã thấy lý do tại sao quan hệ tương quan khác với quan hệ nhân quả. Bên cạnh đó, chúng ta cũng đã biết điều kiện cần để biến quan hệ tương quan thành quan hệ nhân quả.
 
-$E[Y|T=1] - E[Y|T=0] = \underbrace{E[Y_1 - Y_0|T=1]}_{ATET} + \underbrace{\{ E[Y_0|T=1] - E[Y_0|T=0] \}}_{THIÊN LỆCH}$
+$$E[Y|T=1] - E[Y|T=0] = \underbrace{E[Y_1 - Y_0|T=1]}_{ATET} + \underbrace{\{ E[Y_0|T=1] - E[Y_0|T=0] \}}_{THIÊN LỆCH}$$
 
-Tóm lại, quan hệ tương quan sẽ trở thành quan hệ nhân quả nếu không có thiên lệch. Thiên lệch sẽ không tồn tại nếu \\(E[Y_0|T=0]=E[Y_0|T=1]\\). Nói cách khác, quan hệ tương quan sẽ là quan hệ nhân quả nếu các nhóm được can thiệp và nhóm đối chứng là như nhau, hoặc tương đồng, ngoại trừ việc chúng có được nhận can thiệp hay không. Về mặt kỹ thuật, kết quả của nhóm đối chứng bằng với kết quả giả tưởng của nhóm được can thiệp. Trong đó, kết quả giả tưởng là kết quả của nhóm can thiệp trong trường hợp không có sự can thiệp.
+Tóm lại, quan hệ tương quan sẽ trở thành quan hệ nhân quả nếu không có thiên lệch. Thiên lệch sẽ không tồn tại nếu \(E[Y_0|T=0]=E[Y_0|T=1]\). Nói cách khác, quan hệ tương quan sẽ là quan hệ nhân quả nếu các nhóm được can thiệp và nhóm đối chứng là như nhau, hoặc tương đồng, ngoại trừ việc chúng có được nhận can thiệp hay không. Về mặt kỹ thuật, kết quả của nhóm đối chứng bằng với kết quả giả tưởng của nhóm được can thiệp. Trong đó, kết quả giả tưởng là kết quả của nhóm can thiệp trong trường hợp không có sự can thiệp.
 
 Chúng ta đã giải thích ổn thoả về việc làm thế nào để quan hệ tương quan trở thành quan hệ nhân quả bằng các công thức toán học. Nhưng tất cả cũng mới là trên lý thuyết. Ngay bây giờ, chúng ta sẽ tìm hiểu công cụ đầu tiên mà chúng ta có nhằm xoá bỏ thiên lệch: **Thử Nghiệm Đối Chứng Ngẫu Nhiên**. Các thử nghiệm đối chứng ngẫu nhiên bao gồm việc chỉ định một cách ngẫu nhiên các cá thể trong một tổng thể vào nhóm can thiệp hoặc nhóm đối chứng. Tỉ lệ nhận sự can thiệp không nhất thiết phải là 50%. Các bạn có thể có một thử nghiệm khi mà chỉ có 10% mẫu được nhận sự can thiệp.
 
 
 Thử nghiệm ngẫu nhiên loại bỏ thiên lệch bằng cách làm cho các kết quả tiềm năng độc lập với sự can thiệp.
 
-$
+$$
 (Y_0, Y_1) \perp\!\!\!\perp T
-$
+$$
 
-Nhìn qua thì công thức này có thể rắc rối (kể cả với chúng tôi). Nhưng hãy yên tâm vì chúng tôi sẽ đi sâu vào việc giải thích công thức này ngây bây giờ. Nếu kết quả độc lập với sự can thiệp, không phải điều này đang ám chỉ rằng sự can thiệp đó không có tác dụng gì cả hay sao? Vâng, đúng vậy đấy! nhưng hãy chú ý rằng chúng tôi không nói về các kết quả thực sự xảy ra. Thay vào đó, chúng tôi đang bàn về các **kết quả tiềm năng**. Kết quả tiềm năng chính là kết quả có thể sẽ xảy ra trong trường hợp có sự can thiệp (\\(Y_1\\)) hoặc kiểm soát (\\(Y_0\\)). Đối với các thử nghiệm ngẫu nhiên, chúng ta **không** muốn kết quả độc lập với sự can thiệp, bởi vì chúng ta cho rằng sự can thiệp chi phối kết quả. Nhưng chúng ta lại muốn các **kết quả tiềm năng** độc lập với sự can thiệp.
+Nhìn qua thì công thức này có thể rắc rối (kể cả với chúng tôi). Nhưng hãy yên tâm vì chúng tôi sẽ đi sâu vào việc giải thích công thức này ngây bây giờ. Nếu kết quả độc lập với sự can thiệp, không phải điều này đang ám chỉ rằng sự can thiệp đó không có tác dụng gì cả hay sao? Vâng, đúng vậy đấy! nhưng hãy chú ý rằng chúng tôi không nói về các kết quả thực sự xảy ra. Thay vào đó, chúng tôi đang bàn về các **kết quả tiềm năng**. Kết quả tiềm năng chính là kết quả có thể sẽ xảy ra trong trường hợp có sự can thiệp (\(Y_1\)) hoặc kiểm soát (\(Y_0\)). Đối với các thử nghiệm ngẫu nhiên, chúng ta **không** muốn kết quả độc lập với sự can thiệp, bởi vì chúng ta cho rằng sự can thiệp chi phối kết quả. Nhưng chúng ta lại muốn các **kết quả tiềm năng** độc lập với sự can thiệp.
 
 ![img](./data/img/rct/indep.png)
 
