@@ -101,13 +101,12 @@ Kết quả là biến số chúng ta quan tâm. Chúng ta muốn biết liệu 
 
 Đây là điều thú vị. **Thách thức cơ bản của suy luận nhân quả** là chúng ta không bao giờ có thể quan sát cùng một cá thể đồng thời tiếp nhận hoặc không tiếp nhận can thiệp. Giống như việc chúng ta đi đến ngã rẽ và chỉ có thể biết điều gì chờ đón phía trước nếu chúng ta chọn đi một trong 2 con đường. Hãy nghĩ về thơ của Robert Frost [[Con đường chưa đi/The road not taken]](https://sites.google.com/site/thorobertfrost/)
 
-```
-Con đường chia hai ngả giữa rừng thu
+>Con đường chia hai ngả giữa rừng thu
 Nhưng than ôi, đành phải theo một lối
 Tôi làm kẻ lữ hành phân vân mãi
 Đưa mắt nhìn xuống lối chạy về xa
 Tới khúc cong khuất sau lùm cây bụi.
-```
+
 
 Tóm lại, chúng ta sẽ nói rất nhiều về các **kết quả tiềm năng**. Chúng tiềm năng vì chưa thực sự diễn ra. Thay vào đó, chúng cho ta biết điều gì có thể xảy đến nếu có can thiệp. Đôi khi chúng ta gọi kết quả tiềm năng diễn ra là hiện thực và kết quả tiềm năng không diễn ra là giả tưởng.
 
@@ -131,9 +130,9 @@ Tất nhiên, do thách thức cơ bản của suy luận nhân quả, chúng ta
 
 \\(ATE = E[Y_1 - Y_0]\\)
 
-Trong đó E[...] là giá trị kì vọng. Một đại lượng dễ ước tính hơn nữa là **tác động can thiệp trung bình trên nhóm đươc can thiệp (Average Treatment Effect on the Treated- ATET)**:
+Trong đó E[...] là giá trị kì vọng. Một đại lượng dễ ước tính hơn nữa là **tác động can thiệp trung bình trên nhóm đươc can thiệp (Average Treatment Effect on the Treated - ATET)**:
 
-\\(ATET = E[Y_1 - Y_0 | T=1]\\)
+\\(ATET = E[Y_1 - Y_0 \| T=1]\\)
 
 Chúng ta biết rằng sẽ không bao giờ có thể quan sát được cả 2 kết quả tiềm năng, nhưng để dễ hiểu hơn, hãy tạm giả thiết là ta có thể. Giả sử chúng ta thu thập dữ liệu cho 4 trường học. Chúng ta quan sát được từng trường có phát máy tính bảng cho học sinh hay không và kết quả học tập của học sinh. Ở đây việc phát máy tính bảng là can thiệp, vì thế \\(T=1\\) tương ứng với việc phát máy tính bảng cho học sinh. \\(Y\\) là điểm số.
 
@@ -329,7 +328,7 @@ $$
 E[Y|T=1] - E[Y|T=0] = E[Y_1|T=1] - E[Y_0|T=0]
 $$
 
-Bây giờ hãy cộng rồi trừ kết quả giả tưởng \\(E[Y_0|T=1]\\). Nó cho ta biết điều gì xảy ra với kết quả của các trường được can thiệp nếu chúng không nhận can thiệp.
+Bây giờ hãy cộng rồi trừ kết quả giả tưởng \\(E[Y_0\|T=1]\\). Nó cho ta biết điều gì xảy ra với kết quả của các trường được can thiệp nếu chúng không nhận can thiệp.
 
 $$
 E[Y|T=1] - E[Y|T=0] = $$
@@ -420,10 +419,10 @@ Trên đây chúng ta đã nhận thấy quan hệ tương quan không phải qu
 
 Trong các bài tới, chúng ta sẽ tìm hiểu một số kĩ thuật cơ bản để ước lượng tác động nhân quả, bắt đầu từ tiêu chuẩn vàng nhờ vào thử nghiệm ngẫu nhiên. Tôi cũng sẽ tổng kết một số khái niệm thống kê cần dùng. Tôi kết thúc bài viết này với một cuộc thoại thường được trích dẫn trong các lớp học suy luận nhân quả từ series phim Kungfu:
 
-```
-'Điều gì xảy đến với mỗi đời người đều đã được định sẵn. Ai bước qua cuộc đời này cũng đều theo số phận an bài mà thôi.' -Caine
-'Đúng vậy, nhưng mỗi người lại toàn quyền sống theo cách mình chọn lựa. Tưởng chừng mâu thuẫn, nhưng cả hai đều là chân lý. - Trưởng lão
-```
+
+>'Điều gì xảy đến với mỗi đời người đều đã được định sẵn. Ai bước qua cuộc đời này cũng đều theo số phận an bài mà thôi.' - Caine
+>'Đúng vậy, nhưng mỗi người lại toàn quyền sống theo cách mình chọn lựa. Tưởng chừng mâu thuẫn, nhưng cả hai đều là chân lý. - Trưởng lão
+
 
 # Tài liệu tham khảo
 
