@@ -422,6 +422,7 @@ Trong các bài tới, chúng ta sẽ tìm hiểu một số kĩ thuật cơ b�
 
 >'Điều gì xảy đến với mỗi đời người đều đã được định sẵn. Ai bước qua cuộc đời này cũng đều theo số phận an bài mà thôi.' 
 > <cite><a >Caine</a></cite>
+
 >'Đúng vậy, nhưng mỗi người lại toàn quyền sống theo cách mình chọn lựa. Tưởng chừng mâu thuẫn, nhưng cả hai đều là chân lý.'
 > <cite><a >Trưởng lão</a></cite>
 
