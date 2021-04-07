@@ -334,13 +334,15 @@ Dữ liệu sử dụng trong phần này được trích từ một nghiên c�
 
 ![image-center](/assets/images/pythoncausal/poetry.png){: .align-center}
 
-# Bảng Từ Viết tắt 
+## Bảng Từ Viết tắt 
+
 |Viết tắt| Tiếng Anh | Tiếng Việt |
 | --- | --- | --- | 
 |RCT|Randomized Controlled Trial|Thử nghiệm Ngẫu nhiên Đối chứng| 
 
 
-# Bảng Thuật ngữ 
+## Bảng Thuật ngữ 
+
 | Thuật ngữ | Tiếng Anh |
 | --- | --- | 
 |cơ chế chỉ định|assignment mechanism| 
