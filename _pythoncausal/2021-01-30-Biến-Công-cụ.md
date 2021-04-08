@@ -8,7 +8,7 @@ permalink: /pythoncausal/pc08
 [Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 
-# Xử lý Thiên Lệch Thiếu Biến
+## Xử lý Thiên Lệch Thiếu Biến
 
 Một phương pháp để kiểm soát OVB [Thiên lệch Thiếu biến] là đưa biến thiếu vào mô hình. Tuy nhiên, điều này không phải lúc nào cũng khả thi, nhiều khi đơn giản chỉ vì chúng ta không có dữ liệu về các biến thiếu. Ví dụ, hãy quay lại với mô hình về tác động của giáo dục đối với tiền lương:
 
@@ -126,7 +126,7 @@ $$
 
 Tỉ số này đôi khi được gọi là **Mô Hình Ước Lượng Wald**. Một lần nữa chúng ta có thể kể câu chuyện về IV khi chúng ta muốn xem tác động của T lên Y, nhưng điều này quá khó. Vì thế, chúng ta tập trung vào tác động của Z lên Y, điều này dễ hơn. Theo định nghĩa, Z chỉ tác động Y qua T, nên chúng ta cần chuyển đổi tác động của Z lên Y thành tác động của T lên Y. 
 
-# Quý của Ngày sinh và Tác động của Giáo dục lên Tiền lương
+## Quý của Ngày sinh và Tác động của Giáo dục lên Tiền lương
 
 Trên đây chúng ta đã sử dụng các biến công cụ \\(Z\\) với đặc tính thần kì chỉ tác động lên kết quả thông qua can thiệp. Thú thật rất khó kiếm được biến công cụ thần kì đến thế. Nó không dành cho những kẻ yếu tim. Thiên hạ đồn đại rằng đám trẻ chịu chơi ở Trường Kinh tế Chicago thường nói về việc chúng tìm ra biến công cụ này kia như thế nào tại quán bar. 
 
@@ -246,7 +246,7 @@ data.head()
 
 
 
-# Bước 1
+## Bước 1
 
 Trước khi chúng ta sử dụng quý của ngày sinh làm biến công cụ, chúng ta cần đảm bảo nó phù hợp. Nghĩa là phải thỏa mãn 2 giả thiết về biến công cụ:
 
@@ -391,7 +391,7 @@ Có vẻ như những người sinh vào quý cuối cùng của năm có trung 
 ![image-center](/assets/images/pythoncausal/iv/incomplete-files.png){: .align-center}
 
 
-# Dạng Tối Giản
+## Dạng Tối Giản
 
 Không may là chúng ta không thể kiểm chứng điều kiện thứ hai cho IV. Chúng ta chỉ có thể lập luận để bảo vệ nó. Chúng ta có thể bày tỏ niềm tin rằng quý của ngày sinh không ảnh hưởng gì đến mức thu nhập tiềm năng. Nói cách khác, thời diểm sinh không phải một chỉ dấu của năng lực cá nhân hoặc bất kì nhân tố nào khác có thể chi phối sự khác biệt trong thu nhập bên ngoài hiệu ứng học vấn. Một phương cách tốt để làm như vậy là chúng ta có thể nói rằng quý của ngày sinh đủ tốt như thể được phân bổ ngẫu nhiên khi chúng ta nghĩ về tác động đối với thu nhập. (Thực ra nó không hề ngẫu nhiên. Có những bằng chứng rằng mọi người thường thụ thai vào khoảng cuối mùa hè hoặc quanh các kì nghỉ. Nhưng tôi không thể nghĩ ra một lý do thuyết phục nào về việc quy luật này có thể tác động đến thu nhập nếu không phải thông qua giáo dục).
 
@@ -431,7 +431,7 @@ print("trị số p q4:, ", reduced_form.pvalues["q4"])
 
 Một lần nữa, chúng ta thu được kết quả có ý nghĩa. Những người sinh vào quý cuối năm có mức lương bình quân cao hơn 0.8% so với những người khác. Lần này trị số p  không gần 0  như trước nữa, nhưng vẫn có ý nghĩa thông kê, và là 0.0015. 
 
-# Tính toán Biến Công Cụ bằng tay 
+## Tính toán Biến Công Cụ bằng tay 
 
 Nắm trong tay cả dạng tối giản và bước 1, chúng ta có thể chia tác động của dạng tối giản cho bước 1. Vì hệ số bước 1 rơi vào khoảng 0.1, nó sẽ nhân tác động của dạng tối giản lên khoảng 10 lần. Ta sẽ thu được ước lượng IV không thiên lệch của tác động nhân quả trung bình:
 
@@ -520,7 +520,7 @@ parse(iv2sls)
 
 Một lần nữa chúng ta lại thấy hệ số giống như các hệ số chúng ta thu được ở trên. Không những thế, chúng ta còn thu được các sai số chuẩn phù hợp. Chúng ta có thể nói chúng ta kì vọng 1 năm học vấn tăng mức lương bình quân thêm 8.5%.
 
-# Đa Biến Công Cụ
+## Đa Biến Công Cụ
 
 Một lợi ích khác của việc sử dụng máy tính là ta có thể dùng 2SLS với nhiều biến công cụ. Trong một ví dụ khác, chúng ta sử dụng tất cả các biến giả cho quý của ngày sinh để làm biến công cụ cho số năm học vấn. 
 
@@ -554,7 +554,7 @@ parse(ols)
 
 Lợi ích của giáo dục được ước lượng nhỏ hơn trong mô hình OLS so với 2SLS. Thêm nữa hãy để ý các khoảng tin cậy. 2SLS có CI lớn hơn nhiều so với OLS estimate. Hãy tìm hiểu vấn đề này kĩ hơn.
 
-# Điểm yếu của Biến công cụ
+## Điểm yếu của Biến công cụ
 
 ![image-center](/assets/images/pythoncausal/iv/weak-iv.png){: .align-center}
 
@@ -743,13 +743,13 @@ Bên cạnh việc hiểu về hướng thiên lệch, lời khuyên cuối cùn
 
 2. Sử dụng bất cứ thứ gì khác ngoài OLS cho bước 1. Rất nhiều Chuyên Gia Dữ Liệu khi đối mặt với IV nghĩ rằng họ có thể cải tiến nó. Ví dụ họ thấy một  can thiệp nhị phân và nghĩ về việc thay thế bước 1 bằng một hồi quy lô-gít vì nghĩ rằng họ đang dự đoán một biến giả. Vấn đề là điều này hoàn toàn sai. Tính vững của IV dựa vào thuộc tính mà chỉ OLS mới đảm bảo, đó là trực giao của phần dư, nên bất cứ điều gì khác ngoài OLS khi chạy bước 1 sẽ đều dẫn đến thiên lệch. (Hiện đang có một số kĩ thuật mới sử dụng Học Máy cho IV, nhưng kết quả của chúng, dù đánh giá tích cực nhất, vẫn còn đặt ra rất nhiều câu hỏi).
 
-# Ý tưởng chủ đạo
+## Ý tưởng chủ đạo
 
 Chúng ta đã dành thời gian để hiểu cách khắc phục thiên lệch thiếu biến nếu chúng ta có biến công cụ. Biến công cụ là biến có tương quan với can thiệp (bước 1), nhưng chỉ tác động đến kết quả thông qua can thiệp (điều kiện loại trừ). Chúng ta đã thấy một ví dụ về biến công cụ với quý của ngày sinh để ước lượng tác động của giáo dục đối với thu nhập.
 
 Khi chúng ta đi sâu vào cơ chế ước lượng tác động nhân quả với IV bằng 2SLS. Chúng ta cũng thấy rằng IV không phải giải pháp thần kì. Nó có thể khá phiền toái nếu chúng ta có bước 1 yếu. Hơn nữa, dù 2SLS vững, nó vẫn là một phương pháp thiên lệch để ước lượng tác động nhân quả. 
 
-# Tài liệu tham khảo
+## Tài liệu tham khảo
 
 Tôi muốn dành loạt bài viết này để tri ân Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học Kinh tế lượng tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ.  Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.
 * [Kinh tế lượng với dữ liệu chéo](https://www.aeaweb.org/conference/cont-ed/2017-webcasts)
@@ -767,7 +767,7 @@ Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel He
 
 
 
-# Bảng Từ Viết tắt 
+## Bảng Từ Viết tắt 
 
 |Viết tắt| Tiếng Anh | Tiếng Việt |
 | --- | --- | --- | 
@@ -779,7 +779,7 @@ Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel He
 |SE|Standard Error|Sai số chuẩn| 
 
 
-# Bảng Thuật ngữ 
+## Bảng Thuật ngữ 
 
 | Thuật ngữ | Tiếng Anh |
 | --- | --- | 
