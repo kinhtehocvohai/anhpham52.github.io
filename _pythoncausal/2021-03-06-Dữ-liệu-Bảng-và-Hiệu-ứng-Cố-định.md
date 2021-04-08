@@ -293,7 +293,7 @@ data.groupby("year")["lwage"].mean()
 
 Điều này nghĩa là việc tính giá trị trung bình cho mỗi người trong bảng của chúng ta tương đương với việc hồi quy các biến khác theo các biến giả cho cá nhân. Điều này gợi ý quy trình ước lượng sau:
 
-- Bước 1: Tạo ra các biến khử giá trị trung bình theo thời gian bằng cách trừ đi giá trị trung bình của mỗi cá nhân:   
+- Bước 1: Tạo ra các biến khử giá trị trung bình theo thời gian bằng cách trừ đi giá trị trung bình của mỗi cá nhân
 
 $$\ddot{Y}_{it} = Y_{it} -  \bar{Y}_i$$
 
