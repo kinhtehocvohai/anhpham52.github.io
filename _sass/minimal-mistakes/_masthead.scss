@@ -3,13 +3,17 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
+  position: fixed; //to fix the masthead https://krisshen.com/project_website/how-to-make-header-sticky/
+  top: 0;
   border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+  width: 100%; // set width
+  background: white;  // set a color to hide content that may appear below masthead
+  height: 85px //<-- set header's height
 
   &__inner-wrap {
     @include clearfix;
@@ -92,15 +96,3 @@
   }
 }
 
-/*https://krisshen.com/project_website/how-to-make-header-sticky*/
-.masthead {
-  position: fixed;                //<-- set position property to fixed
-  top: 0;                         //<-- 
-  ...
-  ...
-  width: 100%;                    //<-- set header's width
-  background: $background-color;  //<-- set header's background color
-                                  //this variable will be set per layout
-  height: 85px;                   //<-- set header's height
-  ...
-}
