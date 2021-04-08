@@ -8,7 +8,7 @@ permalink: /pythoncausal/pc09
 [Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 
-# Nhón chân vào Thế giới dị biệt
+## Nhón chân vào Thế giới dị biệt
 
 Nhiều hiểu biết sâu sắc về việc áp dụng IV (Instrumental Variable) hiện đại được rút ra từ y học. Nhìn chung nó phân chia bốn loại đối tượng phụ thuộc vào cách phản ứng với biến công cụ.
 
@@ -122,7 +122,7 @@ Một lần nữa, chúng ta cần suy nghĩ liệu điều này có bị thiên
 
 Vậy là chúng ta không thể sử dụng cả chỉ định can thiệp và tiếp nhận can thiệp để ước lượng ATE. May mắn thay, chúng ta vẫn có thể sử dụng: Biến Công Cụ. Ở đây, chỉ định can thiệp là biến công cụ hoàn hảo cho sự can thiệp. Nó có tính ngẫu nhiên và chỉ tác động đến việc mua trong ứng dụng thông qua sự can thiệp.
 
-# Tác Động Can Thiệp Bình Quân Cục Bộ: LATE
+## Tác Động Can Thiệp Bình Quân Cục Bộ: LATE
 
 Tác động can thiệp bình quân cục bộ làm rõ tổng thể mà chúng ta có thể ước lượng tác động nhân quả. Nó cũng là một cách khác để nhìn nhận IV, đưa ra một cách giải thích lý thú về mặt trực giác mà chúng ta có thể vận dụng. Trong IV hiện đại, chúng ta coi biến công cụ như điểm xuất phát cho chuỗi nhân quả: Z gây ra T, T gây ra Y. Trong bối cảnh này, điều kiện loại trừ nghĩa là Z không chi phối Y ngoài kênh tác động lên T. 1St stage được xem là tác động nhân quả của Z lên T. Chúng ta cũng ký hiệu các kết quả tiềm năng với hai chỉ số, trong đó chỉ số đầu ký hiệu sự giả tưởng cho biến công cụ và chỉ số thứ hai cho sự can thiệp
 
@@ -217,7 +217,7 @@ Công thức này có nghĩa ATE được ước lượng bởi IV là ATE trong
 
 Tóm lại, IV không cung cấp thông tin gì về tác động lên người luôn không nhận, người luôn nhận, hay người chống đối, bởi sự can thiệp không thay đổi đối với những đối tượng này! **IV chỉ tìm tác động can thiệp cho những người tuân thủ**.
 
-# Tác động lên sự tương tác
+## Tác động lên sự tương tác
 
 Hãy cùng xem tất cả những điều trên đóng vai trò như thế nào trong trường hợp chúng ta đang ước lượng tác động của gói khuyến mại lên lượng mua trong ứng dụng. Chúng ta đã có một biểu đồ nhân quả phía trên, vì vậy chúng ta sẽ không biểu thị lại đồ thị này ở đây nữa. Dữ liệu chúng ta có bao gồm sự chỉ định gói khuyến mại (biến công cụ ngẫu nhiên) và sự tiếp nhận gói khuyến mại (biến can thiệp).
 
@@ -409,11 +409,11 @@ iv.summary.tables[1]
 
 Kết quả sử dụng 2SLS thu được thấp hơn nhiều so với kết quả sử dụng OLS: 3.29 so với 27.60. Điều này hợp lý bởi tác động nhân quả ước lượng bởi OLS chệch dương. Chúng ta cũng cần phải nhắc lại về LATE. 3.29 là tác động nhân quả trung bình lên những người tuân thủ. Đáng tiếc rằng chúng ta không thể khẳng định bất cứ điều gì về những người luôn không nhận. Có nghĩa rằng chúng ta đang ước lượng tác động lên phân khúc khách hàng giàu hơn của tổng thể, những người sử dụng điện thoại đời mới hơn. 
 
-# Ý tưởng chủ đạo
+## Ý tưởng chủ đạo
 
 Trong chương này, chúng ta đã xem xét một cách nhìn mới hơn về Biến Công Cụ. Chúng ta đã thấy làm thế nào mà IV được coi như một mắt xích trong chuỗi nhân quả, biến công cụ gây ra sự can thiệp, và sự can thiệp lại gây ra kết quả. Theo cách nhìn này, chúng ta đã xem xét tính tuân thủ để hiểu về ATE trong ước lượng IV, và chúng ta khám phá ra nó chính là LATE của những người tuân thủ. 
 
-# Tài liệu tham khảo
+## Tài liệu tham khảo
 
 Tôi muốn dành loạt bài viết này như lời cảm ơn tới Joshua Angrist, Alberto Abadie và Christopher Walters bởi lớp học Kinh tế lượng tuyệt vời của họ. Hầu hết những ý tưởng trong chương này được đúc kết từ những bài giảng của họ tại Hiệp hội kinh tế Hoa Kỳ. Lắng nghe các bài giảng của họ giúp tôi có thêm động lực đi qua một năm 2020 đầy khó khăn này.
 
@@ -430,7 +430,7 @@ Cuối cùng, không thể không nhắc đến cuốn sách được viết b�
 * [Sách Suy luận nhân quả](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
 
 
-# Bảng Từ Viết tắt 
+## Bảng Từ Viết tắt 
 
 |Viết tắt| Tiếng Anh | Tiếng Việt |
 | --- | --- | --- | 
@@ -441,7 +441,7 @@ Cuối cùng, không thể không nhắc đến cuốn sách được viết b�
 |RCT|Randomized Controlled Trial|Thử nghiệm Ngẫu nhiên Đối chứng| 
 
 
-# Bảng Thuật ngữ 
+## Bảng Thuật ngữ 
 
 | Thuật ngữ | Tiếng Anh |
 | --- | --- | 
