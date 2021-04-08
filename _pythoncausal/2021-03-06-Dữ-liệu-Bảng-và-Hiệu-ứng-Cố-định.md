@@ -8,7 +8,7 @@ permalink: /pythoncausal/pc13
 [Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 
-# Kiểm soát Điều mà bạn Không thấy
+## Kiểm soát Điều mà bạn Không thấy
 
 Các phương pháp như điểm xu hướng, hồi quy tuyến tính và ghép cặp rất tốt để kiểm soát nhiễu khi sử dụng dữ liệu không ngẫu nhiên, nhưng chúng lệ thuộc vào một giả thiết quan trọng: không nhiễu có điều kiện:
 
@@ -103,7 +103,7 @@ g
 
 Thử nghĩ xem. Chúng ta không biết các đặc tính như điển trai, trí tuệ, nhưng chúng ta biết chúng cùng thuộc về một người. Vì thế, chúng tạo ra một biến giả để xác định người đó và đưa nó vào một mô hình tuyến tính. Đây là điều chúng ta nhắc tới ở trên khi chúng ta kiểm soát đối tượng được nghiên cứu. Khi ước lượng tác động của hôn nhân đối với thu nhập sử dụng biến giả chỉ người trong mô hình của chúng ta, mô hình hồi quy sẽ xác định tác động của hôn nhân khi **giữ cố định người được nghiên cứu**. Việc thêm vào biến giả này được gọi là mô hình hiệu ứng cố định.
 
-# Hiệu Ứng Cố Định
+## Hiệu Ứng Cố Định
 
 Để mô tả vấn đề bằng công thức toán học, trước hết hãy nhìn vào dữ liệu mà chúng ta có. Trong ví dụ trên, chúng ta muốn ước lượng tác động của hôn nhân đối với thu nhập. Dữ liệu gồm 2 biến `kết_hôn` và `log_lương`, cho nhiều đối tượng (`nr`) qua nhiều năm. Lưu ý là tiền lương đã được lấy log. Thêm vào đó, chúng ta đưa vào các biến kiểm soát khác như số giờ làm việc mỗi năm, số năm học vấn,...
 
@@ -653,7 +653,7 @@ mod.summary().tables[1]
 
 Mô hình này cho rằng kết hôn làm tăng tiền lương của nam giới thêm 14%. Mức tác động này cao hơn kết quả chúng ta tìm được với mô hình hiệu ứng cố định. Điều này gợi ý rằng có thiên lệch thiếu biến do các yếu tố cố định theo từng cá nhân, như trí tuệ và độ điển trai chưa được đưa vào mô hình. 
 
-# Biểu diễn Hiệu Ứng Cố Định
+## Biểu diễn Hiệu Ứng Cố Định
 
 Để mở rộng hiểu biết về cách  mô hình hiệu ứng cố định hoạt động, hãy cùng xem xét một ví dụ khác. Giả sử bạn làm việc cho một công ty công nghệ và cần ước lượng tác động của chiến dịch marketing billboard (biển quảng cáo ngoài trời) cho dịch vụ mua bán qua ứng dụng. Khi nhìn vào dữ liệu quá khứ, bạn nhận thấy phòng marketing có xu hướng chi tiền cho biển quảng cáo ở các thành phố có lượng mua hàng thấp. Điều này có lí phải không? Họ đã chẳng cần marketing nhiều nếu nơi đó có lượng bán hàng ồ ạt. Nếu bạn chạy một mô hình hồi quy sử dụng dữ liệu này thì sẽ trông như thể chi phí marketing cao dẫn đến lượng mua hàng qua ứng dụng thấp.
 
@@ -702,7 +702,7 @@ plt.ylabel("Lượng mua hàng qua ứng dụng (ngàn)");
 
 Hãy dành một phút để đánh giá đồ thị phía trên và để nó cho bạn biết thực ra hiệu ứng cố định đang làm gì. Chú ý rằng hiệu ứng cố định đang ước lượng **một đường hồi quy cho mỗi thành phố**. Và hãy lưu ý các đường này song song với nhau. Độ dốc của đường hồi quy là tác động của chi phí marketing với lượng mua hàng qua ứng dụng. Vì thế **hiệu ứng cố định giả định rằng tác động nhân quả không đổi theo đối tượng**, trong trường hợp này là các địa bàn thành phố. Đây có thể là điểm yếu và cũng có thể là điểm mạnh, phụ thuộc vào việc bạn dùng nó vào việc gì. Nó là điểm yếu nếu bạn muốn tìm hiểu tác động nhân quả cụ thể cho từng thành phố. Vì mô hình FE giả định tác động này cố định theo đối tượng, bạn sẽ không thấy khác biệt trong tác động nhân quả. Tuy nhiên, nếu bạn muốn đánh giá tác động tổng thể của marketing với lượng mua hàng qua ứng dụng, cấu trúc dữ liệu bảng sẽ rất hữu dụng cho hiệu ứng cố định. 
 
-# Hiệu ứng thời gian
+## Hiệu ứng thời gian
 
 Giống như những gì chúng ta đã làm với hiệu ứng cố định cho các cá nhân, chúng ta có thể thiết kế một mô hình hiệu ứng cố định cho thời gian. Nếu ta đưa vào mô hình một biến giả cho mỗi cá nhân để kiểm soát các đặc tính cố định cho mỗi cá nhân,  ta có thể đưa vào các biến giả thời gian để kiểm soát các biến không đổi theo thời gian. Một ví dụ là biến lạm phát. Mức giá và tiền lương có xu hướng tăng theo thời gian. Nếu tiền lương và tỉ lệ kết hôn cũng tăng theo thời gian, thì thời gian là một biến nhiễu. Một ví dụ chặt chẽ hơn, giả sử tỉ lệ kết hôn tăng theo thời gian. Vì lạm phát làm mức lương tăng theo thời gian, một phần tương quan cùng chiều ta thấy giữa việc kết hôn và mức lương đơn giản là do cả hai đang tăng theo thời gian. Để sửa chữa nó, ta có thể đưa vào một biến biến giả cho mỗi thời điểm. Trong `linear models`, điều này được thực hiện dễ dàng bằng cách thêm `TimeEffects` vào công thức của chúng ta và đặt giá trị `cluster_time` bằng True.
 
@@ -741,7 +741,7 @@ result.summary.tables[1]
 
 Trong mô hình mới này, tác động của hôn nhân đối với tiền lương giảm mạnh từ `0.1147` xuống `0.0476`. Kết quả này vẫn có ý nghĩa thống kê ở mức 99%, vì thế nam giới vẫn có thể kì vọng tăng lương nhờ vào kết hôn. 
 
-# Khi Dữ Liệu Bảng Không thể Giúp bạn
+## Khi Dữ Liệu Bảng Không thể Giúp bạn
 
 Sử dụng dữ liệu bảng và mô hình hiệu ứng cố định là công cụ vô cùng hiệu quả cho suy luận nhân quả. Khi bạn không có dữ liệu ngẫu nhiên hoặc biến công cụ tốt, hiệu ứng cố định là phương tiện suy luận nhân quả thuyết phục với dữ liệu phi thực nghiệm. Tuy vậy nó không phải liều thuốc vạn năng. Có những tình huống mà ngay cả dữ liệu bảng không thể giúp bạn.
 
@@ -752,13 +752,13 @@ Trường hợp dễ thấy nhất là khi bạn có các biến nhiễu thay đ
 
 Một trường hợp khác khó thấy hơn là khi hiệu ứng cố định không thể giúp khi bạn gặp phải **quan hệ nhân quả ngược**. Ví dụ, hãy nói rằng việc kết hôn không làm tăng thu nhập của bạn. Phải chăng thu nhập cao làm tăng khả năng kết hôn của bạn? Trong trường hợp này, bạn sẽ thấy mối tương quan cùng chiều nhưng mức thu nhập được định trước. Chúng sẽ cùng thay đổi theo thời gian và theo cùng một hướng, vì vậy hiệu ứng cố định sẽ không thể kiểm soát được điều này. 
 
-# Ý tưởng chủ đạo
+## Ý tưởng chủ đạo
 
 Trong bài này chúng ta đã thấy cách sử dụng dữ liệu bảng, loại dữ liệu với nhiều kết quả đo cho cùng cá nhân tại các thời điểm khác nhau. Trong trường hợp này, chúng ta cần sử dụng mô hình hiệu ứng cố định kiểm soát các thuộc tính cố định theo thời gian của mỗi đối tượng. Đây là một phương pháp rất hiệu quả và thuyết phục để kiểm soát các biến nhiễu và có thể áp dụng tốt cho dữ liệu không ngẫu nhiên.
 
 Cuối cùng, chúng ta đã thấy FE không phải liều thuốc vạn năng. Chúng ta đã nắm được hai tình huống mà phương pháp này ít tác dụng: khi chúng ta có quan hệ nhân quả ngược và khi các biến nhiễu không đo được thay đổi theo thời gian.
 
-# Tài liệu tham khảo
+## Tài liệu tham khảo
 
 Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học Kinh tế lượng tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ.  Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.
 * [Kinh tế lượng với dữ liệu chéo](https://www.aeaweb.org/conference/cont-ed/2017-webcasts)
@@ -777,14 +777,14 @@ Cuối cùng, tôi cũng muốn tán dương Scott Cunningham và và sản ph�
 
 * [Suy Luận Nhân Quả: Đĩa nhạc](https://www.scunning.com/mixtape.html)
 
-# Bảng Từ Viết tắt 
+## Bảng Từ Viết tắt 
 
 |Viết tắt| Tiếng Anh | Tiếng Việt |
 | --- | --- | --- | 
 |FE|Fixed Effects|FE| 
 
 
-# Bảng Thuật ngữ 
+## Bảng Thuật ngữ 
 
 | Thuật ngữ | Tiếng Anh |
 | --- | --- | 
