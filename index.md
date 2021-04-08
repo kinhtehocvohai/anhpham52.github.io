@@ -6,43 +6,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: single
-author_profile: true
-title: Suy luận Nhân quả với Python
-share: true
 header:
   image: /assets/images/cover.png
-sidebar:
-  nav: 'pythoncausal'
+
 classes: wide
 ---
-
-Chuỗi bài viết về Suy luận Nhân quả với Python và ứng dụng của chúng trong nghiên cứu các vấn đề kinh tế, xã hội, chính sách và quyết định kinh doanh. 
-
-Đây là bản Việt hóa cuốn sách online [Suy luận Nhân quả cho những Chiến binh Quả cảm Chân Chính](https://github.com/matheusfacure/python-causality-handbook) (Causal Inference for the Brave and True) của tác giả [Matheus Facure](https://matheusfacure.github.io/about/).
-
-Nguyên tác dựa trên nguồn tài liệu của các học giả uy tín như Joshua Angrist, Jorn-Steffen Pischke, Alberto Abadie, Christopher Walters, Miguel Hernan, Jamie Robinsons, Scott Cunningham...
-
-Các bài viết chính thức sẽ được đăng tại [Facebook fanpage](https://www.facebook.com/harmlessecon) và website này vào 21:00 thứ 7 hàng tuần, bắt đầu từ 12/12/2020 theo lịch trình dự kiến như sau:
-
-
-|Tiêu đề | Ngày đăng tải|
-|--- | ---| 
-|1. Giới thiệu Suy luận Nhân quả|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc01)| 
-|2. Phép thử Ngẫu nhiên|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc02)|
-|3. Một Phương trình Vô cùng Nguy hiểm|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc03)|
-|4. Mô hình Biểu đồ Nhân quả|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc04)|
-|5. Hiệu quả Khó tin của Hồi quy tuyến tính|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc05)|
-|6. Nhóm gộp và Hồi quy Biến giả|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc06)|
-|7. Đâu chỉ mình Biến nhiễu?|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc07)|
-|8. Biến Công cụ|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc08)|
-|9. Sự bất tuân và LATE|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc09)|
-|10. Phương pháp Ghép cặp|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc10)|
-|11. Điểm xu hướng|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc11)|
-|12. Ước lượng mạnh Hai lần |Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc12)|
-|13. Dữ liệu Bảng và Hiệu ứng Cố định|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc13)|
-|14. Sai khác của Biến thiên|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc14)|
-|15. Đối chứng Tổng hợp|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc15)|
-|16. Thiết kế Hồi quy Gián đoạn|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc16)|
-
-  
-Dữ liệu và code được cập nhật tại Github Repo [Nhân Quả Python](https://github.com/vietecon/NhanQuaPython)
