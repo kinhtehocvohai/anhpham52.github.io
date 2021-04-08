@@ -6,4 +6,5 @@ sidebar:
  nav: pythoncausal
 share: true
 author_profile: true
+entries_layout: grid
 ---
