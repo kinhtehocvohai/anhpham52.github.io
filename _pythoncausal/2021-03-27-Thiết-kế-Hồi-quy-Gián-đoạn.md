@@ -8,7 +8,7 @@ permalink: /pythoncausal/pc16
 [Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 
-# Thiết Kế Hồi Quy Gián Đoạn
+## Thiết Kế Hồi Quy Gián Đoạn
 
 Dù không ngẫm nghĩ nhiều về nó nhưng chúng ta không khỏi ấn tượng bởi tính liên tục của tự nhiên. Bạn không thể trồng cây mà  nụ không nở trước, bạn không thể dịch chuyển tức thời từ nơi này sang nơi khác, vết thương cần thời gian để chữa lành. Ngay cả trong lĩnh vực xã hội, sự liên tục dường như là một chuẩn mực. Bạn không thể phát triển doanh nghiệp chỉ trong một ngày, cần phải có sự kiên định và chăm chỉ để tích luỹ của cải và phải mất đến nhiều năm để bạn nắm được cách hồi quy tuyến tính hoạt động. Trong những trường hợp thường thấy, tự nhiên rất có tính liên kết và không thay đổi nhiều.
 
@@ -34,7 +34,7 @@ Nói cách khác, can thiệp có giá trị 0 khi \\(R\\) dưới ngưỡng quy
 
 Ý tưởng của hồi quy gián đoạn là so sánh kết quả ngay trên và ngay dưới ngưỡng quyết định để xác định tác động can thiệp tại ngưỡng quyết định. Đây được gọi là thiết kế **RD sắc**, vì xác suất nhận được can thiệp tăng từ 0 đến 1 ngay tại ngưỡn quyết định quyết định quyết địnhg quyết định, nhưng chúng ta cũng có thể tìm hiểu về **thiết kế RD mờ**, trong đó xác suất cũng tăng, nhưng ít cực đoan hơn.
 
-# Có Phải Rượu Đang Giết Bạn?
+## Có Phải Rượu Đang Giết Bạn?
 
 Một câu hỏi về chính sách công rất liên quan là độ tuổi uống rượu tối thiểu là bao nhiêu. Hầu hết ở các quốc gia, bao gồm cả Brazil, là 18 tuổi trở lên, nhưng ở Mỹ (hầu hết các bang), hiện tại là 21. Vậy, có phải tại Mỹ đang quá thận trọng và họ nên giảm độ tuổi uống rượu tối thiểu? Hay là các quốc gia khác nên tăng độ tuổi uống rượu hợp pháp tại đất nước của mình?
 
@@ -166,7 +166,7 @@ drinking.plot.scatter(x="agecell", y="suicide", ax=ax);
 
 Có một số dấu hiệu, nhưng chúng ta cần nhiều hơn thế. Chính xác thì việc uống rượu bia tác động lên tỷ lệ tử vong tại ngưỡng quyết định nào? Và sai số chuẩn cho ước lượng đó là bao nhiêu?
 
-# Ước lượng RDD 
+## Ước lượng RDD 
 
 Giả thiết chủ đạo mà RDD dựa vào là sự liên tục của kết quả tiềm năng tại ngưỡng quyết định. Nói một cách chính xác thì giới hạn của các kết quả tiềm năng khi biến chỉ định tiệm cận ngưỡng quyết định từ bên phải và bên trái phải như nhau.
 
@@ -280,7 +280,7 @@ plt.tight_layout()
 
 RDD cho thấy uống rượu làm tăng 15% nguy cơ tử vong do tự tử và tai nạn xe hơi, đây là một con số khá lớn. Những kết quả này là những lý lẽ thuyết phục để không hạ độ tuổi uống rượu tối thiểu nếu chúng ta muốn giảm thiểu tỷ lệ tử vong.
 
-# Tỷ Trọng Kernel
+### Tỷ Trọng Kernel
 
 Hồi Quy Gián Đoạn phần lớn dựa vào các đặc điểm ngoại suy của hồi quy tuyến tính. Vì chúng ta đang xem xét các giá trị tại điểm đầu và cuối của 2 đường hồi quy, tốt hơn hết chúng ta nên xác định đúng các giới hạn đó. Những gì có thể xảy ra là hồi quy có thể đã tập trung quá nhiều vào việc khớp các điểm dữ liệu khác để đổi lại tỷ lệ khớp đáng thất vọng tại ngưỡng quyết định. Nếu điều này xảy ra, rất có thể chúng ta đã đo lường sai tác động can thiệp.
 
@@ -383,7 +383,7 @@ Ngoại trừ tác nhân tự sát, có vẻ như việc thêm tỷ trọng kern
 
 Trường hợp đơn giản này bao quát những gì xảy ra khi thiết kế hồi quy gián đoạn vận hành một cách hoàn hảo. Tiếp theo, chúng ta sẽ tìm hiểu một số chẩn đoán mà ta nên chạy để kiểm tra xem chúng ta có thể tin tưởng RDD đến mức nào và cùng nói về một chủ đề đã rất đỗi quen thuộc: tác động của giáo dục đối với thu nhập.
 
-# Hiệu Ứng Da Cừu và RDD Mờ 
+## Hiệu Ứng Da Cừu và RDD Mờ 
 
 Khi nói đến tác động của giáo dục đối với thu nhập, có hai quan điểm chính trong kinh tế học. Lập luận đầu tiên được biết đến rộng rãi rằng giáo dục làm tăng vốn nhân lực, tăng năng suất và do đó, tăng thu nhập. Theo quan điểm này, giáo dục thực sự thay đổi bạn theo hướng tốt hơn. Một quan điểm khác cho rằng giáo dục chỉ đơn giản là một cơ chế phát tín hiệu. Nó chỉ đẩy bạn đến với các bài kiểm tra và bài tập khó nhằn, và nếu bạn có thể làm được chúng, nó phát tín hiệu cho thị trường rằng bạn là một nhân viên giỏi. Theo quan điểm này, giáo dục không làm cho bạn năng suất hơn. Nó chỉ cho thị trường biết bạn luôn làm việc hiệu quả như thế nào. Điều quan trọng ở đây là bằng tốt nghiệp. Nếu bạn có nó, bạn sẽ được trả lương cao hơn. Chúng ta gọi đây là **hiệu ứng da cừu**, bởi vì trước đây bằng cấp được in bằng da cừu.
 
@@ -502,7 +502,7 @@ Lưu ý rằng đây là một ước lượng cục bộ theo hai nghĩa. Đầ
 
 Để ước lượng, chúng ta sẽ sử dụng 2 hồi quy tuyến tính. Tử số có thể được ước lượng theo cách chúng ta đã làm trước đó. Để có được mẫu số, chúng ta chỉ cần thay kết quả bằng can thiệp. Nhưng trước tiên, hãy bàn về kiểm định giả thiết mà chúng ta cần chạy để đảm bảo rằng ước lượng RDD có thể tin tưởng được.
 
-# McCrary Test
+### McCrary Test
 
 Một thứ có thể phá vỡ lập luận RDD của chúng ta là nếu mọi người chi phối vị trí của họ tại ngưỡng quyết định. Nó có thể xảy ra trong ví dụ về da cừu nếu học sinh có điểm số ngay dưới ngưỡng quyết định tìm ra cách để nâng điểm bài kiểm tra lên một chút. Một ví dụ khác là khi bạn cần có thu nhập dưới một mức nhất định để nhận được trợ cấp chính phủ. Một số gia đình có thể cố tình giảm thu nhập chỉ để đủ điều kiện tham gia gói trợ cấp.
 
@@ -620,13 +620,13 @@ plt.legend();
 
 Bạn thấy đấy, ngay cả khi chúng ta chia tỷ trọng tác động ngay giai đoạn đầu, nó vẫn không khác 0 về mặt thống kê. Điều này có nghĩa là giáo dục không làm tăng thu nhập đơn giản chỉ bởi một hiệu ứng da cừu đơn thuần, mà do nó giúp gia tăng năng suất của con người.
 
-# Ý tưởng chủ đạo
+## Ý tưởng chủ đạo
 
 Chúng ta đã học cách tận dụng sự gián đoạn nhân tạo để ước lượng tác động nhân quả. Ý tưởng là chúng ta sẽ có một số ngưỡng quyết định nhân tạo khiến xác suất của sự can thiệp nhảy vọt. Một ví dụ mà chúng ta đã thấy là độ tuổi làm cho xác suất uống rượu tăng vọt ở độ tuổi 21, chúng ta có thể sử dụng điều này để ước lượng tác động của việc uống rượu. Thực tế chỉ ra rằng khi ở gần với ngưỡng quyết định, chúng ta có một phương pháp gần với thử nghiệm ngẫu nhiên. Các đối tượng ở rất gần ngưỡng quyết định có thể đã đi theo một trong hai hướng và những gì có thể xác định nơi chúng thuộc về là ngẫu nhiên. Với điều này, chúng ta có thể so sánh những đối tượng cận trên và cận dưới ngưỡng quyết định để có được tác động can thiệp. Chúng ta đã biết cách làm điều đó với hồi quy tuyến tính theo tỷ trọng bằng kernel và nó thậm chí còn cung cấp sai số chuẩn cho ATE mà chúng ta không cần phải mất tí công sức nào.
 
 Sau đó, chúng ta xem xét điều gì sẽ xảy ra trong thiết kế RD mờ, khi có sự xuất hiện của việc không tuân thủ. Chúng ta thấy rằng cách ta có thể tiếp cận tình huống cũng giống như cách chúng ta đã làm với IV.
 
-# Tài liệu tham khảo
+## Tài liệu tham khảo
 
 Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học Kinh tế lượng tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ.  Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.
 
@@ -642,7 +642,7 @@ Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel He
 
 * [Sách Suy Luận Nhân Quả](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
 
-# Bảng Từ Viết tắt 
+## Bảng Từ Viết tắt 
 
 |Viết tắt| Tiếng Anh | Tiếng Việt |
 | --- | --- | --- | 
@@ -651,7 +651,7 @@ Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel He
 |RDD|Regression Discontinuity Design|Thiết kế Hồi quy Gián đoạn| 
 
 
-# Bảng Thuật ngữ 
+## Bảng Thuật ngữ 
 
 | Thuật ngữ | Tiếng Anh |
 | --- | --- | 
