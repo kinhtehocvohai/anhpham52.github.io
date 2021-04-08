@@ -9,10 +9,10 @@ author_profile: true
 [Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 
-# Sao phải Quan tâm?
+## Sao phải Quan tâm?
 
 
-## Khoa Học Dữ Liệu Không còn là Nó Trước đây (hoặc Nó của Ngày sau)
+### Khoa Học Dữ Liệu Không còn là Nó Trước đây (hoặc Nó của Ngày sau)
 
 Chuyên gia dữ liệu được lăng xê là  [Nghề nghiệp Quyến rũ nhất Thế kỉ 21](https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century) bởi Harvard Business Review. Đây không phải là một diễn ngôn trống rỗng. Trong thập kỉ vừa qua, Chuyên Gia Dữ Liệu  thực sự tỏa sáng. Các chuyên gia AI sở hữu [mức lương không hề kém cạnh các siêu sao thể thao](https://www.economist.com/business/2016/04/02/million-dollar-babies). Theo đuổi tiền tài và danh vọng, hàng trăm các chuyên gia trẻ  lao đầu vào cuộc đua truy tìm kho báu cố giành danh hiệu chuyên gia dữ liệu sớm nhất. Ngành nghề mới như thể đang lên đồng. Một vài phương pháp giảng dạy tân tiến có thể giúp bạn trở thành một chuyên gia dữ liệu mà không phải nhìn dù chỉ một công thức toán học. Các chuyên gia tư vấn hứa hẹn triệu đô nếu công ty của bạn có thể hé mở tiềm năng dữ liệu. AI hoặc, ML, được gọi là nguồn điện mới và dữ liệu là mỏ dầu mới.
 
@@ -32,7 +32,7 @@ Giữa cơn lên đồng ấy, chúng ta, các chuyên gia dữ liệu, nên là
 
 ![image-center](/assets/images/pythoncausal/intro/tougher-up-cupcake1.jpg){: .align-center}
 
-## Trả lời những câu hỏi khác nhau
+### Trả lời những câu hỏi khác nhau
 
 Vấn đề mà ML đang làm rất tốt là dự đoán. Ajay Agrawal, Joshua Gans và Avi Goldfarb viết trong cuốn sách "Cỗ máy Dự đoán": "Làn sóng trí tuệ nhân tạo thực ra không mang đến cho chúng ta trí tuệ mà một phần thiết yếu của trí tuệ - khả năng phán đoán". Chúng ta có thể tạo ra vô số điều kì diệu với "machine learning". Yêu cầu duy nhất là chúng ta đặt vấn đề trong khuôn khổ dự đoán. Muốn dịch tiếng Anh sang tiếng Bồ Đào Nha? Hãy xây dựng mô hình ML giúp dự đoán câu văn tiếng Bồ Đào Nha cho mỗi câu tiếng Anh. Muốn nhận diện khuôn mặt? Hãy xây dựng mô hình ML giúp dự đoán sự hiện diện của một khuôn mặt trong một phần bức tranh. Muốn sản xuất ô tô tự lái? Hãy xây dựng mô hình ML giúp dự đoán phương hướng bánh lái và áp lực lên chân phanh và chân ga dựa vào các tấm hình ngoại cảnh ô tô.
 
@@ -42,7 +42,7 @@ ML rất dở trong các vấn đề liên quan đến mối liên hệ ngược
 
 Trả lời các câu hỏi kiểu này khó hơn mọi người tưởng. Ai đó có thể nói đi nói lại "Quan hệ tương quan không phải Quan hệ nhân quả", "Quan hệ tương quan không phải Quan hệ nhân quả". Nhưng thực tế để giải thích nó tường tận cần nhiều hơn thế. Phần dưới đây sẽ trình bày **làm thể nào để quan hệ tương quan hé lộ quan hệ nhân quả**.
 
-# Khi nào  Quan hệ tương quan là  Quan hệ nhân quả
+## Khi nào  Quan hệ tương quan là  Quan hệ nhân quả
 
 Bằng trực giác, khá dễ hiểu tại sao quan hệ tương quan không phải quan hệ nhân quả. Nếu ai đó nói với bạn: trẻ học tốt hơn ở các trường phát máy tính bảng cho học sinh, bạn có thể phản biện rằng đó cũng là các trường giàu hơn. Vì thế họ có có điều kiện giảng dạy tốt hơn dù có phát máy tính bảng hay không. Vì thế chúng ta không thể kết luận rằng việc cung cấp máy tính bảng cho lớp học làm tăng kết quả học tập của trẻ. Chúng ta chỉ có thể nói rằng việc sử dụng máy tính bảng trong trường học tương quan với kết quả học tập cao.
 
@@ -314,7 +314,7 @@ pd.DataFrame(dict(
 
 
 
-# Thiên lệch
+## Thiên lệch
 
 Thiên lệch là nguyên nhân khiến quan hệ tương quan khác với quan hệ nhân quả. May mắn là nó khá dễ hiểu bằng trực giác thông thường. Quay trở lại với ví dụ máy tính bảng trong lớp học của chúng ta. Nếu ai đó khẳng định rằng học sinh học tập tốt hơn tại các trường phát máy tính bảng; chúng ta có thể phản biện rằng các trường đó có điều kiện giảng dạy tốt hơn dù có phát máy tính bảng hay không. Các trường này nhiều khả năng giàu  hơn các trường khác và vì thế trả lương giáo viên cao hơn, trang bị phòng học tốt hơn ,... Nói cách khác, trường học được can thiệp (phát máy tính bảng) không thể so sánh với các trường đối chứng. 
 
@@ -413,7 +413,7 @@ Nếu chúng ta sắp xếp để không ai được nhận can thiệp, và vì
 
 Đây là nhiệm vụ "khủng" của suy luận nhân quả. Nó đòi hỏi những phương thức thông mình để loại bỏ thiên lệch, làm cho các đối tượng nhận can thiệp và đối chứng tương đương và từ đó mọi khác biệt giữa chúng có thể gán cho tác động can thiệp trung bình. Mục đích sau cùng của suy luận nhân quả là khám phá cách thế giới vận hành, loại bỏ ảo giác và cách diễn giải sai lệch. Và bây giờ chúng ta hiểu điều này, chúng ta có thể tiến tới học cách phương pháp quyền lực giúp loại bỏ thiên lệch, vũ khí của những chiến binh Quả cảm Chân chính giúp xác định tác động nhân quả.
 
-# Ý tưởng chủ đạo
+## Ý tưởng chủ đạo
 
 Trên đây chúng ta đã nhận thấy quan hệ tương quan không phải quan hệ nhân quả. Quan trọng hơn, chúng ta thấy rõ tại sao không phải vậy và làm thế nào để quan hệ tương quan trở thành quan hệ nhân quả. Chúng ta cũng đã tìm hiểu công thức kết quả tiềm năng như là một phương pháp để gói gọn vấn đề suy luận nhân quả. Cùng với đó, chúng ta tìm hiểu thống kê trong 2 tình huống hiện thực loại trừ nhau: có và không có can thiệp. Đáng tiếc là chúng ta chỉ có thể quan sát và đo lường 1 trong 2 tình huống đó, và đây là thách thức cơ bản của suy luận nhân quả.
 
@@ -426,7 +426,7 @@ Trong các bài tới, chúng ta sẽ tìm hiểu một số kĩ thuật cơ b�
 >'Đúng vậy, nhưng mỗi người lại toàn quyền sống theo cách mình chọn lựa. Tưởng chừng mâu thuẫn, nhưng cả hai đều là chân lý.'
 > <cite><a >Trưởng lão</a></cite>
 
-# Tài liệu tham khảo
+## Tài liệu tham khảo
 
 Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học Kinh tế lượng tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ.  Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.
 * [Kinh tế lượng với dữ liệu chéo](https://www.aeaweb.org/conference/cont-ed/2017-webcasts)
@@ -446,7 +446,7 @@ Phép so sánh cốc bia trong bài này được lấy từ [Đầu tư Chứng
 ![image-center](/assets/images/pythoncausal/poetry.png){: .align-center}
 
 
-# Bảng Từ Viết tắt 
+## Bảng Từ Viết tắt 
 
 |Viết tắt| Tiếng Anh | Tiếng Việt |
 | --- | --- | --- | 
@@ -455,7 +455,7 @@ Phép so sánh cốc bia trong bài này được lấy từ [Đầu tư Chứng
 |ML|Machine Learning|Học Máy| 
 
 
-# Bảng Thuật ngữ 
+## Bảng Thuật ngữ 
 
 | Thuật ngữ | Tiếng Anh |
 | --- | --- | 
