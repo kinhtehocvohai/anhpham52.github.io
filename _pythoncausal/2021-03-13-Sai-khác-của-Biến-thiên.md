@@ -8,7 +8,7 @@ permalink: /pythoncausal/pc14
 [Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 
-# Ba Biển Quảng cáo ngoài trời ở Nam Brazil
+## Ba Biển Quảng cáo ngoài trời ở Nam Brazil
 
 Tôi nhớ lại khoảng thời gian làm marketing (tiếp thị). Khi ấy một kênh tuyệt cú mèo là marketing trực tuyến. Nó không chỉ hiệu quả, mà còn rất thuận tiện để đánh giá tính hiệu quả. Với marketing trực tuyến, bạn có cách để nhận biết khách hàng nào đã xem quảng cáo và theo dõi bằng cookies để xem họ có ghé thăm trang web điều hướng hay không. Bạn cũng có thể sử dụng học máy để tìm đối tượng mục tiêu tương tự các khách hàng của bạn và phát quảng cáo đến họ. Tóm lại, marketing trực tuyến rất hiệu quả: bạn nhắm đến những đối tượng bạn muốn và bạn có thể theo dõi xem họ có hồi đáp theo cách mà bạn mong muốn hay không. 
 
@@ -110,7 +110,7 @@ data.head()
 
 `deposits` là biến kết quả của chúng tôi. `POA` là biến giả chỉ thành phố Porto Alegre. Khi nó bằng 0 nghĩa là mẫu dữ liệu lấy từ Florianopolis. `Jul` là một  biến giả cho tháng 7 (thời điểm sau can thiệp). Khi biến này bằng 0, nó chỉ mẫu dữ liệu từ tháng 5 (trước can thiệp).
 
-# Mô hình ước lượng DID 
+## Mô hình ước lượng DID 
 
 Để tránh gây nhầm lẫn giữa thời gian và can thiệp, tôi sẽ sử dụng D để chỉ can thiệp và T để chỉ thời gian. Gọi \\(Y_D(T)\\) là kết quả tiềm năng cho can thiệp D ở thời điểm T. Ở một thế giới siêu tưởng nơi mà chúng ta có thể quan sát giả tưởng, chúng ta sẽ ước lượng tác động can thiệp như sau:
 
@@ -285,7 +285,7 @@ smf.ols('deposits ~ poa*jul', data=data).fit().summary().tables[1]
 
 
 
-# Xu hướng biến thiên không song song
+## Xu hướng biến thiên không song song
 
 Một vấn đề khá hiển nhiên với Sai khác của biến thiên là trường hợp giả định xu hướng song song không được đảm bảo. Nếu đường xu hướng biến thiên của nhóm can thiệp khác với xu hướng của nhóm đối chứng, sai khác của biến thiên sẽ bị  chệch. Đây là một vấn đề khá phổ biến với dữ liệu không ngẫu nhiên, khi mà quyết định chỉ định can thiệp với một khu vực cụ thể dựa trên tiềm năng đáp ứng của nó đối với can thiệp, hoặc khi can thiệp được chỉ định cho cả khu vực đang hoạt động chưa tốt. 
 
@@ -316,13 +316,13 @@ Chúng ta sẽ xem xét cách giải quyết vấn đề này với đối chứ
 
 Vấn đề cuối cùng cần phải nhắc đến là bạn sẽ không thể đặt khoảng tin cậy xung quanh mô hình ước lượng Sai khác của biến thiên nếu bạn chỉ có dữ liệu cộng gộp. Ví dụ thay vì có dữ liệu cho mỗi khách hàng từ Florianópolis hoặc Porto Alegre, bạn chỉ có lượng tiền gửi trước và sau can thiệp cho mỗi thành phố. Trong trường hợp này, bạn sẽ vẫn có thể ước lượng tác động nhân quả bằng Sai khác của biến thiên, nhưng bạn sẽ không biết phương sai của nó. Đó là vì tất cả biến động trong dữ liệu đã biến mất do cộng gộp dữ liệu.
 
-# Ý tưởng chủ đạo
+## Ý tưởng chủ đạo
 
 Chúng ta đã khám phá một kĩ thuật thông dụng giúp ước lượng tác động nhân quả với đối tượng ở tầm vĩ mô như trường học, thành phố, tiểu bang, quốc gia,... sai khác của biến thiên xem xét đối tượng can thiệp trước và sau can thiệp và so sánh xu hướng biến thiên của kết quả với nhóm đối chứng. Ở đây, chúng ta đã xem xét cách áp dụng phương pháp này trong việc ước lượng tác động của một chiến dịch marketing tại địa bàn thành phố cụ thể.
 
 Cuối cùng, chúng ta đã xem xét thất bại của Sai khác của biến thiên khi xu hướng vận động của nhóm can thiệp và đối chứng không giống nhau. Chúng ta cũng đã thấy vấn đề của sai khác của biến thiên nếu chỉ có dữ liệu cộng gộp.
 
-# Tài liệu tham khảo
+## Tài liệu tham khảo
 
 Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học Kinh tế lượng tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ.  Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.
 * [Kinh tế lượng với dữ liệu chéo](https://www.aeaweb.org/conference/cont-ed/2017-webcasts)
@@ -341,14 +341,14 @@ Cuối cùng, tôi cũng muốn tán dương Scott Cunningham và sản phẩm x
 
 * [Suy Luận Nhân Quả: Đĩa nhạc](https://www.scunning.com/mixtape.html)
 
-# Bảng Từ Viết tắt 
+## Bảng Từ Viết tắt 
 
 |Viết tắt| Tiếng Anh | Tiếng Việt |
 | --- | --- | --- | 
 |DID|Difference In Differences|Sai khác của Biến thiên| 
 
 
-# Bảng Thuật ngữ 
+## Bảng Thuật ngữ 
 
 | Thuật ngữ | Tiếng Anh |
 | --- | --- | 
