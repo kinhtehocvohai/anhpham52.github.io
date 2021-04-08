@@ -8,7 +8,7 @@ permalink: /pythoncausal/pc11
 [Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 
-# Tâm lý học về sự cầu tiến
+## Tâm lý học về sự cầu tiến
 
 Lĩnh vực tâm lý học thực chứng nghiên cứu những hành vi nào của con người sẽ dẫn đến một cuộc sống tuyệt vời. Bạn có thể tưởng tượng lĩnh vực này như điểm giao thoa của sách tự lực và lý thuyết thống kê chính xác. Một trong những phát hiện nổi tiếng của tâm lý học tích cực là **Tư Duy Cầu Tiến**. Mỗi người có thể có một tư duy bảo thủ hoặc tư duy cầu tiến. Nếu bạn có tư duy bảo thủ, bạn tin rằng các khả năng của một người đã được định sẵn kể từ lúc mới sinh ra hoặc ngay từ thời thơ ấu. Như vậy, tài năng của một người là cố định và không thể thay đổi trong suốt cuộc đời. Nếu bạn đã không có được nó ngay lúc này, bạn vĩnh viễn không thể có được nó. Mặt khác, nếu bạn có một tư duy cầu tiến, bạn tin rằng tài năng có thể được phát triển. Hệ quả trực tiếp của việc này là bạn sẽ không coi sự thất bại như một dạng thiếu năng lực, mà bạn coi nó như là một phần của quá trình học hỏi.
 
@@ -215,7 +215,7 @@ plt.legend();
 
 Tất nhiên, chúng ta vẫn cho rằng kết qủa này chệch. Sự khác biệt giữa nhóm can thiệp và nhóm đối chứng có thể còn nhỏ hơn mức này, bởi chúng ta cho rằng thiên lệch dương. Chúng ta đã thấy rằng những người tham vọng hơn thì sẵn sàng tham gia hội thảo hơn, vì vậy có lẽ họ còn thành công hơn nếu họ thật sự tham gia hội thảo. Để kiểm soát thiên lệch này, chúng ta có thể sử dụng phương pháp hồi quy hoặc ghép cặp, nhưng đã đến lúc để học một phương pháp mới.
 
-# Điểm Xu Hướng
+## Điểm Xu Hướng
 
 Điểm xu hướng xuất phát từ việc nhận ra rằng bạn không nhất thiết phảỉ trực tiếp kiểm soát biến nhiễu X để thu được độc lập có điều kiện \\((Y_1, Y_0) \perp T \| X\\). Thay vào đó, chỉ cần kiểm soát điểm cân bằng \\(E[T\|X]\\) là đủ. Điểm cân bằng này thường là xác suất có điều kiện cuả can thiệp, \\(P(T\|X)\\), còn được gọi là điểm xu hướng \\(P(x)\\). Điểm xu hướng giúp bạn không cần phải cố định toàn bộ X để thu được độc lập cho kết quả tiềm năng của can thiệp. Chỉ cần cố định một biến điểm xu hướng là đủ:
 
@@ -264,7 +264,7 @@ $$
 
 Dấu bằng đầu tiên bắt nguồn từ Luật kỳ vọng lặp. Dấu bằng thứ hai là điều chúng ta tìm ra khi xử lý vế trái. Bởi cả vế trái và vế phải bằng nhau, cùng bằng P(x), ta có điều phải chứng minh. 
 
-# Điểm Xu Hướng Theo Trọng Số 
+## Điểm Xu Hướng Theo Trọng Số 
 
 ![image-center](/assets/images/pythoncausal/ps/balance.png){: .align-center}
 
@@ -302,7 +302,7 @@ $$
 
 Lưu ý rằng mô hình ước lượng này yêu cầu \\(P(x)\\) hoặc \\(1-P(x)\\) phải dương. Nói cách khác, điều này có nghĩa là mọi người cần có ít nhất một cơ hội nào đó để nhận can thiệp hoặc không nhận can thiệp. Một cách nói khác là phân phối của nhóm can thiệp và nhóm đối chứng có chồng lấn. Đây là **giả thiết điều kiện dương** của suy luận nhân quả. Nó cũng có ý nghĩa về mặt trực quan. Nếu nhóm can thiệp và nhóm đối chứng không chồng lấn, có nghĩa là chúng rất khác nhau và chúng ta không thể ngoại suy tác động của một nhóm lên nhóm còn lại. Phép ngoại suy này không phải là không thể thực hiên được (hồi quy có thể), nhưng nó vô cùng nguy hại. Nó giống như việc thử nghiệm một loại thuốc mới trong một thí nghiệm mà chỉ có đàn ông mới nhận can thiệp và sau đó giả định rằng phụ nữ sẽ có phản ứng tương tự.  
 
-# Ước lượng Điểm Xu Hướng
+## Ước lượng Điểm Xu Hướng
 
 Trong một thế giới lý tưởng, chúng ta sẽ có điểm xu hướng thực \\(P(x)\\). Tuy nhiên, trên thực tế, chúng ta chưa biết cơ chế chỉ định can thiệp và chúng ta cần thay thế điểm xu hướng thực bằng một ước lượng của nó \\(\hat{P}(x)\\). Một cách thông dụng để thực hiện điều này là sử dụng hồi quy lô-gít nhưng các phương pháp học máy khác, như gradient boosting, cũng có thể được sử dụng (mặc dù nó yêu cầu một vài bước bổ sung để tránh tình trạng quá khớp).
 
@@ -465,7 +465,7 @@ print("ATE", np.mean(weight * data_ps["achievement_score"]))
 
 Điểm xu hướng theo trọng số nói rằng chúng ta nên kỳ vọng các cá nhân được can thiệp thành công ở mức 0.38 lần độ lệch chuẩn cao hơn so với các cá nhân đối chứng. Chúng ta cũng có thể thấy rằng nếu không có ai nhận can thiệp, chúng ta nên kỳ vọng mức độ thành công chung sẽ thấp hơn 0,12 độ lệch chuẩn so với hiện tại. Bằng lập luận tương tự, chúng ta nên kỳ vọng mức độ thành công chung sẽ cao hơn 0,25 độ lệch chuẩn nếu chúng ta tổ chức hội thảo cho tất cả mọi người. Đối chiếu điều này với ước lượng ATE 0,47 mà chúng ta có được nếu chỉ so sánh đơn giản giữa nhóm can thiệp và nhóm đối chứng. Đây là bằng chứng cho thấy thiên lệch mà chúng ta có thực sự mang giá trị dương và việc kiểm soát X cho chúng ta một ước lượng khiêm tốn hơn về tác động của tư duy phát triển.
 
-# Sai Số Chuẩn
+## Sai Số Chuẩn
 
 ![image-center](/assets/images/pythoncausal/ps/bootstrap.png){: .align-center}
 
@@ -515,7 +515,7 @@ plt.title("ATE Bootstrap Distribution")
 plt.legend();
 ```
 
-# Các vấn đề phổ biến của Điểm Xu Hướng
+## Các vấn đề phổ biến của Điểm Xu Hướng
 
 Với vai trò là một chuyên gia dữ liệu, tôi hiểu rất khó cưỡng lại mong muốn tận dụng sử dụng sức mạnh của bộ công cụ học máy để ước lượng điểm xu hướng chính xác nhất có thể. Bạn có thể nhanh chóng bị choáng ngợp bởi tất cả các phép tối ưu hoá AUC, kiểm chứng chéo, và điều chỉnh siêu tham số Bayes. Chúng tôi không nói rằng bạn không nên làm điều đó. Trên thực tế, tất cả lý thuyết về điểm xu hướng và học máy đều mới xuất hiện, vì vậy có rất nhiều điều chúng ta chưa biết. Nhưng rất đáng để tìm hiểu một phần nào đó trước.
 
@@ -566,7 +566,7 @@ Nếu điều này xảy ra, nó có nghĩa là điều kiện dương không m�
 
 Một giải pháp thay thế là cắt giảm trọng số để có giá trị tối đa là 20. Điều này sẽ làm giảm phương sai, nhưng nó thực sự sẽ tạo ra nhiều thiên lệch hơn. Thành thật mà nói, mặc dù đây là một cách làm phổ biến để giảm phương sai, chúng tôi không thực sự ưa thích nó. Bạn sẽ không bao giờ biết liệu thiên lệch mà bạn gây ra bằng việc cắt giảm có quá nhiều hay không. Ngoài ra, nếu các phân phối không chồng lấn, dữ liệu của bạn có thể không đủ để đưa ra kết luận nhân quả. Để có thêm một số cách nhìn trực quan về điều này, chúng ta có thể xem xét một kỹ thuật kết hợp điểm xu hướng và ghép cặp. 
 
-# Ghép Cặp Điểm Xu Hướng
+## Ghép Cặp Điểm Xu Hướng
 
 Như đã nói, bạn không cần phải kiểm soát X khi bạn có điểm xu hướng. Kiểm soát điểm xu hướng là đủ. Do đó, bạn có thể coi điểm xu hướng như thực hiện thao tác giảm chiều dữ liệu trên không gian thuộc tính. Nó gộp tất cả các thuộc tính trong X thành một chiều chỉ định can thiệp. Vì lý do này, chúng ta có thể coi điểm xu hướng là một thuộc tính đầu vào cho các mô hình khác. Lấy một mô hình hồi quy làm ví dụ.
 
@@ -598,7 +598,7 @@ Như chúng ta thấy, chúng ta cũng thu được ATE bằng 0,38, điều nà
 
 Một lưu ý cuối cùng ở đây là các sai số chuẩn trên là sai, vì chúng không giải thích cho sự không chắc chắn trong việc ước lượng điểm xu hướng. Đáng tiếc rằng [bootstrap không hoạt động với ghép cặp] (https://economics.mit.edu/files/11862). Ngoài ra, lý thuyết trên còn rất mới nên các phương pháp điểm xu hướng với sai số chuẩn chưa được thực hiện trên Python. Vì lý do này, chúng tôi không thấy nhiều ghép cặp điểm xu hướng trong Python.
 
-# Ý tưởng chính
+## Ý tưởng chính
 
 Ở đây, chúng ta đã biết rằng xác suất nhận can thiệp được gọi là điểm xu hướng và chúng ta có thể sử dụng điểm này làm điểm cân bằng. Điều này có nghĩa là, nếu chúng ta có điểm xu hướng, chúng ta không cần phải kiểm soát trực tiếp các biến nhiễu. Việc kiểm soát điểm xu hướng là đủ để xác định tác động nhân quả. Chúng ta đã thấy cách điểm xu hướng hoạt động như giảm chiều dữ liệu trong không gian biến nhiễu.
 
@@ -606,7 +606,7 @@ Những dự đoán này cho phép chúng ta rút ra một mô hình ước lư�
 
 Cuối cùng, chúng ta đã xem xét một số vấn đề ngoại suy mà chúng ta có thể gặp phải nếu chúng ta không thể có sự chồng lấn tốt giữa phân phối điểm xu hướng được can thiệp và đối chứng. 
 
-# Tài liệu tham khảo
+## Tài liệu tham khảo
 
 Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học Kinh tế lượng tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ.  Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.
 * [Kinh tế lượng với dữ liệu chéo](https://www.aeaweb.org/conference/cont-ed/2017-webcasts)
@@ -621,7 +621,7 @@ Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel He
 
 * [Sách Suy Luận Nhân Quả](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
 
-# Bảng Từ Viết tắt 
+## Bảng Từ Viết tắt 
 
 |Viết tắt| Tiếng Anh | Tiếng Việt |
 | --- | --- | --- | 
@@ -631,7 +631,7 @@ Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel He
 |IPTW|Inverse Probability of Treatment Weighting|Trọng số theo Nghịch đảo của Xác suất Can thiệp| 
 
 
-# Bảng Thuật ngữ 
+## Bảng Thuật ngữ 
 
 | Thuật ngữ | Tiếng Anh |
 | --- | --- | 
