@@ -50,6 +50,10 @@ main:
     #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
    - title: "About"
      url: /about/
+   - title: "Blog Posts"
+     url: /blogpost/
+   - title: "Suy luận Nhân quả với Python"
+     url: /pythoncausal/
    - title: "All Posts"
      url: /year-archive/
    #- title: "Collections"
