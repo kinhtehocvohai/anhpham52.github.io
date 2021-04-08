@@ -8,7 +8,7 @@ permalink: /pythoncausal/pc06
 [Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 
-# Hồi quy với Dữ Liệu Nhóm Gộp
+## Hồi quy với Dữ Liệu Nhóm Gộp
 Không phải mọi điểm dữ liệu đều bình đẳng. Nếu lật lại bộ dữ liệu ENEM, chúng ta có thể tin điểm số của các trường lớn hơn các trường nhỏ. Điều này không hàm ý các trường lớn tốt hơn hoặc bất cứ điều gì tương tự. Nó chỉ dựa trên thực tế rằng cỡ mẫu lớn thường đi kèm phương sai nhỏ hơn.
 
 
@@ -371,7 +371,7 @@ model_4.summary().tables[1]
 
 
 
-# Hồi quy  với các Biến giả
+## Hồi quy  với các Biến giả
 
 Biến giả là các biến phân loại mà chúng ta mã hóa dưới dạng cột nhị phân. Ví dụ, giả sử bạn có biến giới tính và muốn sử dụng nó trong mô hình. Biến này được mã hóa theo 3 nhóm: nam, nữ và giới tính khác. 
 
@@ -789,13 +789,13 @@ model_dummy_2.summary().tables[1]
 ![image-center](/assets/images/pythoncausal/dummy/you_little_shit.png){: .align-center}
 
 
-# Ý tưởng chủ đạo
+## Ý tưởng chủ đạo
 
 Bài viết này bắt đầu với việc giải thích hiện tượng một số điểm dữ liệu quan trọng hơn các điểm dữ liệu khác như thế nào. Cụ thể là những điểm được cộng gộp từ kích thước mẫu lớn và phương sai nhỏ nên được đặt trọng số cao hơn khi ước lượng một mô hình tuyến tính. Sau đó, chúng ta tìm hiểu hồi quy tuyến tính có thể xử lý dữ liệu nhóm gộp ẩn danh một cách điệu nghệ như thế nào nếu chúng ta cung cấp trọng số cho mô hình.
 
 Tiếp đó, chúng ta đã đến với hồi quy biến giả. Chúng ta đã thấy làm thế nào để xây dựng một mô hình phi tuyến tính không dựa trên bất kì giả thiết nào về dạng phương trình của tác động can thiệp đối với kết quả. Chúng ta cũng đã khám phá nguyên lý phía sau hồi quy biến giả.
 
-# Tài liệu tham khảo
+## Tài liệu tham khảo
 Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học Kinh tế lượng tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ. Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.
 
 * [Kinh tế lượng với dữ liệu chéo](https://www.aeaweb.org/conference/cont-ed/2017-webcasts)
@@ -809,7 +809,7 @@ Tôi cũng muốn giới thiệu cuốn sách lý thú của Angrist. Chúng cho
 Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel Hernan and Jamie Robins. Nó là người bạn đồng hành tin cậy với tôi khi trả lời những câu hỏi nhân quả khó nhằn.
 * [Sách Suy Luận Nhân Quả](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
 
-# Bảng Từ Viết tắt 
+## Bảng Từ Viết tắt 
 
 |Viết tắt| Tiếng Anh | Tiếng Việt |
 | --- | --- | --- | 
@@ -817,7 +817,7 @@ Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel He
 |CEF|Conditional Expectation Function|Hàm Kì vọng có Điều kiện| 
 
 
-# Bảng Thuật ngữ 
+## Bảng Thuật ngữ 
 
 | Thuật ngữ | Tiếng Anh |
 | --- | --- | 
