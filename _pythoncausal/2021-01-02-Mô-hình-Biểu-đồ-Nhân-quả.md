@@ -7,7 +7,7 @@ permalink: /pythoncausal/pc04
 ---
 [Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
-# Đôi điều về Quan hệ nhân quả
+## Đôi điều về Quan hệ nhân quả
 
 Một giả thiết tối thiểu chúng ta cần đặt ra khi thực hiện suy luận nhân quả là can thiệp độc lập có điều kiện với các kết quả tiềm năng.
 
@@ -58,7 +58,7 @@ g
 
 Mỗi đỉnh là một biến ngẫu nhiên. Chúng ta sử dụng mũi tên, hoặc cạnh để biểu hiện một biến chi phối biến khác. Trong mô hình biểu đồ thứ nhất, chúng ta khẳng định rằng Z chi phối X, và U chi phối X và Y. Để cung cấp một ví dụ cụ thể hơn, chúng ta có thể biểu thị tác dụng của thuốc lên khả năng sống của bệnh nhân như mô hình biểu đồ thứ hai. "Mức độ nghiêm trọng" chi phối "thuốc" và "khả năng sống", và "thuốc" cũng chi phối "khả năng sống". Như chúng ta thấy, mô hình biểu đồ nhân quả giúp những suy luận về quan hệ nhân quả trở nên rõ ràng hơn bởi nó biểu hiện một cách trực quan quan điểm của chúng ta về cách mà thế giới vận hành. 
 
-# Học nhanh về Mô hình biểu đồ
+## Học nhanh về Mô hình biểu đồ
 
 Bạn có thể tham khảo một khoá học dài hạn [tại đây](https://www.coursera.org/specializations/probabilistic-graphical-models). Tuy nhiên, để phục vụ cho mục tiêu của chương này, chúng ta cần phải hiểu rõ những giả thiết về độc lập và độc lập có điều kiện mà mô hình biểu đồ yêu cầu. Chúng ta sẽ thấy sự độc lập xuyên suốt mô hình biểu đồ như thể dòng nước chảy qua sông qua suối. Chúng ta có thể ngăn chặn hoặc khai thông "dòng chảy" này tuỳ thuộc vào việc chúng ta xử lý các biến trong đó như thế nào. Để hiểu rõ hơn, hãy cùng xem xét một số cấu trúc và ví dụ phổ biến của mô hình biểu đồ. Chúng có thể khá đơn giản, nhưng lại là những nền tảng cần thiết để hiểu thấu đáo về độc lập và độc lập có điều kiện trong mô hình biểu đồ.
 
@@ -242,7 +242,7 @@ $$
 Mô hình biểu đồ cho phép ta tìm ra loại thiên lệch mà ta đang gặp phải và những công cụ cần thiết để giải quyết chúng. 
 
 
-# Thiên lệch nhiễu
+## Thiên lệch nhiễu
 
 Một trong những nguyên nhân chủ yếu gây ra thiên lệch là thiên lệch nhiễu. Điều này xảy ra khi sự can thiệp và kết quả cùng có một nguyên nhân chung. Ví dụ, giả sử sự can thiệp là giáo dục và kết quả là thu nhập. Thật khó để xác định tác động nhân quả của giáo dục lên thu nhập bởi cả hai cùng có một nguyên nhân chung: trí tuệ. Vì thế ta có thể lập luận rằng những người có học vấn cao hơn thì kiếm được nhiều tiền hơn đơn giản bởi họ thông minh hơn, chứ không phải bởi họ học nhiều hơn. Để nhận biết tác động nhân quả, chúng ta cần đóng tất cả những đường đi cửa sau giữa sự can thiệp và kết quả. Nếu chúng ta làm như vậy, sẽ chỉ còn duy nhất một tác động còn sót lại là tác động trực tiếp T->Y. Trong ví dụ sau đây, nếu chúng ta cho "trí tuệ" là biến kiểm soát, nghĩa là ta so sánh những người có cùng mức độ thông minh nhưng trình độ học vấn khác nhau, sự khác biệt trong thu nhập sẽ được gây ra duy nhất bởi sự khác biệt về học vấn, bởi mức độ thông minh của mọi người trong thí nghiệm này là như nhau. Vì vậy, để khắc phục thiên lệch nhiễu, chúng ta cần phải kiểm soát tất cả các nguyên nhân chung của sự can thiệp và kết quả. 
 
@@ -327,7 +327,7 @@ g
 
 
 
-# Thiên lệch chọn
+## Thiên lệch chọn
 
 Bây giờ bạn có thể nghĩ rằng bạn nên đưa tất cả những biến có thể đo lường được vào mô hình để chắc chắn rằng mình sẽ không gặp phải thiên lệch nhiễu. Hãy nghĩ kỹ lại nào!
 
@@ -426,7 +426,7 @@ Nói một cách dễ hiểu hơn, giả sử rằng bạn phải chọn giữa 
 
 
 
-# Tài liệu tham khảo
+## Tài liệu tham khảo
 
 
 Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học Kinh tế lượng tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ.  Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.
@@ -444,7 +444,7 @@ Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel He
 
 
 
-# Bảng Thuật ngữ 
+## Bảng Thuật ngữ 
 
 | Thuật ngữ | Tiếng Anh |
 | --- | --- | 
