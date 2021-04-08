@@ -7,7 +7,7 @@ permalink: /pythoncausal/pc07
 ---
 [Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
-# Các Biến Kiểm soát Có Lợi
+## Các Biến Kiểm soát Có Lợi
 
 Chúng ta đã thấy làm thế nào mà việc thêm các biến kiểm soát vào mô hình hồi quy giúp ta có thể xác định tác động nhân quả. Nếu biến kiểm soát là một biến nhiễu, việc thêm nó vào mô hình không chỉ để đẹp đội hình, mà là một bắt buộc. Nếu thiếu thận trọng khi xem xét vấn đề này, phản ứng tự nhiên là ta sẽ ném bất cứ thứ gì có thể đo lường được vào mô hình. Ngày nay với dữ liệu lớn, ta dễ dàng có hơn 1000 biến. Hóa ra, điều này không những không cần thiết mà còn có thể gây bất lợi cho việc xác định quan hệ nhân quả. Bây giờ, ta hãy chuyển sự chú ý sang các biến kiểm soát bên ngoài các biến nhiễu. Trước tiên, hãy xem xét những biến có lợi. Sau đó, chúng ta sẽ đi sâu vào các biến kiểm soát có hại.
 
@@ -306,7 +306,7 @@ g
 
 
 
-# Các Biến Kiểm soát Gần Như Nguy Hại
+## Các Biến Kiểm soát Gần Như Nguy Hại
 
 Trong một ví dụ khác, hãy xem xét một kịch bản thử nghiệm thuốc với 2 bệnh viện. Cả hai đều đang tiến hành các thử nghiệm ngẫu nhiên về một loại thuốc mới để điều trị một loại bệnh nhất định. Kết quả được quan tâm là số ngày nằm viện. Nếu can thiệp hiệu quả, nó sẽ làm giảm số ngày bệnh nhân nằm viện. Đối với một bệnh viện, chính sách liên quan đến can thiệp ngẫu nhiên là phát thuốc cho 90% bệnh nhân trong khi 10% còn lại dùng giả dược. Bệnh viện còn lại có một chính sách khác: họ phát thuốc cho 10% bệnh nhân ngẫu nhiên và 90% bệnh nhân nhận giả dược. Bạn cũng được biết rằng bệnh viện phát 90% thuốc thật và 10% giả dược thường nhận điều trị các ca nặng hơn.
 
@@ -620,7 +620,7 @@ g
 
 
 
-# Các Biến Kiểm soát Tệ - Thiên Lệch Chọn
+## Các Biến Kiểm soát Tệ - Thiên Lệch Chọn
 
 Hãy quay lại ví dụ về thư điện tử dùng để thu nợ. Hãy nhớ rằng email đã được chỉ định gửi ngẫu nhiên đến khách hàng. Chúng ta đã giải thích `credit_limit` và `risk_score` là gì. Bây giờ, chúng ta hãy xem xét các biến còn lại: `opened`. Đây là một biến giả cho việc khách hàng có mở thư điện tử hay không và `agreement` là một biến giả khác đánh dấu nếu khách hàng liên hệ với bộ phận thu nợ để thương lượng khoản vay sau khi nhận được thư. Bạn nghĩ mô hình nào sau đây phù hợp hơn? Đầu tiên là một mô hình với biến can thiệp là `credit_limit` và `risk_score`; thứ hai là thêm các biến giả `opened` và `agreement`.
 
@@ -763,7 +763,7 @@ Thiên lệch chọn cứng đầu đến mức ngay cả thử nghiệm ngẫu 
     
 Điều đáng chú ý về tất cả những ý tưởng này nằm ở chỗ chúng nghe rất hợp lý. Thiên lệch chọn thường như vậy. Hãy xem đây như một lời cảnh báo. Trên thực tế, bản thân tôi đã từng rơi vào những cái bẫy như trên rất nhiều lần trước khi biết được chúng tệ như thế nào. Trong số các trường hợp trên, thì trường hợp cuối đáng được giải thích thêm vì nó có vẻ thật thông minh và khiến nhiều nhà khoa học dữ liệu mất cảnh giác. Nó có sức lan tỏa đến mức nó được đặt tên riêng: **Cố định Kết quả Tích cực**!
 
-# Cố định Kết quả Tích cực
+## Cố định Kết quả Tích cực
 
 Tình hình diễn ra như thế này. Bạn có một biến liên tục mà bạn muốn dự đoán nhưng phân phối của nó tập trung quá nhiều tại 0. Ví dụ: nếu bạn muốn lập mô hình chi tiêu của người tiêu dùng, bạn sẽ có thứ gì đó giống với phân phối gamma, nhưng với rất nhiều số 0.
 
@@ -818,11 +818,11 @@ g
 
 
 
-# Ý tưởng chủ đạo
+## Ý tưởng chủ đạo
 
 Trong phần này, chúng ta đã tìm hiểu các biến không phải biến nhiễu và liệu chúng ta có nên thêm chúng vào mô hình hay không khi xác định quan hệ nhân quả. Chúng ta nhận thấy rằng các biến đưa ra dự đoán tốt về kết quả \\(y\\) nên được thêm vào mô hình ngay cả khi chúng không dự đoán \\(T\\) (không phải là các biến nhiễu). Điều này là do việc dự đoán \\(Y\\) làm giảm phương sai và dẫn đến nhiều khả năng thu được kết quả có ý nghĩa thống kê hơn khi ước lượng tác động nhân quả. Tiếp theo, chúng ta thấy rằng việc thêm các biến nhằm dự đoán sự can thiệp nhưng không dự đoán kết quả là một ý tưởng tồi. Những biến đó làm giảm sự biến động của can thiệp, khiến chúng ta khó tìm ra tác động nhân quả. Cuối cùng, chúng ta đã xem xét thiên lệch chọn. Thiên lệch này nảy sinh khi ta kiểm soát các biến số trong đường nhân quả từ sự can thiệp đến kết quả hoặc các biến là kết quả chung của cả can thiệp và kết quả.
 
-# Tài liệu tham khảo
+## Tài liệu tham khảo
 
 Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học Kinh tế lượng tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ.  Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.
 * [Kinh tế lượng với dữ liệu chéo](https://www.aeaweb.org/conference/cont-ed/2017-webcasts)
@@ -837,14 +837,14 @@ Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel He
 
 * [Sách Suy Luận Nhân Quả](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
 
-# Bảng Từ Viết tắt 
+## Bảng Từ Viết tắt 
 
 |Viết tắt| Tiếng Anh | Tiếng Việt |
 | --- | --- | --- | 
 |ATE|Average Treatment Effect|Tác động Can thiệp Trung bình| 
 
 
-# Bảng Thuật ngữ 
+## Bảng Thuật ngữ 
 
 | Thuật ngữ | Tiếng Anh |
 | --- | --- | 
