@@ -10,7 +10,7 @@ html {
 
 body {
   margin: 0;
-  padding: 65px 0 0;  /*<-- set page body's top padding to 65 and set 0 padding for left and right sides, old value is 0*/
+  padding: 65px 0 0;
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
@@ -33,29 +33,39 @@ h6 {
   font-weight: bold;
 }
 
+h1[id],
+h2[id],
+h3[id],
+h4[id],
+h5[id],
+h6[id] {
+  padding-top: 70px;
+  margin-top: -70px;
+}
+
 h1 {
   margin-top: 0;
-  font-size: $h-size-1;
+  font-size: $type-size-3;
 }
 
 h2 {
-  font-size: $h-size-2;
+  font-size: $type-size-4;
 }
 
 h3 {
-  font-size: $h-size-3;
+  font-size: $type-size-5;
 }
 
 h4 {
-  font-size: $h-size-4;
+  font-size: $type-size-6;
 }
 
 h5 {
-  font-size: $h-size-5;
+  font-size: $type-size-6;
 }
 
 h6 {
-  font-size: $h-size-6;
+  font-size: $type-size-6;
 }
 
 small,
@@ -355,4 +365,3 @@ input[type="submit"],
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
-
