@@ -11,7 +11,6 @@ title: Suy luận Nhân quả với Python
 share: true
 header:
   image: /assets/images/cover.png
-classes: wide
 sidebar:
   nav: 'pythoncausal'
 ---
