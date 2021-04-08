@@ -13,7 +13,7 @@
   z-index: 20;
   width: 100%; // set width
   background: white;  // set a color to hide content that may appear below masthead
-  height: 50px; //<-- set header's height
+  height: 100px; //<-- set header's height
 
   &__inner-wrap {
     @include clearfix;
