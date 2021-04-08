@@ -91,3 +91,15 @@
     font-weight: 700;
   }
 }
+
+.masthead {
+  position: fixed;                //<-- set position property to fixed
+  top: 0;                         //<-- 
+  ...
+  ...
+  width: 100%;                    //<-- set header's width
+  background: $background-color;  //<-- set header's background color
+                                  //this variable will be set per layout
+  height: 85px;                   //<-- set header's height
+  ...
+}
