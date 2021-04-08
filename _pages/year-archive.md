@@ -1,7 +1,7 @@
 ---
 title: "Posts by Year"
 header:
-  image: /assets/images/media/cover1.png
+  image: /assets/images/media/cover1.JPG
 permalink: /year-archive/
 layout: posts
 author_profile: true
