@@ -8,7 +8,7 @@ permalink: /pythoncausal/pc03
 [Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 
-# Một phương trình vô cùng nguy hiểm
+## Một phương trình vô cùng nguy hiểm
 
 Trong bài báo khoa học nổi tiếng vào năm 2007, Howard Wainer đã viết về một số phương trình vô cùng nguy hiểm:
 
@@ -210,7 +210,7 @@ Một cách để định lượng không chắc chắn là dùng phương sai c
 Biểu đồ có dạng hình tam giác phía trên miêu tả lại chính xác câu chuyện này một cách trực quan. Nó cho thấy những ước lượng về thành tích của các trường có phương sai lớn như thế nào khi kích thước mẫu nhỏ. Và phương sai giảm đi khi kích thước mẫu tăng. Nó không chỉ đúng với điểm trung bình tại một trường học, mà còn đúng với bất kỳ các thống kê đặc trưng nào, bao gồm cả ATE mà ta thường muốn ước lượng.
 
 
-# Sai số chuẩn của các ước lượng
+## Sai số chuẩn của các ước lượng
 
 Vì đây chỉ là phần ôn tập lại về thống kê, tôi sẽ đi nhanh hơn một chút. Nếu bạn chưa quen với phân phối, phương sai, và sai số chuẩn, bạn vẫn có thể tiếp tục theo dõi cuốn sách này nhưng có thể cần thêm một số tài liệu bổ sung. Các khoá học online căn bản về thống kê do MIT cung cấp có thể xây dựng cho bạn một nền tảng kiến thức khá tốt. 
 
@@ -241,7 +241,7 @@ print("SE cho lớp học truyền thống:", se(face_to_face))
     SE cho lớp học truyền thống: 0.8723511456319106
 
 
-# Khoảng tin cậy
+## Khoảng tin cậy
 
 Sai số chuẩn của các ước lượng là sự đo lường độ tin cậy. Để hiểu chính xác ý nghĩa của nó, chúng ta cần phải "lặn sâu" vào "vùng nước xoáy" tranh luận của các trường phái thống kê. Theo trường phái cổ điển, dữ liệu ta có đơn giản chỉ đại diện cho một quy luật tạo lập dữ liệu. Có thể nói quá trình này mang tính trừu tượng và lý tưởng hoá. Nó được quyết định bởi những tham số thực không thay đổi, tuy nhiên ta không thể biết chính xác những tham số đó. Trong ví dụ về bài thi của học sinh, nếu ta thực hiện nhiều thử nghiệm và thu thập nhiều bộ dữ liệu, tất cả tập hợp lại thành quy luật tạo lập dữ liệu thực, tuy không chính xác hoàn toàn. Điều này giống với những gì Plato đã viết trong Học thuyết các mô thức của ông: 
 
@@ -374,7 +374,7 @@ Cuối cùng, việc diễn giải khoảng tin cậy phức tạp hơn chúng t
 
 Như đã trình bày, với tư cách là một nhà Kinh tế học (các nhà thống kê làm ơn hãy mặc kệ tôi!), tôi cho rằng sự cứng nhắc này không mấy ý nghĩa. Trong thực tế, có rất nhiều người khẳng định rằng một khoảng tin cậy cụ thể chứa giá trị trung bình thực với xác suất 95%. Mặc dù sai, nhưng điều này không gây hậu quả nghiêm trọng bởi nó vẫn đặt ra một mức độ chính xác cho không chắc chắn trong ước lượng. Hơn nữa, nếu nhìn từ trường phái Bayesian và sử dụng khoảng tin cậy Bayes thay cho khoảng tin cậy, có thể nói rằng khoảng tin cậy cụ thể đó chứa phân phối giá trị trung bình trong 95% lần thử. Ngoài ra, từ những kinh nghiệm thực tế của mình, với kích thước mẫu phù hợp, khoảng tin cậy Bayes gần với khoảng tin cậy hơn so với những gì những người theo hai trường phái Bayesian và trường phái cổ điển muốn thừa nhận. Vì vậy, nếu ít nhất quan điểm của tôi có giá trị, bạn có thể thoải mái trong việc diễn giải khoảng tin cậy của bạn. Tôi không phán xét việc bạn khẳng định rằng chúng chứa giá trị trung bình thực với xác suất 95%. Chỉ xin đừng quên việc đề cập đến chúng trong các ước lượng nếu bạn không muốn mình trông giống như một kẻ tay mơ!
 
-# Kiểm định giả thuyết
+## Kiểm định giả thuyết
 
 Một cách khác để xác định sự không chắc chắn là đặt ra một giả thuyết để kiểm định: liệu sự chênh lệch giữa các giá trị trung bình có khác 0 (hoặc bất kỳ một giá trị nào khác) trên quan điểm thống kê hay không? Để làm được điều này, chúng ta cần nhớ lại rằng tổng hoặc hiệu của 2 phân phối chuẩn cũng là phân phối chuẩn. Giá trị trung bình của phân phối mới sẽ bằng tổng hoặc hiệu của hai phân phối ban đầu, trong khi phương sai luôn luôn bằng tổng phương sai của hai phân phối ban đầu. 
 
@@ -503,7 +503,7 @@ print("Chênh lệch 95% CI:", (diff_mu-1.96*diff_se, diff_mu+1.96*diff_se))
 
 Nếu chúng ta xây dựng khoảng tin cậy cho các nhóm này, chúng sẽ giao nhau. Cận trên cho khoảng tin cậy 95% của nhóm lớp học online là 72.96 và cận dưới cho lớp học truyền thống là 60.28. Tuy nhiên, khi tính khoảng tin cậy 95% cho giá trị chênh lệch giữa hai nhóm, chúng ta có thể quan sát thấy rằng nó không chứa giá trị 0. Tóm lại, mặc dù các khoảng tin cậy của từng nhóm giao nhau, giá trị chênh lệch vẫn khác 0 về mặt thống kê. 
 
-# Trị số p
+## Trị số p
 
 Như đã đề cập trước đó, có ít hơn 5% cơ hội chúng ta có thể quan sát được một cực trị như vậy nếu giá trị chênh lệch giữa lớp học online và lớp học truyền thống bằng 0. Nhưng liệu chúng ta có thể ước lượng chính xác xác suất đó bằng bao nhiêu? Làm thế nào chúng ta có thể quan sát được một cực trị như vậy? Sử dụng trị số p!
 
@@ -537,7 +537,7 @@ print("99.9% CI:", (diff_mu - stats.norm.ppf(.9995)*diff_se, diff_mu + stats.nor
     99.9% CI: (-10.728040658245558, 0.9035976617916459)
 
 
-# Ý tưởng chủ đạo
+## Ý tưởng chủ đạo
 
 Chúng ta đã thấy được tầm quan trọng của việc nắm vững công thức Moivre và sử dụng nó để xác định mức độ chắc chắn cho các ước lượng. Cụ thể, chúng ta đã khám phá ra các lớp học online gây ra sự giảm sút trong kết quả học tập so với lớp học truyền thống. Chúng ta cũng nhận thấy rằng đây là một kết quả có ý nghĩa thống kê. Để làm điều này, khoảng tin cậy của các giá trị trung bình cho hai nhóm lớp học được so sánh với nhau thông qua việc xây dựng khoảng tin cậy cho giá trị chênh lệch bằng cách kiểm định giả thuyết và sử dụng trị số p. Hãy gói gọn bài học hôm nay trong một phương trình duy nhất so sánh A/B testing.
 
@@ -586,7 +586,7 @@ AB_test(online, face_to_face, h0=-1)
     Trị số P 0.013431870694630667
 
 
-# Tài liệu tham khảo
+## Tài liệu tham khảo
 
 
 Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học Kinh tế lượng tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ.  Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.
@@ -609,7 +609,7 @@ Greenland et al, 2016: [Statistical tests, P values, confidence intervals, and p
 
 
 
-# Bảng Từ Viết tắt 
+## Bảng Từ Viết tắt 
 
 |Viết tắt| Tiếng Anh | Tiếng Việt |
 | --- | --- | --- | 
@@ -617,7 +617,7 @@ Greenland et al, 2016: [Statistical tests, P values, confidence intervals, and p
 |CI|Confidence Interval|Khoảng tin cậy| 
 
 
-# Bảng Thuật ngữ 
+## Bảng Thuật ngữ 
 
 | Thuật ngữ | Tiếng Anh |
 | --- | --- | 
