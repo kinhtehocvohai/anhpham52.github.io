@@ -3,8 +3,6 @@ permalink: /about/
 title: "About"
 excerpt: "Kinh tế học trở nên vô hại như thế nào?"
 layouts: single
-sidebar:
- nav: pythoncausal
 share: true
 header:
   image: /assets/images/harmless_books.jpg
