@@ -4,8 +4,6 @@ share: true
 header:
   image: /assets/images/brave-and-true.png
 layout: collection
-sidebar:
- nav: pythoncausal
 permalink: /pythoncausal/
 collection: pythoncausal
 entries_layout: list
