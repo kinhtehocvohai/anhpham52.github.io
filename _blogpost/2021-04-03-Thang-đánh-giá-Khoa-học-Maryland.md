@@ -4,7 +4,6 @@ sidebar:
  nav: pythoncausal
 title: Thang đánh giá Khoa học Maryland
 toc: true
-permalink: /blogpost/marylandscale
 ---
 
 Trong 4 tháng vừa qua Fanpage Kinh tế học vô hại đã chia sẻ loạt bài “Suy luận Nhân quả với Python” và giới thiệu nhiều “vũ khí” khoa học khác nhau giúp xác định quan hệ nguyên nhân – kết quả. Các “vũ khí” này rất hữu dụng và có thể sử dụng trong nhiều bối cảnh khác nhau như kinh tế, chính sách, giáo dục, tâm lý học, kinh doanh,… Chúng ta cũng đã thảo luận cách áp dụng và ưu, nhược điểm của mỗi phương pháp. 
