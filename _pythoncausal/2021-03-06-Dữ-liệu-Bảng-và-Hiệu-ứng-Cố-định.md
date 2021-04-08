@@ -310,8 +310,8 @@ Chú ý rằng, các biến không quan sát được và không đổi theo th�
 $$
 \begin{align}
 Y_{it} & = \beta X_{it} + \gamma U_i + e_{it} \\
-\bar{Y}_{i} & = \beta \bar{X}_{it} + \gamma U_i + \bar{e}_{it} \\
-(Y_{it} - \bar{Y}_{i}) & = (\beta X_{it} - \beta \bar{X}_{it}) + (\gamma U_i - \gamma U_i) + (e_{it}-\bar{e}_{it}) \\
+\bar{Y}_{i} & = \beta \bar{X}_{it} + \gamma \bar{U_i} + \bar{e}_{it} \\
+(Y_{it} - \bar{Y}_{i}) & = (\beta X_{it} - \beta \bar{X}_{it}) + (\gamma U_i - \gamma \bar{U_i}) + (e_{it}-\bar{e}_{it}) \\
 (Y_{it} - \bar{Y}_{i}) & = \beta(X_{it} - \bar{X}_{it}) + (e_{it}-\bar{e}_{it}) \\
 \ddot{Y}_{it} & = \beta \ddot{X}_{it} + \ddot{e}_{it} \\
 \end{align}
