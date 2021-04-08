@@ -34,12 +34,12 @@ body { margin: 0; }
 
 ::-moz-selection {
   color: #fff;
-  background: mix($primary-color, $text-color, 60%); // #000
+  background: mix($primary-color, $text-color, 80%); // #000
 }
 
 ::selection {
   color: #fff;
-  background: mix($primary-color, $text-color, 60%); // #000
+  background: mix($primary-color, $text-color, 80%); // #000
 }
 
 /* Display HTML5 elements in IE6-9 and FF3 */
