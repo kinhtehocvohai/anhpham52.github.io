@@ -8,5 +8,4 @@
 layout: posts
 header:
   image: /assets/images/cover.png
-classes: wide
 ---
