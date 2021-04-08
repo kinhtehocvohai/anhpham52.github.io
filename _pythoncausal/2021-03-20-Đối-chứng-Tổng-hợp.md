@@ -8,7 +8,7 @@ permalink: /pythoncausal/pc15
 [Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 
-# Một thủ thuật Toán lợi hại để hiểu những điều tưởng như không thể
+## Một thủ thuật Toán lợi hại để hiểu những điều tưởng như không thể
 
 Khi vận dụng phương pháp sai khác của biến thiên, chúng ta sử dụng dữ liệu về một số khách hàng từ 2 thành phố khác nhau: Porto Alegre và Florianópolis. Dữ liệu trải dài qua 2 khoảng thời gian: trước và sau khi thực hiện chiến dịch marketing tại Porto Alegre nhằm tăng lượng tiền gửi của khách hàng. Để ước lượng tác động can thiệp, chúng ta đã chạy một mô hình hồi quy để cho ra mô hình sai khác của biến thiên và sai số chuẩn của mô hình.
 
@@ -176,7 +176,7 @@ Trong khoảng thời gian được biểu thị, người dân tại bang Calif
 
 Để trả lời câu hỏi liệu Dự luật 99 có tác động đến việc tiêu thụ thuốc lá hay không, chúng ta sẽ sử dụng giai đoạn trước can thiệp để thiết lập đối chứng tổng hợp. Chúng ta sẽ kết hợp các tiểu bang khác để **thiết lập một tiểu bang giả có xu hướng giống với bang California**. Sau đó, chúng ta sẽ xem phương pháp đối chứng tổng hợp này hoạt động như thế nào sau can thiệp.
 
-# Chúng ta có Thời gian
+## Chúng ta có Thời gian
 
 Để thực hiện vấn đề này theo hướng chính quy một chút, giả sử rằng ta có J+1 đối tượng. Không mất tính tổng quát, giả sử rằng đối tượng 1 bị tác động bởi can thiệp. Các đối tượng \\(j=2,...,J+1\\) là một tập hợp các đối tượng đối chứng, sau đây được gọi là "tổ hợp đối chứng". Bên cạnh đó, giả sử dữ liệu của chúng ta trải đều qua các thời điểm T, với \\(T_0\\) là thời điểm trước khi can thiệp. Với mỗi đối tượng cá thể j và thời điểm t, chúng ta quan sát kết quả \\(Y_{jt}\\). Đối với mỗi đơn vị j và thời điểm t, cho \\(Y^N_{jt}\\) là kết quả tiềm năng khi không có can thiệp và \\(Y^I_{jt}\\), là kết quả tiềm năng khi có can thiệp. Sau đó, tác động của đối tượng được can thiệp \\(j=1\\) tại thời điểm t, cho \\(t>T_0\\) được xác định như sau
 
@@ -209,7 +209,7 @@ Nếu ta có nhiều hơn một đặc điểm trong một khoảng thời gian,
 
 Vậy thì, nếu có thể xem đối chứng tổng hợp như hồi quy tuyến tính, điều đó cũng có nghĩa là chúng ta có thể ước lượng các trọng số bằng OLS có đúng không? Đúng vậy! Trên thực tế, chúng ta có thể thực hiện điều này ngay bây giờ.
 
-# Đối Chứng Tổng Hợp bằng Hồi Quy Tuyến Tính
+## Đối Chứng Tổng Hợp bằng Hồi Quy Tuyến Tính
 
 ![image-center](/assets/images/pythoncausal/synth-control/allways.png){: .align-center}
 
@@ -390,7 +390,7 @@ Chờ một chút… Có điều gì đó không ổn ở đây. Điều gì gâ
 
 Thử nghĩ xem tại sao điều này lại xảy ra, hãy nhớ rằng chúng ta có 38 tiểu bang trong tổ hợp đối chứng. Vì vậy, hồi quy tuyến tính có 38 tham số để cho tổ hợp đối chứng trước can thiệp khớp với nhóm can thiệp hết mức có thể. Đây là trường hợp mà ngay cả khi với T lớn, thì N cũng lớn, điều này mang lại quá nhiều dao động cho mô hình hồi quy tuyến tính. Nếu bạn đã quen với mô hình chính quy hoá, có thể sử dụng hồi quy Ridge hoặc Lasso để khắc phục. Tại đây, chúng ta sẽ xem xét phương pháp cổ điển hơn để tránh tình trạng quá khớp.
 
-# Đừng Ngoại suy
+## Đừng Ngoại suy
 
 Giả sử ta có dữ liệu như sau và được yêu cầu lập một đối chứng tổng hợp để tái tạo đối tượng được can thiệp bằng cách sử dụng bất kỳ tổ hợp tuyến tính nào của các cá thể đối chứng.
 
@@ -541,7 +541,7 @@ plt.legend();
 
 Cho đến năm 2000, có vẻ như Dự luật 99 đã làm doanh số thuốc lá giảm 25%. Điều đó thật tuyệt, nhưng bạn cũng có thể tự vấn rằng: làm thế nào ta có thể biết được điều này mang ý nghĩa thống kê hay không?
 
-# Suy Luận
+## Suy Luận
 
 Bởi vì chúng ta có kích thước mẫu rất nhỏ (39), ta sẽ phải tỉnh táo hơn khi muốn tìm hiểu xem liệu kết quả này thật sự có ý nghĩa về mặt thống kê hay chỉ do may mắn ngẫu nhiên. Tại đây, chúng ta sẽ ứng dụng ý tưởng về Kiểm Định Chính Xác của Fisher. Ý tưởng chủ đạo của nó rất đơn giản. Chúng ta hoán vị hoàn toàn các đối tượng được can thiệp và đối chứng. Vì chúng ta chỉ có một đối tượng được can thiệp, điều này có nghĩa là, đối với mỗi đối tượng, chúng ta giả định đó là đối tượng được can thiệp trong khi các đối tượng cá thể khác là đối chứng.
 
@@ -886,7 +886,7 @@ plt.legend();
 ![image-center](/assets/images/pythoncausal/output15/output_44_0.png){: .align-center}
 
 
-# Ý tưởng chủ đạo
+## Ý tưởng chủ đạo
 
 Chúng ta đã nắm được rằng nếu chỉ có dữ liệu tổng hợp về các thực thể như thành phố hoặc tiểu bang, thì phương pháp sai khác của biến thiên sẽ không cho phép ta thực hiện suy luận. Ngoài ra, nó có một số hạn chế khác, vì nó phải xác định một đối tượng được can thiệp và một đối tượng cá thể đối chứng duy nhất, và có thể đối tượng đối chứng này không phải là một đại diện tốt cho giả tưởng của đối tượng được can thiệp.
 
@@ -894,7 +894,7 @@ Chúng ta đã nắm được rằng nếu chỉ có dữ liệu tổng hợp v�
 
 Cuối cùng, chúng ta đã có thể sử dụng Kiểm Định Chính Xác của Fisher để suy luận với đối chứng tổng hợp. Cụ thể, chúng ta đã giả định rằng các đối tượng cá thể không được can thiệp chính là đối tượng được xử lý và tính toán tác động của chúng. Chúng ta có tác động giả dược: những tác động mà chúng ta quan sát được thậm chí khi không có can thiệp. Sau đó, chúng ta thấy giá trị của tác động can thiệp thực sự lớn như thế nào so với tác động giả dược.
 
-# Tài liệu tham khảo
+## Tài liệu tham khảo
 
 Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học Kinh tế lượng tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ.  Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.
 * [Kinh tế lượng với dữ liệu chéo](https://www.aeaweb.org/conference/cont-ed/2017-webcasts)
@@ -913,7 +913,7 @@ Cuối cùng, tôi muốn gửi lời tri ân đến Scott Cunningham và công 
 
 * [Suy Luận Nhân Quả: Chiếc Băng Cát Sét](https://www.scunning.com/mixtape.html)
 
-# Bảng Thuật ngữ 
+## Bảng Thuật ngữ 
 
 | Thuật ngữ | Tiếng Anh |
 | --- | --- | 
