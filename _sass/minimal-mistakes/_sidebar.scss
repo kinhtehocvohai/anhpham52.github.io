@@ -8,7 +8,7 @@
 
 .sidebar {
   @include clearfix();
-    padding-top: $masthead-height;
+    padding-top: 50px;
   // @include breakpoint(max-width $large) {
   //   /* fix z-index order of follow links */
   //   position: relative;
