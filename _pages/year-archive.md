@@ -1,7 +1,7 @@
 ---
 title: "Posts by Year"
 permalink: /year-archive/
-layout: posts
+layout: home
 sidebar:
  nav: pythoncausal
 share: true
