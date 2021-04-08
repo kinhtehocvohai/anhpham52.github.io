@@ -4,7 +4,7 @@ layout: collection
 permalink: /blogpost/
 collection: blogpost
 header:
-  image: /assets/images/harmless_books.jpg
+  image: /assets/images/media/cover3.jpg
 entries_layout: list
 ---
 
