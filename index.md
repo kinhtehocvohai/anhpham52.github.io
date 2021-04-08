@@ -24,7 +24,7 @@ Nguyên tác dựa trên nguồn tài liệu của các học giả uy tín như
 
 Các bài viết chính thức sẽ được đăng tại [Facebook fanpage](https://www.facebook.com/harmlessecon) và website này vào 21:00 thứ 7 hàng tuần, bắt đầu từ 12/12/2020 theo lịch trình dự kiến như sau:
 
-<center>
+
 |Tiêu đề | Ngày đăng tải|
 |--- | ---| 
 |1. Giới thiệu Suy luận Nhân quả|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc01)| 
@@ -43,6 +43,6 @@ Các bài viết chính thức sẽ được đăng tại [Facebook fanpage](htt
 |14. Sai khác của Biến thiên|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc14)|
 |15. Đối chứng Tổng hợp|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc15)|
 |16. Thiết kế Hồi quy Gián đoạn|Đã đăng tải tại [đây](http://kinhtehocvohai.com/pythoncausal/pc16)|
-<center>
+{: .text-center}
   
 Dữ liệu và code được cập nhật tại Github Repo [Nhân Quả Python](https://github.com/vietecon/NhanQuaPython)
