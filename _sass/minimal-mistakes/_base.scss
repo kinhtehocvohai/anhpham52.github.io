@@ -357,10 +357,3 @@ input[type="submit"],
   transition: $global-transition;
 }
 
-/*https://krisshen.com/project_website/how-to-make-header-sticky*/
-body {
-  ...
-  padding: 65px 0 0; //<-- set page body's top padding to 65
-                     //and set 0 padding for left and right sides
-  ...
-}
