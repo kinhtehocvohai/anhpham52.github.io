@@ -34,7 +34,7 @@ body { margin: 0; }
 
 ::-moz-selection {
   color: #fff;
-  background: #000;
+  background: mix($primary-color, $text-color, 60%); // #000
 }
 
 ::selection {
