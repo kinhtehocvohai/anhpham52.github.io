@@ -2,10 +2,7 @@
 #python causal link
 
 pythoncausal:
- - title: Blog posts
-   url: /blogpost/
  - title: Suy luận Nhân quả với Python
-   url: /pythoncausal/
    children:
       - title: "1. Giới thiệu Suy luận Nhân quả"
         url: /pythoncausal/pc01
