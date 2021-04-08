@@ -8,7 +8,7 @@ permalink: /pythoncausal/pc12
 [Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 
-# Đừng Bỏ hết Trứng vào Một Giỏ
+## Đừng Bỏ hết Trứng vào Một Giỏ
 
 Chúng ta đã học cách sử dụng hồi quy tuyến tính và điểm xu hướng theo trọng số để ước lượng \\(E[Y\|Y=1] - E[Y\|Y=0] \| X\\). Nhưng chúng ta nên dùng phương thức nào và khi nào? Khi còn lưỡng lự, hãy dùng cả hai!  Ước Lượng Mạnh Hai Lần là cách kết hợp điểm xu hướng và hồi quy tuyến tính để bạn không phải lệ thuộc vào một phương thức đơn lẻ. 
 
@@ -167,7 +167,7 @@ print(data_with_categ.shape)
 
 Chúng ta bây giờ đã sẵn sàng để hiểu cách ước lượng mạnh hai lần hoạt động.
 
-# Ước Lượng Mạnh Hai Lần
+## Ước Lượng Mạnh Hai Lần
 
 ![image-center](/assets/images/pythoncausal/doubly-robust/double.png){: .align-center}
 
@@ -380,11 +380,11 @@ print(f"ATE 95% CI:", (wrong_mux.mean() - 1.96*wrong_mux.std(), wrong_mux.mean()
 
 Trong thực tế, chúng ta chẳng bao giờ có điểm xu hướng hoặc mô hình kết quả chính xác 100%. Chúng sẽ đều sai, nhưng sai theo những cách khác nhau. Ước lượng mạnh hai lần có thể kết hợp 2 mô hình sai để làm chúng ít sai hơn. 
 
-# Ý tưởng chủ đạo
+## Ý tưởng chủ đạo
 
 Ở đây, chúng ta đã xem xét một phương thức đơn giản để kết hợp hồi quy tuyến tính với điểm xu hướng để thu được mô hình ước lượng mạnh hai lần. Tên gọi này xuất phát từ việc nó chỉ yêu cầu một trong hai mô hình đúng. Nếu mô hình điểm xu hướng đúng, chúng ta sẽ có thể xác định chính xác tác động nhân quả ngay cả khi mô hình kết quả sai. Mặt khác, nếu mô hình kết quả đúng, chúng ta cũng có thể xác định tác động nhân quả ngay cả khi mô hình điểm xu hướng sai.
 
-# Tài liệu tham khảo
+## Tài liệu tham khảo
 
 Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học Kinh tế lượng tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ.  Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.
 * [Kinh tế lượng với dữ liệu chéo](https://www.aeaweb.org/conference/cont-ed/2017-webcasts)
@@ -401,7 +401,7 @@ Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel He
 
 Dữ liệu chúng tôi sử dụng được lấy từ bài báo [Estimating Treatment Effects with Causal Forests: An Application](https://arxiv.org/pdf/1902.07409.pdf), bởi Susan Athey and Stefan Wager. 
 
-# Bảng Thuật ngữ 
+## Bảng Thuật ngữ 
 
 | Thuật ngữ | Tiếng Anh |
 | --- | --- | 
