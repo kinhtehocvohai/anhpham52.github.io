@@ -8,7 +8,7 @@ permalink: /pythoncausal/pc10
 [Nguyên tác: Matheus Facure, chuyển ngữ: Nhóm Kinh tế học Vô hại, dữ liệu và Jupyter Notebook lưu trữ tại [GitHub](https://github.com/vietecon/NhanQuaPython/tree/main/ipynb).]
 
 
-# Rốt cuộc Hồi quy đã làm gì?
+## Rốt cuộc Hồi quy đã làm gì?
 
 Tới thời điểm hiện tại, hồi quy đã làm rất tốt việc kiểm soát các biến thêm vào khi chúng ta thực hiện so sánh giữa nhóm được can thiệp và nhóm đối chứng. Nếu ta có tính chất độc lập, \\((Y_0, Y_1)\perp T \| X\\), thì hồi quy có thể xác định ATE bằng cách kiểm soát X. Cách thức mà hồi quy thực hiện như thể một phép màu vậy. Để dễ hiểu hơn, hãy nhớ lại trường hợp khi tất cả các biến X đều là biến giả. Trong trường hợp này, hồi quy chia dữ liệu thành các ô chứa biến giả và tính hiệu của các giá trị trung bình của nhóm được can thiệp và nhóm đối chứng. Hiệu của các giá trị trung bình giữ cho X không đổi, bởi vì chúng ta đang thực hiện trên một ô cố định của biến giả X. Phương pháp này như thể chúng ta đang tính toán \\(E[Y\|T=1] - E[Y\|T=0] \| X=x\\), trong đó \\(x\\) là ô chứa biến giả (ví dụ, tất cả các biến giả được cho bằng 1). Sau đó, hồi quy kết hợp ước lượng trong mỗi ô để thu được giá trị ATE cuối cùng bằng cách đặt trọng số lên mỗi ô tỷ lệ với phương sai của can thiệp lên nhóm đó. 
 
@@ -96,7 +96,7 @@ Kết quả này hợp lý hơn với các biến giả, tuy nhiên, theo một 
 
 Vậy là chúng ta đã thấy những đặc trưng của hồi quy. Nó tuyến tính, có tham số, ngả theo các thuộc tính có phương sai lớn... Điều này có thể tốt hoặc xấu tuỳ thuộc vào bối cảnh. Vì thế, nhận biết được các phương pháp khác để kiểm soát biến nhiễu rất quan trọng. Chúng không chỉ đơn thuần là các công cụ bổ sung vào nhóm các phương pháp nhân quả của bạn, mà còn mở rộng sự hiểu biết của chúng ta về nhiều phương pháp khác để giải quyết nhiễu. Do vậy, tiếp theo tôi sẽ giới thiệu về **Mô Hình Ước Lượng Phân Lớp!**
 
-# Mô Hình Ước Lượng Phân Lớp
+## Mô Hình Ước Lượng Phân Lớp
 
 
 ![image-center](/assets/images/pythoncausal/matching/explain.png){: .align-center}
@@ -118,7 +118,7 @@ $$
 
 trong đó \\(\bar{Y}_{k1}\\) là kết quả trung bình của nhóm được can thiệp trong ô k, \\(\bar{Y}_{k0}\\) là kết quả trung bình của nhóm đối chứng trong ô k, và \\(N_{k}\\) là số các quan sát trong ô k. Như vậy, chúng ta đang tính toán LATE cho từng ô và kết hợp chúng bằng cách sử dụng bình quân gia quyền, trong đó trọng số là kích thước mẫu của từng ô. Trong ví dụ về thuốc của chúng ta ở trên, nó là ước lượng đầu tiên cho chúng ta kết quả -2.6. 
 
-# Mô Hình Ước Lượng Ghép Cặp
+## Mô Hình Ước Lượng Ghép Cặp
 
 
 ![image-center](/assets/images/pythoncausal/matching/its-a-match.png){: .align-center}
@@ -977,7 +977,7 @@ Sử dụng phương pháp ghép cặp này, chúng ta thấy tác dụng của 
 
 Tuy nhiên, chúng ta vẫn có thể làm tốt hơn nữa.
 
-# Thiên Lệch Ghép Cặp
+## Thiên Lệch Ghép Cặp
 
 Vậy hoá ra mô hình ước lượng ghép cặp chúng ta vừa thiết kế bị thiên lệch. Để hiểu điều này, hãy cùng xem xét mô hình ước lượng ATET, thay vì ATE, vì biểu diễn nó đơn giản hơn. Nguyên lý tương tự cũng áp dụng cho ATE. 
 
@@ -1184,7 +1184,7 @@ Cuối cùng, chúng ta có thể tự tin khẳng định rằng thuốc của 
 
 Trước khi chúng ta khép lại chủ đề này, tôi chỉ muốn đề cập tới nguyên nhân của thiên lệch trong phương pháp ghép cặp. Chúng ta đã thấy phương pháp ghép cặp bị thiên lệch khi các cặp được ghép không quá tương tự nhau. Nhưng nguyên nhân nào khiến chúng khác biệt như vậy?
 
-# Lời Nguyền Đa Chiều
+## Lời Nguyền Đa Chiều
 
 Hoá ra, câu trả lời khá đơn giản và trực quan. Việc tìm những người có vài điểm tương đồng khá dễ dàng, ví dụ như giới tính. Nhưng nếu chúng ta có nhiều đặc điểm hơn, như tuổi tác, thu nhập, nơi sinh, v.v., việc ghép cặp càng trở nên khó khăn hơn. Một cách tổng quát, càng có nhiều thuộc tính, sự khác biệt giữa đối tượng và đối tượng được ghép với nó sẽ càng cao. 
 
@@ -1202,7 +1202,7 @@ Hồi quy tuyến tính giải quyết vấn đề này khá tốt. Điều nó 
 
 Hầu hết các mô hình nhân quả cũng có một vài cách để xử lý lời nguyền đa chiều. Tôi sẽ không nhắc lại ở đây nữa, nhưng bạn nên ghi nhớ khi nhìn vào chúng. Khi chúng ta xử lý ví dụ về xu hướng điểm số trong chương sau, hãy cố gắng để tìm ra cách để giải quyết vấn đề này. 
 
-# Ý tưởng chủ đạo
+## Ý tưởng chủ đạo
 
 Chúng ta đã bắt đầu chương này bằng cách hiểu về hồi quy tuyến tính và làm cách nào nó có thể giúp chúng ta xác định các quan hệ nhân quả. Cụ thể, chúng ta thấy hồi quy có thể được xem như việc chia bộ dữ liệu thành các ô, tính toán ATE trong từng ô và sau đó kết hợp tất cả các ô ATE lại thành một ATE duy nhất cho toàn bộ dữ liệu.
 
@@ -1213,7 +1213,7 @@ Ghép cặp kiểm soát biến nhiễu bằng cách nhìn vào mỗi đối tư
 Cuối cùng, chúng tôi đi sâu vào vấn đề dữ liệu nhiều chiều và thấy cách các phương pháp suy luận nhân quả có thể bị ảnh hưởng bởi nó. 
 
 
-# Tài liệu tham khảo
+## Tài liệu tham khảo
 
 
 Tôi muốn dành loạt bài viết này để vinh danh Joshua Angrist, Alberto Abadie and Christopher Walters vì khóa học Kinh tế lượng tuyệt cú mèo của họ. Phần lớn ý tưởng trong loạt bài này được lấy từ các bài giảng của họ được tổ chức bởi Hiệp hội Kinh tế Mĩ.  Theo dõi các bài giảng này là những gì tôi làm trong suốt năm 2020 khó nhằn.
@@ -1232,7 +1232,7 @@ Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel He
 
 
 
-# Bảng Từ Viết tắt 
+## Bảng Từ Viết tắt 
 
 |Viết tắt| Tiếng Anh | Tiếng Việt |
 | --- | --- | --- | 
@@ -1242,7 +1242,7 @@ Tài liệu tham khảo cuối cùng của tôi là cuốn sách của Miguel He
 |LATE|Local Average Treatment Effect|Tác động Can thiệp Bình quân Cục bộ| 
 
 
-# Bảng Thuật ngữ 
+## Bảng Thuật ngữ 
 
 | Thuật ngữ | Tiếng Anh |
 | --- | --- | 
