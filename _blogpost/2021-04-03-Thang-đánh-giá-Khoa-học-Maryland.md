@@ -1,9 +1,7 @@
 ---
 layout: single
 title: Thang đánh giá Khoa học Maryland
-header:
-  overlay_color: "#252a34"
-excerpt: " "
+excerpt: "Trong bài viết này chúng tôi sẽ giới thiệu với các bạn thang đánh giá độ mạnh của các phương pháp nghiên cứu khoa học"
 toc: true
 permalink: /blogpost/marylandscale
 ---
