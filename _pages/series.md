@@ -2,6 +2,7 @@
 layouts: single
 title: Series
 share: false
+comments: false
 header:
   image: /assets/images/media/cover2.jpg
 permalink: /series/
