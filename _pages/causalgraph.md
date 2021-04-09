@@ -1,12 +1,12 @@
 ---
-title: Trực quan hóa Suy luận Nhân quả với Python
+title: Coming soon...
 share: true
 header:
-  overlay_color: "#333"
+  overlay_color: "#252a34"
 layout: collection
 permalink: /causalgraph/
 collection: causalgraph
 entries_layout: list
 ---
 
-# **Coming soon...**
+# **Trực quan hóa Suy luận Nhân quả với Python**
