@@ -5,7 +5,7 @@ sidebar:
 title: Biến Công cụ
 permalink: /pythoncausal/pc08
 ---
-**SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 4**
+**SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 8**
 
 *Bài viết này thuộc chuỗi bài viết về “Suy luận Nhân quả với Python”. Hãy cùng đọc thêm các bài viết có cùng chủ đề tại [đây](http://kinhtehocvohai.com/pythoncausal/)*
 
