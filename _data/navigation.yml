@@ -1,6 +1,9 @@
 
 
-#blogpost to be updated
+#blogpost
+blogpost:
+ - title: "Blog Posts"
+     url: /blogpost/
 
 
 #series nav
