@@ -50,8 +50,8 @@ main:
      url: /about/
    - title: "Blog Posts"
      url: /blogpost/
-   - title: "Suy luận Nhân quả với Python"
-     url: /pythoncausal/
+   - title: "Series"
+     url: /series/
    #- title: "All Posts"
      #url: /year-archive/
    #- title: "Collections"
