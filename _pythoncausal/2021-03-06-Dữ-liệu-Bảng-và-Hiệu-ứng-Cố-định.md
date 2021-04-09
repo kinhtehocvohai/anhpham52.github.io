@@ -300,10 +300,7 @@ $$\ddot{Y}_{it} = Y_{it} -  \bar{Y}_i$$
 
 $$\ddot{X}_{it} = X_{it} -  \bar{X}_i$$
 
-- Bước 2: Chạy mô hình hồi quy 
-
-$$\ddot{Y}_{it} = \beta \ddot{X}_{it} + \ddot{e}_{it}$$  
-
+- Bước 2: Chạy mô hình hồi quy \\(\ddot{Y_{it}}\\) theo \\(\ddot{X_{it}}\\)
 
 
 Chú ý rằng, các biến không quan sát được và không đổi theo thời gian \\(U_i\\) tiêu biến, vì \\(\bar{U_i}=U_i\\):
