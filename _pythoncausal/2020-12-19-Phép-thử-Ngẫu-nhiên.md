@@ -5,6 +5,7 @@ sidebar:
 title: Phép thử Ngẫu nhiên
 permalink: /pythoncausal/pc02
 ---
+
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 2**
 
 *Bài viết này thuộc chuỗi bài viết về “Suy luận Nhân quả với Python”. Hãy cùng đọc thêm các bài viết có cùng chủ đề tại [đây](http://kinhtehocvohai.com/pythoncausal/)*
