@@ -1,6 +1,8 @@
 ---
 title: Coming soon...
 share: true
+sidebar:
+    nav: series
 header:
   overlay_color: "#252a34"
 layout: collection
