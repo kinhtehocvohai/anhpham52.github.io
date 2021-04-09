@@ -44,4 +44,4 @@ Dành cho các thiết kế nghiên cứu thực hiện chỉ định ngẫu nhi
 
 
 Hãy cùng tìm đọc thêm về chuỗi bài viết [“Suy luận Nhân quả với Python”](http://kinhtehocvohai.com/pythoncausal/) để hiểu rõ hơn về các phương pháp nhân quả. 
-{: .notice--info}
+{: .notice--warning}
