@@ -1,6 +1,8 @@
 ---
 title: Suy luận Nhân quả với Python
 share: true
+sidebar:
+    nav: series
 header:
   image: /assets/images/brave-and-true.png
 layout: collection
