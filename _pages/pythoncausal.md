@@ -2,7 +2,7 @@
 title: Suy luận Nhân quả với Python
 share: true
 sidebar:
-  nav: pythoncausal
+    nav: pythoncausal
 header:
   image: /assets/images/brave-and-true.png
 layout: collection
