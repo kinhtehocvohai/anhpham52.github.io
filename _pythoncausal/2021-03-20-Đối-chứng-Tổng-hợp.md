@@ -3,6 +3,7 @@ layout: single
 sidebar:
  nav: pythoncausal
 title: Đối chứng Tổng hợp
+excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 15"
 permalink: /pythoncausal/pc15
 ---
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 15**
