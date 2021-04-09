@@ -3,6 +3,7 @@ layout: single
 sidebar:
  nav: pythoncausal
 title: Ước lượng mạnh Hai lần 
+excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 12"
 permalink: /pythoncausal/pc12
 ---
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 12**
