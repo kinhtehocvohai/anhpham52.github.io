@@ -117,7 +117,7 @@ $$
 \hat{ATE} = \sum^K_{i=0}(\bar{Y}_{k1} - \bar{Y}_{k0}) * \dfrac{N_k}{N}
 $$
 
-trong đó \\(\bar{Y}_{k1}\\) là kết quả trung bình của nhóm được can thiệp trong ô k, \\(\bar{Y}_{k0}\\) là kết quả trung bình của nhóm đối chứng trong ô k, và \\(N_{k}\\) là số các quan sát trong ô k. Như vậy, chúng ta đang tính toán LATE cho từng ô và kết hợp chúng bằng cách sử dụng bình quân gia quyền, trong đó trọng số là kích thước mẫu của từng ô. Trong ví dụ về thuốc của chúng ta ở trên, nó là ước lượng đầu tiên cho chúng ta kết quả -2.6. 
+trong đó \\(\bar{Y_{k1}}\\) là kết quả trung bình của nhóm được can thiệp trong ô k, \\(\bar{Y_{k0}}\\) là kết quả trung bình của nhóm đối chứng trong ô k, và \\(N_{k}\\) là số các quan sát trong ô k. Như vậy, chúng ta đang tính toán LATE cho từng ô và kết hợp chúng bằng cách sử dụng bình quân gia quyền, trong đó trọng số là kích thước mẫu của từng ô. Trong ví dụ về thuốc của chúng ta ở trên, nó là ước lượng đầu tiên cho chúng ta kết quả -2.6. 
 
 ## Mô Hình Ước Lượng Ghép Cặp
 
