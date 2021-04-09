@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Thang đánh giá Khoa học Maryland
+excerpt: "Trong bài viết này chúng tôi sẽ giới thiệu với các bạn thang đánh giá độ mạnh của các phương pháp nghiên cứu khoa học"
 sidebar:
     nav: blogpost
 toc: true
