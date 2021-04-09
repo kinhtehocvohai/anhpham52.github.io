@@ -2,6 +2,7 @@
 layout: single
 sidebar:
  nav: pythoncausal
+excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 8"
 title: Biến Công cụ
 permalink: /pythoncausal/pc08
 ---
