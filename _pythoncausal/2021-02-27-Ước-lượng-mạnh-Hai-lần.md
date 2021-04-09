@@ -1,5 +1,6 @@
 ---
 layout: single
+author: vn
 sidebar:
  nav: pythoncausal
 title: Ước lượng mạnh Hai lần 
