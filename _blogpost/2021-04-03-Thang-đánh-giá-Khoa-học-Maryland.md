@@ -1,8 +1,6 @@
 ---
 layout: single
 title: Thang đánh giá Khoa học Maryland
-header:
-  overlay_color: "#252a34"
 sidebar:
     nav: blogpost
 toc: true
