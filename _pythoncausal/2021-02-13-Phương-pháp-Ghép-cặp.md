@@ -3,6 +3,7 @@ layout: single
 sidebar:
  nav: pythoncausal
 title: Phương pháp Ghép cặp
+excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 10"
 permalink: /pythoncausal/pc10
 ---
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 10**
