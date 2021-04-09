@@ -1,5 +1,6 @@
 ---
 layout: single
+author: qa
 sidebar:
  nav: pythoncausal
 title: Hiệu quả Khó tin của Hồi quy tuyến tính
