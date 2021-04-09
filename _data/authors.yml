@@ -7,7 +7,7 @@ vn:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:vietnt.econ@gmail.com"
     - label: "Website"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-globe-americas"
       url: "https://vietecon.github.io/me/"
       
 dt:
@@ -19,7 +19,7 @@ dt:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:dinhtrang24@gmail.com"
     - label: "Website"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-globe-americas"
       url: "https://dinhtrang24.github.io/"
       
 qa:
@@ -31,5 +31,5 @@ qa:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:andrew.pham502@gmail.com"
     - label: "Website"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-globe-americas"
       url: "https://anhpham52.github.io/me/"
