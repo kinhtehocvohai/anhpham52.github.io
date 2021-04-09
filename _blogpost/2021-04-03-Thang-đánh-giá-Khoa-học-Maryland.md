@@ -43,4 +43,5 @@ Thực hiện can thiệp mô phỏng ngẫu nhiên (quasi-randomness) nhằm đ
 Dành cho các thiết kế nghiên cứu thực hiện chỉ định ngẫu nhiên nhóm can thiệp và nhóm đối chứng. Ví dụ điển hình nhất là Thử Nghiệm Đối Chứng Ngẫu Nhiên (RCT). Cần cung cấp đầy đủ bằng chứng cho thấy sự tương đồng giữa nhóm can thiệp và nhóm đối chứng, và không có sự khác biệt đáng kể về khởi điểm và xu hướng vận động giữa các nhóm này. Các biến kiểm soát có thể được sử dụng để khắc phục sự khác biệt giữa hai nhóm nói trên; tuy nhiên, việc bổ sung các biến này không được có tác động lớn đến kết quả chính. Cần phải chỉ ra rằng vấn đề từ bỏ can thiệp chọn lọc không nghiêm trọng và có thể bỏ qua. Cần hạn chế hoặc lý tưởng nhất là không để xảy ra hiện tượng tạp nhiễm can thiệp đối trong nhóm nhóm đối chứng.
 
 
-Hãy cùng tìm đọc thêm về chuỗi bài viết [“Suy luận Nhân quả với Python”](http://kinhtehocvohai.com/pythoncausal/) để hiểu rõ hơn về các phương pháp nhân quả. {: .notice--info} 
+Hãy cùng tìm đọc thêm về chuỗi bài viết [“Suy luận Nhân quả với Python”](http://kinhtehocvohai.com/pythoncausal/) để hiểu rõ hơn về các phương pháp nhân quả. 
+{: .notice--info}
