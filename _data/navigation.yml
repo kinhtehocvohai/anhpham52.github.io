@@ -53,7 +53,9 @@ pythoncausal:
  - title: "Trực quan hóa Suy luận Nhân quả"
    url: /causalgraph/
 
+
 #causal graph link
+causalgraph:
  - title: "Suy luận Nhân quả với Python"
    url: /pythoncausal/
  - title: "Trực quan hóa Suy luận Nhân quả"
