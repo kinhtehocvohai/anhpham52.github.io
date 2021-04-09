@@ -3,6 +3,7 @@ layout: single
 sidebar:
  nav: pythoncausal
 title: Sự bất tuân và LATE
+excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 9"
 permalink: /pythoncausal/pc09
 ---
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 9**
