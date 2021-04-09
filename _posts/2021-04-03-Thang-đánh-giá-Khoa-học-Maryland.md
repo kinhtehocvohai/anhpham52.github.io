@@ -23,7 +23,7 @@ Trong bài viết này chúng tôi sẽ giới thiệu với các bạn thang đ
 Cấp độ này không sử dụng các biến kiểm soát khi phân tích thống kê khác biệt giữa nhóm can thiệp và đối chứng hoặc khác biệt của cùng một đối tượng ở các thời điểm khác nhau.
 
 
-## Cấp độ 2:  Sử dụng biến can thiệp
+## Cấp độ 2:  Sử dụng biến kiểm soát
 
 Cấp độ 2 là phiên bản nâng cấp của cấp độ 1 nhưng có sử dụng các biến kiểm soát hợp lý nhằm loại bỏ các khác biệt “cắt ngang” giữa nhóm can thiệp với nhóm đối chứng hoặc thay đổi của các nhân tố vĩ mô trước và sau can thiệp
 
