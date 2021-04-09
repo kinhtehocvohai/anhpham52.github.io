@@ -44,6 +44,9 @@
   .current {
     font-weight: bold;
   }
+  &:hover { color: #fff;
+        text-decoration: underline;
+  }
 }
 
 /*
