@@ -105,9 +105,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:kinhtehocvohai@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "http://kinhtehocvohai.com/"
+    #- label: "Website"
+      #icon: "fas fa-fw fa-link"
+      #url: "http://kinhtehocvohai.com/"
     
     #- label: "Twitter"
       #icon: "fab fa-fw fa-twitter-square"
