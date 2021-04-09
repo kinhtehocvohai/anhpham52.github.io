@@ -3,6 +3,7 @@
 
 pythoncausal:
  - title: Suy luận Nhân quả với Python
+   url: /pythoncausal/
    children:
       - title: "1. Giới thiệu Suy luận Nhân quả"
         url: /pythoncausal/pc01
@@ -51,8 +52,8 @@ main:
      url: /blogpost/
    - title: "Suy luận Nhân quả với Python"
      url: /pythoncausal/
-   - title: "All Posts"
-     url: /year-archive/
+   #- title: "All Posts"
+     #url: /year-archive/
    #- title: "Collections"
    #   url: /collection-archive/
   # - title: "Sitemap"
