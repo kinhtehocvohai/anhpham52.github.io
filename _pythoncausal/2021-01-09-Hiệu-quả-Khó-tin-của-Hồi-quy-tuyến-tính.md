@@ -1,5 +1,6 @@
 ---
 layout: single
+excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 5"
 sidebar:
  nav: pythoncausal
 title: Hiệu quả Khó tin của Hồi quy tuyến tính
