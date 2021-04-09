@@ -1,13 +1,14 @@
 ---
 layout: single
 title: Giới thiệu Suy luận Nhân quả
+excerpt: "**SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 1**"
 permalink: /pythoncausal/pc01
 sidebar:
     nav: pythoncausal
 author_profile: true
 ---
 
-excerpt: "**SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 1**"
+
 
 *Bài viết này thuộc chuỗi bài viết về “Suy luận Nhân quả với Python”. Hãy cùng đọc thêm các bài viết có cùng chủ đề tại [đây](http://kinhtehocvohai.com/pythoncausal/)*
 
