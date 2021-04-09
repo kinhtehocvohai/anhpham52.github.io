@@ -3,6 +3,7 @@ layout: single
 sidebar:
  nav: pythoncausal
 title: Dữ liệu Bảng và Hiệu ứng Cố định
+excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 13"
 permalink: /pythoncausal/pc13
 ---
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 13**
