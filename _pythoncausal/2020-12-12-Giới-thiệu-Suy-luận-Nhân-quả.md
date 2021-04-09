@@ -1,7 +1,6 @@
 ---
 layout: single
 title: Giới thiệu Suy luận Nhân quả
-author: vn
 permalink: /pythoncausal/pc01
 sidebar:
     nav: pythoncausal
