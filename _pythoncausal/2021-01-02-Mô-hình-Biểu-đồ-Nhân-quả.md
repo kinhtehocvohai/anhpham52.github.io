@@ -1,5 +1,6 @@
 ---
 layout: single
+excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 4"
 sidebar:
  nav: pythoncausal
 title: Mô hình Biểu đồ Nhân quả
