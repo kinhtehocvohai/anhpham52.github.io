@@ -1,5 +1,6 @@
 ---
 layout: single
+author: dt
 sidebar:
  nav: pythoncausal
 title: Sự bất tuân và LATE
