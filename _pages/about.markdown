@@ -11,7 +11,7 @@ classes: wide
 
 
 
-<H1 align="center"> Kinh tế học vô hại </H1> 
+<H1 align="center"> Kinh tế học Vô hại </H1> 
 <div style="text-align: center"> <em>Hãy bỏ qua nếu bạn không quan tâm đến <strong>Kinh tế học</strong> hoặc <strong>Khoa học dữ liệu</strong> và chưa từng bao giờ bận tâm bởi những mối <strong>quan hệ nhân quả</strong></em> </div>
 
 
