@@ -1,9 +1,10 @@
 ---
 layout: single
-sidebar:
- nav: pythoncausal
 title: Phép thử Ngẫu nhiên
 permalink: /pythoncausal/pc02
+sidebar:
+    nav: pythoncausal
+author_profile: true
 ---
 
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 2**
