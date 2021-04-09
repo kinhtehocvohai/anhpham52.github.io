@@ -1,5 +1,7 @@
 ---
 layout: single
+
+author: vn
 sidebar:
  nav: pythoncausal
 title: Biến Công cụ
