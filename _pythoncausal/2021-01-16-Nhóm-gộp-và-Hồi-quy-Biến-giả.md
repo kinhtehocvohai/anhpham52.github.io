@@ -1,5 +1,6 @@
 ---
 layout: single
+excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 6"
 sidebar:
  nav: pythoncausal
 title: Nhóm gộp và Hồi quy Biến giả
