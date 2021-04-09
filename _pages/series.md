@@ -1,7 +1,7 @@
 ---
 layouts: single
 title: Series
-share: true
+share: false
 header:
   image: /assets/images/media/cover2.jpg
 permalink: /series/
