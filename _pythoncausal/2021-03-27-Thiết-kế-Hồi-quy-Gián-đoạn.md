@@ -1,5 +1,6 @@
 ---
 layout: single
+author: qa
 sidebar:
  nav: pythoncausal
 title: Thiết kế Hồi quy Gián đoạn
