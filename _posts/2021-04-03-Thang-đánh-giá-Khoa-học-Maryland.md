@@ -1,6 +1,8 @@
 ---
 layout: single
 title: Thang đánh giá Khoa học Maryland
+sidebar:
+    nav: blogpost
 toc: true
 permalink: /blogpost/marylandscale
 ---
