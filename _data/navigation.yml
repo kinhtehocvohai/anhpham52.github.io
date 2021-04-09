@@ -1,8 +1,19 @@
 
+
+#blogpost to be updated
+
+
+#series nav
+serie:
+ - title: "Suy luận Nhân quả với Python"
+   url: /pythoncausal/
+ - title: "Trực quan hóa Suy luận Nhân quả"
+   url: /causalgraph/
+
 #python causal link
 
 pythoncausal:
- - title: Suy luận Nhân quả với Python
+ - title: "Suy luận Nhân quả với Python"
    url: /pythoncausal/
    children:
       - title: "1. Giới thiệu Suy luận Nhân quả"
