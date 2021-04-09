@@ -14,7 +14,6 @@ series:
    url: /causalgraph/
 
 #python causal link
-
 pythoncausal:
  - title: "Suy luận Nhân quả với Python"
    url: /pythoncausal/
@@ -51,10 +50,19 @@ pythoncausal:
         url: /pythoncausal/pc15
       - title: "16. Thiết kế Hồi quy Gián đoạn"
         url: /pythoncausal/pc16
- 
+ - title: "Trực quan hóa Suy luận Nhân quả"
+   url: /causalgraph/
 
+#causal graph link
+ - title: "Suy luận Nhân quả với Python"
+   url: /pythoncausal/
+ - title: "Trực quan hóa Suy luận Nhân quả"
+   url: /causalgraph/
+   #children:
+      #- title: " "
+        #url: /causalgraph/...
 
-
+   
 
 # main links
 main:
