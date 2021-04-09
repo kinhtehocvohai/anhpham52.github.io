@@ -2,7 +2,9 @@
 title: Coming soon...
 share: true
 sidebar:
-    nav: series
+    nav: 
+     - series
+     - pythoncausal
 header:
   overlay_color: "#252a34"
 layout: collection
