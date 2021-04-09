@@ -1,6 +1,5 @@
 ---
 layout: single
-author: dt
 sidebar:
  nav: pythoncausal
 title: Một Phương trình Vô cùng Nguy hiểm
