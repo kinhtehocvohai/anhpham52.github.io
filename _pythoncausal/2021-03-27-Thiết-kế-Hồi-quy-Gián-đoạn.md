@@ -3,6 +3,7 @@ layout: single
 sidebar:
  nav: pythoncausal
 title: Thiết kế Hồi quy Gián đoạn
+excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 16"
 permalink: /pythoncausal/pc16
 ---
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 16**
