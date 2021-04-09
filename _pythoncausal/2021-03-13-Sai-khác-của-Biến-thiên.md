@@ -3,6 +3,7 @@ layout: single
 sidebar:
  nav: pythoncausal
 title: Sai khác của Biến thiên
+excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 14"
 permalink: /pythoncausal/pc14
 ---
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 14**
