@@ -3,6 +3,7 @@ layout: single
 sidebar:
  nav: pythoncausal
 title: Điểm xu hướng
+excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 11"
 permalink: /pythoncausal/pc11
 ---
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 11**
