@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Phép thử Ngẫu nhiên
+excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 2"
 permalink: /pythoncausal/pc02
 sidebar:
     nav: pythoncausal
