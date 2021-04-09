@@ -1,5 +1,6 @@
 ---
 layout: single
+excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 3"
 sidebar:
  nav: pythoncausal
 title: Một Phương trình Vô cùng Nguy hiểm
