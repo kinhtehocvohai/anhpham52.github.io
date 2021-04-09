@@ -1,5 +1,6 @@
 ---
 layout: single
+excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 7"
 sidebar:
  nav: pythoncausal
 title: Đâu chỉ mình Biến nhiễu?
