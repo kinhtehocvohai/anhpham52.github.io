@@ -1,5 +1,6 @@
 ---
 layout: single
+author: vn
 sidebar:
  nav: pythoncausal
 title: Dữ liệu Bảng và Hiệu ứng Cố định
