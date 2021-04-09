@@ -1,5 +1,6 @@
 ---
 layout: single
+author: qa
 title: Thang đánh giá Khoa học Maryland
 toc: true
 permalink: /blogpost/marylandscale
