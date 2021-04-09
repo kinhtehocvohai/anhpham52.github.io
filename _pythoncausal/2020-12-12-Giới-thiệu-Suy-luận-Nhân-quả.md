@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Giới thiệu Suy luận Nhân quả
-excerpt: "**SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 1**"
+excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 1"
 permalink: /pythoncausal/pc01
 sidebar:
     nav: pythoncausal
