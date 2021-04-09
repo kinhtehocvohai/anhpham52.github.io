@@ -1,5 +1,6 @@
 ---
 layout: single
+author: dt
 sidebar:
  nav: pythoncausal
 title: Mô hình Biểu đồ Nhân quả
