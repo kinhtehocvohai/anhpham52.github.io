@@ -4,6 +4,11 @@ excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 5"
 sidebar:
  nav: pythoncausal
 title: Hiệu quả Khó tin của Hồi quy tuyến tính
+categories:
+  - series suy luận nhân quả với python
+tags:
+  - suy luận nhân quả
+  - python
 permalink: /pythoncausal/pc05
 ---
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 5**
