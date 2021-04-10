@@ -4,6 +4,11 @@ excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 6"
 sidebar:
  nav: pythoncausal
 title: Nhóm gộp và Hồi quy Biến giả
+categories:
+  - series suy luận nhân quả với python
+tags:
+  - suy luận nhân quả
+  - python
 permalink: /pythoncausal/pc06
 ---
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 6**
