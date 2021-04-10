@@ -2,8 +2,6 @@
 layout: single
 title: Sự Nguy Hiểm Khi Thiếu Hiểu Biết Về Một Phương Trình Cơ Bản 
 excerpt: "Chúng ta hãy cùng điểm qua một vài ví dụ để thấy việc thiếu hiểu biết về công thức Moirve có thể gây ra những hậu quả như thế nào"
-sidebar:
-    nav: blogpost
 toc: false
 categories:
   - blog posts
