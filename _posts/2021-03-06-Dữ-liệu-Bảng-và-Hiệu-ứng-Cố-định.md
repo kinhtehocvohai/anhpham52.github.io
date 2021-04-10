@@ -788,7 +788,7 @@ Cuối cùng, tôi cũng muốn tán dương Scott Cunningham và và sản ph�
 
 |Viết tắt| Tiếng Anh | Tiếng Việt |
 | --- | --- | --- | 
-|FE|Fixed Effects|FE| 
+|FE|Fixed Effects|Hiệu ứng cố định| 
 
 
 ## Bảng Thuật ngữ 
