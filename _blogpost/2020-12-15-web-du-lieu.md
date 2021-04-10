@@ -2,8 +2,6 @@
 layout: single
 title: Những Trang Web Cung Cấp Dữ Liệu Miễn Phí
 excerpt: "Nếu bạn có niềm đam mê khám phá, phân tích và tìm ra ý nghĩa đằng sau các con số dữ liệu thì những trang web dưới đây sẽ đáp ứng được phần nào “cơn khát” dữ liệu của bạn"
-sidebar:
-    nav: blogpost
 toc: true
 categories:
   - blog posts
