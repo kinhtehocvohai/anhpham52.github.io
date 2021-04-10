@@ -275,6 +275,9 @@ collections:
   pythoncausal:
     output: true
     permalink: /:collection/:path/
+  causalgraph:
+    output: true
+    permalink: /:collection/:path/
     
 
 
@@ -338,4 +341,18 @@ defaults:
       toc: true
       toc_label: "Mục lục"
       toc_sticky: true
-    
+  # _causalgraph
+  - scope:
+      path: ""
+      type: causalgraph
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      show_date: true
+      author_profile: true
+      toc: true
+      toc_label: "Mục lục"
+      toc_sticky: true
