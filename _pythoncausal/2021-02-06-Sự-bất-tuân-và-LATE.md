@@ -4,6 +4,11 @@ sidebar:
  nav: pythoncausal
 title: Sự bất tuân và LATE
 excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 9"
+categories:
+  - series suy luận nhân quả với python
+tags:
+  - suy luận nhân quả
+  - python
 permalink: /pythoncausal/pc09
 ---
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 9**
