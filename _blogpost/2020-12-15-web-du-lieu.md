@@ -1,11 +1,11 @@
 ---
 layout: single
 title: Những Trang Web Cung Cấp Dữ Liệu Miễn Phí
-excerpt: "Trong bài viết này chúng tôi sẽ giới thiệu với các bạn thang đánh giá độ mạnh của các phương pháp nghiên cứu khoa học"
+excerpt: "Nếu bạn có niềm đam mê khám phá, phân tích và tìm ra ý nghĩa đằng sau các con số dữ liệu thì những trang web dưới đây sẽ đáp ứng được phần nào “cơn khát” dữ liệu của bạn"
 sidebar:
     nav: blogpost
 toc: true
-permalink: /blogpost/marylandscale
+permalink: /blogpost/web-du-lieu
 ---
 
 Nếu bạn có niềm đam mê khám phá, phân tích và tìm ra ý nghĩa đằng sau các con số dữ liệu thì những trang web dưới đây sẽ đáp ứng được phần nào “cơn khát” dữ liệu của bạn. Và biết đâu chúng còn hữu ích cho những dự án mà bạn đang tham gia, hay thậm chí cả con đường sự nghiệp bạn đang theo đuổi để trở thành một chuyên gia phân tích dữ liệu chẳng hạn.
