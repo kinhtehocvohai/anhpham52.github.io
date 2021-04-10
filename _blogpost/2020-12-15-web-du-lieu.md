@@ -49,6 +49,6 @@ Trang web nổi tiếng với các bài đánh giá về nhà hàng, quán bar v
 
 Facebook hỗ trợ nghiên cứu về “Social graph” (sơ đồ xã hội) trên Facbook với công cụ [Graph API](https://developers.facebook.com/docs/graph-api). Lưu ý rằng không phải tất cả người dùng Facebook đều sử dụng cài đặt bảo mật giống nhau, nên bạn có thể không thấy tất cả bài đăng hoặc tất cả mọi người.
 
-Bài viết được tóm tắt và tổng hợp tại trang [web](https://www.infoworld.com/article/3574979/where-to-find-free-and-open-data-sets-on-the-web.html?fbclid=IwAR12Dd317TU88dW6FXiip41jY2It9qygTb5aNRBjtZM2Eb9ez-az3IvgGwI). Lưu ý rằng những số liệu trong bài viết đã được cập nhật đến thời điểm hiện tại. 
+Bài viết được tóm tắt và tổng hợp tại [infoworld](https://www.infoworld.com/article/3574979/where-to-find-free-and-open-data-sets-on-the-web.html?fbclid=IwAR12Dd317TU88dW6FXiip41jY2It9qygTb5aNRBjtZM2Eb9ez-az3IvgGwI). Lưu ý rằng những số liệu trong bài viết đã được cập nhật đến thời điểm hiện tại. 
 {: .notice--warning}
 
