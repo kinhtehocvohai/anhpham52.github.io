@@ -7,7 +7,6 @@ sidebar:
 toc: false
 tags:
   - suy luan nhan qua
-  - causality
 permalink: /blogpost/thieu-hieu-biet-ve-phuong-trinh-don-gian
 ---
 
