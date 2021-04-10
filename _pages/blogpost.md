@@ -1,6 +1,7 @@
 ---
 title: Blog Posts
-layout: posts
+layout: collection
+collection: blogpost
 permalink: /blogpost/
 header:
   image: /assets/images/media/cover3.JPG
