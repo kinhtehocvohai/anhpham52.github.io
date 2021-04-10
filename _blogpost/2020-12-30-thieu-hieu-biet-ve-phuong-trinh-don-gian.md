@@ -5,6 +5,8 @@ excerpt: "Chúng ta hãy cùng điểm qua một vài ví dụ để thấy vi�
 sidebar:
     nav: blogpost
 toc: false
+categories:
+  - blog posts
 tags:
   - suy luận nhân quả
 permalink: /blogpost/thieu-hieu-biet-ve-phuong-trinh-don-gian
