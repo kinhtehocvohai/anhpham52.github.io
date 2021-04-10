@@ -4,6 +4,11 @@ sidebar:
  nav: pythoncausal
 title: Dữ liệu Bảng và Hiệu ứng Cố định
 excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 13"
+categories:
+  - series suy luận nhân quả với python
+tags:
+  - suy luận nhân quả
+  - python
 permalink: /pythoncausal/pc13
 ---
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 13**
