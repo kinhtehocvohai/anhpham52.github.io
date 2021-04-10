@@ -6,7 +6,7 @@ sidebar:
     nav: blogpost
 toc: true
 tags:
-  - suy luan nhan qua
+  - suy luận nhân quả
   - causality
 permalink: /blogpost/marylandscale
 ---
