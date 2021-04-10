@@ -2,6 +2,11 @@
 layout: single
 title: Giới thiệu Suy luận Nhân quả
 excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 1"
+categories:
+  - series suy luận nhân quả với python
+tags:
+  - suy luận nhân quả
+  - python
 permalink: /pythoncausal/pc01
 sidebar:
     nav: pythoncausal
