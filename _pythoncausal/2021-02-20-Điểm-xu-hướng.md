@@ -4,6 +4,11 @@ sidebar:
  nav: pythoncausal
 title: Điểm xu hướng
 excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 11"
+categories:
+  - series suy luận nhân quả với python
+tags:
+  - suy luận nhân quả
+  - python
 permalink: /pythoncausal/pc11
 ---
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 11**
