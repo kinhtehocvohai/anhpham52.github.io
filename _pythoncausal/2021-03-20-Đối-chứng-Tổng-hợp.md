@@ -4,6 +4,11 @@ sidebar:
  nav: pythoncausal
 title: Đối chứng Tổng hợp
 excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 15"
+categories:
+  - series suy luận nhân quả với python
+tags:
+  - suy luận nhân quả
+  - python
 permalink: /pythoncausal/pc15
 ---
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 15**
