@@ -4,6 +4,11 @@ sidebar:
  nav: pythoncausal
 title: Thiết kế Hồi quy Gián đoạn
 excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 16"
+categories:
+  - series suy luận nhân quả với python
+tags:
+  - suy luận nhân quả
+  - python
 permalink: /pythoncausal/pc16
 ---
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 16**
