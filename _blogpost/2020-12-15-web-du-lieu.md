@@ -6,7 +6,7 @@ sidebar:
     nav: blogpost
 toc: true
 tags:
-  - khoa hoc du lieu
+  - khoa học dữ liệu
 permalink: /blogpost/web-du-lieu
 ---
 
