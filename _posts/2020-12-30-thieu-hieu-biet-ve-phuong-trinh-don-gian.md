@@ -23,6 +23,8 @@ Sang ví dụ thứ hai, khi quan sát nơi có tỷ lệ tử vong do ung thư 
 Qua hai ví dụ trên, chúng ta đã phần nào thấy việc thiếu hiểu biết về công thức Moirve có thể gây ra những quyết định sai lầm và hậu quả tai hại như thế nào. Sự thiếu hiểu biết này không chỉ gây ra sự tốn kém về tiền bạc thời gian, mà còn có thể ảnh hưởng tới sức khoẻ, chất lượng công việc học tập, hay là nguyên nhân của những những kết luận thống kê sai lầm. 
 
 Để hiểu rõ hơn về công thức Moirve qua ví dụ cụ thể với Python mời bạn đọc thêm tại [Suy luận Nhân quả với Python - Kỳ 3](http://kinhtehocvohai.com/pythoncausal/pc03). 
+{: .notice--warning}
 
-Những ví dụ được trích từ Wainer, H., 2007. The most dangerous equation. American Scientist, 95(3), p.249. Bạn có thể tìm đọc tại [đây](https://www.americanscientist.org/article/the-most-dangerous-equation?fbclid=IwAR3TY1-tDxdLswryP-NUsSQlUkYAJlX3GrmmmbnlobleYdcCL0UF0R2Z7TM)
+Những ví dụ được trích từ Wainer, H., 2007. [The most dangerous equation](https://www.americanscientist.org/article/the-most-dangerous-equation?fbclid=IwAR3TY1-tDxdLswryP-NUsSQlUkYAJlX3GrmmmbnlobleYdcCL0UF0R2Z7TM). American Scientist, 95(3), p.249.
+{: .notice--info}
 
