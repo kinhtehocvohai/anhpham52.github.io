@@ -5,6 +5,8 @@ excerpt: "Nếu bạn có niềm đam mê khám phá, phân tích và tìm ra ý
 sidebar:
     nav: blogpost
 toc: true
+tags:
+  - khoa hoc du lieu
 permalink: /blogpost/web-du-lieu
 ---
 
