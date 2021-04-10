@@ -6,7 +6,7 @@ sidebar:
     nav: blogpost
 toc: false
 tags:
-  - suy luan nhan qua
+  - suy luận nhân quả
 permalink: /blogpost/thieu-hieu-biet-ve-phuong-trinh-don-gian
 ---
 
