@@ -4,6 +4,11 @@ excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 4"
 sidebar:
  nav: pythoncausal
 title: Mô hình Biểu đồ Nhân quả
+categories:
+  - series suy luận nhân quả với python
+tags:
+  - suy luận nhân quả
+  - python
 permalink: /pythoncausal/pc04
 ---
 
