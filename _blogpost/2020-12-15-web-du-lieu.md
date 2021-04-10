@@ -21,11 +21,11 @@ Các bộ dữ liệu trên Kaggle đa dạng về chủ đề từ thị trư�
 
 ## FiveThirtyEight.com
 
-Điểm khác biệt của FiveThirtyEight ở chỗ nó xây dựng nên những câu chuyện thú vị dựa trên sự hỗ trợ của tập hợp các bộ dữ liệu phong phú. Từ những dự đoán cho các giải bóng đá, đến việc phân tích thái độ xã hội thông qua những bảng khảo sát đặt ra những câu hỏi thú vị như nam giới nghĩ gì về ý nghĩa của việc trở thành một người đàn ông (https://fivethirtyeight.com/.../what-do-men-think-it.../) , hay những bảng thăm dò liên tục về các cuộc [bầu cử chính trị](https://projects.fivethirtyeight.com/polls/) sắp tới. 
+Điểm khác biệt của FiveThirtyEight ở chỗ nó xây dựng nên những câu chuyện thú vị dựa trên sự hỗ trợ của tập hợp các bộ dữ liệu phong phú. Từ những dự đoán cho các giải bóng đá, đến việc phân tích thái độ xã hội thông qua những bảng khảo sát đặt ra những câu hỏi thú vị như nam giới nghĩ gì về [ý nghĩa của việc trở thành một người đàn ông](https://fivethirtyeight.com/features/what-do-men-think-it-means-to-be-a-man/?fbclid=IwAR1pkU5bgyL7oPwQSLfqF1p2X7WyDvt1CwQ-5rigWpGGVBUvxM9hy2qQrbI) , hay những bảng thăm dò liên tục về các cuộc [bầu cử chính trị](https://projects.fivethirtyeight.com/polls/) sắp tới. 
 
 ## UNICEF.org
 
-Tổ chức của Liên Hợp Quốc chia sẻ nhiều bộ dữ liệu khác nhau hữu ích cho những tổ chức, cá nhân cùng hướng tới mục tiêu bảo vệ và cứu trợ trẻ em. Ví dụ, bạn có thể tìm thấy Bảng thống kê thực trạng của trẻ em trên toàn thế giới 2019 tại [đây](https://data.unicef.org/.../sowc-2019-statistical-tables/).
+Tổ chức của Liên Hợp Quốc chia sẻ nhiều bộ dữ liệu khác nhau hữu ích cho những tổ chức, cá nhân cùng hướng tới mục tiêu bảo vệ và cứu trợ trẻ em. Ví dụ, bạn có thể tìm thấy Bảng thống kê thực trạng của trẻ em trên toàn thế giới 2019 tại [đây](https://data.unicef.org/resources/dataset/sowc-2019-statistical-tables/?fbclid=IwAR3QBuTW2ICUzDe72MgVcTGHZGPJ9u0Ngxx3yBOxOiBWXNstG2o4ZaY5CbY).
 
 ## Dữ liệu tài chính
 
@@ -39,7 +39,7 @@ Một số bộ dữ liệu cũng được đưa vào thư mục dữ liệu cô
 
 ## Microsoft.com
 
-Microsoft cũng cung cấp một số bộ dữ liệu trên [Azure](https://azure.microsoft.com/en-us/services/open-datasets/...), trong đó bao gồm giá hàng hoá giúp chúng ta có cái nhìn về những thay đổi lạm phát và kinh tế. 
+Microsoft cũng cung cấp một số bộ dữ liệu trên [Azure](https://azure.microsoft.com/en-us/services/open-datasets/), trong đó bao gồm giá hàng hoá giúp chúng ta có cái nhìn về những thay đổi lạm phát và kinh tế. 
 
 ## Yelp.com
 
@@ -49,6 +49,6 @@ Trang web nổi tiếng với các bài đánh giá về nhà hàng, quán bar v
 
 Facebook hỗ trợ nghiên cứu về “Social graph” (sơ đồ xã hội) trên Facbook với công cụ [Graph API](https://developers.facebook.com/docs/graph-api). Lưu ý rằng không phải tất cả người dùng Facebook đều sử dụng cài đặt bảo mật giống nhau, nên bạn có thể không thấy tất cả bài đăng hoặc tất cả mọi người.
 
-Bài viết được tóm tắt và tổng hợp từ trang [web](https://www.infoworld.com/.../where-to-find-free-and-open...). Những số liệu trong bài viết đã được cập nhật đến thời điểm hiện tại. 
+Bài viết được tóm tắt và tổng hợp tại trang [web](https://www.infoworld.com/article/3574979/where-to-find-free-and-open-data-sets-on-the-web.html?fbclid=IwAR12Dd317TU88dW6FXiip41jY2It9qygTb5aNRBjtZM2Eb9ez-az3IvgGwI). Lưu ý rằng những số liệu trong bài viết đã được cập nhật đến thời điểm hiện tại. 
 {: .notice--warning}
 
