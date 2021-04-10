@@ -4,6 +4,11 @@ excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 7"
 sidebar:
  nav: pythoncausal
 title: Đâu chỉ mình Biến nhiễu?
+categories:
+  - series suy luận nhân quả với python
+tags:
+  - suy luận nhân quả
+  - python
 permalink: /pythoncausal/pc07
 ---
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 7**
