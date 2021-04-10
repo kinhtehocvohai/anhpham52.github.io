@@ -4,6 +4,11 @@ sidebar:
  nav: pythoncausal
 title: Ước lượng mạnh Hai lần 
 excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 12"
+categories:
+  - series suy luận nhân quả với python
+tags:
+  - suy luận nhân quả
+  - python
 permalink: /pythoncausal/pc12
 ---
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 12**
