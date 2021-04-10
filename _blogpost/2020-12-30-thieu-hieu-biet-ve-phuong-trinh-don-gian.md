@@ -4,11 +4,11 @@ title: Sự Nguy Hiểm Khi Thiếu Hiểu Biết Về Một Phương Trình Cơ
 excerpt: "Chúng ta hãy cùng điểm qua một vài ví dụ để thấy việc thiếu hiểu biết về công thức Moirve có thể gây ra những hậu quả như thế nào"
 sidebar:
     nav: blogpost
-toc: true
+toc: false
 permalink: /blogpost/thieu-hieu-biet-ve-phuong-trinh-don-gian
 ---
 
-Trong Kỳ 3 của chuỗi bài Suy luận Nhân quả với Python, chúng ta đã tìm hiểu về một phương trình được mệnh danh vô cùng nguy hiểm là công thức Moirve dùng để tính sai số chuẩn của giá trị trung bình (Đọc thêm về Suy luận Nhân quả với Python – Kỳ 3 tại [đây](http://kinhtehocvohai.com/pythoncausal/pc03)).
+Trong Kỳ 3 của chuỗi bài [Suy luận Nhân quả với Python](http://kinhtehocvohai.com/pythoncausal/), chúng ta đã tìm hiểu về một phương trình được mệnh danh vô cùng nguy hiểm là công thức Moirve dùng để tính sai số chuẩn của giá trị trung bình (Đọc thêm về Suy luận Nhân quả với Python – Kỳ 3 tại [đây](http://kinhtehocvohai.com/pythoncausal/pc03)).
 
 Chúng ta hãy cùng điểm qua một vài ví dụ để thấy việc thiếu hiểu biết về công thức Moirve có thể gây ra những hậu quả như thế nào. Đơn cử như một ví dụ trong lĩnh vực giáo dục, ta quan sát thấy những trường top đầu thường có ít học sinh. Một kết luận tự nhiên có thể rút ra là quy mô trường học nhỏ dẫn đến việc trẻ học tập tốt hơn. Trực giác mách bảo ta đây là một kết luận hợp lý vì nếu một giáo viên đảm nhiệm ít học sinh hơn thì họ có thể quan tâm hơn đến mỗi học sinh.
 
