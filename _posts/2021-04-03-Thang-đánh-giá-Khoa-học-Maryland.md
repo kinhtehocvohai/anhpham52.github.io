@@ -9,7 +9,6 @@ categories:
   - blog posts
 tags:
   - suy luận nhân quả
-  - causality
 permalink: /blogpost/marylandscale
 ---
 
