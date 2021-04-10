@@ -4,6 +4,11 @@ sidebar:
  nav: pythoncausal
 title: Sai khác của Biến thiên
 excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 14"
+categories:
+  - series suy luận nhân quả với python
+tags:
+  - suy luận nhân quả
+  - python
 permalink: /pythoncausal/pc14
 ---
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 14**
