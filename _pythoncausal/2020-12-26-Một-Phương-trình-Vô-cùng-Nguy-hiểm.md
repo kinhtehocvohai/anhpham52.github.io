@@ -4,6 +4,11 @@ excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 3"
 sidebar:
  nav: pythoncausal
 title: Một Phương trình Vô cùng Nguy hiểm
+categories:
+  - series suy luận nhân quả với python
+tags:
+  - suy luận nhân quả
+  - python
 permalink: /pythoncausal/pc03
 ---
 
