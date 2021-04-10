@@ -5,6 +5,8 @@ sidebar:
     nav: blogpost
 excerpt: "Trong bài viết này chúng tôi sẽ giới thiệu với các bạn thang đánh giá độ mạnh của các phương pháp nghiên cứu khoa học"
 toc: true
+categories:
+  - blog posts
 tags:
   - suy luận nhân quả
 permalink: /blogpost/marylandscale
