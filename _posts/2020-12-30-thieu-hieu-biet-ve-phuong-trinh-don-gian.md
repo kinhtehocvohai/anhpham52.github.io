@@ -4,7 +4,7 @@ title: Sự Nguy Hiểm Khi Thiếu Hiểu Biết Về Một Phương Trình Cơ
 excerpt: "Chúng ta hãy cùng điểm qua một vài ví dụ để thấy việc thiếu hiểu biết về công thức Moirve có thể gây ra những hậu quả như thế nào"
 sidebar:
     nav: blogpost
-toc: true
+toc: false
 permalink: /blogpost/thieu-hieu-biet-ve-phuong-trinh-don-gian
 ---
 
