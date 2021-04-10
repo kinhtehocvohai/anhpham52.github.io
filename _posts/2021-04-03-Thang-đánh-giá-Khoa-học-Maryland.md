@@ -5,6 +5,8 @@ excerpt: "Trong bài viết này chúng tôi sẽ giới thiệu với các bạ
 sidebar:
     nav: blogpost
 toc: true
+categories:
+  - blog posts
 tags:
   - suy luận nhân quả
   - causality
