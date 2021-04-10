@@ -4,6 +4,11 @@ sidebar:
  nav: pythoncausal
 excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 8"
 title: Biến Công cụ
+categories:
+  - series suy luận nhân quả với python
+tags:
+  - suy luận nhân quả
+  - python
 permalink: /pythoncausal/pc08
 ---
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 8**
