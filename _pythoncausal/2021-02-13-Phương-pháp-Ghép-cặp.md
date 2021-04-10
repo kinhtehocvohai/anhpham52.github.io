@@ -4,6 +4,11 @@ sidebar:
  nav: pythoncausal
 title: Phương pháp Ghép cặp
 excerpt: "SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 10"
+categories:
+  - series suy luận nhân quả với python
+tags:
+  - suy luận nhân quả
+  - python
 permalink: /pythoncausal/pc10
 ---
 **SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 10**
