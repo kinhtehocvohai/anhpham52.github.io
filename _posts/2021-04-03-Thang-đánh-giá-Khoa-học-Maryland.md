@@ -5,6 +5,9 @@ excerpt: "Trong bài viết này chúng tôi sẽ giới thiệu với các bạ
 sidebar:
     nav: blogpost
 toc: true
+tags:
+  - suy luan nhan qua
+  - causality
 permalink: /blogpost/marylandscale
 ---
 
