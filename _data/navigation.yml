@@ -60,9 +60,9 @@ causalgraph:
    url: /pythoncausal/
  - title: "Trực quan hóa Suy luận Nhân quả"
    url: /causalgraph/
-   #children:
-      #- title: " "
-        #url: /causalgraph/...
+   children:
+      - title: "1. Biến Kiểm Soát"
+        url: /pythoncausal/ac01
 
    
 
