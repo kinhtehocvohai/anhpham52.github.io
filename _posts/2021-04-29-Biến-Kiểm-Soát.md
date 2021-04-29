@@ -19,6 +19,7 @@ sidebar:
 *Để hiểu thêm kiến thức về Suy luận Nhân quả, hãy cùng tìm đọc chuỗi bài viết về “Suy luận Nhân quả với Python” tại [đây](http://kinhtehocvohai.com/pythoncausal/)*
 
 
+-------
 Chúng ta muốn tìm hiểu biến giải thích X tác động thế nào đến biến kết quả Y. Trong một thế giới lý tưởng, ta chỉ cần nhìn vào mối tương quan giữa X và Y.
 
 Nhưng thực tế không dễ dàng như thế. Có hàng tấn lý do cản trở việc này. Ví dụ nếu có một biến nhiễu W tác động đến cả X và Y như trong biểu đồ dưới đây.
