@@ -8,6 +8,8 @@ categories:
 tags:
   - suy luận nhân quả
 permalink: /causalgraph/ac01
+sidebar:
+    nav: pythoncausal
 ---
 
 **TRỰC QUAN HÓA SUY LUẬN NHÂN QUẢ - KỲ 1**
