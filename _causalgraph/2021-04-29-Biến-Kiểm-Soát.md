@@ -1,14 +1,19 @@
 ---
 layout: single
 title: Biến Kiểm Soát
-excerpt: "Trong bài viết này chúng tôi sẽ giới thiệu với các bạn thang đánh giá độ mạnh của các phương pháp nghiên cứu khoa học"
-toc: true
+excerpt: "TRỰC QUAN HÓA SUY LUẬN NHÂN QUẢ - KỲ 1"
+toc: false
 categories:
-  - blog posts
+  - series trực quan hóa suy luận nhân quả
 tags:
   - suy luận nhân quả
 permalink: /causalgraph/ac01
 ---
+
+**TRỰC QUAN HÓA SUY LUẬN NHÂN QUẢ - KỲ 1**
+
+*Bài viết này thuộc chuỗi bài viết về “Trực quan hóa Suy luận Nhân quả”. Hãy cùng đọc thêm các bài viết có cùng chủ đề tại [đây](http://kinhtehocvohai.com/causalgraph/)*
+*Để hiểu thêm kiến thức về Suy luận Nhân quá, hãy cùng tìm đọc chuỗi bài viết về “Suy luận Nhân quả với Python” tại [đây](http://kinhtehocvohai.com/pythoncausal/)*
 
 
 Chúng ta muốn tìm hiểu biến giải thích X tác động thế nào đến biến kết quả Y. Trong một thế giới lý tưởng, ta chỉ cần nhìn vào mối tương quan giữa X và Y.
