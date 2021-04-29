@@ -113,7 +113,7 @@ Một cách khác để kiểm soát biến nhị phân W là "khử" giá trị
 $$\tilde{Y} =0-0.54\tilde{X} +\varepsilon$$
 
 trong đó 
-$$\tilde{Y} = Y-E(Y|W) ; \tilde{X} = Y-E(X|W)$$
+$$\tilde{Y} = Y-E(Y|W) ; \tilde{X} = X-E(X|W)$$
 
 Giống kết quả hồi qua đa biến ở trên, mỗi đơn vị gia tăng của X cộng thêm 0.54 đơn vị Y.
 
