@@ -62,7 +62,7 @@ causalgraph:
    url: /causalgraph/
    children:
       - title: "1. Biến Kiểm Soát"
-        url: /pythoncausal/ac01
+        url: /causalgraph/ac01
 
    
 
