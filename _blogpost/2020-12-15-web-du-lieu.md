@@ -27,7 +27,7 @@ Các bộ dữ liệu trên Kaggle đa dạng về chủ đề từ thị trư�
 
 ## UNICEF.org
 
-Tổ chức của Liên Hợp Quốc chia sẻ nhiều bộ dữ liệu khác nhau hữu ích cho những tổ chức, cá nhân cùng hướng tới mục tiêu bảo vệ và cứu trợ trẻ em. Ví dụ, bạn có thể tìm thấy Bảng thống kê thực trạng của trẻ em trên toàn thế giới 2019 tại [đây](https://data.unicef.org/resources/dataset/sowc-2019-statistical-tables/?fbclid=IwAR3QBuTW2ICUzDe72MgVcTGHZGPJ9u0Ngxx3yBOxOiBWXNstG2o4ZaY5CbY).
+Tổ chức của Liên Hợp Quốc chia sẻ nhiều bộ dữ liệu khác nhau hữu ích cho những tổ chức, cá nhân cùng hướng tới mục tiêu bảo vệ và cứu trợ trẻ em. Ví dụ, bạn có thể tìm thấy Bảng thống kê thực trạng của trẻ em trên toàn thế giới 2019 [tại đây](https://data.unicef.org/resources/dataset/sowc-2019-statistical-tables/?fbclid=IwAR3QBuTW2ICUzDe72MgVcTGHZGPJ9u0Ngxx3yBOxOiBWXNstG2o4ZaY5CbY).
 
 ## Dữ liệu tài chính
 
@@ -37,7 +37,7 @@ Trang web [thư viện của Bang Ohio](https://guides.osu.edu/c.php?g=280921&p=
 
 Nếu bạn đang tìm kiếm một bộ dữ liệu cụ thể, bạn có thể sử dụng công cụ tìm kiếm bộ dữ liệu của [Google](https://datasetsearch.research.google.com/). Công cụ này cho phép chúng ta tìm kiếm trên toàn bộ các web bằng cách sử dụng các từ khoá. Kết quả tìm kiếm có thể được lọc theo quyền sử dụng, định dạng dữ liệu, thời gian. 
 
-Một số bộ dữ liệu cũng được đưa vào thư mục dữ liệu công khai của Google tại [đây](https://www.google.com/publicdata/directory#!st=DATASET). Thư mục này không chỉ liệt kê các nguồn dữ liệu mà còn cung cấp một số trực quan về dữ liệu.
+Một số bộ dữ liệu cũng được đưa vào thư mục dữ liệu công khai của Google [tại đây](https://www.google.com/publicdata/directory#!st=DATASET). Thư mục này không chỉ liệt kê các nguồn dữ liệu mà còn cung cấp một số trực quan về dữ liệu.
 
 ## Microsoft.com
 
