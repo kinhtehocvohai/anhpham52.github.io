@@ -36,7 +36,7 @@ Nếu W là biến nhị phân (chỉ nhận 2 giá trị, ví dụ 0 hoặc 1),
 
 Nếu không kiểm soát W, phương trình hồi quy Y theo X cho thấy mối quan hệ đồng biến: mỗi đơn vị tăng thêm của X làm tăng Y thêm 0.51 đơn vị. Nếu mù quáng tin theo, ta sẽ cố làm tăng X nếu muốn tăng kết quả Y.
 
-$Y =1.72+0.51X+\varepsilon$
+$$Y =1.72+0.51X+\varepsilon$$
 
 
 
@@ -68,7 +68,7 @@ model.summary().tables[1]
 
 Ta có thể kiểm soát biến W bằng cách đưa thẳng nó vào phương trình hồi quy như dưới đây:
 
-$Y=1-0.54X+4.17W+\varepsilon$
+$$Y=1-0.54X+4.17W+\varepsilon$$
 
 Kết quả hoàn toàn trái ngược với ban đầu. Mỗi đơn vị tăng thêm của X làm giảm Y 0.54 đơn vị.
 
@@ -101,10 +101,10 @@ model.summary().tables[1]
 
 Một cách khác để kiểm soát biến nhị phân W là "khử" giá trị trung bình của X và Y theo mỗi giá trị của W trước khi hồi quy Y theo X. Nói cách khác, ta loại bỏ ảnh hưởng của W đối với cả X và Y trước khi xem xét mối quan hệ của 2 biến này.
 
-$\tilde{Y} =0-0.54\tilde{X} +\varepsilon$
+$$\tilde{Y} =0-0.54\tilde{X} +\varepsilon$$
 
 trong đó 
-$\tilde{Y} = Y-E(Y|W) ; \tilde{X} = Y-E(X|W)$
+$$\tilde{Y} = Y-E(Y|W) ; \tilde{X} = Y-E(X|W)$$
 
 Giống kết quả hồi qua đa biến ở trên, mỗi đơn vị gia tăng của X cộng thêm 0.54 đơn vị Y.
 
@@ -135,8 +135,8 @@ Ghi chú:
 
 Ba biến X, Y, và W ở ví dụ trên đã được tạo lập như sau:
 
-$X= 0.5+ 2W+ \nu;  \nu \sim N(0,1)$
+$$X= 0.5+ 2W+ \nu;  \nu \sim N(0,1)$$
 
-$Y= 1 -0.5X+4W+ \varepsilon; \varepsilon \sim N(0,1)$
+$$Y= 1 -0.5X+4W+ \varepsilon; \varepsilon \sim N(0,1)$$
 
 Hệ số "thực" của quan hệ nhân quả giữa X và Y là 0.5.
