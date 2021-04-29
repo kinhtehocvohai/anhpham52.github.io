@@ -13,6 +13,7 @@ permalink: /causalgraph/ac01
 **TRỰC QUAN HÓA SUY LUẬN NHÂN QUẢ - KỲ 1**
 
 *Bài viết này thuộc chuỗi bài viết về “Trực quan hóa Suy luận Nhân quả”. Hãy cùng đọc thêm các bài viết có cùng chủ đề tại [đây](http://kinhtehocvohai.com/causalgraph/)*
+
 *Để hiểu thêm kiến thức về Suy luận Nhân quá, hãy cùng tìm đọc chuỗi bài viết về “Suy luận Nhân quả với Python” tại [đây](http://kinhtehocvohai.com/pythoncausal/)*
 
 
