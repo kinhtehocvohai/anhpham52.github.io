@@ -16,6 +16,6 @@ permalink: /series/
 Chuỗi bài viết về Suy luận Nhân quả với Python và ứng dụng của chúng trong nghiên cứu các vấn đề kinh tế, xã hội, chính sách và quyết định kinh doanh. 
 
 
-## [Trực quan hóa Suy Luận Nhân Quả](http://kinhtehocvohai.com/causalgraph/)
+## [Trực Quan Hóa Suy Luận Nhân Quả](http://kinhtehocvohai.com/causalgraph/)
 
 Chủ đề này sẽ được ra mắt trong thời gian sắp tới
