@@ -3,8 +3,8 @@ title:  Trực Quan Hóa Suy Luận Nhân Quả
 share: true
 sidebar:
     nav: series
-#header:
-  #overlay_color: "#252a34"
+header:
+  image: /assets/images/media/causalgraphcover.jpg
 layout: collection
 permalink: /causalgraph/
 collection: causalgraph
