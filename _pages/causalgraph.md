@@ -1,5 +1,5 @@
 ---
-title:  Trực quan hóa Suy luận Nhân quả
+title:  Trực Quan Hóa Suy Luận Nhân Quả
 share: true
 sidebar:
     nav: series
