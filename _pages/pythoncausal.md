@@ -1,5 +1,5 @@
 ---
-title: Suy luận Nhân quả với Python
+title: Suy Luận Nhân Quả Với Python
 share: true
 sidebar:
     nav: series
