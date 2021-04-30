@@ -1,10 +1,10 @@
 ---
-title: Coming soon...
+title:  Trực quan hóa Suy luận Nhân quả
 share: true
 sidebar:
     nav: series
-header:
-  overlay_color: "#252a34"
+#header:
+  #overlay_color: "#252a34"
 layout: collection
 permalink: /causalgraph/
 collection: causalgraph
