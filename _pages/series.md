@@ -6,6 +6,7 @@ comments: false
 header:
   image: /assets/images/media/cover2.jpg
 permalink: /series/
+excerpt: "Mục tổng hợp những kiến thức đã được Việt hoá từ các tài liệu nước ngoài"
 ---
 
 Đây là mục tổng hợp những kiến thức đã được Việt hoá từ các tài liệu nước ngoài mà nhóm Kinh tế học Vô hại thấy rằng có thể có hữu ích cho độc giả Việt. Nhóm hướng tới việc Việt hoá nhiều nguồn tài liệu khác nhau vì vậy các bạn nên theo dõi theo từng chủ đề để cập nhật các bài viết trong mỗi chủ đề một cách đầy đủ nhất. Dưới đây là một số chủ đề đã và đang được thực hiện
