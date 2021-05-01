@@ -19,4 +19,4 @@ Chuỗi bài viết về Suy luận Nhân quả với Python và ứng dụng c�
 
 ## [Trực Quan Hóa Suy Luận Nhân Quả](http://kinhtehocvohai.com/causalgraph/)
 
-Chủ đề này sẽ được ra mắt trong thời gian sắp tới
+Loạt bài viết sử dụng hình ảnh động để diễn tả các phương pháp căn bản trong kinh tế lượng. Bằng cách này, chúng ta sẽ thấy được dữ liệu gốc thay đổi như thế nào nếu ta áp dụng các phương pháp suy luận nhân quả.
