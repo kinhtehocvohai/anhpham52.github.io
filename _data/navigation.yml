@@ -63,7 +63,20 @@ causalgraph:
    children:
       - title: "1. Biến Kiểm Soát"
         url: /causalgraph/ac01
-
+      - title: "2. Phương Pháp Ghép Cặp"
+        url: /causalgraph/ac02
+      - title: "3. Biến Công Cụ"
+        url: /causalgraph/ac03
+      - title: "4. Hiệu Ứng Cố Định"
+        url: /causalgraph/ac04
+      - title: "5. Sai Khác Của Biến Thiên"
+        url: /causalgraph/ac05
+      - title: "6. Thiết Kế Hồi Quy Gián Đoạn"
+        url: /causalgraph/ac06
+      - title: "7. Biến Collider"
+        url: /causalgraph/ac07
+      - title: "8. Kiểm Soát Sau Can Thiệp"
+        url: /causalgraph/ac08
    
 
 # main links
