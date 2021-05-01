@@ -140,7 +140,7 @@ model.summary().tables[1]
 
 
 
-Ghi chú: 
+##Ghi chú: 
 
 Ba biến X, Y, và W ở ví dụ trên đã được tạo lập như sau:
 
