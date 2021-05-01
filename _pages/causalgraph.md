@@ -15,7 +15,7 @@ Khi chúng ta đến với kinh tế lượng, ta được tiếp cận với m�
 
 Để trả lời cho câu hỏi đó, chúng tôi lấy cảm hứng từ [Dr. Nick Huntington-Klein](https://nickchk.com/) để cho ra loạt bài viết sử dụng hình ảnh động để diễn tả các phương pháp căn bản trong kinh tế lượng. Bằng cách này, chúng ta sẽ thấy được dữ liệu gốc thay đổi như thế nào nếu ta áp dụng các phương pháp suy luận nhân quả. 
 
-*Lưu ý rằng loạt bài này chỉ đơn thuần đưa ra một cách tiếp cận cơ bản về suy luận nhân quả. Để hiểu thêm kiến thức về chủ đề Suy luận Nhân quả cũng như các phương pháp kinh tế lượng một cách chi tiết nhất, hãy cùng tìm đọc chuỗi bài viết [“Suy luận Nhân quả với Python”](http://kinhtehocvohai.com/pythoncausal/)
+*Lưu ý rằng loạt bài này chỉ đơn thuần đưa ra một cách tiếp cận trực quan về suy luận nhân quả. Để hiểu thêm kiến thức về chủ đề Suy luận Nhân quả cũng như các phương pháp kinh tế lượng một cách chi tiết nhất, hãy cùng tìm đọc chuỗi bài viết [“Suy luận Nhân quả với Python”](http://kinhtehocvohai.com/pythoncausal/)
 
 --------
 
