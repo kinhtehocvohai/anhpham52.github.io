@@ -6,7 +6,7 @@ sidebar:
 header:
   image: /assets/images/media/causalgraphcover.jpg
 layout: collection
-excerpt: "Loạt bài viết sử dụng hình ảnh động để diễn tả các phương pháp căn bản trong kinh tế lượng. Bằng cách này, chúng ta sẽ thấy được dữ liệu gốc thay đổi như thế nào nếu ta áp dụng các phương pháp suy luận nhân quả."
+excerpt: "Loạt bài viết sử dụng hình ảnh động để diễn tả các phương pháp căn bản trong kinh tế lượng."
 permalink: /causalgraph/
 collection: causalgraph
 entries_layout: list
