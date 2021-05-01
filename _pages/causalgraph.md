@@ -25,5 +25,5 @@ Chuỗi bài này bao gồm các chủ đề sau:
 - Biến collider
 - Kiểm soát sau Can thiệp
 
-**Lưu ý rằng loạt bài này chỉ đơn thuần đưa ra một cách tiếp cận cơ bản về suy luận nhân quả. Để hiểu thêm kiến thức về chủ đề Suy luận Nhân quả cũng như các phương pháp kinh tế lượng một cách chi tiết nhất, hãy cùng tìm đọc chuỗi bài viết về “Suy luận Nhân quả với Python” [tại đây](http://kinhtehocvohai.com/pythoncausal/)
+*Lưu ý rằng loạt bài này chỉ đơn thuần đưa ra một cách tiếp cận cơ bản về suy luận nhân quả. Để hiểu thêm kiến thức về chủ đề Suy luận Nhân quả cũng như các phương pháp kinh tế lượng một cách chi tiết nhất, hãy cùng tìm đọc chuỗi bài viết về “Suy luận Nhân quả với Python” [tại đây](http://kinhtehocvohai.com/pythoncausal/)*
 --------
