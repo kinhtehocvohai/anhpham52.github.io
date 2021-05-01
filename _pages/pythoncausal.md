@@ -19,5 +19,6 @@ Chuỗi bài viết về Suy luận Nhân quả với Python và ứng dụng c�
 Nguyên tác dựa trên nguồn tài liệu của các học giả uy tín như Joshua Angrist, Jorn-Steffen Pischke, Alberto Abadie, Christopher Walters, Miguel Hernan, Jamie Robinsons, Scott Cunningham...
 
 --------
+
 Chuỗi bài này bao gồm các chủ đề sau:
 --
