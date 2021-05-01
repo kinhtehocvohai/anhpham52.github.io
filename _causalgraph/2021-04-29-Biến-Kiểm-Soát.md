@@ -34,9 +34,9 @@ W tạo ra một lối đi "cửa sau" dẫn X tới Y. Chúng ta có thể đi 
 
 Ví dụ nếu X là học vấn, Y là thu nhập và W là trí tuệ. Chúng ta quan sát thấy những người học vấn cao có thu nhập cao. Một phần là do giáo dục làm tăng thu nhập nhưng còn có lí do khác: nhiều người thông minh chọn học lên cao và những người này vẫn sẽ có thu nhập tốt dù có học nhiều hay không.
 
-Một cách để giải quyết vấn đề này là chặn lối đi cửa sau bằng cách kiểm soát W. Ý tưởng rất đơn giản: chúng ta tiếp tục nhìn vào quan hệ tương quan giữa X và Y sau khi loại bỏ ảnh hưởng của W. Một cách nghĩ khác là chúng ta giữ cố định biến W. Khi đó, chúng ta đóng lại con đường X ← W → Y và chỉ để ngỏ X → Y mà ta quan tâm. Sau khi kiểm soát W, mối liên hệ còn lại giữa X và Y là quan hệ nhân quả (giử sử chỉ có lối đi cửa sau duy nhất thông qua W).
+Một cách để giải quyết vấn đề này là chặn lối đi cửa sau bằng cách kiểm soát W. Ý tưởng rất đơn giản: chúng ta tiếp tục nhìn vào quan hệ tương quan giữa X và Y sau khi loại bỏ ảnh hưởng của W. Một cách nghĩ khác là chúng ta giữ cố định biến W. Khi đó, chúng ta đóng lại con đường X ← W → Y và chỉ để ngỏ X → Y mà ta quan tâm. Sau khi kiểm soát W, mối liên hệ còn lại giữa X và Y là quan hệ nhân quả (giả sử chỉ có lối đi cửa sau duy nhất thông qua W).
 
-Vậy làm thế nào để có mối liên hệ giữa X và Y sau khi loại bỏ ảnh hưởng của W? "Kiếm soát" ở đây chính là loại bỏ phần biến động của X và Y có thể giải thích bằng W. Bất cứ thành phần nào của X và Y có thể dự đoán bằng W đều cần loại bỏ để đóng lại "cửa sau" và đảm bảo chúng ta đang so sánh những đối tượng có cùng mức độ W.
+Vậy làm thế nào để có mối liên hệ giữa X và Y sau khi loại bỏ ảnh hưởng của W? "Kiểm soát" ở đây chính là loại bỏ phần biến động của X và Y có thể giải thích bằng W. Bất cứ thành phần nào của X và Y có thể dự đoán bằng W đều cần loại bỏ để đóng lại "cửa sau" và đảm bảo chúng ta đang so sánh những đối tượng có cùng mức độ W.
 
 Nếu W là biến nhị phân (chỉ nhận 2 giá trị, ví dụ 0 hoặc 1), việc kiểm soát W sẽ trông như sau:
 
@@ -149,3 +149,36 @@ $$X= 0.5+ 2W+ \nu;  \nu \sim N(0,1)$$
 $$Y= 1 -0.5X+4W+ \varepsilon; \varepsilon \sim N(0,1)$$
 
 Hệ số "thực" của quan hệ nhân quả giữa X và Y là 0.5.
+
+
+```python
+import warnings
+warnings.filterwarnings('ignore')
+
+import pandas as pd
+import numpy as np
+from scipy import stats
+from matplotlib import style
+import seaborn as sns
+from matplotlib import pyplot as plt
+import statsmodels.formula.api as smf
+import graphviz as gr
+
+# Set size
+size=100
+# np.random.seed(0)
+
+# Biến kiểm soát
+W=np.random.randint(0,2,size)
+
+# Biến giải thích
+X= 0.5+ 2*W+np.random.normal(0,1,size)
+Y= 1 -0.5*X+4*W+np.random.normal(0,1,size)
+
+# Tạo bảng dữ liệu
+df=pd.DataFrame({'X':X,'Y':Y,'W':W})
+#Demean X
+df['Xdm']=df.X-df.groupby('W').X.transform('mean')
+#Demean y
+df['Ydm']=df.Y-df.groupby('W').Y.transform('mean')
+```
