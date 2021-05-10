@@ -73,7 +73,7 @@ causalgraph:
         url: /causalgraph/ac05
       - title: "6. Thiết Kế Hồi Quy Gián Đoạn"
         url: /causalgraph/ac06
-      - title: "7. Biến Collider"
+      - title: "7. Biến Đồng Căn"
         url: /causalgraph/ac07
       - title: "8. Kiểm Soát Sau Can Thiệp"
         url: /causalgraph/ac08
