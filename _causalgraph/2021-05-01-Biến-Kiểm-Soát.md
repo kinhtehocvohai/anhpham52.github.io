@@ -43,9 +43,9 @@ Nếu W là biến nhị phân (chỉ nhận 2 giá trị, ví dụ 0 hoặc 1),
 
 ![image-center](/assets/images/animatedcausality/ac01/IV.gif){: .align-center}
 
-Nếu không kiểm soát W, phương trình hồi quy Y theo X cho thấy mối quan hệ đồng biến: mỗi đơn vị tăng thêm của X làm tăng Y thêm 0.51 đơn vị. Nếu mù quáng tin theo, ta sẽ cố làm tăng X nếu muốn tăng kết quả Y.
+Nếu không kiểm soát W, phương trình hồi quy Y theo X cho thấy mối quan hệ đồng biến: mỗi đơn vị tăng thêm của X làm tăng Y thêm 0.67 đơn vị. Nếu mù quáng tin theo, ta sẽ cố làm tăng X nếu muốn tăng kết quả Y.
 
-$$Y =1.72+0.51X+\varepsilon$$
+$$Y =1.21+0.67X+\varepsilon$$
 
 
 
@@ -66,10 +66,10 @@ model.summary().tables[1]
     <td></td>       <th>coef</th>     <th>std err</th>      <th>t</th>      <th>P>|t|</th>  <th>[0.025</th>    <th>0.975]</th>  
 </tr>
 <tr>
-  <th>const</th> <td>    1.7216</td> <td>    0.235</td> <td>    7.322</td> <td> 0.000</td> <td>    1.255</td> <td>    2.188</td>
+  <th>const</th> <td>    1.2061</td> <td>    0.283</td> <td>    4.263</td> <td> 0.000</td> <td>    0.645</td> <td>    1.767</td>
 </tr>
 <tr>
-  <th>X</th>     <td>    0.5141</td> <td>    0.127</td> <td>    4.051</td> <td> 0.000</td> <td>    0.262</td> <td>    0.766</td>
+  <th>X</th>     <td>    0.6744</td> <td>    0.132</td> <td>    5.095</td> <td> 0.000</td> <td>    0.412</td> <td>    0.937</td>
 </tr>
 </table>
 
@@ -77,9 +77,9 @@ model.summary().tables[1]
 
 Ta có thể kiểm soát biến W bằng cách đưa thẳng nó vào phương trình hồi quy như dưới đây:
 
-$$Y=1-0.54X+4.17W+\varepsilon$$
+$Y=0.69-0.34X+3.98W+\varepsilon$
 
-Kết quả hoàn toàn trái ngược với ban đầu. Mỗi đơn vị tăng thêm của X làm giảm Y 0.54 đơn vị.
+Kết quả hoàn toàn trái ngược với ban đầu. Mỗi đơn vị tăng thêm của X làm giảm Y 0.34 đơn vị.
 
 
 ```python
@@ -96,13 +96,13 @@ model.summary().tables[1]
     <td></td>       <th>coef</th>     <th>std err</th>      <th>t</th>      <th>P>|t|</th>  <th>[0.025</th>    <th>0.975]</th>  
 </tr>
 <tr>
-  <th>const</th> <td>    1.0049</td> <td>    0.140</td> <td>    7.177</td> <td> 0.000</td> <td>    0.727</td> <td>    1.283</td>
+  <th>const</th> <td>    0.6879</td> <td>    0.158</td> <td>    4.348</td> <td> 0.000</td> <td>    0.374</td> <td>    1.002</td>
 </tr>
 <tr>
-  <th>X</th>     <td>   -0.5444</td> <td>    0.101</td> <td>   -5.396</td> <td> 0.000</td> <td>   -0.745</td> <td>   -0.344</td>
+  <th>X</th>     <td>   -0.3421</td> <td>    0.098</td> <td>   -3.476</td> <td> 0.001</td> <td>   -0.537</td> <td>   -0.147</td>
 </tr>
 <tr>
-  <th>W</th>     <td>    4.1686</td> <td>    0.283</td> <td>   14.741</td> <td> 0.000</td> <td>    3.607</td> <td>    4.730</td>
+  <th>W</th>     <td>    3.9788</td> <td>    0.261</td> <td>   15.217</td> <td> 0.000</td> <td>    3.460</td> <td>    4.498</td>
 </tr>
 </table>
 
@@ -110,12 +110,12 @@ model.summary().tables[1]
 
 Một cách khác để kiểm soát biến nhị phân W là "khử" giá trị trung bình của X và Y theo mỗi giá trị của W trước khi hồi quy Y theo X. Nói cách khác, ta loại bỏ ảnh hưởng của W đối với cả X và Y trước khi xem xét mối quan hệ của 2 biến này.
 
-$$\tilde{Y} =0-0.54\tilde{X} +\varepsilon$$
+$$\tilde{Y} =0-0.34\tilde{X} +\varepsilon$$
 
 trong đó 
 $$\tilde{Y} = Y-E(Y|W) ; \tilde{X} = X-E(X|W)$$
 
-Giống kết quả hồi qua đa biến ở trên, mỗi đơn vị gia tăng của X cộng thêm 0.54 đơn vị Y.
+Giống kết quả hồi qua đa biến ở trên, mỗi đơn vị gia tăng của X làm giảm 0.34 đơn vị Y.
 
 
 ```python
@@ -131,10 +131,10 @@ model.summary().tables[1]
     <td></td>       <th>coef</th>     <th>std err</th>      <th>t</th>      <th>P>|t|</th>  <th>[0.025</th>    <th>0.975]</th>  
 </tr>
 <tr>
-  <th>const</th> <td> 3.955e-16</td> <td>    0.099</td> <td> 4.01e-15</td> <td> 1.000</td> <td>   -0.196</td> <td>    0.196</td>
+  <th>const</th> <td> -1.18e-16</td> <td>    0.095</td> <td>-1.24e-15</td> <td> 1.000</td> <td>   -0.188</td> <td>    0.188</td>
 </tr>
 <tr>
-  <th>X</th>     <td>   -0.5444</td> <td>    0.100</td> <td>   -5.424</td> <td> 0.000</td> <td>   -0.744</td> <td>   -0.345</td>
+  <th>X</th>     <td>   -0.3421</td> <td>    0.098</td> <td>   -3.494</td> <td> 0.001</td> <td>   -0.536</td> <td>   -0.148</td>
 </tr>
 </table>
 
