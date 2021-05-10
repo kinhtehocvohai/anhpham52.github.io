@@ -6,7 +6,7 @@ toc: true
 categories:
   - blog posts
 tags:
-  - AI
+  - trí tuệ nhân tạo
   - khoa học dữ liệu 
 permalink: /blogpost/xuhuongai
 ---
