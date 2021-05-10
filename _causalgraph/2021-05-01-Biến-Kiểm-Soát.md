@@ -110,7 +110,7 @@ model.summary().tables[1]
 
 Một cách khác để kiểm soát biến nhị phân W là "khử" giá trị trung bình của X và Y theo mỗi giá trị của W trước khi hồi quy Y theo X. Nói cách khác, ta loại bỏ ảnh hưởng của W đối với cả X và Y trước khi xem xét mối quan hệ của 2 biến này.
 
-$$\tilde{Y} =0-0.34\tilde{X} +\varepsilon$$
+$$\tilde{Y} = 0-0.34\tilde{X} +\varepsilon$$
 
 trong đó 
 $$\tilde{Y} = Y-E(Y|W) ; \tilde{X} = X-E(X|W)$$
