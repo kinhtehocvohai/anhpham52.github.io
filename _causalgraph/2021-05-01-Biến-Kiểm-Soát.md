@@ -45,7 +45,7 @@ Nếu W là biến nhị phân (chỉ nhận 2 giá trị, ví dụ 0 hoặc 1),
 
 Nếu không kiểm soát W, phương trình hồi quy Y theo X cho thấy mối quan hệ đồng biến: mỗi đơn vị tăng thêm của X làm tăng Y thêm 0.67 đơn vị. Nếu mù quáng tin theo, ta sẽ cố làm tăng X nếu muốn tăng kết quả Y.
 
-$$Y =1.21+0.67X+\varepsilon$$
+$$Y =1.2+0.67X+\varepsilon$$
 
 
 
@@ -77,7 +77,7 @@ model.summary().tables[1]
 
 Ta có thể kiểm soát biến W bằng cách đưa thẳng nó vào phương trình hồi quy như dưới đây:
 
-$Y=0.69-0.34X+3.98W+\varepsilon$
+$$Y=0.69-0.34X+3.98W+\varepsilon$$
 
 Kết quả hoàn toàn trái ngược với ban đầu. Mỗi đơn vị tăng thêm của X làm giảm Y 0.34 đơn vị.
 
