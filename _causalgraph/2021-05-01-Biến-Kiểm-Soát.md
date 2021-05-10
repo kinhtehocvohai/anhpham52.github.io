@@ -166,7 +166,7 @@ import graphviz as gr
 
 # Set size
 size=100
-# np.random.seed(0)
+np.random.seed(0)
 
 # Biến kiểm soát
 W=np.random.randint(0,2,size)
