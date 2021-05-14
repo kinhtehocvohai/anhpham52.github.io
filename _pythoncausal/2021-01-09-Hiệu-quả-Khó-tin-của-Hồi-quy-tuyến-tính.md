@@ -15,7 +15,7 @@ permalink: /pythoncausal/pc05
 
 *Bài viết này thuộc chuỗi bài viết về “Suy luận Nhân quả với Python”. Hãy cùng đọc thêm các bài viết có cùng chủ đề [tại đây](http://kinhtehocvohai.com/pythoncausal/)*
 
-*Để hiểu một cách trực quan về Suy luận Nhân quả, hãy cùng tìm đọc chuỗi bài viết về “Trực quan hóa Suy luận Nhân quả” [tại đây](http://kinhtehocvohai.com/causalgraph/)*
+*Để hiểu một cách trực quan về Suy luận Nhân quả, hãy cùng tìm đọc chuỗi bài viết về “60 Giây Nhân quả” [tại đây](http://kinhtehocvohai.com/causalgraph/)*
 
 ## Tất Cả Những Gì Ta Cần Là Phương Pháp Hồi quy
 
