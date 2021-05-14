@@ -10,7 +10,7 @@
 series:
  - title: "Suy luận Nhân quả với Python"
    url: /pythoncausal/
- - title: "Trực quan hóa Suy luận Nhân quả"
+ - title: "60 Giây Nhân quả"
    url: /causalgraph/
 
 #python causal link
@@ -50,7 +50,7 @@ pythoncausal:
         url: /pythoncausal/pc15
       - title: "16. Thiết kế Hồi quy Gián đoạn"
         url: /pythoncausal/pc16
- - title: "Trực quan hóa Suy luận Nhân quả"
+ - title: "60 Giây Nhân quả"
    url: /causalgraph/
 
 
@@ -58,7 +58,7 @@ pythoncausal:
 causalgraph:
  - title: "Suy luận Nhân quả với Python"
    url: /pythoncausal/
- - title: "Trực quan hóa Suy luận Nhân quả"
+ - title: "60 Giây Nhân quả"
    url: /causalgraph/
    children:
       - title: "1. Biến Kiểm Soát"
