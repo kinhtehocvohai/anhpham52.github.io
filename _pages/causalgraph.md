@@ -1,5 +1,5 @@
 ---
-title:  Trực Quan Hóa Suy Luận Nhân Quả
+title: 60 Giây Nhân Quả
 share: true
 sidebar:
     nav: series
