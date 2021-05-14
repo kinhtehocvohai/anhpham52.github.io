@@ -7,7 +7,7 @@ categories:
   - series 60 giây nhân quả
 tags:
   - suy luận nhân quả
-permalink: /causalgraph/ac05
+permalink: /causalgraph/ac06
 sidebar:
     nav: causalgraph
 ---
