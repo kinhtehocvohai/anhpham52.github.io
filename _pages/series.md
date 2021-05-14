@@ -17,6 +17,6 @@ excerpt: "Mục tổng hợp những kiến thức đã được Việt hoá t�
 Chuỗi bài viết về Suy luận Nhân quả với Python và ứng dụng của chúng trong nghiên cứu các vấn đề kinh tế, xã hội, chính sách và quyết định kinh doanh. 
 
 
-## [Trực Quan Hóa Suy Luận Nhân Quả](http://kinhtehocvohai.com/causalgraph/)
+## [60 Giây Nhân Quả](http://kinhtehocvohai.com/causalgraph/)
 
 Loạt bài viết sử dụng hình ảnh động để diễn tả các phương pháp căn bản trong kinh tế lượng. Bằng cách này, chúng ta sẽ thấy được dữ liệu gốc thay đổi như thế nào nếu ta áp dụng các phương pháp suy luận nhân quả.
