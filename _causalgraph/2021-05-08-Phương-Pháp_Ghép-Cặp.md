@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Phương Pháp Ghép Cặp
-excerpt: "TRỰC QUAN HÓA SUY LUẬN NHÂN QUẢ - KỲ 2"
+excerpt: "60 GIÂY NHÂN QUẢ - KỲ 2"
 toc: false
 categories:
   - series 60 giây nhân quả
@@ -12,7 +12,7 @@ sidebar:
     nav: causalgraph
 ---
 
-**TRỰC QUAN HÓA SUY LUẬN NHÂN QUẢ - KỲ 2**
+**60 GIÂY NHÂN QUẢ - KỲ 2**
 
 *Bài viết này thuộc chuỗi bài viết về “60 Giây Nhân quả”. Hãy cùng đọc thêm các bài viết có cùng chủ đề [tại đây](http://kinhtehocvohai.com/causalgraph/)*
 
