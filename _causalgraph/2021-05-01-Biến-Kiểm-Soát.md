@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Biến Kiểm Soát
-excerpt: "TRỰC QUAN HÓA SUY LUẬN NHÂN QUẢ - KỲ 1"
+excerpt: "60 GIÂY NHÂN QUẢ - KỲ 1"
 toc: false
 categories:
   - series 60 giây nhân quả
@@ -12,7 +12,7 @@ sidebar:
     nav: causalgraph
 ---
 
-**TRỰC QUAN HÓA SUY LUẬN NHÂN QUẢ - KỲ 1**
+**60 GIÂY NHÂN QUẢ - KỲ 1**
 
 *Bài viết này thuộc chuỗi bài viết về “60 Giây Nhân quả”. Hãy cùng đọc thêm các bài viết có cùng chủ đề [tại đây](http://kinhtehocvohai.com/causalgraph/)*
 
