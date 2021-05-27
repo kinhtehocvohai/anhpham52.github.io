@@ -157,12 +157,6 @@ warnings.filterwarnings('ignore')
 
 import pandas as pd
 import numpy as np
-from scipy import stats
-from matplotlib import style
-import seaborn as sns
-from matplotlib import pyplot as plt
-import statsmodels.formula.api as smf
-import graphviz as gr
 
 # Set size
 size=100
