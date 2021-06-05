@@ -23,7 +23,7 @@ permalink: /aicausal/intro
 
 -------
 
-Không thể phủ nhận Học máy (Machine Learning) trong những năm gần đây đã đạt được những tiến bộ vượt bậc.Nó cho phép tìm kiếm hình ảnh theo nội dung, dịch ngôn ngữ tự động, cũng như tổng hợp và tạo lập hình ảnh, giọng nói, video. Đồng thời, Học máy cũng được ứng dụng rộng rãi trong các doanh nghiệp, bao gồm việc giải quyết các nhiệm vụ dự báo như dự đoán tỷ lệ khách hàng ngừng sử dụng sản phẩm, khả năng vỡ nợ, khả năng hỏng hóc của các thiết bị sản xuất, v.v.
+Không thể phủ nhận Học máy (Machine Learning) trong những năm gần đây đã đạt được những tiến bộ vượt bậc. Nó cho phép tìm kiếm hình ảnh theo nội dung, dịch ngôn ngữ tự động, cũng như tổng hợp và tạo lập hình ảnh, giọng nói, video. Đồng thời, Học máy cũng được ứng dụng rộng rãi trong các doanh nghiệp, bao gồm việc giải quyết các nhiệm vụ dự báo như dự đoán tỷ lệ khách hàng ngừng sử dụng sản phẩm, khả năng vỡ nợ, khả năng hỏng hóc của các thiết bị sản xuất, v.v.
 
 {% include figure image_path="/assets/images/aicausal/chap1/intro.png" caption="*Nguồn ảnh: https://xkcd.com/552/" %}
 
