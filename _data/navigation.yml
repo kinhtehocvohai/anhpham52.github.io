@@ -84,7 +84,7 @@ causalgraph:
    url: /aicausal/
    
 #ai causal link
-causalgraph:
+aicausal:
  - title: "Suy luận Nhân quả với Python"
    url: /pythoncausal/
  - title: "60 Giây Nhân quả"
