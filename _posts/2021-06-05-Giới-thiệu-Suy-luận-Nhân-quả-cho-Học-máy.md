@@ -10,6 +10,7 @@ categories:
 tags:
   - suy luận nhân quả
   - học máy
+  - khoa học dữ liệu
 permalink: /aicausal/intro
 ---
 
