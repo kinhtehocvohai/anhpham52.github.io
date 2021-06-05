@@ -23,4 +23,4 @@ Loạt bài viết sử dụng hình ảnh động để diễn tả các phươ
 
 ## [Suy Luận Nhân Quả Cho Học Máy](http://kinhtehocvohai.com/aicausal/)
 
-Chuỗi bài này sẽ cung cấp những kiến thức nền tảng cơ bản về suy luận nhân quả trong bối cảnh của khoa học dữ liệu và học máy. Các biểu đồ nhân quả sẽ được giới thiệu với mục tiêu loại bỏ các rào cản về lý thuyết. Những kiến thức nền tảng này sẽ được sử dụng để khám phá những ý tưởng xoay quanh dự báo bất biến, điều này cho thấy một số lợi ích của đồ thị nhân quả cho các vấn đề dữ liệu nhiều chiều. Ngoài ra, ngay cả các bài toán học máy cổ điển (như phân loại hình ảnh) cũng được chứng minh có thể hưởng lợi như thế nào từ các công cụ suy luận nhân quả.
+Chuỗi bài này sẽ cung cấp những kiến thức nền tảng cơ bản về suy luận nhân quả trong bối cảnh của khoa học dữ liệu và học máy.
