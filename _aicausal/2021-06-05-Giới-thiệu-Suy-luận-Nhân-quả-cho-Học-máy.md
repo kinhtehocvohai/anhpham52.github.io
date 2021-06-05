@@ -13,6 +13,15 @@ tags:
 permalink: /aicausal/intro
 ---
 
+**SUY LUẬN NHÂN QUẢ CHO HỌC MÁY - KỲ 1**
+
+*Bài viết này thuộc chuỗi bài viết về “Suy luận Nhân quả cho Học máy”. Hãy cùng đọc thêm các bài viết có cùng chủ đề [tại đây](http://kinhtehocvohai.com/aicausal/)*
+
+*Để hiểu thêm kiến thức về Suy luận Nhân quả, hãy cùng tìm đọc chuỗi bài viết về “Suy luận Nhân quả với Python” [tại đây](http://kinhtehocvohai.com/pythoncausal/) và "60 Giây Nhân quả với Python” [tại đây](http://kinhtehocvohai.com/causalgraph/)*
+
+
+-------
+
 Không thể phủ nhận Học máy (Machine Learning) trong những năm gần đây đã đạt được những tiến bộ vượt bậc.Nó cho phép tìm kiếm hình ảnh theo nội dung, dịch ngôn ngữ tự động, cũng như tổng hợp và tạo lập hình ảnh, giọng nói, video. Đồng thời, Học máy cũng được ứng dụng rộng rãi trong các doanh nghiệp, bao gồm việc giải quyết các nhiệm vụ dự báo như dự đoán tỷ lệ khách hàng ngừng sử dụng sản phẩm, khả năng vỡ nợ, khả năng hỏng hóc của các thiết bị sản xuất, v.v.
 
  ![image-center](/assets/images/aicausal/chap1/intro.png){: .align-center}
