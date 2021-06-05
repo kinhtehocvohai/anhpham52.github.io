@@ -25,7 +25,7 @@ permalink: /aicausal/intro
 
 Không thể phủ nhận Học máy (Machine Learning) trong những năm gần đây đã đạt được những tiến bộ vượt bậc.Nó cho phép tìm kiếm hình ảnh theo nội dung, dịch ngôn ngữ tự động, cũng như tổng hợp và tạo lập hình ảnh, giọng nói, video. Đồng thời, Học máy cũng được ứng dụng rộng rãi trong các doanh nghiệp, bao gồm việc giải quyết các nhiệm vụ dự báo như dự đoán tỷ lệ khách hàng ngừng sử dụng sản phẩm, khả năng vỡ nợ, khả năng hỏng hóc của các thiết bị sản xuất, v.v.
 
- ![image-center](/assets/images/aicausal/chap1/intro.png){: .align-center}
+{% include figure image_path="/assets/images/aicausal/chap1/intro.png" caption="Nguồn ảnh: https://xkcd.com/552/" %}
 
 Những kết quả phi thường của việc ứng dụng học máy là nhờ vào việc học có giám sát trên tập dữ liệu huấn luyện lớn (kết hợp với sức mạnh tính toán). Có thể nói thế mạnh vượt trội của mô hình học máy có giám sát là khả năng dự báo. Khi mục tiêu là dự báo một kết quả có thể xảy ra, và có nhiều khả năng của kết quả đó có thể phát sinh cũng như các đặc tính liên quan đến chúng, chúng ta có thể sử dụng mô hình học có giám sát. Khi học máy đã trở nên phổ biến, phạm vi ảnh hưởng của nó trong các quy trình kinh doanh không chỉ gói gọn trong việc dự báo đơn thuần, mà còn tác động tới quá trình đưa ra quyết định. 
 
