@@ -39,5 +39,6 @@ Chuỗi bài “SUY LUẬN NHÂN QUẢ CHO HỌC MÁY” sẽ cung cấp những
 
 ---
 *Nguồn tham khảo:
+
 https://ff13.fastforwardlabs.com/#why-are-we-interested-in-causal-inference%3F![image](https://user-images.githubusercontent.com/69302326/120890421-70ce5b80-c5fa-11eb-9abb-df6dc160b897.png)
 
