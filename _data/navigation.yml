@@ -54,7 +54,7 @@ pythoncausal:
         url: /pythoncausal/pc16
  - title: "60 Giây Nhân quả"
    url: /causalgraph/
-- title: "Suy luận Nhân quả cho Học Máy"
+ - title: "Suy luận Nhân quả cho Học Máy"
    url: /aicausal/
 
 #causal graph link
