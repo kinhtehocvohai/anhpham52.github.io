@@ -91,9 +91,9 @@ aicausal:
    url: /causalgraph/
  - title: "Suy luận Nhân quả cho Học Máy"
    url: /aicausal/
-   #children:
-      #- title: "1. Biến Kiểm Soát"
-      #  url: /causalgraph/ac01
+   children:
+      - title: "1. Giới thiệu Suy luận Nhân quả cho Học máy"
+        url: /aicausal/intro
         
         
 # main links
