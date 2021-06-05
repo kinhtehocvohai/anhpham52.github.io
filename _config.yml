@@ -278,6 +278,9 @@ collections:
   causalgraph:
     output: true
     permalink: /:collection/:path/
+  aicausal:
+    output: true
+    permalink: /:collection/:path/
     
 
 
