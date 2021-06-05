@@ -12,6 +12,8 @@ series:
    url: /pythoncausal/
  - title: "60 Giây Nhân quả"
    url: /causalgraph/
+ - title: "Suy luận Nhân quả cho Học máy"
+   url: /aicausal/
 
 #python causal link
 pythoncausal:
@@ -52,7 +54,8 @@ pythoncausal:
         url: /pythoncausal/pc16
  - title: "60 Giây Nhân quả"
    url: /causalgraph/
-
+- title: "Suy luận Nhân quả cho Học Máy"
+   url: /aicausal/
 
 #causal graph link
 causalgraph:
@@ -77,8 +80,22 @@ causalgraph:
         url: /causalgraph/ac07
       - title: "8. Kiểm Soát Sau Can Thiệp"
         url: /causalgraph/ac08
+ - title: "Suy luận Nhân quả cho Học Máy"
+   url: /aicausal/
    
-
+#ai causal link
+causalgraph:
+ - title: "Suy luận Nhân quả với Python"
+   url: /pythoncausal/
+ - title: "60 Giây Nhân quả"
+   url: /causalgraph/
+ - title: "Suy luận Nhân quả cho Học Máy"
+   url: /aicausal/
+   #children:
+      #- title: "1. Biến Kiểm Soát"
+      #  url: /causalgraph/ac01
+        
+        
 # main links
 main:
   #- title: "Quick-Start Guide"
