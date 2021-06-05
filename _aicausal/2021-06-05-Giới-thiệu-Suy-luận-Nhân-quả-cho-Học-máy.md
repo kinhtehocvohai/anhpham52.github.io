@@ -1,7 +1,9 @@
 ---
 layout: single
+sidebar:
+ nav: aicausal
 title: Giới thiệu Suy luận Nhân quả cho Học máy
-excerpt: "Nhan sắc có thực sự liên quan đến khả năng khởi nghiệp kinh doanh? Túi tiền của các nhà đầu tư “cá mập” sau các thương vụ đầu tư chắc chắn sẽ cho họ câu trả lời đích đáng."
+excerpt: "SUY LUẬN NHÂN QUẢ CHO HỌC MÁY - KỲ 1"
 toc: false
 categories:
   - series suy luận nhân quả với học máy
