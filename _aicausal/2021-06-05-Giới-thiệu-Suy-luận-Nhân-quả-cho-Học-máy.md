@@ -29,17 +29,3 @@ Chuỗi bài “SUY LUẬN NHÂN QUẢ CHO HỌC MÁY” sẽ cung cấp những
 
 
 
-
-
-**Nguồn tham khảo:**
-
-https://www.economist.com/books-and-arts/2011/08/27/the-line-of-beauty
-
-https://www.vox.com/2014/6/2/5769184/seven-ways-your-looks-affect-your-economic-well-being
-
-https://www.forbes.com/sites/susanadams/2011/08/30/does-beauty-really-pay/
-
-Hale, G, Regev, T and Rubinstein, Y. 2021. 'Do Looks Matter for an Academic Career in Economics?'. London, Centre for Economic Policy Research.
-
-
-
