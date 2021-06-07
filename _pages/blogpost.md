@@ -6,7 +6,7 @@ permalink: /blogpost/
 sort_by: date # date (default), title or any metadata key added to the collection's documents
 sort_order: reverse # forward (default)
 header:
-  image: /assets/images/media/cover3.JPG
+  image: /assets/images/media/blogpostcover.jpg
 entries_layout: list
 ---
 
