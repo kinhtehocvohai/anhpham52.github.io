@@ -148,7 +148,7 @@ $$X= 0.5+ 2W+ \nu;  \nu \sim N(0,1)$$
 
 $$Y= 1 -0.5X+4W+ \varepsilon; \varepsilon \sim N(0,1)$$
 
-Hệ số "thực" của quan hệ nhân quả giữa X và Y là 0.5.
+Hệ số "thực" của quan hệ nhân quả giữa X và Y là -0.5.
 
 
 ```python
