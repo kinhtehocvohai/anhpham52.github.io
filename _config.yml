@@ -359,3 +359,19 @@ defaults:
       toc: true
       toc_label: "Mục lục"
       toc_sticky: true
+  # _aicausal
+  - scope:
+      path: ""
+      type: aicausal
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      show_date: true
+      author_profile: true
+      toc: true
+      toc_label: "Mục lục"
+      toc_sticky: true     
+ 
