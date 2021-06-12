@@ -44,6 +44,19 @@ Nếu Can thiệp là một biến nhị phân (chỉ nhận 2 giá trị), vi�
 **Lưu ý:** Có nhiều kĩ thuật ghép cặp khác nhau nhưng ý tưởng chủ đạo tương tự phần trình bày trên đây: chúng ta tìm kiếm các đối tượng đối chứng có giá trị tương đồng hoặc gần bằng đối tượng Can thiệp dựa vào các biến quan sát được
 {: .notice--warning}
 
+## Ghi chú: 
+
+Trong ví dụ trên, biến Y được tạo lập như sau:
+
+$$Y=3+0.4X+ T + \varepsilon, \varepsilon \sim  N(0,1)$$
+
+Hệ số "thực" của tác động can thiệp T lên Y là +1.
+
+Nếu không ghép cặp:
+
+$$E(Y|T=1)-E(Y|T=0)=1.52$$
+
+
 ## Tạo lập dữ liệu
 
 ```python
