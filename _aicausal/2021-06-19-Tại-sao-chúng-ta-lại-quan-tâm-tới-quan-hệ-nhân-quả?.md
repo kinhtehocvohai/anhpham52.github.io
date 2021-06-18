@@ -31,7 +31,7 @@ Thật không may, mô hình học máy giám sát không cho ta biết mối qu
 
 Quan hệ nhân quả cung cấp cho chúng ta khung lý luận để giải quyết những câu hỏi như vậy. Những nghiên cứu gần đây về sự giao thoa giữa quan hệ nhân quả và học máy giúp cho việc khám phá các mối quan hệ nhân quả trở nên dễ dàng hơn.
 
-*Những điểm yếu của mô hình học máy giám sát*
+**Những điểm yếu của mô hình học máy giám sát**
 
 Không thể phủ nhận sự thành công của mô hình học máy giám sát trong rất nhiều  tác vụ, đặc biệt khi xử lý các bài toán yêu cầu đầu vào dữ liệu nhiều chiều, chẳng hạn như thị giác máy tính và xử lý ngôn ngữ tự nhiên. Đã có nhiều tiến bộ đáng chú ý trong hai thập kỷ qua và cần lưu ý việc nhận diện các thiếu sót của mô hình học máy giám sát không có ý  xem nhẹ những tiến bộ đó theo bất kỳ hình thức nào.
 
