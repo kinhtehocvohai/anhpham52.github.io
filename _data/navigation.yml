@@ -96,7 +96,8 @@ aicausal:
         url: /aicausal/intro
       - title: "2. Tại sao chúng ta lại quan tâm tới quan hệ nhân quả?"
         url: /aicausal/ac02
-        
+      - title: "3. Quan hệ Nhân quả mang lại lợi ích gì?"
+        url: /aicausal/ac03
         
 # main links
 main:
