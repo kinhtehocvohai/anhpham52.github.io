@@ -42,7 +42,7 @@ Nhìn chung, điều này gần như là không thể, và ít nhất chúng ta 
 Trong cuốn sách “The Book of Why”, Judea Pearl, nhà khoa học của nhiều công trình nền tảng về quan hệ nhân quả, đã mô tả ba loại suy luận mà chúng ta có thể thực hiện giống như việc bước lên những nấc thang. Những nấc thang này cho ta biết khi nào quan hệ nhân quả là cần thiết và chúng có ích như thế nào. 
 
 
-{% include figure image_path="/assets/images/aicausal/chap2/ac03.png" caption="*Nguồn ảnh: https://www.samantha.fund/correlation-is-indeed-causation/"%}
+{% include figure image_path="/assets/images/aicausal/chap2/ac03.png" caption="*Nguồn ảnh: [Samantha fund](https://www.samantha.fund/correlation-is-indeed-causation/)"%}
 
 Ở nấc thang đầu tiên, chúng ta có thể sử dụng suy luận thống kê và dự báo. Điều này bao gồm hầu hết những gì một mô hình học máy có thể thực hiện. Chúng ta có thể đưa ra các dự báo rất phức tạp, suy đoán  các biến ẩn trong các mô hình tạo mẫu (generative model) sâu và phức tạp hoặc phân cụm dữ liệu theo các mối quan hệ tinh vi. Tất cả những điều này nằm ở nấc thang đầu tiên. Ví dụ, một ngân hàng muốn dự đoán các khoản vay kinh doanh hiện tại có khả năng vỡ nợ hay không, do đó, ngân hàng có thể đưa ra các dự báo tài chính về khả năng thua lỗ.
 
