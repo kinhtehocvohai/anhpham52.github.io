@@ -112,7 +112,7 @@ model.summary().tables[1]
 
 
 
-## Ghi chú 1 : 
+## Ghi chú 1 
 
 Biến X, Y ở ví dụ trên đã được tạo lập như sau (biến Z là biến nhị phân ngẫu nhiên):
 
@@ -125,11 +125,11 @@ Hệ số "thực" của quan hệ nhân quả giữa X và Y là -1.
 
 
 
-## Ghi chú 2: 
+## Ghi chú 2
 
 Nội dung trên đây đơn giản hóa thao tác tính toán với biến công cụ và tập trung ước lượng độ lớn của tác động nhân quả và bỏ qua sai số của ước lượng.
 
-Trong thực tế, biến công cụ thường được sử dụng trong Hồi quy Bình phương Tối thiểu Hai bước (2SLS) (xem thêm SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 8: Biến Công cụ). Với Python, 2SLS có thể thực hiện với thư viện statsmodels hoặc linearmodels.
+Trong thực tế, biến công cụ thường được sử dụng trong Hồi quy Bình phương Tối thiểu Hai bước (2SLS) (xem thêm [SUY LUẬN NHÂN QUẢ VỚI PYTHON - KỲ 8: Biến Công cụ](http://kinhtehocvohai.com/pythoncausal/pc08)). Với Python, 2SLS có thể thực hiện với thư viện statsmodels hoặc linearmodels.
 
 
 ```python
