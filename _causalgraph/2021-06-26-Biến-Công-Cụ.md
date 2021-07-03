@@ -85,7 +85,9 @@ Hồi quy tuyến tính giữa Y* và X* cho ta biết việc tăng X thực ra 
 
 $$Y^*=0.84-0.94X^*+\nu$$
 
-trong đó  $$Y^*=E(Y|Z), X^*=E(X|Z)$$
+trong đó  
+
+$$Y^*=E(Y|Z), X^*=E(X|Z)$$
 
 
 ```python
@@ -122,7 +124,41 @@ $$Y= 1 -X+4W+ \varepsilon; \varepsilon \sim N(0,1)$$
 
 Hệ số "thực" của quan hệ nhân quả giữa X và Y là -1.
 
+## Tạo lập dữ liệu mô phỏng
 
+
+```python
+
+pip install linearmodels
+import warnings
+warnings.filterwarnings('ignore')
+
+import pandas as pd
+import numpy as np
+
+#Set size
+size=200
+np.random.seed(0)
+#Biến công cụ ngẫu nhiên ngoại sinh
+Z=np.random.randint(0,2,size)
+#Biến không quan sát ngẫu nhiên
+W=np.random.normal(0,1,size)
+#Biến giải thích X và biến phụ thuộc Y đều tương quan với biến thiếu W
+m,n,p=0.5,2,2
+X = m+n*W +p*Z+ np.random.normal(0,1,size)
+a,b,c=(1,-1,4)
+Y = a+b*X + c*W+np.random.normal(0,1,size)
+
+#Create Data Frame
+df=pd.DataFrame({'X':X,'Y':Y,'Z':Z})
+#Calculate X, Y mean, grouped by Z value
+df['Xavg']=df.groupby('Z')['X'].transform('mean')
+df['Yavg']=df.groupby('Z')['Y'].transform('mean')
+#Split data by Z values
+df0=df[df.Z==0]
+df1=df[df.Z==1]
+
+```
 
 
 ## Ghi chú 2
@@ -181,40 +217,6 @@ ivreg.summary.tables[1]
 
 
 
-## Tạo lập dữ liệu mô phỏng
 
-
-```python
-
-pip install linearmodels
-import warnings
-warnings.filterwarnings('ignore')
-
-import pandas as pd
-import numpy as np
-
-#Set size
-size=200
-np.random.seed(0)
-#Biến công cụ ngẫu nhiên ngoại sinh
-Z=np.random.randint(0,2,size)
-#Biến không quan sát ngẫu nhiên
-W=np.random.normal(0,1,size)
-#Biến giải thích X và biến phụ thuộc Y đều tương quan với biến thiếu W
-m,n,p=0.5,2,2
-X = m+n*W +p*Z+ np.random.normal(0,1,size)
-a,b,c=(1,-1,4)
-Y = a+b*X + c*W+np.random.normal(0,1,size)
-
-#Create Data Frame
-df=pd.DataFrame({'X':X,'Y':Y,'Z':Z})
-#Calculate X, Y mean, grouped by Z value
-df['Xavg']=df.groupby('Z')['X'].transform('mean')
-df['Yavg']=df.groupby('Z')['Y'].transform('mean')
-#Split data by Z values
-df0=df[df.Z==0]
-df1=df[df.Z==1]
-
-```
 
 
