@@ -11,7 +11,7 @@ tags:
   - suy luận nhân quả
   - học máy
   - khoa học dữ liệu
-permalink: /aicausal/ac03
+permalink: /aicausal/ac04
 ---
 
 **SUY LUẬN NHÂN QUẢ CHO HỌC MÁY - KỲ 4**
