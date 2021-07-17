@@ -100,7 +100,9 @@ model.summary().tables[1]
 
 
 
-## Ghi chú 1: Biến X, Y ở ví dụ trên đã được tạo lập như sau 
+## Ghi chú 1:
+
+Biến X, Y ở ví dụ trên đã được tạo lập như sau 
 
 $$X_{it}= 0.5+ P_{i}+ \nu_{it};  \nu_{it} \sim N(0,1)$$
 
@@ -111,7 +113,9 @@ Trong đó $$i,t$$ lần lượt là các chỉ số cho cá nhân và thời gi
 
 Hệ số "thực" của quan hệ nhân quả giữa X và Y là -0.5.
 
-## Ghi chú 2: Sai số của ước lượng trong phương pháp trình bày trên đây chưa chính xác và cần điều chỉnh hệ số tự do. Nếu quan tâm đến việc ước lượng cả hệ số và sai số của tác động nhân quả, ta có thể sử dụng thư viện linearmodels:
+## Ghi chú 2: 
+
+Sai số của ước lượng trong phương pháp trình bày trên đây chưa chính xác và cần điều chỉnh hệ số tự do. Nếu quan tâm đến việc ước lượng cả hệ số và sai số của tác động nhân quả, ta có thể sử dụng thư viện linearmodels:
 
 
 ```python
