@@ -126,7 +126,11 @@ plt.show()
 {% include figure image_path="/assets/images/aicausal/chap3/output_4_0.png"%}
 
 
-Bên trái: Biểu đồ tần suất của các phân phối quan sát của $$x, y$$ và $$z$$. Bên phải: Biểu đồ phân tán của phân phối quan sát đồng thời của $$x$$ và $$y$$. Vì $$x$$ và $$y$$ không có quan hệ nhân quả trực tiếp mà chỉ thông qua nút chung $$z$$, nên chúng hoàn toàn không tương quan với nhau.
+Bên trái: Biểu đồ tần suất của các phân phối quan sát của $$x, y$$ và $$z$$. 
+
+Bên phải: Biểu đồ phân tán của phân phối quan sát đồng thời của $$x$$ và $$y$$. 
+
+Vì $$x$$ và $$y$$ không có quan hệ nhân quả trực tiếp mà chỉ thông qua nút chung $$z$$, nên chúng hoàn toàn không tương quan với nhau.
 
 Bây giờ chúng ta đã có một mô hình với Python, chúng ta có thể quan sát tác động của thiên lệch chọn. Nếu chúng ta đặt điều kiện lên nút giao $$z$$ lớn hơn một ngưỡng, ví dụ như $$z > 2.5$$, mối quan hệ giữa $$x$$ và $$y$$ chuyển từ độc lập sang tương quan nghịch. Đây là một ví dụ đơn giản để hiểu về mô hình tác động chung với Python. Qua đó, ta đã thấy được hai biến nguyên nhân trực tiếp độc lập sẽ xuất hiện quan hệ tương quan nếu ta đặt điều kiện lên nút giao.
 
