@@ -55,7 +55,11 @@ Nút giao khác với  mô hình nhân quả trực tiếp và mô hình dĩa v�
 
 Các biểu đồ nhân quả đơn giản đã được trình bày trên đây là một cách trực quan để hiểu về quan hệ nhân quả. Hơn nữa, chúng ta có thể thực hiện nhiều suy luận nhân quả (và ước lượng tác động nhân quả) với những biểu đồ này đơn giản bằng cách gán một giá trị cụ thể cho các biến có tác động nhân quả lên các biến khác. Biểu đồ nhân quả trong thực tế có thể rất lớn và có cấu trúc phức tạp. 
 
-Đương nhiên, có những cách khác để mã hoá thông tin. Với biểu đồ nhân quả, ta có thể dễ dàng tạo ra một biểu thức cho phân phối đồng thời của các biến: là tích của các phân phối xác suất có điều kiện cho từng nút theo các nút cha mẹ trực tiếp của nó. Trong trường hợp cấu trúc giao, $$x → z ← y$$, hàm phân phối đồng thời là $$p(x,y,z) = p(x) p(y) p(z\x,y)$$. Xác suất có điều kiện $$p(z\|x,y)$$ chính xác là hàm số ta thường ước lượng trong học có giám sát.
+Đương nhiên, có những cách khác để mã hoá thông tin. Với biểu đồ nhân quả, ta có thể dễ dàng tạo ra một biểu thức cho phân phối đồng thời của các biến: là tích của các phân phối xác suất có điều kiện cho từng nút theo các nút cha mẹ trực tiếp của nó. Trong trường hợp cấu trúc giao, $$x → z ← y$$, hàm phân phối đồng thời là 
+
+$$p(x,y,z) = p(x) p(y) p(z\|x,y)$$
+
+Xác suất có điều kiện $$p(z\|x,y)$$ chính xác là hàm số ta thường ước lượng trong học có giám sát.
 
 Nếu có thêm thông tin về hệ thống, ta có thể chuyển đổi biểu đồ nhân quả này thành một mô hình cấu trúc nhân quả toàn phần. Hãy cùng xem xét một ví dụ về SCM tương ứng với biểu đồ nhân quả sau:
 
