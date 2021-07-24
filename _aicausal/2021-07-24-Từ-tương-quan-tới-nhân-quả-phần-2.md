@@ -127,7 +127,6 @@ plt.show()
 
 
 Bên trái: Biểu đồ tần suất của các phân phối quan sát của $$x, y$$ và $$z$$. 
-
 Bên phải: Biểu đồ phân tán của phân phối quan sát đồng thời của $$x$$ và $$y$$. 
 
 Vì $$x$$ và $$y$$ không có quan hệ nhân quả trực tiếp mà chỉ thông qua nút chung $$z$$, nên chúng hoàn toàn không tương quan với nhau.
