@@ -99,7 +99,8 @@ model.summary().tables[1]
 
 
 
-## Ghi chú: Biến X, Y ở ví dụ trên đã được tạo lập như sau 
+## Ghi chú
+Biến X, Y ở ví dụ trên đã được tạo lập như sau 
 
 $$Y_{it}=2+1.5 \times CanThiệp_i \times SauCanThiệp_t + 2\times CanThiệp_i+1 \times SauCanThiệp_t+ \varepsilon_{it}$$
 
