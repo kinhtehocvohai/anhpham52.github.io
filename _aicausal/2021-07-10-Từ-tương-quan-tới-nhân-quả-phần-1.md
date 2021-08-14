@@ -58,4 +58,4 @@ Tuy nhiên, trong học máy, chúng ta thường bắt đầu với tất cả 
 Trong phần tiếp theo, chúng ta sẽ thấy có những cấu trúc khác có thể dẫn đến quan hệ dự báo mang ý nghĩa thống kê giữa hai biến nhưng không trực tiếp bao hàm nhân quả. Cùng đón đọc phần tiếp để tìm hiểu thêm về hai cấu trúc nhân quả khác, cũng như cách biểu diễn Mô hình Cấu trúc nhân quả thông qua các biểu đồ với Python. 
 
 
-*Bài viết có tham khảo thêm từ  https://www.investopedia.com/terms/s/spurious_correlation.asp
+*Bài viết có tham khảo thêm từ [investopedia](https://www.investopedia.com/terms/s/spurious_correlation.asp)*
