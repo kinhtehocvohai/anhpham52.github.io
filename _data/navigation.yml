@@ -98,14 +98,12 @@ aicausal:
         url: /aicausal/ac02
       - title: "3. Quan hệ Nhân quả mang lại lợi ích gì?"
         url: /aicausal/ac03
-      - title: "Từ Tương quan tới Nhân quả"
-        children:
-           - title: "4. Từ Tương quan tới Nhân quả - Phần 1"
-             url: /aicausal/ac04
-           - title: "5. Từ Tương quan tới Nhân quả - Phần 2"
-             url: /aicausal/ac05
-           - title: "6. Từ Tương quan tới Nhân quả - Phần 3"
-             url: /aicausal/ac06
+      - title: "4. Tương quan giả"
+        url: /aicausal/ac04
+      - title: "5. Nguyên nhân chung và Tác động chung"
+        url: /aicausal/ac05
+      - title: "6. Từ Dự báo tới Can thiệp"
+        url: /aicausal/ac06
         
 # main links
 main:
