@@ -37,7 +37,7 @@ Phân phối can thiệp (ví dụ khi chúng ta can thiệp vào lãi suất) v
 
 Rõ ràng, không phải tất cả các biện pháp can thiệp đều có thể thực hiện được. Mặc dù chúng ta có thể can thiệp để thiết lập mức lãi suất định sẵn, nhưng chúng ta không thể hô biến mọi doanh nghiệp thành doanh nghiệp có quy mô lớn.
 
-##Can thiệp với Python code
+## Can thiệp với Python code
 
 Chúng ta có thể  dễ dàng tìm hiểu kĩ hơn về can thiệp với Python. Quay trở lại ví dụ về nút giao, để tính toán phân phối can thiệp, ta có thể xác định một hàm tạo mẫu mới. Điều này có nghĩa là thay vì lấy tất cả các biến một cách ngẫu nhiên, ta có thể can thiêp để gán một giá trị cụ thể cho $x$. Bởi vì đây là can thiệp, không chỉ đơn giản là đặt điều kiện như trước đó, chúng ta phải thực hiện thay đổi, sau đó chạy lại quá trình tạo lập dữ liệu.
 
@@ -106,7 +106,7 @@ plt.show()
 Bên trái: Chúng ta can thiệp để cố định $x$ trong quá trình tạo lập dữ liệu. Điều này dẫn tới $z$ thay đổi, nhưng $y$ không đổi.
 Bên phải: Khi chúng ta can thiệp vào $x$, phân phối đồng thời của $x$ và $y$ trở thành phân phối biên của $y$. 
 
-##Ý tưởng chính
+## Ý tưởng chính
 
 Cuối cùng chúng ta thể tóm tắt lại ý tưởng chính của bài viết này với biểu đồ sau:
 
