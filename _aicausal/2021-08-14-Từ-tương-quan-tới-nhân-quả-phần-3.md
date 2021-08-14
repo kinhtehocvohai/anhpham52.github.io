@@ -118,4 +118,4 @@ Tuy nhiên, chúng ta có thể bắt gặp nhiều câu hỏi không thể tr�
 
 Trong phần tiếp theo, chúng ta sẽ tiếp tục tìm hiểu một ví dụ cụ thể về can thiệp trong trường hợp ta cần phải thiết lập mô hình tỷ lệ khách hàng rời đi. Sau đó, chúng ta sẽ cùng hướng tới việc trả lời cho một câu hỏi  vô cùng quan trọng: Khi nào ta cần tới can thiệp và nhân quả? 
 
-*Bài viết có tham khảo thêm từ nguồn https://www.inference.vc/causal-inference-2-illustrating-interventions-in-a-toy-example/
+* Bài viết có tham khảo thêm từ nguồn https://www.inference.vc/causal-inference-2-illustrating-interventions-in-a-toy-example/
