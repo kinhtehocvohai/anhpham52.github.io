@@ -98,11 +98,11 @@ aicausal:
         url: /aicausal/ac02
       - title: "3. Quan hệ Nhân quả mang lại lợi ích gì?"
         url: /aicausal/ac03
-      - title: "4. Tương quan giả"
+      - title: "4. Từ Tương Quan Tới Nhân Quả - Phần 1"
         url: /aicausal/ac04
-      - title: "5. Mô hình Nhân quả cấu trúc với Python"
+      - title: "5. Từ Tương Quan Tới Nhân Quả - Phần 2"
         url: /aicausal/ac05
-      - title: "6. Từ Dự báo tới Can thiệp"
+      - title: "6. Từ Tương Quan Tới Nhân Quả - Phần 3"
         url: /aicausal/ac06
         
 # main links
